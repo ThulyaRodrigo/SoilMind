@@ -1,0 +1,16 @@
+# Node & React (Frontend)
+node_modules/
+build/
+dist/
+.env
+.env.local
+
+# Python & AI
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
