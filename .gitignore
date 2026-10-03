@@ -8,9 +8,35 @@ dist/
 # Python & AI
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 venv/
 .venv/
+*.egg-info/
+.pytest_cache/
+
+# Large ML model weights & binary files
+*.safetensors
+*.bin
+*.pt
+*.ckpt
+*.onnx
+*.joblib
+
+# Large data files
+*.tar.gz
+*.zip
+*.gz
+data/docs/raw/
+data/voice/
+data/chroma/
+
+# TTS / voice cache (regenerated on startup)
+data/voice/tts_cache/
+data/voice/external/
 
 # Operating System Files
 .DS_Store
 Thumbs.db
+Thumbs.db:encryptable
+*.lnk
