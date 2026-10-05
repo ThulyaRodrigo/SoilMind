@@ -1,0 +1,113 @@
+# Documents for the chatbot's knowledge base (Phase 5, task 1).
+# `python -m member4_chatbot.collect.download` fetches each one into data/docs/raw/ and writes manifest.yaml.
+# kind: html = a doa.gov.lk page saved as text; drive = a PDF shared from Google Drive by the DOA page in `listed_on`.
+# Only paddy documents are listed: the bot covers paddy (Plot A-3), nothing else.
+
+rrdi_fert_pages:
+  publisher: Rice Research and Development Institute (RRDI), Department of Agriculture
+  listed_on: https://doa.gov.lk/rrdi_fertilizerrecomendation/
+  kind: html
+  items:
+    - {id: rrdi_fert_index_en, title: "Fertilizer recommendations for rice (index)", lang: en, url: "https://doa.gov.lk/rrdi_fertilizerrecomendation/"}
+    - {id: rrdi_fert_index_si, title: "වී වගාව සඳහා පොහොර නිර්දේශ (index)", lang: si, url: "https://doa.gov.lk/rrdi_fertilizerrecomendation_si/"}
+    - {id: rrdi_fert_irrigated_izdz_en, title: "Fertilizer recommendation: irrigated, Intermediate and Dry Zone", lang: en, url: "https://doa.gov.lk/rrdi_fertilizerrecomendation_irrigated_izdz/"}
+    - {id: rrdi_fert_irrigated_izdz_si, title: "පොහොර නිර්දේශය: වාරි, අතරමැදි හා වියළි කලාපය", lang: si, url: "https://doa.gov.lk/rrdi_fertilizerrecomendation_irrigated_izdz_si/"}
+    - {id: rrdi_fert_rainfed_izdz_en, title: "Fertilizer recommendation: rainfed, Intermediate and Dry Zone", lang: en, url: "https://doa.gov.lk/rrdi_fertilizerrecomendation_rainfed_izdz/"}
+    - {id: rrdi_fert_rainfed_izdz_si, title: "පොහොර නිර්දේශය: වැසි, අතරමැදි හා වියළි කලාපය", lang: si, url: "https://doa.gov.lk/rrdi_fertilizerrecomendation_rainfed_izdz_si/"}
+    - {id: rrdi_fert_irrigated_wz_en, title: "Fertilizer recommendation: irrigated, Wet Zone", lang: en, url: "https://doa.gov.lk/rrdi_fertilizerrecomendation_irrigated_wz/"}
+    - {id: rrdi_fert_irrigated_wz_si, title: "පොහොර නිර්දේශය: වාරි, තෙත් කලාපය", lang: si, url: "https://doa.gov.lk/rrdi_fertilizerrecomendation_irrigated_wz_si/"}
+    - {id: rrdi_fert_rainfed_wz_en, title: "Fertilizer recommendation: rainfed, Wet Zone", lang: en, url: "https://doa.gov.lk/rrdi_fertilizerrecomendation_rainfed_wz/"}
+    - {id: rrdi_fert_rainfed_wz_si, title: "පොහොර නිර්දේශය: වැසි, තෙත් කලාපය", lang: si, url: "https://doa.gov.lk/rrdi_fertilizerrecomendation_rainfed_wz_si/"}
+    - {id: rrdi_fert_soilreport_irrigated_izdz_en, title: "Fertilizer by soil test report: irrigated, Intermediate and Dry Zone", lang: en, url: "https://doa.gov.lk/rrdi_fertilizerrecomendation_soilreport_irrigated_izdz/"}
+    - {id: rrdi_fert_soilreport_irrigated_izdz_si, title: "පස් පරීක්ෂා වාර්තාව අනුව පොහොර: වාරි, අතරමැදි හා වියළි කලාපය", lang: si, url: "https://doa.gov.lk/rrdi_fertilizerrecomendation_soilreport_irrigated_izdz_si/"}
+    - {id: rrdi_fert_soilkit_irrigated_izdz_en, title: "Fertilizer by soil test kit: irrigated, Intermediate and Dry Zone", lang: en, url: "https://doa.gov.lk/rrdi_fertilizerrecomendation_soilkit_irrigated_izdz-2/"}
+    - {id: rrdi_fert_leafcolorchart_irrigated_izdz_en, title: "Urea by leaf colour chart: irrigated, Intermediate and Dry Zone", lang: en, url: "https://doa.gov.lk/rrdi_fertilizerrecomendation_leafcolorchart_irrigated_izdz/"}
+    - {id: rrdi_mapbasedfertilizer_en, title: "Map-based fertilizer recommendation", lang: en, url: "https://doa.gov.lk/rrdi_technology_soilscience_mapbasedfertilizer/"}
+
+rrdi_books:
+  publisher: Rice Research and Development Institute (RRDI), Department of Agriculture
+  listed_on: https://doa.gov.lk/rrdi_publicationbook/
+  kind: drive
+  items:
+    - {id: rrdi_book_b1, title: "Rice in Sri Lanka, book B1", lang: unknown, drive_id: 1PF6SW1US6nAbOK1F1dqb30tWFsBjSi_j}
+    - {id: rrdi_book_b2, title: "Rice in Sri Lanka, book B2", lang: unknown, drive_id: 1TKk89cft_Bn-PCby3q1l-3ljKXiK7DpP}
+    - {id: rrdi_book_b3, title: "Rice in Sri Lanka, book B3", lang: unknown, drive_id: 1fY3PCgYC1AiKHvUfICgoQDQqGYt4uBzS}
+    - {id: rrdi_book_b4_fert2013_si, title: "Rice book B4: වී වගාව සඳහා පොහොර නිර්දේශය 2013 (fertilizer recommendation 2013 booklet)", lang: si, drive_id: 1_3IzlrVF10Av2mlhrGlobinCuXOQDsTr}
+
+rrdi_leaflets:
+  publisher: Rice Research and Development Institute (RRDI), Department of Agriculture
+  listed_on: https://doa.gov.lk/rrdi_downloads_leaflets/
+  kind: drive
+  items:
+    - {id: rrdi_leaf_weed_management_si, title: "Weed management (Sinhala)", lang: si, drive_id: 1GWOp-JI2xW23nn16mL3TdxiLTvl8e6B9}
+    - {id: rrdi_leaf_competitive_weeds_si, title: "Competitive weeds (Sinhala)", lang: si, drive_id: 1bdDklTRvsjZPsIJ9qqLGDzSCwElEqvxV}
+    - {id: rrdi_leaf_weedicides_si, title: "Weedicides (Sinhala)", lang: si, drive_id: 1qL8hCmPZ-NyrwjOhzrUWHLdLDtBRQZhd}
+    - {id: rrdi_leaf_water_management_si, title: "Water management (Sinhala)", lang: si, drive_id: 146S7ij5CTRkOSbKm8l30R-EhvMetpNA6}
+    - {id: rrdi_leaf_rice_diseases_si, title: "Rice diseases (Sinhala)", lang: si, drive_id: 1_SBYI1aTxk9uHi7KT7lEYzdfpXxOje8M}
+    - {id: rrdi_leaf_awd_si, title: "Alternate wetting and drying technique (Sinhala)", lang: si, drive_id: 1mfP98GnyKMWqNaOTFqI0br73TOoF16q9}
+    - {id: rrdi_leaf_weedy_rice_control_si, title: "Controlling weedy rice (Sinhala)", lang: si, drive_id: 19jDM-KOcEwDIQv2IJydQc6QRkXfWnvMn}
+    - {id: rrdi_leaf_weedy_rice_identify_si, title: "Identifying weedy rice (Sinhala)", lang: si, drive_id: 1yYEBfGrBAFdT_xCX_fiskzW0evvM3RtS}
+    - {id: rrdi_leaf_weedy_rice_si, title: "Weedy rice (Sinhala)", lang: si, drive_id: 1-qMI9EtkqNjLHYQbQcyvVkCkKNnfHsih}
+    - {id: rrdi_leaf_sheath_mite_en, title: "Rice sheath mite (English)", lang: en, drive_id: 17QnuUY-x3CaTbP2ZPeqp1CHU2p1iAa0w}
+
+naicc_leaflets:
+  publisher: National Agriculture Information and Communication Centre (NAICC), Department of Agriculture
+  listed_on: https://doa.gov.lk/naicc-publications-agriculture-leaflets/
+  kind: drive
+  items:
+    - {id: naicc_fert_2013_a_si, title: "Fertilizer recommendation for paddy cultivation 2013 (leaflet 11)", lang: si, drive_id: 1aeFqSZRgVFkKvjnywHMD9bgApBsAMda0}
+    - {id: naicc_fert_2013_b_si, title: "Fertilizer recommendation for paddy cultivation 2013 (leaflet 20)", lang: si, drive_id: 1L6cuGKOMJz4WRWf0GstaboNXthH89jt_}
+    - {id: naicc_p_deficiency_si, title: "Identification and remedies of phosphorus deficiency in paddy (leaflet 19)", lang: si, drive_id: 1ydNf1Uqes2SE6KSU4pbp2W2ZXlcgGyD9}
+    - {id: naicc_zn_deficiency_si, title: "Identification and remedies of zinc deficiency in paddy (leaflet 22)", lang: si, drive_id: 1aAC753NzssJZ7wxnjZXiFBl8SDNFPmCJ}
+    - {id: naicc_s_deficiency_si, title: "Sulfur deficiency and remedies in paddy cultivation (leaflet 34)", lang: si, drive_id: 1RCIPfA9MzsomqH3BWfBSyRdpjqrqocO-}
+    - {id: naicc_k_deficiency_si, title: "Identification and treatment of potassium deficiency in paddy (leaflet 42)", lang: si, drive_id: 1NllygpZsX5_bdBGxUAVBFefiMAZaVedD}
+    - {id: naicc_nutrient_deficiencies_si, title: "Identification of nutrient deficiencies in paddy soil and remedies (leaflet 33)", lang: si, drive_id: 1voCpcPs6ZyhB0zlLsAawM_Fw-tAq5ZXb}
+    - {id: naicc_iron_toxicity_si, title: "Remedies for rusty paddy fields (iron toxicity) (leaflet 18)", lang: si, drive_id: 1etk5K-9jckwjMypRrY1XiSqSnbiEsGjz}
+    - {id: naicc_water_management_si, title: "Efficient water management in paddy cultivation (leaflet 4)", lang: si, drive_id: 1sZ9hQH4ASrX2LUENKo41eD-SbvyUUOy1}
+    - {id: naicc_awd_si, title: "Alternate wet and dry method for efficient water use (leaflet 5)", lang: si, drive_id: 1xEnS2XvmwtJRUbgnzHJ7T2Xm_sXzlyoY}
+    - {id: naicc_diseases_si, title: "Diseases of paddy cultivation (leaflet 10)", lang: si, drive_id: 128k30iQlJl1RfSoQUFe6Qrw8SPVAZQVV}
+    - {id: naicc_pests_diseases_si, title: "Pests and diseases in paddy cultivation (leaflet 9)", lang: si, drive_id: 1FMSR_CCCI2djXgCyV0wW6cmg_SgH0YfE}
+    - {id: naicc_weed_control_si, title: "Weed control in paddy cultivation (leaflet 15)", lang: si, drive_id: 1W-UJn5AMlH6paHvwsL9BS2wTA8UBKaRx}
+    - {id: naicc_integrated_weed_si, title: "Integrated weed control in paddy cultivation (leaflet 31)", lang: si, drive_id: 1a0tszTufMjKGeMQ_2x79VB5gPRNBVXgV}
+    - {id: naicc_land_prep_si, title: "Preparation of land for successful paddy cultivation (leaflet 38)", lang: si, drive_id: 1runSy3SttLjcpcQf6iAOg43SRL15AwGl}
+    - {id: naicc_brown_planthopper_si, title: "Brown plant hopper infestation in paddy cultivation (leaflet 2)", lang: si, drive_id: 1n78ClU8QYAUeAkAWOEGriV4ftDgc7f4G}
+    - {id: naicc_caterpillar_si, title: "Successful control of caterpillar damage in paddy cultivation (leaflet 1)", lang: si, drive_id: 15pxRktJ2ZYr-eSc4udVUzSh43Uvu2lHa}
+
+naicc_crop_calendars:
+  publisher: National Agriculture Information and Communication Centre (NAICC), Department of Agriculture
+  listed_on: https://doa.gov.lk/naicc-publications-crop-calender/
+  kind: drive
+  items:
+    - {id: naicc_cal_paddy_izdz_rainfed_en, title: "Paddy crop calendar: Dry and Intermediate Zone (rainfed)", lang: en, drive_id: 19Mzn85k2SPTpQzCPrtQwqNKUhr9FY2LT}
+    - {id: naicc_cal_paddy_izdz_rainfed_si, title: "Paddy crop calendar: Dry and Intermediate Zone (rainfed), Sinhala", lang: si, drive_id: 1LsOFR1qXwrsPdyolpGa3FNOcoaA5zCIi}
+    - {id: naicc_cal_paddy_izdz_irrigated_en, title: "Paddy crop calendar: Dry and Intermediate Zone (irrigated)", lang: en, drive_id: 1yjqSoFI9T87uaEh_TbD-cN_wv2j4N4AR}
+    - {id: naicc_cal_paddy_izdz_irrigated_si, title: "Paddy crop calendar: Dry and Intermediate Zone (irrigated), Sinhala", lang: si, drive_id: 1LnaZd1TiSkjfqf6SKBVGceQY6q9DPmiR}
+    - {id: naicc_cal_paddy_wz_en, title: "Paddy crop calendar: Wet Zone", lang: en, drive_id: 1oqQOz1oqxvIXzdnA4CNiQbMC2dqXmIWl}
+    - {id: naicc_cal_paddy_wz_si, title: "Paddy crop calendar: Wet Zone, Sinhala", lang: si, drive_id: 1acD5HCRQTkbKalfs6F-MYHEPxiUDguVj}
+    - {id: naicc_cal_paddy_ipm_si, title: "Integrated pest control in paddy cultivation (crop calendar page), Sinhala", lang: si, drive_id: 1vNMRIKmD3PsWuuWxiLrR1fHW7I3I8ffY}
+
+# A bounded crawl of RRDI's paddy knowledge pages (English and Sinhala versions; Tamil is out of scope).
+# Starts at `seeds`, follows only links whose page slug matches `allow` and not `deny`, up to `max_pages`.
+rrdi_knowledge_pages:
+  publisher: Rice Research and Development Institute (RRDI), Department of Agriculture
+  listed_on: https://doa.gov.lk/rrdi_homepage/
+  kind: crawl
+  max_pages: 260
+  seeds:
+    - rrdi_ricediseases
+    - rrdi_ricediseases_si
+    - rrdi_pests
+    - rrdi_pests_si
+    - rrdi_weed_intro
+    - rrdi_weed_intro_si
+    - rrdi_cropestablishment
+    - rrdi_cropestablishment_si
+    - rrdi_cropestablishment_landpreparation
+    - rrdi_technology_agronomy_div
+    - rrdi_technology_soilscience_div
+    - rrdi_technology_watermanagement_div
+    - rrdi_rice_varities
+    - rrdi_rice_varities_si
+    - rrdi_rice_introduction-2
+  allow: '^rrdi_(ricediseases|pests|weed|cropestablishment|technology|rice_)'
+  deny: '(_ta(-\d+)?$|_ta_|_div$|rrdi_rice_varities$)'
