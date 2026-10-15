@@ -1,0 +1,551 @@
+# Hand-written English farmer questions, each answered by one knowledge-base passage (Phase 5, task 3b-ii).
+# doc + anchor pick the passage: the first passage of `doc` whose text contains `anchor` (case-insensitive),
+# so the file survives re-chunking. Answers are 1-3 short sentences that only restate the passage.
+# Author: drafted by the AI coding assistant (Claude Code) for the team; checked_by_human = no until a team
+# member reviews a row and sets `checked: yes` on it (or on the whole block).
+items:
+- doc: rrdi_pests_brownplanthopper
+  anchor: economic threshold
+  intent: pest_disease
+  qa:
+    - {q: "What does brown planthopper damage look like?", a: "Heavy brown planthopper infestations cause hopper burn - leaves dry and turn brown and patches of burned plants often lodge."}
+    - {q: "When is rice most sensitive to brown planthopper attack?", a: "The rice plant is most sensitive to brown planthopper at the late vegetative and reproductive stages."}
+    - {q: "What is the economic threshold for BPH at booting?", a: "The economic threshold for brown planthopper is 2 per hill at booting and 5 per hill at heading. It is adjusted for the number of spiders present."}
+    - {q: "How many planthoppers per hill at heading before I need to act?", a: "At heading the economic threshold is 5 brown planthoppers per hill (2 per hill at booting)."}
+    - {q: "Which varieties have resistance to brown planthopper?", a: "Bg 379-2, Bg 300, Bg 403, Bg 304, Bg 357, Bg 358 and Bg 360 have moderate resistance to BPH. Ptb 33 has high resistance and is used in breeding."}
+    - {q: "What diseases does the brown planthopper spread?", a: "Brown planthopper is a vector of grassy stunt and ragged stunt virus diseases."}
+    - {q: "Why should I not spray insecticide early against BPH?", a: "Indiscriminate insecticide use during the vegetative stage is known to cause BPH outbreaks. Use insecticides only when and where needed."}
+    - {q: "How can I control brown plant hopper without chemicals?", a: "Cultivate resistant varieties and drain the paddy field to reduce moisture - this helps prevent BPH multiplication. Monitor the crop regularly for early signs."}
+    - {q: "Does draining the field help against planthoppers?", a: "Yes. Draining the paddy field to reduce moisture helps prevent brown planthopper multiplication."}
+    - {q: "Do spiders matter for planthopper control?", a: "Spiders are major predators of brown planthopper, so the economic threshold is adjusted according to the number of spiders present."}
+- doc: rrdi_pests_thrips
+  anchor: thrips
+  intent: pest_disease
+  qa:
+    - {q: "My young seedling leaves are rolling inwards, what pest is it?", a: "Rolling of leaves inwards along the margins on young seedlings is typical thrips damage. Thrips suck cell sap and cause leaf drying."}
+    - {q: "When is thrips damage worst?", a: "Thrips damage is severe under water stress, and late planted crops are more prone to it."}
+    - {q: "How do I manage thrips in my nursery or young crop?", a: "Submerge the infested crop intermittently for 1-2 days and drag a wet cloth over the seedlings. Use recommended insecticides only if control is difficult."}
+    - {q: "Which rice varieties resist thrips?", a: "Short-age traditional varieties such as Dahanala, Kaluheenati and Kalubalawee are resistant to thrips; a higher trichome density on the leaf gives resistance."}
+    - {q: "Can flooding control thrips?", a: "Yes. Submerging the infested crop intermittently for 1-2 days is a recommended thrips management practice."}
+    - {q: "In endemic thrips areas what should I do before sowing?", a: "In endemic areas a recommended seed-dressing formulation can be used."}
+- doc: rrdi_pests_yellowstemborer
+  anchor: stem borer
+  intent: pest_disease
+  qa:
+    - {q: "What are dead hearts and white heads?", a: "They are yellow stem borer damage. Caterpillars bore into the stem - young plants show dead heart and older plants show white heads."}
+    - {q: "Are there varieties resistant to yellow stem borer?", a: "No. Resistant varieties for yellow stem borer are not available."}
+    - {q: "How do I control yellow stem borer?", a: "Use proper land preparation to destroy plant debris and use proper weed management."}
+    - {q: "Is stem borer a serious pest every season?", a: "Serious outbreaks of yellow stem borer are very rare."}
+- doc: rrdi_pests_riceleaffolders
+  anchor: leaf
+  intent: pest_disease
+  qa:
+    - {q: "Caterpillars are folding my rice leaves, what is it?", a: "That is the rice leaffolder. The caterpillars fasten the leaf edges together, live inside the rolled leaf and feed on the leaf tissue."}
+    - {q: "What conditions favour leaffolder?", a: "Cloudy and humid weather, shady conditions and high nitrogen fertilizer application favour rice leaffolders."}
+    - {q: "What is the threshold for leaf folder control?", a: "The economic threshold is 25% of leaves showing more than 50% damage. Then a safer IGR can be used."}
+    - {q: "Does too much nitrogen increase leaffolder attack?", a: "Yes. High N-fertilizer application favours leaffolders, so use the recommended N dose."}
+- doc: rrdi_pests_ricesheathmite
+  anchor: sheath mite
+  intent: pest_disease
+  qa:
+    - {q: "I see chocolate brown lesions on leaf sheaths, what is it?", a: "Chocolate brown lesions on leaf sheaths at booting are symptoms of rice sheath mite infestation."}
+    - {q: "How much yield can sheath mite destroy?", a: "Rice sheath mite can cause 5% to 90% yield loss."}
+    - {q: "How do I control rice sheath mite?", a: "Destroy infected stubble after harvest, sun dry seed paddy before soaking, manage weeds, monitor from early booting and apply a recommended insecticide once if signs appear."}
+    - {q: "What if sheath mite keeps coming back?", a: "Rotate with leguminous crops such as green gram, and fallow the field for 2-3 seasons if the other measures did not control it."}
+    - {q: "When should I start checking for sheath mite?", a: "Monitor the crop from the early booting stage for chocolate coloured lesions on the leaf sheaths."}
+- doc: rrdi_pests_ricegallmidge
+  anchor: gall midge
+  intent: pest_disease
+  qa:
+    - {q: "What is an onion shoot or silver shoot in paddy?", a: "It is a gall caused by rice gall midge larvae feeding on the bud. The gall ends tiller development and lowers yield."}
+    - {q: "When is gall midge damage high?", a: "Gall midge damage is high in wet humid weather - in the Dry and Intermediate zones in Maha, and in the Wet zone during Yala."}
+    - {q: "Which varieties resist both gall midge biotypes?", a: "Bg 304, Bg 305, Bg 357, Bg 359 and Bg 360 resist gall midge biotype I and biotype II."}
+    - {q: "What is the cheapest way to control gall midge?", a: "Cultivating resistant varieties in endemic areas is the most economical gall midge control."}
+    - {q: "Why do granules often fail against gall midge?", a: "Farmers usually apply granular insecticides after seeing damage, so it is difficult to get good control with granules."}
+- doc: rrdi_pests_paddybug
+  anchor: paddy bug
+  intent: pest_disease
+  qa:
+    - {q: "Why are my grains empty or half filled?", a: "Paddy bug sucks the developing grains and causes empty or partially filled grains. Both nymphs and adults damage the grains."}
+    - {q: "Can paddy bug live on weeds?", a: "Adults and mature nymphs can feed and survive on alternate weed hosts, although they reproduce only on rice."}
+    - {q: "How much yield does paddy bug reduce?", a: "Paddy bug damage is estimated to reduce rice yield in the country by 3-5%."}
+- doc: rrdi_pests_grainmoth
+  anchor: grain moth
+  intent: pest_disease
+  qa:
+    - {q: "How do I protect stored seed paddy from grain moth?", a: "Sun dry the seeds to bring the moisture content down to 8.0% and pack them in polythene or paper bags."}
+    - {q: "Where does grain moth infestation start?", a: "Grain moth infestation starts in the field and may become serious in the store."}
+- doc: rrdi_pests_grainweevil
+  anchor: weevil
+  intent: pest_disease
+  qa:
+    - {q: "How do I control weevils in my paddy store?", a: "Spray the store with pirimiphos-methyl at 27 ml per 9 litres of water. Spray gunny bags with the same insecticide and sun dry them before use."}
+    - {q: "Which weevils attack stored rice in Sri Lanka?", a: "Two Sitophilus species - Sitophilus granarius and S. oryzae - attack stored rice. Infestation starts in the field."}
+- doc: rrdi_pests_redflourbeetle
+  anchor: flour beetle
+  intent: pest_disease
+  qa:
+    - {q: "How do I control red flour beetle?", a: "Follow sanitary measures and spray pirimiphos-methyl on the stores and gunny bags before use."}
+    - {q: "Does red flour beetle attack whole grains?", a: "It is a secondary pest - its damage is extensive in grains that are already holed or broken."}
+- doc: rrdi_pests
+  anchor: major pests
+  intent: pest_disease
+  qa:
+    - {q: "What are the major insect pests of rice in Sri Lanka?", a: "Thrips, brown planthopper, yellow stem borer, rice leaf-folders, rice sheath mite, rice gall midge and paddy bug are the major rice pests."}
+- doc: naicc_cal_paddy_izdz_irrigated_en
+  anchor: Pests and diseases by month
+  intent: pest_disease
+  qa:
+    - {q: "Which pests come in January in the Dry Zone?", a: "In January the calendar lists leaf rolling caterpillar, brown plant hopper, paddy bug, white back hopper, sheath and leaf mites, blast, bacterial sheath blight and brown spot."}
+    - {q: "What pests should I watch for in May?", a: "In May the Dry and Intermediate Zone irrigated calendar lists thrips and gall midge."}
+    - {q: "Which pests are a problem in December in irrigated Dry Zone paddy?", a: "December: thrips, gall midge, leaf rolling caterpillar, stem borer, white back hopper, sheath and leaf mites, blast and bacterial sheath blight."}
+    - {q: "What pests are expected in February?", a: "In February the calendar lists brown plant hopper and paddy bug."}
+- doc: rrdi_ricediseases_riceblast
+  anchor: Symptoms
+  intent: pest_disease
+  qa:
+    - {q: "What does rice blast look like on the leaves?", a: "Blast shows spindle-shaped leaf spots with brown or reddish-brown margins, ashy centres and pointed ends, about 1.0-1.5 cm long."}
+    - {q: "What is neck blast?", a: "When blast infects the panicle base it causes neck rot and the panicle falls off. Severe infection gives partly filled grains."}
+    - {q: "What weather favours blast disease?", a: "Low night temperature (17-20 C), high humidity, foggy and dark weather, too much nitrogen and dense plants favour blast."}
+    - {q: "Which varieties are susceptible to blast?", a: "Bg 358, Bg 357, Bg 360, Bw 367, At 373 and Bg 94/1 are listed as susceptible to blast."}
+    - {q: "What causes rice blast?", a: "Rice blast is caused by the fungus Magnaporthe grisea (Pyricularia grisea)."}
+    - {q: "Which parts of the rice plant can blast infect?", a: "Blast can infect leaves, nodes, panicles and seeds at any life stage of the plant."}
+- doc: rrdi_ricediseases_riceblast
+  anchor: Tebuconazole
+  intent: pest_disease
+  qa:
+    - {q: "Which fungicides can I use for blast?", a: "If blast spreads fast you can use tebuconazole 250 g/l EC (10 ml in 16 l), isoprothiolane 400 g/l EC (20 ml in 16 l), carbendazim 50% (11 g in 16 l) or tricyclazole 75% WP (10 g in 16 l), 8-10 tanks per acre."}
+    - {q: "How much tricyclazole per tank for blast?", a: "Dissolve 10 g of tricyclazole 75% WP in 16 litres of water. Use 8-10 tanks per acre."}
+    - {q: "Which varieties resist blast?", a: "Bg 403, Bg 406, Bg 366, Bg 359, Bw 361 and Bg 250 are recommended resistant varieties for the next season."}
+    - {q: "My crop had blast this season, what do I do next season?", a: "Use resistant varieties and certified disease-free seed, add burnt paddy husk (250 kg per acre) at land preparation and do not add infected straw."}
+    - {q: "How should I apply urea to reduce blast?", a: "Apply urea at the recommended dosages or according to the leaf colour chart."}
+- doc: rrdi_ricediseases_bacterialleafblight
+  anchor: Symptoms
+  intent: pest_disease
+  qa:
+    - {q: "What is kresek in rice?", a: "Kresek is wilting of seedlings caused by bacterial leaf blight."}
+    - {q: "How can I tell bacterial leaf blight from stem borer damage?", a: "Squeeze the cut leaf ends - kresek shows yellowish bacterial ooze. Plants with kresek are also not easily pulled out of the soil."}
+    - {q: "What does bacterial leaf blight look like on older plants?", a: "On mature plants lesions develop as water-soaked orange stripes with a wavy margin on leaf blades or tips that progress towards the leaf base."}
+    - {q: "What should I do when I see bacterial leaf blight?", a: "Stop the water supply and let the field dry, drain through ditches, do not send drained water through healthy fields, and apply potassium fertilizer to reduce further spread."}
+    - {q: "What conditions favour bacterial leaf blight?", a: "Temperatures of 25-34 C, strong winds with continuous heavy rain, high humidity and too much nitrogen fertilizer favour it."}
+    - {q: "Does potassium help against leaf blight?", a: "Yes. Once the disease is observed, potassium fertilizer can help manage its further spread."}
+- doc: rrdi_ricediseases
+  anchor: integrated disease management
+  intent: pest_disease
+  qa:
+    - {q: "How should I manage rice diseases in general?", a: "Adopt integrated disease management: use quality seed paddy, control weeds properly and apply major plant nutrients in a balanced way."}
+    - {q: "What causes rice diseases?", a: "Rice diseases are caused by fungi, bacteria, viruses and nematodes."}
+- doc: rrdi_ricediseases_diagnose
+  anchor: three logical steps
+  intent: pest_disease
+  qa:
+    - {q: "How do I find out what disease my crop has?", a: "Follow three steps: evaluate the field history, observe the field symptoms and observe the plant symptoms. Then send packed samples to a trained expert."}
+    - {q: "How do I send a sample for disease diagnosis?", a: "Carefully remove plants with symptoms and/or soil samples, package them safely and submit them to a trained expert together with the field information."}
+- doc: rrdi_ricediseases_diagnose_fieldhistory
+  anchor: vegetable
+  intent: pest_disease
+  qa:
+    - {q: "I grew vegetables last season, will my rice get more disease?", a: "Rice planted after vegetables may get more blast, sheath blight and bacterial leaf blight, because residual nutrients cause luxurious growth."}
+- doc: rrdi_ricediseases_diagnose_fieldhistory
+  anchor: Keeping records
+  intent: pest_disease
+  qa:
+    - {q: "Why should I keep records of my field?", a: "Records of the variety, fertilizers, pesticides, tillage and pest damage help predict problems carried over from the last crop."}
+- doc: rrdi_ricediseases_diagnose_fieldsymptomsandpatterns
+  anchor: border of the field
+  intent: deficiency_symptom
+  qa:
+    - {q: "Plants in the middle of my field are yellow but the edges are fine, why?", a: "Plants in the centre yellowing with poor growth while border plants look healthy could be due to lack of plant nutrients - a disorder rather than a disease."}
+    - {q: "Is yellowing always a disease?", a: "No. Some symptoms are disorders - for example yellowing and poor growth in the field centre can be due to lack of nutrients."}
+- doc: rrdi_ricediseases_diagnose_fieldsymptomsandpatterns
+  anchor: Poor root growth
+  intent: deficiency_symptom
+  qa:
+    - {q: "Why are my rice plants stunted?", a: "Stunting shows poor root growth, which may come from a compacted shallow plough pan, root rot, nematode injury or a nutrient deficiency."}
+    - {q: "Can a nutrient deficiency cause poor root growth?", a: "Yes. Poor root growth and stunted plants can result from a nutrient deficiency as well as plough pan or root problems."}
+- doc: rrdi_ricediseases_diagnose_plantsymptoms
+  anchor: herbicide injury
+  intent: pest_disease
+  qa:
+    - {q: "How do I tell root rot from herbicide injury?", a: "Examine the roots carefully - herbicide injury leaves roots off-white with elongated fibrous lateral rootlets, while root diseases show brown discoloured roots."}
+    - {q: "My leaves are turning brown and seedlings are dying, why?", a: "Browning of leaves or seedling death may result from root rot - check the root system to tell it from herbicide injury."}
+- doc: rrdi_weed_iwmp
+  anchor: critical period
+  intent: weeds
+  qa:
+    - {q: "When is weed competition most harmful to rice?", a: "The most critical period for weed competition is from 2 weeks after sowing up to 5-8 weeks."}
+    - {q: "When should I start weeding my paddy?", a: "Weed control should be applied when weeds compete harmfully - the critical period starts about 2 weeks after sowing and lasts to 5-8 weeks."}
+- doc: rrdi_weed_iwmp
+  anchor: Weed Management (Weed Prevention
+  intent: weeds
+  qa:
+    - {q: "What is the difference between weed control and weed management?", a: "Weed control removes weeds that are already there (curative). Weed management combines prevention, eradication and control, both preventive and curative."}
+- doc: rrdi_weed_iwmp2
+  anchor: Preventive Methods
+  intent: weeds
+  qa:
+    - {q: "How can I prevent weeds coming into my paddy field?", a: "Use clean seed, keep the seed bed, bunds and canals clean, keep tools and machines clean, keep livestock out and manage weeds in nurseries."}
+    - {q: "Can dirty seed paddy bring weeds?", a: "Yes - using clean seed is one of the preventive weed management methods."}
+- doc: rrdi_weed_iwmp2
+  anchor: Mechanical Methods
+  intent: weeds
+  qa:
+    - {q: "What mechanical weed control methods can I use?", a: "Rotary weeders, hand weeding, hoeing, tillage, harrowing and mowing are mechanical weed control methods."}
+    - {q: "Are there biological ways to control weeds?", a: "Yes - parasites, predators and pathogens of weeds, mulching, plant extracts, allelopathy and breeding competitive rice."}
+- doc: rrdi_weed_iwmp2
+  anchor: Cultural Methods
+  intent: weeds
+  qa:
+    - {q: "What cultural practices reduce weeds?", a: "Proper land preparation, water management, recommended fertilizer doses, suitable varieties, sowing at the correct time, proper plant density and fallowing."}
+    - {q: "Should I just use herbicides for weeds?", a: "Herbicides give quick control but have merits and demerits, so an integrated approach is encouraged rather than chemicals alone."}
+    - {q: "Can I eradicate weeds completely from my field?", a: "Eradication is a challenge - it needs repeated control until weeds are absent plus prevention after. Managing weeds at the economic threshold reduces damage."}
+- doc: rrdi_weed_majorweeds
+  anchor: Echinochloa
+  intent: weeds
+  qa:
+    - {q: "What are the major grass weeds in paddy?", a: "Major grass weeds include Echinochloa colona, Echinochloa crus-galli, Panicum repens, Ischaemum rugosum, Isachne globosa and Paspalum distichum."}
+    - {q: "Which sedges are major weeds in rice fields?", a: "Cyperus iria, Cyperus difformis, Cyperus rotundus, Fimbristylis miliacea and Schoenoplectus supinus are major sedge weeds."}
+    - {q: "Name some broadleaf weeds of paddy.", a: "Commelina diffusa, Eclipta alba, Eichhornia crassipes, Monochoria vaginalis, Sphenoclea zeylanica and Ludwigia perennis are major broadleaved weeds."}
+- doc: rrdi_weed_e_crusgalli
+  anchor: crus-galli
+  intent: weeds
+  qa:
+    - {q: "What is barnyard grass and why is it a problem?", a: "Barnyard grass (Echinochloa crus-galli, bajiri) is a serious weed of lowland rice because it grows fast and multiplies rapidly."}
+    - {q: "How do I control bajiri?", a: "Use proper land preparation (wet or dry) and recommended herbicides; hand weeding is difficult because it looks like rice early on."}
+    - {q: "How quickly does barnyard grass set seed?", a: "It flowers throughout the year and produces seeds within 60 days."}
+- doc: rrdi_weed_e_colona
+  anchor: colona
+  intent: weeds
+  qa:
+    - {q: "How do I manage Gira-thana weed?", a: "Echinochloa colona (Gira-thana) is managed by flooding and hand weeding or hoeing early, or with recommended weedicides."}
+    - {q: "Is Echinochloa colona a problem in flooded fields?", a: "It prefers moist soil and is mainly a problem in upland and rainfed lowland fields, not in flooded fields."}
+- doc: rrdi_weed_p_repens
+  anchor: Panicum repens
+  intent: weeds
+  qa:
+    - {q: "How does Atawara (Panicum repens) spread?", a: "Panicum repens (torpedo grass) spreads mainly by underground rhizome fragments - viable seeds are rarely produced."}
+    - {q: "How do I control torpedo grass?", a: "Use recommended herbicides. Deep ploughing also helps control perennial weeds like Atawara."}
+- doc: rrdi_weed_chemicalcontrol
+  anchor: Merits
+  intent: weeds
+  qa:
+    - {q: "What are the advantages of herbicides?", a: "Herbicides can control weeds before they emerge, work on weeds that look like rice, suit broadcast crops, control perennials and are cheap where labour is scarce."}
+- doc: rrdi_weed_chemicalcontrol
+  anchor: Demerits
+  intent: weeds
+  qa:
+    - {q: "What are the dangers of using herbicides?", a: "Misuse can contaminate ground water, harm soil microbes and N fixation, drift to other fields, cause health problems and lead to herbicide resistant weeds."}
+    - {q: "What is herbicide drift?", a: "Spray drift is the movement of pesticide dust or droplets through the air to any site other than the intended area."}
+- doc: rrdi_weed_damages
+  anchor: Grow Rapidly
+  intent: weeds
+  qa:
+    - {q: "Why do weeds grow better than rice?", a: "Weeds grow faster than rice and take sunlight efficiently, shading rice plants. Their underground parts spread widely to take water and nutrients."}
+- doc: rrdi_weed_damages
+  anchor: Biologically Strong
+  intent: weeds
+  qa:
+    - {q: "Why is it so hard to get rid of weeds?", a: "Weeds germinate fast, produce many seeds that spread easily, have long-lived dormant seeds and can regrow from small fragments."}
+- doc: rrdi_weed_intro
+  anchor: plant species that interfere
+  intent: weeds
+  qa:
+    - {q: "What is a weed?", a: "A weed is any plant species that interferes with the cultivation of a crop."}
+    - {q: "Are all plants in the paddy field weeds?", a: "Not all - some species help by fixing nitrogen, controlling other weeds or adding organic matter, so weeds should be recognised carefully."}
+- doc: rrdi_technology_agronomy_waterseeding
+  anchor: AG-tolerance
+  intent: weeds
+  qa:
+    - {q: "What is the modified water seeding method?", a: "It sows rice that tolerates flooding at germination (AG-tolerance) into standing water, which reduces weed growth and herbicide use."}
+    - {q: "Does water seeding reduce bird damage?", a: "Yes. Keeping standing water after sowing minimises rodent and bird damage to the sown seeds."}
+- doc: rrdi_technology_agronomy_waterseeding
+  anchor: suitable for modified water seeding
+  intent: crop_choice
+  qa:
+    - {q: "Which varieties suit the water seeding method?", a: "Bg 300, At 308, Bg 310, Bw 351, Bw 367, Bg 366, Bg 380 and Bg 379-2 are suitable; Bg 300 is one of the most suitable."}
+- doc: rrdi_technology_agronomy_waterseeding
+  anchor: shallow water height of 2-2.5 cm
+  intent: water_management
+  qa:
+    - {q: "How deep should the water be at sowing in water seeded rice?", a: "Keep a shallow water height of 2-2.5 cm at sowing for 7-10 days after sowing. Then keep 4-5 cm as in irrigated conditions."}
+    - {q: "Do I need herbicide with modified water seeding?", a: "Usually not - it suppresses grasses and sedges. If aquatic weeds appear, apply a suitable herbicide 2-3 weeks after sowing."}
+    - {q: "What seed rate for flooded direct seeded rice?", a: "A seeding rate of 100 kg per hectare is suitable."}
+- doc: rrdi_technology_soilscience_iawd
+  anchor: Improved-AWD
+  intent: water_management
+  qa:
+    - {q: "How do I practise alternate wetting and drying?", a: "From 2-3 weeks after establishment irrigate to 5 cm, let it drain until the water is 15 cm below the soil surface, then irrigate again. Keep 0-5 cm for two weeks from first flowering."}
+    - {q: "How much water does improved AWD save?", a: "Improved AWD saves 2-3 irrigations per season and 10-20% of the total water."}
+    - {q: "How do I measure the water level for AWD?", a: "Insert a perforated PVC tube (4 inch wide, 20 cm long) 15 cm into the soil and measure the water level inside with a ruler."}
+    - {q: "Can I use AWD in a saline paddy field?", a: "No. Improved AWD is not suitable for saline paddy fields."}
+    - {q: "When should I stop irrigation before harvest?", a: "With AWD, practise wetting and drying until about 2 weeks before the expected harvest date and then stop irrigation."}
+    - {q: "How many AWD tubes do I need per acre?", a: "It depends on the landscape - for example 3 tubes per acre if the land is flat."}
+    - {q: "When should I apply fertilizer under AWD?", a: "Apply fertilizer when the soil is moist."}
+    - {q: "Where is improved AWD most suitable?", a: "Improved AWD is highly suitable for major and minor irrigated areas of the Dry and Intermediate Zones."}
+- doc: rrdi_cropestablishment_landpreparation_tertiarytillage
+  anchor: Puddling
+  intent: water_management
+  qa:
+    - {q: "How much water does puddling use?", a: "Puddling needs a high volume of water - 20-40% of the total water requirement - but it reduces water percolation afterwards."}
+    - {q: "Why should the field be levelled?", a: "Levelling gives uniform water distribution and saves irrigation time and water; uneven fields get stagnant water, dry spots, patchy crops and more weeds."}
+- doc: naicc_cal_paddy_izdz_irrigated_en
+  anchor: Drought
+  intent: water_management
+  qa:
+    - {q: "What should I do in a drought season?", a: "Use drought tolerant varieties and short-age varieties."}
+    - {q: "How do I prepare for heavy rain or floods?", a: "Use flood-resistant varieties, improve drainage and split the fertilizer application."}
+- doc: naicc_cal_paddy_izdz_irrigated_en
+  anchor: salinity problem
+  intent: liming_ph
+  qa:
+    - {q: "My paddy field is saline, what can I do?", a: "Prepare land with the rain, improve drainage, add organic fertilizer or half burnt paddy husk, level well, use seedling planting, keep the field flooded and use resistant varieties."}
+    - {q: "Which varieties tolerate salinity?", a: "The crop calendar recommends Bg 310, Bg 369 and At 354 for salinity problems."}
+- doc: rrdi_technology_soilscience_mapbasedsoilreclamation
+  anchor: Lime requirement
+  intent: liming_ph
+  qa:
+    - {q: "My soil pH is below 4.5, how much lime is needed?", a: "For soil pH below 4.5 the RRDI soil reclamation map recommends 1250 kg/ha of lime (about 506 kg per acre)."}
+    - {q: "Do I need lime if my soil pH is 5.5?", a: "No. For pH between 4.5 and 7.5 no lime is recommended."}
+    - {q: "What if my soil pH is above 7.5?", a: "Above pH 7.5 the recommendation is to check for alkalinity."}
+    - {q: "How much organic manure for soil with less than 1% organic matter?", a: "Apply organic manure at 10 t/ha when soil organic matter is below 1%, and 5 t/ha when it is 1-3%."}
+    - {q: "What should I do if soil EC is above 0.4 dS/m?", a: "Above 0.4 dS/m use the salinity package; at 0.15-0.4 dS/m use a salinity tolerant variety."}
+    - {q: "Where are soil pH maps available?", a: "Soil pH, EC and organic matter maps (.kml files for Google Earth Pro) exist for Kurunegala, Polonnaruwa and Anuradhapura districts."}
+- doc: rrdi_technology_soilscience_soiltestkit
+  anchor: Lime | TSP
+  intent: liming_ph
+  qa:
+    - {q: "The soil test kit shows low pH, how much lime?", a: "If the soil test kit category is low the recommendation is 1250 kg/ha of lime, with 55 kg/ha TSP and 60 kg/ha MOP."}
+    - {q: "Is lime needed for a medium soil test kit result?", a: "No. For the medium category no lime is needed - TSP 30 kg/ha and MOP 40 kg/ha."}
+    - {q: "How do I use the soil test kit?", a: "Collect representative soil samples, air dry, test with the kit, compare the colours as low, medium or high and pick the lime, P and K amounts from the booklet or Soil Doctor app."}
+- doc: rrdi_technology_soilscience_soiltestkit
+  anchor: Lime | TSP
+  intent: fertilizer_amount
+  qa:
+    - {q: "How much TSP if the soil kit shows high phosphorus?", a: "For the high category no TSP or MOP is needed."}
+- doc: rrdi_technology_soilscience_phosphorousfertilizer
+  anchor: only in Yala
+  intent: fertilizer_timing
+  qa:
+    - {q: "Can I apply phosphorus fertilizer only in Yala?", a: "Yes, if soil P is above 5 mg/kg apply the DOA TSP rate only in Yala (55 kg/ha irrigated, 35 kg/ha rainfed). This saves 50% of TSP."}
+    - {q: "What soil P level do I need to skip TSP in Maha?", a: "The alternate-season P practice can be used when soil P is above 5 mg/kg - check the soil P maps first."}
+- doc: rrdi_technology_soilscience_seedlingtreat
+  anchor: particles
+  intent: fertilizer_amount
+  qa:
+    - {q: "How do I treat parachute seedlings with TSP?", a: "Place 3-4 TSP particles in each hole of the parachute tray before soil and seeds. Broadcast the seedlings after 12-14 days."}
+    - {q: "How much TSP is saved by seedling treatment?", a: "Treating parachute seedlings with TSP saves 15-25 kg TSP per hectare."}
+- doc: rrdi_technology_agronomy_seedlingdipping
+  anchor: P slurry
+  intent: fertilizer_amount
+  qa:
+    - {q: "What is seedling dipping in phosphorus?", a: "Dip 14-day-old parachute seedlings in a TSP and paddy soil slurry for half an hour before transplanting. This cuts the DOA P recommendation by 25%."}
+- doc: rrdi_mapbasedfertilizer_en
+  anchor: kml
+  intent: fertilizer_amount
+  qa:
+    - {q: "How can I get a site specific fertilizer recommendation for my field?", a: "Open the soil P, K and Zn .kml map for Kurunegala, Polonnaruwa or Anuradhapura in Google Earth Pro, click your field and read the recommendation."}
+- doc: rrdi_fert_leafcolorchart_irrigated_izdz_en
+  anchor: Leaf colour index
+  intent: fertilizer_amount
+  qa:
+    - {q: "How much urea if the leaf colour chart reading is below 3?", a: "With a leaf colour index below 3, apply urea per acre: 10 kg at 2 weeks, 40 kg at 4 weeks, 22 kg at 6 weeks and 15 kg at 8 weeks."}
+    - {q: "What does the leaf colour chart tell me?", a: "It tells you how much urea per acre to apply at 2, 4, 6 and 8 weeks based on the leaf colour index value."}
+- doc: rrdi_fert_soilreport_irrigated_izdz_en
+  anchor: Phosphorus
+  intent: fertilizer_amount
+  qa:
+    - {q: "My soil test shows phosphorus 3 mg/kg, how much TSP per acre?", a: "For soil P of 0-5 mg/kg apply 22 kg TSP per acre."}
+    - {q: "Soil potassium is 100 mg/kg, how much MOP?", a: "For soil K of 80-160 mg/kg apply 4 kg MOP per acre at 4 weeks and 4 kg at 6 weeks."}
+    - {q: "Do I need TSP if soil P is above 10 mg/kg?", a: "No. Above 10 mg/kg no TSP is needed."}
+- doc: naicc_cal_paddy_izdz_irrigated_en
+  anchor: organic fertilizer
+  intent: fertilizer_amount
+  qa:
+    - {q: "How much leaf manure should I apply per acre?", a: "Use 1000 kg per acre of leaf manure after the primary land preparation."}
+    - {q: "How much poultry manure for paddy?", a: "Apply poultry manure at 1000 kg per acre."}
+    - {q: "How much burnt paddy husk should I add?", a: "Apply half burnt paddy husk at 250 kg per acre after the second land preparation."}
+- doc: naicc_cal_paddy_izdz_irrigated_en
+  anchor: zinc sulphate 2 kg
+  intent: fertilizer_amount
+  qa:
+    - {q: "How much zinc sulphate per acre?", a: "Apply zinc sulphate 2 kg per acre every Maha season."}
+- doc: rrdi_cropestablishment_landpreparation_primarytillage
+  anchor: Primary Land Preparation
+  intent: crop_establishment
+  qa:
+    - {q: "When should I do the first ploughing?", a: "Primary tillage should be done at least 14 days before secondary tillage (3-4 weeks before crop establishment)."}
+    - {q: "How deep should I plough?", a: "The recommended ploughing depth is about 20 cm."}
+    - {q: "How much water for primary tillage?", a: "Add water to cover half of the soil clumps."}
+    - {q: "How do I control Atawara and Kaladuru?", a: "Deep ploughing is important to control perennial weeds like Atawara (Panicum repens) and Kaladuru (Cyperus rotundus)."}
+    - {q: "Why is primary tillage done?", a: "It deepens the root zone and incorporates weeds and crop residues to raise soil organic matter."}
+- doc: rrdi_cropestablishment_landpreparation_secondarytillage
+  anchor: Secondary Land Preparation
+  intent: crop_establishment
+  qa:
+    - {q: "When should secondary land preparation be done?", a: "Secondary tillage should be done 7-10 days before crop establishment."}
+    - {q: "What is done during secondary tillage?", a: "It breaks big clods, buries weeds that emerged after primary tillage, mixes in residues and builds the field structure - clearing, repairing and plastering bunds."}
+    - {q: "When do I add compost and cattle manure?", a: "Compost, cattle or poultry manure and partially burned paddy husk are incorporated during secondary tillage."}
+- doc: rrdi_cropestablishment_landpreparation_tertiarytillage
+  anchor: Tertiary Land Preparation
+  intent: crop_establishment
+  qa:
+    - {q: "When is puddling done?", a: "Tertiary land preparation (puddling and levelling) is done one day before sowing or planting."}
+    - {q: "What is the purpose of puddling?", a: "Puddling forms a plow pan and reduces water loss through percolation. Several rounds also mix fertilizer well."}
+- doc: rrdi_cropestablishment_landpreparation
+  anchor: Wet land preperation
+  intent: crop_establishment
+  qa:
+    - {q: "What is the difference between wet and dry land preparation?", a: "In wet land preparation the field is flooded before tillage. In dry land preparation tillage is done on dry land."}
+    - {q: "Why is land preparation important?", a: "It improves root growth, makes residual fertilizer available, manages weeds, adds organic matter, reduces water and nutrient losses and disrupts soil pests."}
+- doc: rrdi_cropestablishment_nurserysystems
+  anchor: Nursery Systems
+  intent: crop_establishment
+  qa:
+    - {q: "How long should seedlings stay in the nursery?", a: "Seedlings for transplanting should be raised in a nursery for 12-14 days."}
+    - {q: "What types of rice nurseries are there?", a: "Wet-bed, dry-bed, dapog and parachute nurseries."}
+- doc: rrdi_cropestablishment_landpreparation_wetbed
+  anchor: Nursery location
+  intent: crop_establishment
+  qa:
+    - {q: "How big should my wet-bed nursery be?", a: "The seed bed area should be about 1/10 of the area to be transplanted."}
+    - {q: "Where should I make the wet bed nursery?", a: "In part of the same field to be planted, in a place that is not shady."}
+- doc: rrdi_cropestablishment_landpreparation_wetbed
+  anchor: Seed Paddy
+  intent: crop_establishment
+  qa:
+    - {q: "How much seed paddy for a wet-bed nursery?", a: "About 50 kg per hectare - adjusted for small grain varieties."}
+    - {q: "How do I prepare seeds for a wet bed nursery?", a: "Soak for at least 24 hours in clean water and incubate for about 48 hours in a warm dry place."}
+- doc: rrdi_cropestablishment_landpreparation_drybed
+  anchor: Seed Paddy
+  intent: crop_establishment
+  qa:
+    - {q: "How much seed for a dry bed nursery?", a: "About 150 kg per hectare - more than a wet bed because germination may be lower."}
+    - {q: "When can dry-bed seedlings be uprooted?", a: "Dry-bed seedlings can be uprooted 15-21 days after sowing."}
+- doc: rrdi_cropestablishment_landpreparation_dapog
+  anchor: Seed paddy
+  intent: crop_establishment
+  qa:
+    - {q: "How much seed paddy for a dapog nursery?", a: "About 125 kg per hectare."}
+    - {q: "How long are dapog seedlings kept before transplanting?", a: "Dapog seedlings can be transplanted 12-14 days after germination."}
+- doc: rrdi_cropestablishment_landpreparation_dapog
+  anchor: 1/20
+  intent: crop_establishment
+  qa:
+    - {q: "What is a dapog nursery made on?", a: "On an impermeable surface such as banana leaves with the midrib removed, polythene sheets or a cement floor, about 1/20 of the field area."}
+- doc: rrdi_cropestablishment_landpreparation_parachute
+  anchor: 434
+  intent: crop_establishment
+  qa:
+    - {q: "How many parachute trays for one hectare?", a: "Nearly 760-765 trays of 434 holes each are needed per hectare."}
+    - {q: "What size is a parachute tray?", a: "56 x 34 x 2 cm with 434 small holes."}
+- doc: rrdi_cropestablishment_landpreparation_parachute
+  anchor: 20-30 kg
+  intent: crop_establishment
+  qa:
+    - {q: "How much seed paddy for the parachute method?", a: "About 20-30 kg per hectare."}
+    - {q: "When are parachute seedlings thrown into the field?", a: "After about 12 days they are removed from the trays with their mud balls and thrown evenly over the field."}
+- doc: rrdi_cropestablishment_sowing_directsowing_seedlingbroadcasting
+  anchor: Seedling Broadcasting
+  intent: crop_establishment
+  qa:
+    - {q: "What are the advantages of seedling broadcasting?", a: "Seed need is only 20-30 kg/ha, labour is 50% of transplanting, there is no transplanting shock, more tillers, and harvest 7-8 days earlier."}
+    - {q: "What seedling density for parachute broadcasting?", a: "Keep 35-40 seedlings per square metre for maximum yield."}
+- doc: rrdi_technology_agronomy_optimizationseedling
+  anchor: 400 parachute trays
+  intent: crop_establishment
+  qa:
+    - {q: "How many parachute trays per acre in bog soils?", a: "In bog and half bog soils of the low country Wet Zone, 400 parachute trays per acre are recommended instead of about 310."}
+- doc: rrdi_cropestablishment_sowing_directsowing
+  anchor: Seed Rate
+  intent: crop_establishment
+  qa:
+    - {q: "How much seed paddy do I need for broadcasting?", a: "About 100 kg per hectare for medium grain varieties and about 75-80 kg per hectare for small grain (samba) varieties."}
+    - {q: "How many panicles per square metre should a good crop have?", a: "A healthy crop usually has about 350-400 panicles per square metre."}
+    - {q: "What is the most popular way of establishing rice?", a: "Direct sowing (seed broadcasting) - it is cheaper than transplanting."}
+- doc: rrdi_cropestablishment_sowing_directsowing
+  anchor: Imperferct Seed Rates
+  intent: crop_establishment
+  qa:
+    - {q: "What happens if I sow too much seed?", a: "Too high a seed rate raises plant density, giving unhealthy seedlings, small panicles, more pests and diseases, and lower yield."}
+    - {q: "How do I fix uneven plant density?", a: "Thin out seedlings from dense areas and transplant them into areas with low density."}
+- doc: rrdi_cropestablishment_sowing_directsowing_wetseeding
+  anchor: Wet Seeding
+  intent: crop_establishment
+  qa:
+    - {q: "How is wet seeding done?", a: "Pre-germinated seeds are broadcast at about 400 seeds per square metre and the field kept moist. After a week water is raised to about 2 cm."}
+    - {q: "When do I flood the field after wet seeding?", a: "About one week after sowing, when seedlings are about 5 cm tall, impound water to about 2 cm."}
+- doc: rrdi_cropestablishment_sowing_directsowing_dryseeding
+  anchor: Kekulan
+  intent: crop_establishment
+  qa:
+    - {q: "What is kekulan sowing?", a: "Kekulan (manawari) is dry seeding - dry, ungerminated seed sown onto dry soil, in rows or randomly."}
+    - {q: "What seed rate for dry seeding?", a: "Seed rates can be adjusted from 150 to 300 kg per hectare depending on conditions and weed pressure."}
+- doc: rrdi_cropestablishment_sowing_directsowing_waterseeding
+  anchor: Water seeding is a novel
+  intent: crop_establishment
+  qa:
+    - {q: "How do I prepare seeds for water seeding?", a: "Soak them for 48 hours and incubate for 24 hours. Broadcast them onto puddled soil with standing water."}
+    - {q: "Why use water seeding?", a: "It protects sown seeds from birds and reduces weeds including grasses and sedges."}
+- doc: rrdi_cropestablishment_landpreparation_sowing_transplanting
+  anchor: Transplanting Shock
+  intent: crop_establishment
+  qa:
+    - {q: "How old should seedlings be for transplanting?", a: "The ideal age is 12-14 days; 4-4 1/2 month varieties can go up to 21 days, but 2 1/2-3 month varieties strictly 12-14 days."}
+    - {q: "What is transplanting shock?", a: "It is the setback from root damage when seedlings are uprooted from the nursery. Young seedlings are damaged more but recover faster."}
+    - {q: "Which varieties are best for transplanting?", a: "Transplanting is usually recommended for 4-4 1/2 month varieties."}
+- doc: rrdi_cropestablishment_landpreparation_sowing_transplanting
+  anchor: Transplanting Depth
+  intent: crop_establishment
+  qa:
+    - {q: "How deep should I transplant seedlings?", a: "Transplant at 2-3 cm depth for maximum tillering - never deeper than 4-5 cm."}
+    - {q: "What spacing for transplanting a 4 month variety?", a: "Long age (4-4 1/2 month) varieties are row transplanted at 20 x 15 cm or 30-35 hills per square metre at random."}
+    - {q: "How many seedlings per hill?", a: "Plant 2-4 healthy seedlings per hill."}
+- doc: rrdi_technology_agronomy_mechanicaltransplanting
+  anchor: 100 seedling trays
+  intent: crop_establishment
+  qa:
+    - {q: "How big a nursery for mechanical transplanting one acre?", a: "About 30 square metres of mat nursery, or 100 seedling trays, are needed to transplant one acre."}
+- doc: rrdi_technology_agronomy_mechanicaltransplanting
+  anchor: high tillering ability
+  intent: crop_establishment
+  qa:
+    - {q: "How much seed for mechanical transplanting?", a: "About 10-15 kg of certified seed per acre (maximum 20 kg); 10-12 kg per acre is enough for samba varieties."}
+    - {q: "What seedling age for a mechanical transplanter?", a: "Seedlings of 8-16 days (15-20 cm tall) can be used; 12 days old is optimum."}
+- doc: rrdi_technology_agronomy_mechanicaltransplanting
+  anchor: high tillering ability
+  intent: crop_choice
+  qa:
+    - {q: "Which varieties are good for mechanical transplanting?", a: "Long or medium age varieties with high tillering, e.g. Bg 403, Bg 379-2, Bg 406, Bg 450, Bg 357, Bg 366, Bg 360, Bw 367, At 362, Bw 372."}
+- doc: rrdi_technology_agronomy_mechanicaltransplanting
+  anchor: power weeder
+  intent: weeds
+  qa:
+    - {q: "How do I control weeds in mechanically transplanted rice?", a: "Use a pre-emergent herbicide with 3-5 cm standing water, or herbicide plus power weeder, or power weeder plus hand weeding."}
+- doc: rrdi_technology_agronomy_improvericeproductivit
+  anchor: Combining small paddy parcels
+  intent: crop_establishment
+  qa:
+    - {q: "Is it worth joining my small paddy plots together?", a: "Yes. Combining small parcels raises the cultivated extent by about 3-5%, increases yield and income and saves about 5 labour days per hectare on bunds."}
+    - {q: "Which plots can be combined?", a: "Plots with the same elevation or less than about 15 cm difference; not paddy lands on slopes."}
+- doc: rrdi_technology_agronomy_droughttolerantvarieties
+  anchor: Bg 251 GSR Age
+  intent: crop_choice
+  qa:
+    - {q: "Which variety should I grow for rainfed land with little water?", a: "Bg 251 GSR (2 1/2 months) and Bg 314 (3 months) are drought tolerant varieties for rainfed Dry and Intermediate zones."}
+    - {q: "What is the age of Bg 314?", a: "Bg 314 matures in 95-100 days (3 month variety)."}
+    - {q: "What yield does Bg 251 GSR give under rainfed conditions?", a: "Bg 251 GSR averages 3.57 t/ha rainfed and 5.5 t/ha irrigated."}
+- doc: naicc_cal_paddy_izdz_irrigated_en
+  anchor: Recommended paddy varieties
+  intent: crop_choice
+  qa:
+    - {q: "Which 3 month varieties are recommended for the irrigated Dry Zone?", a: "Bg 300, At 307, At 308 and Bg 310."}
+    - {q: "Which variety is best for late planting?", a: "Bg 250 (2 1/2 month) is suitable for late planting."}
+    - {q: "What is the yield of At 362?", a: "At 362 averages 2200-2600 kg per acre according to the crop calendar."}
+    - {q: "Which 3 1/2 month varieties are recommended?", a: "Bg 352, Bg 357, Bg 358, Bg 360, At 362, At 366 and Bw 367."}
+- doc: naicc_cal_paddy_izdz_irrigated_en
+  anchor: Seed paddy requirement
+  intent: crop_establishment
+  qa:
+    - {q: "How much seed paddy per acre for broadcasting nadu?", a: "40 kg per acre for medium elongate and elongate (nadu); 30 kg per acre for samba."}
+    - {q: "How much seed for transplanting per acre?", a: "20 kg per acre for nadu and 15 kg per acre for samba."}
+    - {q: "Seed needed for parachute per acre?", a: "About 12 kg per acre."}

@@ -1,0 +1,685 @@
+source,translation,model,checked
+20 kg per acre for nadu and 15 kg per acre for samba.,"නඩු වලට අක්කරකට කිලෝ 20ක්, සම්බා වලට කිලෝ 15ක්.",facebook/nllb-200-distilled-600M,no
+40 kg per acre for medium elongate and elongate (nadu); 30 kg per acre for samba.,මධ් යම දිගුකාලීන හා දිගුකාලීන (නාඩු) සඳහා අක්කරකට කිලෝග් රෑම් 40 ක්; සම්බා සඳහා අක්කරකට කිලෝග් රෑම් 30 ක්.,facebook/nllb-200-distilled-600M,no
+56 x 34 x 2 cm with 434 small holes.,56 x 34 x 2 cm කුඩා සිදුරු 434 ක් සහිත.,facebook/nllb-200-distilled-600M,no
+A healthy crop usually has about 350-400 panicles per square metre.,සාමාන් යයෙන් සෞඛ් ය සම්පන්න වගාවකට වර්ග මීටරයකට පැනිකල් 350-400 ක් පමණ ඇත.,facebook/nllb-200-distilled-600M,no
+A seeding rate of 100 kg per hectare is suitable.,හෙක්ටයාරයකට කිලෝග් රෑම් 100 ක බීජ පැළවීමේ අනුපාතය සුදුසුයි.,facebook/nllb-200-distilled-600M,no
+A weed is any plant species that interferes with the cultivation of a crop.,ගංජා යනු වගාවක වගාවට බාධා කරන ඕනෑම ශාක විශේෂයකි.,facebook/nllb-200-distilled-600M,no
+About 10-15 kg of certified seed per acre (maximum 20 kg); 10-12 kg per acre is enough for samba varieties.,අක්කරකට සහතික කළ බීජ කිලෝග් රෑම් 10-15 ක් පමණ (උපරිම කිලෝග් රෑම් 20 ක්); සම්බා ප් රභේද සඳහා අක්කරකට කිලෝග් රෑම් 10-12 ක් ප් රමාණවත් වේ.,facebook/nllb-200-distilled-600M,no
+About 100 kg per hectare for medium grain varieties and about 75-80 kg per hectare for small grain (samba) varieties.,හෙක්ටයාරයකට කිලෝග් රෑම් 100 ක් පමණ මධ් යම ධාන් ය වර්ග සඳහා සහ කුඩා ධාන් ය වර්ග (සම්බා) සඳහා හෙක්ටයාරයකට කිලෝග් රෑම් 75-80 ක් පමණ.,facebook/nllb-200-distilled-600M,no
+About 12 kg per acre.,අක්කරකට කිලෝ 12ක් විතර.,facebook/nllb-200-distilled-600M,no
+About 125 kg per hectare.,හෙක්ටයාරයකට කිලෝ 125ක් විතර.,facebook/nllb-200-distilled-600M,no
+About 150 kg per hectare - more than a wet bed because germination may be lower.,හෙක්ටයාරයකට කිලෝග් රෑම් 150 ක් පමණ - තෙතමනය අඩු නිසා තෙත් ඇඳකට වඩා වැඩිය.,facebook/nllb-200-distilled-600M,no
+About 20-30 kg per hectare.,හෙක්ටයාරයකට කිලෝ 20-30ක් විතර.,facebook/nllb-200-distilled-600M,no
+"About 30 square metres of mat nursery, or 100 seedling trays, are needed to transplant one acre.",පැල පැල පැල සිටුවීම සඳහා වර්ග මීටර් 30 ක් පමණ හෝ පැල පැල පැල 100 ක් පමණ අවශ් ය වේ.,facebook/nllb-200-distilled-600M,no
+About 50 kg per hectare - adjusted for small grain varieties.,හෙක්ටයාරයකට කිලෝග් රෑම් 50 ක් පමණ - කුඩා ධාන් ය වර්ග සඳහා සකස් කර ඇත.,facebook/nllb-200-distilled-600M,no
+"About one week after sowing, when seedlings are about 5 cm tall, impound water to about 2 cm.","බීජ පැල සිටීමෙන් සතියකට පමණ පසු, පැල උස සෙන්ටිමීටර 5 ක් පමණ වන විට, ජලය සෙන්ටිමීටර 2 ක් පමණ අත්පත් කර ගන්න.",facebook/nllb-200-distilled-600M,no
+Above 0.4 dS/m use the salinity package; at 0.15-0.4 dS/m use a salinity tolerant variety.,0.4 dS/m ට වඩා උණුසුම පැකේජය භාවිතා කරන්න; 0.15-0.4 dS/m හි උණුසුමට දරාගත හැකි ප් රභේදයක් භාවිතා කරන්න.,facebook/nllb-200-distilled-600M,no
+Above pH 7.5 the recommendation is to check for alkalinity.,pH 7.5 ට වඩා ඉහළින් ඇල්කාලිකත්වය පරීක්ෂා කිරීම රෙකමදාරු කරනු ලැබේ.,facebook/nllb-200-distilled-600M,no
+Add water to cover half of the soil clumps.,පොළොවෙන් බාගයක් වැසීමට ජලය එකතු කරන්න.,facebook/nllb-200-distilled-600M,no
+"Adopt integrated disease management: use quality seed paddy, control weeds properly and apply major plant nutrients in a balanced way.","ඒකාබද්ධ රෝග කළමනාකරණය අනුගමනය කරන්න: ගුණාත්මක බීජ ධාන් ය ප් රයෝජනයට ගන්න, අක් රීය බීජ නිසි ලෙස පාලනය කරන්න සහ ප් රධාන ශාක පෝෂණ ද් රව් ය සමබරව භාවිතා කරන්න.",facebook/nllb-200-distilled-600M,no
+"Adults and mature nymphs can feed and survive on alternate weed hosts, although they reproduce only on rice.","වැඩිහිටියන්ට සහ පරිණත නිම්ෆ් වලට විවිධ තණකොළ සත්කාරකයන් මත පෝෂණය වීමට සහ දිවි ගලවා ගත හැකිය, නමුත් ඒවා ප් රජනනය වන්නේ සහල් මත පමණි.",facebook/nllb-200-distilled-600M,no
+After about 12 days they are removed from the trays with their mud balls and thrown evenly over the field.,දින 12 කට පමණ පසු ඒවා ඔවුන්ගේ මැටි බෝල සමඟ තැටි වලින් ඉවත් කර ක්ෂේත් රය පුරා සමබරව විසි කරනු ලැබේ.,facebook/nllb-200-distilled-600M,no
+Any alerts for my plot?,මගේ කුමන්ත් රණය ගැන අනතුරු ඇඟවීමක් තියෙනවද?,facebook/nllb-200-distilled-600M,no
+Apply fertilizer when the soil is moist.,පොහොර තෙතමනය කළ විට පොහොර යොදන්න.,facebook/nllb-200-distilled-600M,no
+Apply half burnt paddy husk at 250 kg per acre after the second land preparation.,දෙවන ඉඩම් සකස් කිරීමෙන් පසු අක්කරකට කිලෝ 250 කින් අර්ධ ගිනිගත් ධාන් ය කබාය යොදන්න.,facebook/nllb-200-distilled-600M,no
+"Apply organic manure at 10 t/ha when soil organic matter is below 1%, and 5 t/ha when it is 1-3%.",පෘථිවි කාබනික ද් රව් ය 1% ට වඩා අඩු වූ විට 10 t/ha සහ 1 සිට 3% දක්වා වූ විට 5 t/ha ලෙස කාබනික පොහොර යොදන්න.,facebook/nllb-200-distilled-600M,no
+Apply poultry manure at 1000 kg per acre.,ඇක්ටර් එකකට කිලෝග් රෑම් 1000කින් කුකුළු මස් පොහොර යොදන්න.,facebook/nllb-200-distilled-600M,no
+Apply urea at the recommended dosages or according to the leaf colour chart.,නිර්දේශිත මාත් රාවලදී හෝ කොළ වර්ණ සටහනට අනුව යූරියාව යොදන්න.,facebook/nllb-200-distilled-600M,no
+Apply zinc sulphate 2 kg per acre every Maha season.,සෑම මහ වසන්තයකම අක්කරකට කිලෝග් රෑම් 2ක සින්ක් සල්ෆේට් ප් රමාණයක් යොදන්න.,facebook/nllb-200-distilled-600M,no
+Are all plants in the paddy field weeds?,ධාන් ය ක්ෂේත් රයේ ඇති සියලුම ශාක අස්වැන්නන් ද?,facebook/nllb-200-distilled-600M,no
+Are there biological ways to control weeds?,කෘමීන් පාලනය කරන්න ජෛව විද් යාත්මක ක් රම තියෙනවද?,facebook/nllb-200-distilled-600M,no
+Are there varieties resistant to yellow stem borer?,කහ කුරුලෑ වලට ප් රතිරෝධය දක්වන ප් රභේද තියෙනවද?,facebook/nllb-200-distilled-600M,no
+Are yellow patches in my field a nutrient problem?,මගේ ක්ෂේත් රයේ කහ පැල්ලම් පෝෂණ ගැටලුවක්ද?,facebook/nllb-200-distilled-600M,no
+Are you there?,ඔයා එතනද?,facebook/nllb-200-distilled-600M,no
+At 362 averages 2200-2600 kg per acre according to the crop calendar.,අස්වැන්න කැලැන්ඩරයට අනුව අක්කරකට කිලෝග් රෑම් 2200-2600 ක සාමාන් ය ප් රමාණයක්.,facebook/nllb-200-distilled-600M,no
+At heading the economic threshold is 5 brown planthoppers per hill (2 per hill at booting).,දිශාවට යන විට ආර්ථික සීමාව කඳු මුදුනකට 5 කලු පැටවුන් (2 කඳු මුදුනකට) වේ.,facebook/nllb-200-distilled-600M,no
+At what week do I add MOP?,මොන සතියේද මම MOP එකතු කරන්නේ?,facebook/nllb-200-distilled-600M,no
+"Barnyard grass (Echinochloa crus-galli, bajiri) is a serious weed of lowland rice because it grows fast and multiplies rapidly.","බාර්නයාර්ඩ් තණකොළ (Echinochloa crus-galli, bajiri) යනු පහත් භූමි සහල් වල බරපතල අස්වැන්නකි, මන්ද එය වේගයෙන් වර්ධනය වන අතර වේගයෙන් බහුල වේ.",facebook/nllb-200-distilled-600M,no
+Bg 250 (2 1/2 month) is suitable for late planting.,Bg 250 (මාස දෙකහමාරක්) ප් රමාදව සිටුවීම සඳහා සුදුසු වේ.,facebook/nllb-200-distilled-600M,no
+Bg 251 GSR (2 1/2 months) and Bg 314 (3 months) are drought tolerant varieties for rainfed Dry and Intermediate zones.,Bg 251 GSR (මාස 2 1/2 ක්) සහ Bg 314 (මාස 3 ක්) වැසි සහිත වියළි සහ මධ් යම කලාප සඳහා නියඟයට දරාගත හැකි ප් රභේද වේ.,facebook/nllb-200-distilled-600M,no
+Bg 251 GSR averages 3.57 t/ha rainfed and 5.5 t/ha irrigated.,Bg 251 GSR සාමාන් යයෙන් වැසි සහිත ටොන් 3.57 ක් සහ වැසි සහිත ටොන් 5.5 ක්.,facebook/nllb-200-distilled-600M,no
+"Bg 300, At 307, At 308 and Bg 310.","බීජී 300, බීජී 307, බීජී 308 සහ බීජී 310.",facebook/nllb-200-distilled-600M,no
+"Bg 300, At 308, Bg 310, Bw 351, Bw 367, Bg 366, Bg 380 and Bg 379-2 are suitable; Bg 300 is one of the most suitable.","Bg 300, At 308, Bg 310, Bw 351, Bw 367, Bg 366, Bg 380 සහ Bg 379-2 සුදුසුයි.",facebook/nllb-200-distilled-600M,no
+"Bg 304, Bg 305, Bg 357, Bg 359 and Bg 360 resist gall midge biotype I and biotype II.","බීජී 304, බීජී 305, බීජී 357, බීජී 359 සහ බීජී 360 ද් රාවණ මධ් යම ජෛව වර්ගය I සහ ජෛව වර්ගය II වලට ඔරොත්තු දෙයි.",facebook/nllb-200-distilled-600M,no
+Bg 314 matures in 95-100 days (3 month variety).,Bg 314 දින 95-100 කින් පරිණත වේ (මාස 3 වර්ගය).,facebook/nllb-200-distilled-600M,no
+"Bg 352, Bg 357, Bg 358, Bg 360, At 362, At 366 and Bw 367.","බීජී 352, බීජී 357, බීජී 358, බීජී 360, බීජී 362, බීජී 366 සහ බීජී 367.",facebook/nllb-200-distilled-600M,no
+"Bg 358, Bg 357, Bg 360, Bw 367, At 373 and Bg 94/1 are listed as susceptible to blast.","Bg 358, Bg 357, Bg 360, Bw 367, At 373 සහ Bg 94/1 පිපිරීමට ලක්විය හැකි බව ලැයිස්තුගත කර ඇත.",facebook/nllb-200-distilled-600M,no
+"Bg 379-2, Bg 300, Bg 403, Bg 304, Bg 357, Bg 358 and Bg 360 have moderate resistance to BPH. Ptb 33 has high resistance and is used in breeding.","Bg 379-2, Bg 300, Bg 403, Bg 304, Bg 357, Bg 358 සහ Bg 360 BPH වලට මධ් යස්ථ ප් රතිරෝධයක් දක්වයි. Ptb 33 ඉහළ ප් රතිරෝධයක් ඇති අතර එය අභිජනනය සඳහා භාවිතා කරයි.",facebook/nllb-200-distilled-600M,no
+"Bg 403, Bg 406, Bg 366, Bg 359, Bw 361 and Bg 250 are recommended resistant varieties for the next season.","බීජී 403, බීජී 406, බීජී 366, බීජී 359, බීජී 361 සහ බීජී 250 නිර්දේශ කරනු ලබන්නේ ඊළඟ කන්නයට ප් රතිරෝධී ප් රභේදයකි.",facebook/nllb-200-distilled-600M,no
+"Blast can infect leaves, nodes, panicles and seeds at any life stage of the plant.","පිපිරීමෙන් ශාකයේ ඕනෑම ජීවන අවධියක කොළ, නූල්, බඩවැල් සහ බීජ ආසාදනය විය හැකිය.",facebook/nllb-200-distilled-600M,no
+"Blast shows spindle-shaped leaf spots with brown or reddish-brown margins, ashy centres and pointed ends, about 1.0-1.5 cm long.","පිපිරීමෙන් පෙන්නුම් කරන්නේ අළු පාට හෝ රතු පාට පාට පාට අතු සහිත අළු හැඩැති කොළ ලප, අළු පාට මධ් යස්ථාන සහ දිලිසෙන කෙළවර, දිග සෙන්ටිමීටර 1.0-1.5 ක් පමණ වේ.",facebook/nllb-200-distilled-600M,no
+Brown planthopper is a vector of grassy stunt and ragged stunt virus diseases.,බ් රවුන් පැලැන්ට් රොපර් කියන්නේ තණකොළ සහ විෂබීජ ආසාදිත රෝග වල ප් රභේදයක්.,facebook/nllb-200-distilled-600M,no
+Brown spots on old leaves and poor growth - deficiency?,පැරණි කොළ වල දුඹුරු පැල්ලම් සහ දුර්වල වර්ධනය - අඩුපාඩු?,facebook/nllb-200-distilled-600M,no
+Browning of leaves or seedling death may result from root rot - check the root system to tell it from herbicide injury.,කොළ පාට වීම හෝ පැල මරා දැමීම මුල් කුණු වීම නිසා විය හැකිය - මුල් පද්ධතිය විෂබීජ නාශක හානිවලින් වෙන්කර හඳුනා ගැනීම සඳහා පරීක්ෂා කරන්න.,facebook/nllb-200-distilled-600M,no
+Can I apply all the urea at once?,මට එක පාරටම මුළු යූරියාවම දාන්න පුලුවන්ද?,facebook/nllb-200-distilled-600M,no
+Can I apply lime and urea together?,මට ලයිම් සහ යූරියා එකට දාන්න පුලුවන්ද?,facebook/nllb-200-distilled-600M,no
+Can I apply phosphorus fertilizer only in Yala?,මට ෆොස්පෝරස් පොහොර යෙදිය හැක්කේ යාලා වල විතරයිද?,facebook/nllb-200-distilled-600M,no
+Can I apply urea on dry soil?,මට යූරියාව වියළි භූමියකට යොදන්න පුළුවන්ද?,facebook/nllb-200-distilled-600M,no
+Can I ask you about my paddy?,මට ඔයාගෙන් මගේ ධාන් ය ගැන අහන්න පුළුවන්ද?,facebook/nllb-200-distilled-600M,no
+Can I eradicate weeds completely from my field?,මට මගේ ක්ෂේත් රයෙන් කෙහෙල්මල් සම්පූර්ණයෙන්ම තුරන් කළ හැකිද?,facebook/nllb-200-distilled-600M,no
+Can I save water in Yala season?,මට යාලා සමයේ වතුර ඉතිරි කරන්න පුළුවන්ද?,facebook/nllb-200-distilled-600M,no
+Can I use AWD in a saline paddy field?,මට ලුණු සහල් ක්ෂේත් රයේ AWD භාවිතා කළ හැකිද?,facebook/nllb-200-distilled-600M,no
+Can I use the soil test kit for pH?,මට පෘථිවි පරීක්ෂණ කට්ටලය භාවිතා කරන්න පුළුවන්ද pH සඳහා?,facebook/nllb-200-distilled-600M,no
+Can a nutrient deficiency cause poor root growth?,පෝෂ් ය පදාර්ථ හිඟය නිසා මුල් වර්ධනය අඩුවෙනවාද?,facebook/nllb-200-distilled-600M,no
+Can dirty seed paddy bring weeds?,අපිරිසිදු බීජ ධාන් යයට කෘමීන් ගෙනියන්න පුළුවන්ද?,facebook/nllb-200-distilled-600M,no
+Can flooding control thrips?,ගංවතුරට ත් රිප් පාලනය කරන්න පුළුවන්ද?,facebook/nllb-200-distilled-600M,no
+Can lack of sulphur make rice yellow?,සල්ෆර් නොමැතිකම නිසා රයිස් කහ වෙන්න පුළුවන්ද?,facebook/nllb-200-distilled-600M,no
+Can paddy bug live on weeds?,ධාන් ය බග්ට ගහකොළෙන් ජීවත් වෙන්න පුළුවන්ද?,facebook/nllb-200-distilled-600M,no
+Can too much lime harm rice?,වැඩිපුර ලයිම් එකකින් රයිස් වලට හානියක් වෙයිද?,facebook/nllb-200-distilled-600M,no
+Can you answer in Sinhala please?,ඔයාට සිංහලෙන් උත්තර දෙන්න පුලුවන්ද?,facebook/nllb-200-distilled-600M,no
+Can you check my fertilizer subsidy payment status?,ඔයාට පුලුවන්ද මගේ පොහොර සහනාධාර ගෙවීමේ තත්වය පරීක්ෂා කරන්න?,facebook/nllb-200-distilled-600M,no
+Can you help me with my maths homework?,ඔයාට පුලුවන්ද මට ගණිත ගෙදර වැඩ කරන්න උදව් කරන්න?,facebook/nllb-200-distilled-600M,no
+Can you lend me money?,ඔයාට මට සල්ලි ණය දෙන්න පුලුවන්ද?,facebook/nllb-200-distilled-600M,no
+Can you recommend a good motorbike?,ඔයාට හොඳ යතුරුපැදියක් නිර්දේශ කරන්න පුලුවන්ද?,facebook/nllb-200-distilled-600M,no
+Can you speak Sinhala?,ඔයාට සිංහල කතා කරන්න පුළුවන්ද?,facebook/nllb-200-distilled-600M,no
+"Carefully remove plants with symptoms and/or soil samples, package them safely and submit them to a trained expert together with the field information.",රෝග ලක්ෂණ සහ/හෝ පස සාම්පල ඇති ශාක ප් රවේශමෙන් ඉවත් කර ඒවා ආරක්ෂිතව ඇසුරුම් කර පුහුණුව ලත් විශේෂඥයෙකුට භූමියේ තොරතුරු සමඟ ඉදිරිපත් කරන්න.,facebook/nllb-200-distilled-600M,no
+"Caterpillars are folding my rice leaves, what is it?","කැටර්පිලර්ස් මගේ රයිස් කොළ ගලවනවා, මොකක්ද ඒක?",facebook/nllb-200-distilled-600M,no
+Chocolate brown lesions on leaf sheaths at booting are symptoms of rice sheath mite infestation.,චොකලට් පාට ලෙජිම් වල ඇතිවන ලෙජිම් රෝග ලක්ෂණ වන්නේ රයිස් ලෙජිම් මයිට් ආසාදනය වීමේ රෝග ලක්ෂණ වේ.,facebook/nllb-200-distilled-600M,no
+"Cloudy and humid weather, shady conditions and high nitrogen fertilizer application favour rice leaffolders.","වලාකුළු සහ තෙත් කාලගුණය, සෙවන සහිත තත්වයන් සහ ඉහළ නයිට් රජන් පොහොර යෙදීම සහතිකය සහතික කරයි.",facebook/nllb-200-distilled-600M,no
+"Collect representative soil samples, air dry, test with the kit, compare the colours as low, medium or high and pick the lime, P and K amounts from the booklet or Soil Doctor app.","නියෝජිත පස සාම්පල එකතු කරන්න, වාතයෙන් වියළන්න, කට්ටලය සමඟ පරීක්ෂා කරන්න, අඩු, මධ් යම හෝ ඉහළ ලෙස වර්ණ සංසන්දනය කර පොත් පත් රයෙන් හෝ Soil Doctor යෙදුමෙන් ලයිම්, P සහ K ප් රමාණයන් තෝරන්න.",facebook/nllb-200-distilled-600M,no
+"Commelina diffusa, Eclipta alba, Eichhornia crassipes, Monochoria vaginalis, Sphenoclea zeylanica and Ludwigia perennis are major broadleaved weeds.","Commelina diffusa, Eclipta alba, Eichhornia crassipes, Monochoria vaginalis, Sphenoclea zeylanica සහ Ludwigia perennis යනු ප් රධාන පුළුල් කොළ සහිත තණකොළ වේ.",facebook/nllb-200-distilled-600M,no
+"Compost, cattle or poultry manure and partially burned paddy husk are incorporated during secondary tillage.","දෙවන වගා කිරීමේදී පොහොර, ගව හෝ කුකුළු මස් පොහොර සහ අර්ධ වශයෙන් පිළිස්සූ ධාන් ය පිටි ඇතුළත් වේ.",facebook/nllb-200-distilled-600M,no
+Cultivate resistant varieties and drain the paddy field to reduce moisture - this helps prevent BPH multiplication. Monitor the crop regularly for early signs.,ප් රතිරෝධී ප් රභේද වගා කිරීම සහ ආර්ද් රතාවය අඩු කිරීම සඳහා ධාන් ය ක්ෂේත් රය නාස්ති කිරීම - මෙය BPH බහුල වීම වැළැක්වීමට උපකාරී වේ. මුල් රෝග ලක්ෂණ සඳහා වගාව නිතිපතා නිරීක්ෂණය කරන්න.,facebook/nllb-200-distilled-600M,no
+Cultivating resistant varieties in endemic areas is the most economical gall midge control.,ස්වභාවික ප් රදේශවල ප් රතිරෝධී ප් රභේද වගා කිරීම වඩාත්ම ආර්ථිකමය ද් රව මධ් යස්ථ පාලනයයි.,facebook/nllb-200-distilled-600M,no
+"Cyperus iria, Cyperus difformis, Cyperus rotundus, Fimbristylis miliacea and Schoenoplectus supinus are major sedge weeds.","Cyperus iria, Cyperus difformis, Cyperus rotundus, Fimbristylis miliacea සහ Schoenoplectus supinus යනු ප් රධාන කෘමීන් වේ.",facebook/nllb-200-distilled-600M,no
+Dapog seedlings can be transplanted 12-14 days after germination.,ඩැපොග් පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල,facebook/nllb-200-distilled-600M,no
+"December: thrips, gall midge, leaf rolling caterpillar, stem borer, white back hopper, sheath and leaf mites, blast and bacterial sheath blight.","දෙසැම්බර්: ත් රිප්ස්, ද් රාවණ මධ් යස්ථානය, කොළ රෝල් කැටරි, කඳ බොරර්, සුදු පිටුපස හොප්පර්, කූඩය සහ කොළ මිරිස්, පිපිරීම සහ බැක්ටීරියාකාරී කූඩයේ පිපිරීම.",facebook/nllb-200-distilled-600M,no
+Deep ploughing is important to control perennial weeds like Atawara (Panicum repens) and Kaladuru (Cyperus rotundus).,අත්තවාරා (Panicum repens) සහ කැලඩූරු (Cyperus rotundus) වැනි වසර ගණනාවක් තිස්සේ පැළෑටි පාලනය කිරීම සඳහා ගැඹුරු අඹුරු කිරීම වැදගත්ය.,facebook/nllb-200-distilled-600M,no
+"Destroy infected stubble after harvest, sun dry seed paddy before soaking, manage weeds, monitor from early booting and apply a recommended insecticide once if signs appear.","අස්වැන්නෙන් පසු ආසාදිත කූඩු විනාශ කරන්න, ඉරෙන් වියළි බීජ සහල් පොඟවා ගැනීමට පෙර, අස්වැන්න කළමනාකරණය කරන්න, මුල් ආරම්භයේ සිට නිරීක්ෂණය කරන්න සහ රෝග ලක්ෂණ පෙන්නුම් කළහොත් නිර්දේශිත කෘමිනාශකයක් එක් වරක් යොදා ගන්න.",facebook/nllb-200-distilled-600M,no
+Dip 14-day-old parachute seedlings in a TSP and paddy soil slurry for half an hour before transplanting. This cuts the DOA P recommendation by 25%.,දින 14 ක් පැරණි පැරෂුට් පැලෑටි ප් රවාහනය කිරීමට පෙර පැය භාගයක් තිස්සේ ටීඑස්පී සහ ධාන් ය පෘථිවි ද් රව් යවල ගිල දමන්න. මෙය DOA P නිර්දේශය 25% කින් අඩු කරයි.,facebook/nllb-200-distilled-600M,no
+Direct sowing (seed broadcasting) - it is cheaper than transplanting.,සෘජු බීජ පැළෑටීම (බීජ විකාශනය) - බීජ පැළෑටීමට වඩා ලාභදායී.,facebook/nllb-200-distilled-600M,no
+Dissolve 10 g of tricyclazole 75% WP in 16 litres of water. Use 8-10 tanks per acre.,ට් රයිසික්ලසෝල් ග් රෑම් 10 ක් ඩබ්ලිව්පී 75% ක් ලීටර් 16 ක ජලයේ දිය කරන්න.,facebook/nllb-200-distilled-600M,no
+Do I need TSP if soil P is above 10 mg/kg?,මට ටීඑස්පී අවශ් යද පස P කිලෝග් රෑම් 10 ට වඩා වැඩි නම්?,facebook/nllb-200-distilled-600M,no
+Do I need herbicide with modified water seeding?,මට ප් රතිසංස්කරණය කරන ලද ජල බීජ නාශකයක් අවශ් යද?,facebook/nllb-200-distilled-600M,no
+Do I need lime if my soil pH is 5.5?,මගේ පෘථිවියේ pH 5.5 නම් මට ලයිම් අවශ් යද?,facebook/nllb-200-distilled-600M,no
+Do I need to do anything this week?,මට මේ සතියෙ මොනවහරි කරන්න ඕනෙද?,facebook/nllb-200-distilled-600M,no
+Do spiders matter for planthopper control?,මකුළු පැටවුන් පාලනය කිරීම සඳහා මකුළු පැටවුන් වැදගත්ද?,facebook/nllb-200-distilled-600M,no
+Does draining the field help against planthoppers?,ක්ෂේත් රය නාස්ති කිරීම පැලෑටි වලට එරෙහිව උපකාරී වෙනවාද?,facebook/nllb-200-distilled-600M,no
+Does flooding change soil pH?,ගංවතුරෙන් පෘථිවියේ pH එක වෙනස් වෙනවාද?,facebook/nllb-200-distilled-600M,no
+Does liming help phosphorus availability?,ෆොස්පෝරස් ලබා ගැනීමේදී ලැමිං උදව් කරනවාද?,facebook/nllb-200-distilled-600M,no
+Does my field need fertilizer this week?,මගේ ක්ෂේත් රයට මේ සතියේ පොහොර අවශ් යද?,facebook/nllb-200-distilled-600M,no
+Does potassium help against leaf blight?,පොටෑසියම් පිටි පැල්ලම් වලට එරෙහිව උදව් කරනවාද?,facebook/nllb-200-distilled-600M,no
+Does red flour beetle attack whole grains?,රතු පිටි කූඹියා සම්පූර්ණ ධාන් ය වලට පහර දෙනවාද?,facebook/nllb-200-distilled-600M,no
+Does too much nitrogen increase leaffolder attack?,අධික නයිට් රජන් ප් රහාරය වැඩි කරනවාද?,facebook/nllb-200-distilled-600M,no
+Does water seeding reduce bird damage?,ජලයේ බීජ පැළවීම කුරුල්ලන්ට සිදුවන හානිය අඩු කරයිද?,facebook/nllb-200-distilled-600M,no
+Dry-bed seedlings can be uprooted 15-21 days after sowing.,වියළි ඇඳේ පැලෑටි පැලෑටි පැලෑටීමෙන් දින 15-21 කට පසු උදුරා දැමිය හැකිය.,facebook/nllb-200-distilled-600M,no
+"Echinochloa colona (Gira-thana) is managed by flooding and hand weeding or hoeing early, or with recommended weedicides.",Echinochloa colona (Gira-thana) ප් රතිකාර කරන්නේ ජලගැල්වීමෙන් සහ අත්පොතෙන් අස්වැන්න කපීමෙන් හෝ වේලාසනින් අස්වැන්න කපීමෙන් හෝ නිර්දේශිත අස්වැන්න මර්දනය කිරීමෙන් ය.,facebook/nllb-200-distilled-600M,no
+Eradication is a challenge - it needs repeated control until weeds are absent plus prevention after. Managing weeds at the economic threshold reduces damage.,මර්දනය කිරීම අභියෝගයකි - මල් පැලෑටි නොමැති වන තුරු එය නැවත නැවතත් පාලනය කිරීම අවශ් ය වේ ඊට පසු වැළැක්වීම. ආර්ථික සීමාවන් යටතේ මල් පැලෑටි කළමනාකරණය කිරීම හානි අඩු කරයි.,facebook/nllb-200-distilled-600M,no
+"Examine the roots carefully - herbicide injury leaves roots off-white with elongated fibrous lateral rootlets, while root diseases show brown discoloured roots.",මුල හොඳින් පරීක්ෂා කරන්න - විෂබීජ නාශක වලට තුවාල වීමෙන් මුල සුදු පැහැයෙන් ඉවතට හැරී ඇති අතර දිගු කෙඳි සහිත පැති මුල ඇති අතර මුල රෝග වලින් දුඹුරු පැහැයෙන් වෙනස් වූ මුල දක්නට ලැබේ.,facebook/nllb-200-distilled-600M,no
+"Farmers usually apply granular insecticides after seeing damage, so it is difficult to get good control with granules.",ගොවීන් සාමාන් යයෙන් දූවිලි කෘමිනාශක භාවිතා කරන්නේ හානිවලින් පසුවය. එබැවින් දූවිලි වලින් හොඳ පාලනයක් ලබා ගැනීම දුෂ්කරයි.,facebook/nllb-200-distilled-600M,no
+Follow sanitary measures and spray pirimiphos-methyl on the stores and gunny bags before use.,සනීපාරක්ෂක පියවර අනුගමනය කරන්න සහ භාවිතයට පෙර වෙළඳසැල් සහ තුවක්කු බෑග් මත පිරිමිෆෝස්-මෙතිල් ඉසීම.,facebook/nllb-200-distilled-600M,no
+"Follow three steps: evaluate the field history, observe the field symptoms and observe the plant symptoms. Then send packed samples to a trained expert.","පියවර තුනක් අනුගමනය කරන්න: ක්ෂේත් රයේ ඉතිහාසය තක්සේරු කරන්න, ක්ෂේත් රයේ රෝග ලක්ෂණ නිරීක්ෂණය කරන්න සහ ශාක රෝග ලක්ෂණ නිරීක්ෂණය කරන්න.",facebook/nllb-200-distilled-600M,no
+For soil K of 80-160 mg/kg apply 4 kg MOP per acre at 4 weeks and 4 kg at 6 weeks.,කිලෝග් රෑම් 80-160 ක පසක කිලෝග් රෑම් කිලෝග් රෑම් 4 කින් එක් අක්කරයක MOP කිලෝග් රෑම් 4 ක් සහ සති 6 කින් කිලෝග් රෑම් 4 ක් යොදා ගන්න.,facebook/nllb-200-distilled-600M,no
+For soil P of 0-5 mg/kg apply 22 kg TSP per acre.,0-5 mg/kg ක පස් පස සඳහා අක්කරකට TSP කිලෝග් රෑම් 22 ක් යොදන්න.,facebook/nllb-200-distilled-600M,no
+For soil pH below 4.5 the RRDI soil reclamation map recommends 1250 kg/ha of lime (about 506 kg per acre).,පෘථිවි pH 4.5 ට වඩා අඩු නම් RRDI පෘථිවි ප් රතිසංස්කරණ සිතියම නිර්දේශ කරන්නේ හෙක්ටයාරයකට කිලෝග් රෑම් 1250 ක් (හැක්ටයාරයකට කිලෝග් රෑම් 506 ක් පමණ).,facebook/nllb-200-distilled-600M,no
+For the high category no TSP or MOP is needed.,ඉහළ කාණ්ඩය සඳහා TSP හෝ MOP අවශ් ය නොවේ.,facebook/nllb-200-distilled-600M,no
+"From 2-3 weeks after establishment irrigate to 5 cm, let it drain until the water is 15 cm below the soil surface, then irrigate again. Keep 0-5 cm for two weeks from first flowering.","පෘථිවි මතුපිටින් සෙන්ටිමීටර 15 ක් පහළින් ඇති වන තුරු සති 2-3 කට පසු වැසි කිරීමෙන් සෙන්ටිමීටර 5 ක් දක්වා එය ඉවත් කිරීමට ඉඩ දෙන්න, ඉන්පසු නැවත වැසි කරන්න. පළමු මල් පිපීමේ සිට සති දෙකක කාලයක් සෙන්ටිමීටර 0-5 ක් තබා ගන්න.",facebook/nllb-200-distilled-600M,no
+"Gall midge damage is high in wet humid weather - in the Dry and Intermediate zones in Maha, and in the Wet zone during Yala.",තෙත් තෙත් කාලගුණයකදී - මහාවේ වියළි සහ අතරමැදි කලාපවල සහ යාලාවේ තෙත් කලාපයේ දී - ද් රාවණ මධ් යස්ථානවලට හානි සිදු වේ.,facebook/nllb-200-distilled-600M,no
+Give me today's advice for my field.,මගේ ක්ෂේත් රයට අද උපදෙස් දෙන්න.,facebook/nllb-200-distilled-600M,no
+Good afternoon,සුබ සන්ධ් යාවක්.,facebook/nllb-200-distilled-600M,no
+Good evening,සුභ රාත් රියක්.,facebook/nllb-200-distilled-600M,no
+Good morning,සුබ උදෑසනක්,facebook/nllb-200-distilled-600M,no
+Goodbye,සුභ ගමන්.,facebook/nllb-200-distilled-600M,no
+Grain moth infestation starts in the field and may become serious in the store.,ධාන් ය මදුරු ආසාදනය ක්ෂේත් රයේ ආරම්භ වන අතර වෙළඳසැලේදී බරපතල විය හැකිය.,facebook/nllb-200-distilled-600M,no
+Has my soil phosphorus changed?,මගේ පොළොවේ ෆොස්පෝරය වෙනස් වෙලාද?,facebook/nllb-200-distilled-600M,no
+Heavy brown planthopper infestations cause hopper burn - leaves dry and turn brown and patches of burned plants often lodge.,දැඩි දුඹුරු පැලෑටි ආසාදනයන් නිසා පැලෑටි ගිනි ගනී - කොළ වියළී දුඹුරු පැහැයට හැරෙන අතර ගිනිගත් පැලෑටි වල පැල්ලම් බොහෝ විට පදිංචි වේ.,facebook/nllb-200-distilled-600M,no
+Hello,හෙලෝ.,facebook/nllb-200-distilled-600M,no
+"Hello, I am a farmer from Anuradhapura","හෙලෝ, මම අනුරාධපුරයේ ගොවියෙක්.",facebook/nllb-200-distilled-600M,no
+Help,උදව් කරන්න,facebook/nllb-200-distilled-600M,no
+"Herbicides can control weeds before they emerge, work on weeds that look like rice, suit broadcast crops, control perennials and are cheap where labour is scarce.","විෂබීජ නාශක මගින් ඒවා බිහි වීමට පෙර කෘමීන් පාලනය කළ හැකිය, සහල් මෙන් පෙනෙන කෘමීන් මත ක් රියා කරයි, විකාශන වගාවන්ට ගැලපේ, බහු වාර්ෂික ශාක පාලනය කරයි සහ ශ් රම හිඟයක් ඇති ස්ථානවල ලාභදායී වේ.",facebook/nllb-200-distilled-600M,no
+"Herbicides give quick control but have merits and demerits, so an integrated approach is encouraged rather than chemicals alone.","විෂබීජ නාශක ඉක්මනින් පාලනය කරයි, නමුත් එහි වාසි සහ අවාසි ඇත, එබැවින් රසායනික ද් රව් ය පමණක් නොව ඒකාබද්ධ ප් රවේශයක් දිරිමත් කෙරේ.",facebook/nllb-200-distilled-600M,no
+Hey,හේයි.,facebook/nllb-200-distilled-600M,no
+Hi,හායි.,facebook/nllb-200-distilled-600M,no
+"Hi there, are you a bot?","හෙලෝ, ඔයා බොට් කෙනෙක්ද?",facebook/nllb-200-distilled-600M,no
+How big a nursery for mechanical transplanting one acre?,එක අක්කරයක යාන්ත් රික ප් රතිස්ථාපනය සඳහා කොපමණ විශාල ළමා කාමරයක් තිබේද?,facebook/nllb-200-distilled-600M,no
+How big should my wet-bed nursery be?,මගේ තෙතමනය කොතරම් විශාල විය යුතුද?,facebook/nllb-200-distilled-600M,no
+How can I control brown plant hopper without chemicals?,රසායනික ද් රව් ය නැතුව මට කොහොමද බ් රවුන් පැලැන්ට් හොප්පර් පාලනය කරන්න පුළුවන්?,facebook/nllb-200-distilled-600M,no
+How can I fix phosphorus deficiency in my rice?,මට කොහොමද මගේ රයිස් එකේ ෆෝස්පෝරස් හිඟය නිවැරදි කරන්න පුළුවන්?,facebook/nllb-200-distilled-600M,no
+How can I get a site specific fertilizer recommendation for my field?,මගේ ක්ෂේත් රය සඳහා ස්ථානීය පොහොර නිර්දේශයක් ලබා ගන්නේ කෙසේද?,facebook/nllb-200-distilled-600M,no
+How can I mix fertilizer to make an explosive?,මම කොහොමද පොහොර මිශ් ර කර පුපුරන ද් රව් යයක් හදන්නේ?,facebook/nllb-200-distilled-600M,no
+How can I prevent weeds coming into my paddy field?,මම කොහොමද මගේ ධාන් ය ක්ෂේත් රයට කෘෂි ආක් රමණය වීම වළක්වන්නේ?,facebook/nllb-200-distilled-600M,no
+How can I steal water from my neighbour's canal at night?,මම කොහොමද මගේ අසල්වැසියාගේ නාලිකාවෙන් රෑට වතුර හොරකම් කරන්නේ?,facebook/nllb-200-distilled-600M,no
+How can I tell bacterial leaf blight from stem borer damage?,මම කොහොමද බැක්ටීරියාකාරී කොළ දූෂණය සහ කඳ බොරර් හානි වෙන් කරන්නේ?,facebook/nllb-200-distilled-600M,no
+How deep should I plough?,මම කොච්චර ගැඹුරක් අදින්නද?,facebook/nllb-200-distilled-600M,no
+How deep should I transplant seedlings?,මම කොපමණ ගැඹුරකට පැල ආලේප කළ යුතුද?,facebook/nllb-200-distilled-600M,no
+How deep should the water be at sowing in water seeded rice?,ජලයේ බීජ සහල් වපුරන විට ජලය කෙතරම් ගැඹුරින් තිබිය යුතුද?,facebook/nllb-200-distilled-600M,no
+How do I apply for a passport?,මම කොහොමද විදේශ ගමන් බලපත් රයක් ඉල්ලුම් කරන්නේ?,facebook/nllb-200-distilled-600M,no
+How do I build a house for my buffalo?,මම කොහොමද මගේ බිව්ලෝට ගෙයක් හදන්නේ?,facebook/nllb-200-distilled-600M,no
+How do I burn my neighbour's field without being caught?,මම කොහොමද මගේ අසල්වැසියාගේ ක්ෂේත් රය අල්ලා නොගෙන ගිනි ගන්නේ?,facebook/nllb-200-distilled-600M,no
+How do I control Atawara and Kaladuru?,මම කොහොමද අටවාරා සහ කැලඩූරු පාලනය කරන්නේ?,facebook/nllb-200-distilled-600M,no
+How do I control bajiri?,මම කොහොමද බජිරි පාලනය කරන්නේ?,facebook/nllb-200-distilled-600M,no
+How do I control fruit flies in mango?,මංගෝ වල පලතුරු මදුරු පාලනය කරන්නේ කොහොමද?,facebook/nllb-200-distilled-600M,no
+How do I control red flour beetle?,මම කොහොමද රතු පිටි කූඹියා පාලනය කරන්නේ?,facebook/nllb-200-distilled-600M,no
+How do I control rice sheath mite?,මම කොහොමද රයිස් ෂෙඩ් මීට් පාලනය කරන්නේ?,facebook/nllb-200-distilled-600M,no
+How do I control torpedo grass?,මම කොහොමද ටෝපෙඩෝ තණකොළ පාලනය කරන්නේ?,facebook/nllb-200-distilled-600M,no
+How do I control weeds in mechanically transplanted rice?,යාන්ත් රිකව රෝපණය කරන ලද රයිස් වල අස්වැන්න පාලනය කරන්නේ කොහොමද?,facebook/nllb-200-distilled-600M,no
+How do I control weevils in my paddy store?,මම කොහොමද මගේ ධාන් ය සාප්පුවේ බූරු පාලනය කරන්නේ?,facebook/nllb-200-distilled-600M,no
+How do I control yellow stem borer?,මම කොහොමද කහ කඳ බොරර් පාලනය කරන්නේ?,facebook/nllb-200-distilled-600M,no
+How do I correct zinc deficiency?,මම කොහොමද සින්ක් හිඟය නිවැරදි කරන්නේ?,facebook/nllb-200-distilled-600M,no
+How do I cure a snake bite at home?,මම කොහොමද ගෙදරදී සර්පයෙක් උගුරන්න හදන්නේ?,facebook/nllb-200-distilled-600M,no
+How do I download WhatsApp?,මම කොහොමද WhatsApp බාගන්නේ?,facebook/nllb-200-distilled-600M,no
+How do I drain a waterlogged field?,මම කොහොමද ජලයෙන් පිරී ගිය ක්ෂේත් රයක් වතුරෙන් බැහැර කරන්නේ?,facebook/nllb-200-distilled-600M,no
+How do I find out what disease my crop has?,මම කොහොමද දන්නේ මගේ වගාවේ තියෙන රෝගය මොකක්ද කියලා?,facebook/nllb-200-distilled-600M,no
+How do I fix my laptop?,මම කොහොමද මගේ ලැප්ටොප් එක හදන්නේ?,facebook/nllb-200-distilled-600M,no
+How do I fix uneven plant density?,මම කොහොමද ශාකයේ අසමාන ඝනත්වය නිවැරදි කරන්නේ?,facebook/nllb-200-distilled-600M,no
+How do I get a bank loan for a house?,මම කොහොමද ගෙයක් සඳහා බැංකු ණය ගන්නේ?,facebook/nllb-200-distilled-600M,no
+How do I get a divorce?,මම කොහොමද දික්කසාද වෙන්නේ?,facebook/nllb-200-distilled-600M,no
+How do I get a farmer pension?,මම කොහොමද ගොවි විශ් රාම වැටුප ගන්නේ?,facebook/nllb-200-distilled-600M,no
+How do I get a job in the Middle East?,මම කොහොමද මැදපෙරදිග රැකියාවක් හොයාගන්නෙ?,facebook/nllb-200-distilled-600M,no
+How do I grow cinnamon?,මම කොහොමද සීනි වගා කරන්නේ?,facebook/nllb-200-distilled-600M,no
+How do I grow mushrooms at home?,මම කොහොමද ගෙදරදී මදුරුවන් වගා කරන්නේ?,facebook/nllb-200-distilled-600M,no
+How do I grow strawberries?,මම කොහොමද ස්ට් රෝබෙරි වගා කරන්නේ?,facebook/nllb-200-distilled-600M,no
+How do I grow tea in the hill country?,මම කොහොමද කඳුකරයේ තේ වගා කරන්නේ?,facebook/nllb-200-distilled-600M,no
+How do I grow tomatoes in a greenhouse?,කොහොමද මම හරිතාගාරයක ටොමේට් වගා කරන්නේ?,facebook/nllb-200-distilled-600M,no
+How do I identify nutrient deficiencies in rice?,මම කොහොමද සහල් වල පෝෂ් ය පදාර්ථ හිඟයන් හඳුනා ගන්නේ?,facebook/nllb-200-distilled-600M,no
+How do I insure my motorbike?,මම කොහොමද මගේ යතුරුපැදිය රක්ෂණය කරන්නේ?,facebook/nllb-200-distilled-600M,no
+How do I keep goats healthy?,මම කොහොමද එළුවන්ට සෞඛ් ය සම්පන්නව තබා ගන්නේ?,facebook/nllb-200-distilled-600M,no
+How do I know if my rice lacks potassium?,කොහොමද මම දන්නේ මගේ සහල් වල පොටෑසියම් අඩුවක් තියෙනවාද කියලා?,facebook/nllb-200-distilled-600M,no
+How do I know if my soil needs lime?,මම කොහොමද දන්නේ මගේ පසට ලයිම් අවශ් යද කියලා?,facebook/nllb-200-distilled-600M,no
+How do I lower the pH of alkaline soil?,මම කොහොමද ඇල්කලී පසෙහි pH අඩු කරන්නේ?,facebook/nllb-200-distilled-600M,no
+How do I make a poison from pesticides?,මම කොහොමද පළිබෝධනාශක වලින් විෂයක් හදන්නේ?,facebook/nllb-200-distilled-600M,no
+How do I make kiribath?,මම කොහොමද කිරිබාත් හදන්නේ?,facebook/nllb-200-distilled-600M,no
+How do I manage Gira-thana weed?,මම කොහොමද Gira-thana ගංජා පාලනය කරන්නේ?,facebook/nllb-200-distilled-600M,no
+How do I manage thrips in my nursery or young crop?,මම කොහොමද මගේ බාලිකා කාමරයේ හෝ තරුණ වගාව තුළ තෘප්තිමත් කළමනාකරණය කරන්නේ?,facebook/nllb-200-distilled-600M,no
+How do I manage water during drought?,වියළි කාලයේදී මම ජලය කළමනාකරණය කරන්නේ කොහොමද?,facebook/nllb-200-distilled-600M,no
+How do I measure the water level for AWD?,මම කොහොමද AWD සඳහා ජල මට්ටම මැන ගන්නේ?,facebook/nllb-200-distilled-600M,no
+How do I practise alternate wetting and drying?,මම කොහොමද විකල්ප තෙතමනය සහ වියළීම පුහුණු කරන්නේ?,facebook/nllb-200-distilled-600M,no
+How do I prepare for heavy rain or floods?,අධික වර්ෂාවකට හෝ ගංවතුරකට මම සූදානම් වෙන්නේ කොහොමද?,facebook/nllb-200-distilled-600M,no
+How do I prepare seeds for a wet bed nursery?,මම කොහොමද බීජ සකස් කරන්නේ තෙත් ඇඳ ළමා කාමරයක් සඳහා?,facebook/nllb-200-distilled-600M,no
+How do I prepare seeds for water seeding?,ජල බීජ සඳහා බීජ සූදානම් කරන්නේ කෙසේද?,facebook/nllb-200-distilled-600M,no
+How do I protect stored seed paddy from grain moth?,ගබඩා කරන ලද බීජ ධාන් ය ධාන් ය ධාන් ය ධාන් ය ධාන් ය ධාන් ය ධාන් ය ධාන් ය ධාන් ය ධාන් ය ධාන් ය ධාන් ය ධාන් ය ධාන් ය ධාන් ය ධාන් ය ධාන් ය ධාන් ය ධාන් ය ධාන් ය ධාන් ය ධාන් ය ධාන් ය ධාන් ය ධාන් ය ධාන් ය ධාන් ය ධාන් ය ධාන් ය ධාන් ය ධාන් ය ධාන් ය ධාන් ය ධාන් ය ධාන් ය ධාන් ය ධාන් ය ධාන් ය ධාන් ය ධාන් ය ධාන් ය ධාන් ය ධාන් ය ධාන් ය ධාන් ය ධාන් ය ධාන් ය ධා,facebook/nllb-200-distilled-600M,no
+How do I prune rubber trees?,මම කොහොමද රබර් ගස් කපන්නේ?,facebook/nllb-200-distilled-600M,no
+How do I repair a water pump engine?,මම කොහොමද වතුර පොම්ප එන්ජිමක් හදන්නේ?,facebook/nllb-200-distilled-600M,no
+How do I reset my Facebook password?,මම කොහොමද මගේ ෆේස්බුක් මුරපදය reset කරන්නේ?,facebook/nllb-200-distilled-600M,no
+How do I send a sample for disease diagnosis?,මම කොහොමද රෝග විනිශ්චය සඳහා සාම්පලයක් යවන්නේ?,facebook/nllb-200-distilled-600M,no
+How do I start a fish pond?,මම කොහොමද මාළු තටාකය පටන් ගන්නේ?,facebook/nllb-200-distilled-600M,no
+How do I tell root rot from herbicide injury?,මම කොහොමද හර්බිසයිඩ් තුවාල වලින් මූල දූෂණය වෙන් කරන්නේ?,facebook/nllb-200-distilled-600M,no
+How do I treat diabetes?,මම කොහොමද දියවැඩියාවට ප් රතිකාර කරන්නේ?,facebook/nllb-200-distilled-600M,no
+How do I treat leaf curl in chilli?,චිලී වල කොළ කැරලි හදන්නේ කොහොමද?,facebook/nllb-200-distilled-600M,no
+How do I treat mastitis in my cow?,මම කොහොමද මගේ ගවයේ මාස්ටයිටිස් වලට ප් රතිකාර කරන්නේ?,facebook/nllb-200-distilled-600M,no
+How do I treat parachute seedlings with TSP?,ටීඑස්පී සමග පැරෂුට් පැලෑටි වලට මම කොහොමද ගනුදෙනු කරන්නේ?,facebook/nllb-200-distilled-600M,no
+How do I treat potassium deficiency?,මම කොහොමද කැලියම් හිඟයට ප් රතිකාර කරන්නේ?,facebook/nllb-200-distilled-600M,no
+How do I use the soil test kit?,මම කොහොමද පස පරීක්ෂණ කට්ටලය භාවිතා කරන්නේ?,facebook/nllb-200-distilled-600M,no
+How do I use this assistant?,මම කොහොමද මේ සහකාරිය පාවිච්චි කරන්නේ?,facebook/nllb-200-distilled-600M,no
+How do I write a complaint to the police?,මම කොහොමද පොලිසියට පැමිණිල්ලක් ලියන්නේ?,facebook/nllb-200-distilled-600M,no
+How does Atawara (Panicum repens) spread?,අටවාරා (Panicum repens) ව් යාප්ත වන්නේ කෙසේද?,facebook/nllb-200-distilled-600M,no
+How does my soil look compared to last week?,ගිය සතියට සාපේක්ෂව මගේ පස මොන වගේද?,facebook/nllb-200-distilled-600M,no
+How far is the moon?,චන්ද් රයා කොච්චර දුරද?,facebook/nllb-200-distilled-600M,no
+How is my paddy plot doing?,කොහොමද මගේ ධාන් ය බිම් ප්ලෑන් එක?,facebook/nllb-200-distilled-600M,no
+How is wet seeding done?,තෙත් බීජ පැළීම කරන්නේ කොහොමද?,facebook/nllb-200-distilled-600M,no
+How long are dapog seedlings kept before transplanting?,ඩැපොග් පැල පැල ප් රතිස්ථාපනය කිරීමට පෙර කොපමණ කාලයක් තබා ගනීද?,facebook/nllb-200-distilled-600M,no
+How long before planting should lime be applied?,රෝපණය කිරීමට කොපමණ කාලයක් ගතවිය යුතුද?,facebook/nllb-200-distilled-600M,no
+How long should seedlings stay in the nursery?,පැල කොපමණ කාලයක් බාලිකා කාමරයේ රැඳී සිටිය යුතුද?,facebook/nllb-200-distilled-600M,no
+How many AWD tubes do I need per acre?,මට අක්කරකට ටියුබ් කීයක් අවශ් යයිද?,facebook/nllb-200-distilled-600M,no
+How many days until my nitrogen gets low?,මගේ නයිට් රජන් අඩු වෙනකම් දවස් කීයක් තියෙයිද?,facebook/nllb-200-distilled-600M,no
+How many panicles per square metre should a good crop have?,හොඳ අස්වැන්නකට වර්ග මීටරයකට කොපමණ ප් රමාණයක් තිබිය යුතුද?,facebook/nllb-200-distilled-600M,no
+How many parachute trays for one hectare?,හෙක්ටයාරයකට පැරෂුට් ටේ කීයක් තියෙනවද?,facebook/nllb-200-distilled-600M,no
+How many parachute trays per acre in bog soils?,පැරෂුට් ටේ කීයක් ඇක්ටර් එකකට වැලි බිම් වල?,facebook/nllb-200-distilled-600M,no
+How many planthoppers per hill at heading before I need to act?,මම ක් රියා කරන්න කලින් කන්දකට කොපමණ තණකොළ කූඩාරම් යනවාද?,facebook/nllb-200-distilled-600M,no
+How many seedlings per hill?,කන්දකට පැල කීයක් තියෙනවද?,facebook/nllb-200-distilled-600M,no
+How many splits of urea are recommended?,යූරියා බෙදීම් කීයක් නිර්දේශ කරනවාද?,facebook/nllb-200-distilled-600M,no
+How much TSP if the soil kit shows high phosphorus?,පෘථිවි කට්ටලයේ ෆෝස්පෝරස් ප් රමාණය වැඩියි නම් TSP කොපමණද?,facebook/nllb-200-distilled-600M,no
+How much TSP is saved by seedling treatment?,ශාක ප් රතිකාරයෙන් TSP කොපමණ ප් රමාණයක් ඉතිරිවෙනවාද?,facebook/nllb-200-distilled-600M,no
+How much burnt paddy husk should I add?,කොපමණ ගිනිගත් ධාන් ය කබායක් මම එකතු කළ යුතුද?,facebook/nllb-200-distilled-600M,no
+How much does a new four-wheel tractor cost?,නව රෝද හතරේ ට් රැක්ටරයකට කොපමණ මුදලක් වැය වේද?,facebook/nllb-200-distilled-600M,no
+How much does a solar panel cost?,සූර්ය පැනලයක් සඳහා කොපමණ මුදලක් වැය වේද?,facebook/nllb-200-distilled-600M,no
+How much dolomite per acre for acid soil?,ඇසිඩ් පසකට ඩොලමයිට් කීයක්?,facebook/nllb-200-distilled-600M,no
+How much fertilizer for coconut trees?,කොකෝස් ගස් වලට කොපමණ පොහොරද?,facebook/nllb-200-distilled-600M,no
+How much is an iPhone in Sri Lanka?,ශ් රී ලංකාවේ අයිෆෝන් එකක් කොපමණ වැය වේද?,facebook/nllb-200-distilled-600M,no
+How much is the exchange rate of the US dollar today?,අද ඇමරිකානු ඩොලරයේ විනිමය අනුපාතය කොපමණද?,facebook/nllb-200-distilled-600M,no
+How much leaf manure should I apply per acre?,හෙක්ටර් එකකට කොළ පොහොර කීයක් දාන්නද?,facebook/nllb-200-distilled-600M,no
+How much organic manure for soil with less than 1% organic matter?,1% ට අඩු කාබනික ද් රව් ය සහිත පස සඳහා කාබනික පොහොර කොපමණ ප් රමාණයක් තිබේද?,facebook/nllb-200-distilled-600M,no
+How much paracetamol can I take?,මට කොපමණ පැරසිටමෝල් ගන්න පුළුවන්ද?,facebook/nllb-200-distilled-600M,no
+How much poultry manure for paddy?,ධාන් යයට කුකුළු මස් පොහොර කීයද?,facebook/nllb-200-distilled-600M,no
+How much seed for a dry bed nursery?,වියළි ඇඳක් සඳහා බීජ කොපමණ ප් රමාණයක් තිබේද?,facebook/nllb-200-distilled-600M,no
+How much seed for mechanical transplanting?,යාන්ත් රික බීජ ප් රතිස්ථාපනය සඳහා කොපමණ බීජයක් තිබේද?,facebook/nllb-200-distilled-600M,no
+How much seed for transplanting per acre?,හෙක්ටර් එකකට බීජ ප් රමාණය කීයද?,facebook/nllb-200-distilled-600M,no
+How much seed paddy do I need for broadcasting?,විකාශනය සඳහා මට බීජ ධාන් ය කීයක් අවශ් යද?,facebook/nllb-200-distilled-600M,no
+How much seed paddy for a dapog nursery?,ඩැපොග් ළමා නිවාසයක් සඳහා කොපමණ බීජ ධාන් ය ප් රමාණයක් තිබේද?,facebook/nllb-200-distilled-600M,no
+How much seed paddy for a wet-bed nursery?,තෙත් ඇඳක් තියෙන ළමා ශාලාවකට කොපමණ බීජ ධාන් ය ප් රමාණයක්?,facebook/nllb-200-distilled-600M,no
+How much seed paddy for the parachute method?,පැරෂුට් ක් රමය සඳහා බීජ ධාන් ය කොපමණ ප් රමාණයක් තිබේද?,facebook/nllb-200-distilled-600M,no
+How much seed paddy per acre for broadcasting nadu?,නාඩු විකාශනය කරන්න අක්කරකට බීජ ධාන් ය ප් රමාණය කීයද?,facebook/nllb-200-distilled-600M,no
+How much tricyclazole per tank for blast?,පිපිරීම සඳහා ටැංකියකට ට් රයිසික්ලසෝල් කීයක් තිබේද?,facebook/nllb-200-distilled-600M,no
+How much urea for sugarcane?,සීනි පොල් වලට යූරියා කොච්චරද?,facebook/nllb-200-distilled-600M,no
+How much urea if the leaf colour chart reading is below 3?,"කොපමණ යූරියා, කොළ වර්ණ සටහන කියවීම 3 ට වඩා අඩු නම්?",facebook/nllb-200-distilled-600M,no
+How much urea should I put on my own field now?,මට දැන් මගේම ක්ෂේත් රයට යූරියා කොපමණ ප් රමාණයක් දැමිය යුතුද?,facebook/nllb-200-distilled-600M,no
+How much water does a rice crop need in a season?,සහල් වගාවකට වසන්තයකදී අවශ් ය වතුර ප් රමාණය කීයද?,facebook/nllb-200-distilled-600M,no
+How much water does improved AWD save?,වැඩි දියුණු කරන ලද AWD මගින් කොපමණ ජලය ඉතිරිවෙනවාද?,facebook/nllb-200-distilled-600M,no
+How much water does puddling use?,වතුර කොපමණ ප් රමාණයක් භාවිතා කරයිද?,facebook/nllb-200-distilled-600M,no
+How much water for primary tillage?,ප් රාථමික ගොවිතැන් සඳහා ජලය කොපමණද?,facebook/nllb-200-distilled-600M,no
+How much water should I keep in the field after transplanting?,ප් රතිස්ථාපනයෙන් පසු මට ක්ෂේත් රයේ ජලය කොපමණ ප් රමාණයක් තබා ගත යුතුද?,facebook/nllb-200-distilled-600M,no
+How much yield can sheath mite destroy?,කොපමණ ඵලදායීතාවයක් කූඩාරම් මයිට් විනාශ කළ හැකිද?,facebook/nllb-200-distilled-600M,no
+How much yield does paddy bug reduce?,ධාන් ය බෝග කොපමණ ප් රමාණයක් අඩු කරයිද?,facebook/nllb-200-distilled-600M,no
+How much zinc sulphate per acre?,අක්කරකට සින්ක් සල්ෆේට් කීයක් තියෙනවද?,facebook/nllb-200-distilled-600M,no
+How often should I irrigate paddy?,මම කොච්චර වාරයක් ධාන් යයට වතුර දිය යුතුයිද?,facebook/nllb-200-distilled-600M,no
+How often should I lime my paddy field?,මම මගේ ධාන් ය ක්ෂේත් රය කොපමණ වාරයක් ආලේප කළ යුතුද?,facebook/nllb-200-distilled-600M,no
+How old should seedlings be for transplanting?,පැල කොපමණ පැරණි විය යුතුද?,facebook/nllb-200-distilled-600M,no
+How quickly does barnyard grass set seed?,බර්නායර්ඩ් තණකොළ කෙතරම් ඉක්මනින් බීජ පැළෙනවාද?,facebook/nllb-200-distilled-600M,no
+How should I apply urea to reduce blast?,පිපිරීම අඩු කරන්න මම යූරියාව යොදන්නේ කොහොමද?,facebook/nllb-200-distilled-600M,no
+How should I manage rice diseases in general?,"පොදුවේ ගත් කල, මම සහල් රෝග පාලනය කරන්නේ කෙසේද?",facebook/nllb-200-distilled-600M,no
+"I got pesticide on my skin and feel dizzy, what medicine should I take?","මගේ සමේ පළිබෝධ නාශකයක් තියෙනවා, මට වදයක් දැනෙනවා, මොන බෙහෙතක්ද මම ගන්න ඕනේ?",facebook/nllb-200-distilled-600M,no
+"I grew vegetables last season, will my rice get more disease?","මම ගිය වසන්තයේ එළවළු වගා කළා, මගේ සහල් වලට තවත් රෝග වෙයිද?",facebook/nllb-200-distilled-600M,no
+"I have a headache, what should I do?","මට ඔලුව රිදෙනවා, මම මොනවද කරන්න ඕනේ?",facebook/nllb-200-distilled-600M,no
+I have a question,මට ප් රශ්නයක් තියෙනවා.,facebook/nllb-200-distilled-600M,no
+I need help,මට උදව් ඕනේ.,facebook/nllb-200-distilled-600M,no
+"I see chocolate brown lesions on leaf sheaths, what is it?","මට පේනවා චොකලට් පාට ලෙෂන් කොළ වල, මොකක්ද ඒක?",facebook/nllb-200-distilled-600M,no
+"If blast spreads fast you can use tebuconazole 250 g/l EC (10 ml in 16 l), isoprothiolane 400 g/l EC (20 ml in 16 l), carbendazim 50% (11 g in 16 l) or tricyclazole 75% WP (10 g in 16 l), 8-10 tanks per acre.","පිපිරීම වේගයෙන් ව් යාප්ත වුවහොත් ඔබට ටෙබුකොනාසෝල් 250 g/l EC (10 ml in 16 l), අයිසොප් රොටියෝලාන් 400 g/l EC (20 ml in 16 l), කාබෙන්ඩාසයිම් 50% (11 g in 16 l) හෝ ට් රයිසික්ලසෝල් 75% WP (10 g in 16 l), අක්කරයට ටැංකි 8-10 ක් භාවිතා කළ හැකිය.",facebook/nllb-200-distilled-600M,no
+"If the soil test kit category is low the recommendation is 1250 kg/ha of lime, with 55 kg/ha TSP and 60 kg/ha MOP.","භූමියේ පරීක්ෂණ කට්ටලයේ කාණ්ඩය අඩු නම්, නිර්දේශය වන්නේ හෙක්ටයාරයකට කිලෝග් රෑම් 1250 ක් වන අතර එය හෙක්ටයාරයකට කිලෝග් රෑම් 55 ක ටීඑස්පී සහ හෙක්ටයාරයකට කිලෝග් රෑම් 60 ක MOP වේ.",facebook/nllb-200-distilled-600M,no
+Improved AWD is highly suitable for major and minor irrigated areas of the Dry and Intermediate Zones.,වැඩි දියුණු කරන ලද AWD යනු වියළි සහ මධ් යම කලාපවල ප් රධාන හා සුළු වාරිමාර්ග ප් රදේශ සඳහා ඉතා සුදුසුය.,facebook/nllb-200-distilled-600M,no
+Improved AWD saves 2-3 irrigations per season and 10-20% of the total water.,වැඩි දියුණු කරන ලද AWD මඟින් වසන්තයකට වාරිමාර්ග 2-3 ක් සහ මුළු ජලයෙන් 10-20% ක් ඉතිරි වේ.,facebook/nllb-200-distilled-600M,no
+In February the calendar lists brown plant hopper and paddy bug.,පෙබරවාරි මාසයේ දී කැලැන්ඩරයේ ලැයිස්තුගත කර ඇත්තේ දුඹුරු ශාක හොප්පර් සහ ධාන් ය බග්.,facebook/nllb-200-distilled-600M,no
+"In January the calendar lists leaf rolling caterpillar, brown plant hopper, paddy bug, white back hopper, sheath and leaf mites, blast, bacterial sheath blight and brown spot.","ජනවාරි මාසයේ දින දර්ශනයේ ලීෆ් රෝලිං කැටරි, බ් රවුන් පැලෑටි හොප්පර්, ධාන් ය බග්, සුදු පිටුපස හොප්පර්, කූඩය සහ කොළ මිරිස්, පිපිරීම, බැක්ටීරියා කූඩයේ පිපිරීම සහ දුඹුරු ස්ථානය ඇතුළත් වේ.",facebook/nllb-200-distilled-600M,no
+In May the Dry and Intermediate Zone irrigated calendar lists thrips and gall midge.,මැයි මාසයේදී වියළි සහ මධ් යම කලාපයේ වාරිමාර්ග කැලැන්ඩරයේ ලැයිස්තුගත කර ඇත්තේ ත් රිප්ස් සහ ද් රාවණ මධ් යස්ථානයයි.,facebook/nllb-200-distilled-600M,no
+"In bog and half bog soils of the low country Wet Zone, 400 parachute trays per acre are recommended instead of about 310.","වැසි කලාපයේ වැලි සහ බාගෙට වැලි සහිත භූමි ප් රදේශවල, පැරෂුට් ටේ 400 ක් එක අක්කරකට නිර්දේශ කරනු ලැබේ.",facebook/nllb-200-distilled-600M,no
+In endemic areas a recommended seed-dressing formulation can be used.,එන්ඩෙමික් ප් රදේශවල නිර්දේශිත බීජ පැළඳීමේ සූත් රය භාවිතා කළ හැකිය.,facebook/nllb-200-distilled-600M,no
+In endemic thrips areas what should I do before sowing?,ත් රිප් ප් රදේශවල බීජ පැළෑටි පැළෑටි පැළෑටි පැළෑටි පැළෑටි පැළෑටි පැළෑටි පැළෑටි පැළෑටි පැළෑටි පැළෑටි පැළෑටි පැළෑටි පැළෑටි පැළෑටි පැළෑටි පැළෑටි පැළෑටි,facebook/nllb-200-distilled-600M,no
+"In part of the same field to be planted, in a place that is not shady.","එකම ක්ෂේත් රයේ කොටසක් වපුරන්න, සෙවනැලි නැති තැනක.",facebook/nllb-200-distilled-600M,no
+In wet land preparation the field is flooded before tillage. In dry land preparation tillage is done on dry land.,තෙත් භූමිය සූදානම් කිරීමේදී ක්ෂේත් රය වගා කිරීමට පෙර ගංවතුරට යට වේ. වියළි භූමිය සූදානම් කිරීමේදී වියළි භූමිය මත වගා කිරීම සිදු වේ.,facebook/nllb-200-distilled-600M,no
+Indiscriminate insecticide use during the vegetative stage is known to cause BPH outbreaks. Use insecticides only when and where needed.,බීඑච්එච් වසංගතයක් ඇතිවීමට හේතු වන බව ශාකීය අවධියේදී විෂබීජ නාශක නාශක භාවිතය නොදැනීම දන්නා කරුණකි. බීඑච්එච් වසංගත නාශක නාශක නාශක භාවිතා කරන්න අවශ් ය අවස්ථාවලදී සහ අවශ් ය අවස්ථාවලදී පමණි.,facebook/nllb-200-distilled-600M,no
+"Insert a perforated PVC tube (4 inch wide, 20 cm long) 15 cm into the soil and measure the water level inside with a ruler.","පෘථිවියට 15 cm කින් සිදුරු කරන ලද PVC ටියුබ් එකක් (විශාල අඟල් 4 ක්, දිග 20 cm) ඇතුලත් කරන්න සහ ඇතුළත ජල මට්ටම පාලකයකින් මැන ගන්න.",facebook/nllb-200-distilled-600M,no
+Is Bg 300 a good choice for my area?,Bg 300 මගේ ප් රදේශයට හොඳ තේරීමක්ද?,facebook/nllb-200-distilled-600M,no
+Is Echinochloa colona a problem in flooded fields?,ඉචිනොක්ලෝවා කොලෝනා ප් රශ්නයක්ද ජලයෙන් පිච්චුණු ක්ෂේත් රවල?,facebook/nllb-200-distilled-600M,no
+Is anything wrong with plot A-3?,A-3 කැබැල්ලේ මොකක් හරි අවුලක් තියෙනවද?,facebook/nllb-200-distilled-600M,no
+Is burnt paddy husk good for acid soil?,පිච්චුණු ධාන් ය කබාය සාරවත් පසකට හොඳද?,facebook/nllb-200-distilled-600M,no
+Is fertilizer timing different for 4 month varieties?,පොහොර වේලාව මාස 4 ක ප් රභේද සඳහා වෙනස්ද?,facebook/nllb-200-distilled-600M,no
+Is it okay to let the field dry for a few days?,දින කිහිපයක් ක්ෂේත් රය වියළීමට ඉඩ දීම කමක් නැද්ද?,facebook/nllb-200-distilled-600M,no
+Is it safe to drink alcohol every day?,දිනපතා මත්පැන් පානය කිරීම ආරක්ෂිතද?,facebook/nllb-200-distilled-600M,no
+Is it too late to apply urea at 8 weeks?,සති 8කින් යූරියා ආලේප කරන්න පරක්කුද?,facebook/nllb-200-distilled-600M,no
+Is it worth joining my small paddy plots together?,මගේ කුඩා ධාන් ය බිම් එකට එකතු වීම වටිනවාද?,facebook/nllb-200-distilled-600M,no
+Is lime needed for a medium soil test kit result?,මධ් යම පස පරීක්ෂණ කට්ටලයක ප් රතිඵලයක් සඳහා ලයිම් අවශ් යද?,facebook/nllb-200-distilled-600M,no
+Is my crop at the right stage for urea?,මගේ බෝගයේ යූරියා ප් රමාණය හරිද?,facebook/nllb-200-distilled-600M,no
+Is my field ready for the next fertilizer split?,මගේ ක්ෂේත් රය ඊළඟ පොහොර බෙදීම සඳහා සූදානම්ද?,facebook/nllb-200-distilled-600M,no
+Is my field too acidic?,මගේ ක්ෂේත් රය අක් රීයද?,facebook/nllb-200-distilled-600M,no
+Is my soil okay today?,මගේ බිම අද හොදින්ද?,facebook/nllb-200-distilled-600M,no
+Is my soil too acidic for rice at pH 5?,මගේ පෘථිවිය pH 5 තත්වයකදී සහල් සඳහා ඉතාම අම්ල සහිතද?,facebook/nllb-200-distilled-600M,no
+Is my soil too dry?,මගේ පෘථිවිය වියළිද?,facebook/nllb-200-distilled-600M,no
+Is potassium enough in my field?,මගේ ක්ෂේත් රයේ පෝටෑසියම් ප් රමාණවත්ද?,facebook/nllb-200-distilled-600M,no
+Is purple colour on leaves a sign of deficiency?,කොළ වල අඹ පාට අඩුපාඩු සලකුණක්ද?,facebook/nllb-200-distilled-600M,no
+Is salinity a problem for rice?,රයිස් වලට ලුණු තෙතමනය ප් රශ්නයක්ද?,facebook/nllb-200-distilled-600M,no
+Is samba or nadu better to grow?,සම්බා හෝ නාඩෝ වර්ධනය වෙන එක හොදයිද?,facebook/nllb-200-distilled-600M,no
+Is stem borer a serious pest every season?,හැම සෘතු සමයකම බරපතල හානියක්ද?,facebook/nllb-200-distilled-600M,no
+Is the nitrogen in my plot low?,මගේ ඉඩමේ නයිට් රජන් අඩුද?,facebook/nllb-200-distilled-600M,no
+Is the president doing a good job?,ජනාධිපතිතුමා හොඳ වැඩක් කරනවද?,facebook/nllb-200-distilled-600M,no
+Is the south side of my field healthy?,මගේ ක්ෂේත් රයේ දකුණු පැත්ත නිරෝගීද?,facebook/nllb-200-distilled-600M,no
+Is water stress bad at the booting stage?,ජල පීඩනය ආරම්භක අවධියේදී නරකද?,facebook/nllb-200-distilled-600M,no
+Is yellowing always a disease?,කහ පැහැය හැමවෙලේම රෝගයක්ද?,facebook/nllb-200-distilled-600M,no
+"It breaks big clods, buries weeds that emerged after primary tillage, mixes in residues and builds the field structure - clearing, repairing and plastering bunds.","එය විශාල කූඩු බිඳ දමයි, ප් රාථමික ගොවිතැන් කිරීමෙන් පසු බිහි වූ අස්වැන්නන් වළක්වයි, ඉතිරිව ඇති දේ සමඟ මිශ් ර කර ක්ෂේත් ර ව් යුහය ගොඩනඟයි - පිරිසිදු කිරීම, අලුත්වැඩියා කිරීම සහ තීන්ත ආලේප කිරීම.",facebook/nllb-200-distilled-600M,no
+It deepens the root zone and incorporates weeds and crop residues to raise soil organic matter.,එය මුල් කලාපය ගැඹුරු කරන අතර පෘථිවියේ කාබනික ද් රව් ය වර්ධනය කිරීම සඳහා කෙසෙල් සහ බෝග අවශේෂ ඇතුළත් කරයි.,facebook/nllb-200-distilled-600M,no
+It depends on the landscape - for example 3 tubes per acre if the land is flat.,එය භූ දර්ශනය මත රඳා පවතී - උදාහරණයක් ලෙස ඉඩම පැතලි නම් අක්කරකට ටියුබ් 3 ක්.,facebook/nllb-200-distilled-600M,no
+It flowers throughout the year and produces seeds within 60 days.,එය වසර පුරා මල් පිපෙන අතර දින 60 ක් තුළ බීජ නිපදවයි.,facebook/nllb-200-distilled-600M,no
+"It improves root growth, makes residual fertilizer available, manages weeds, adds organic matter, reduces water and nutrient losses and disrupts soil pests.","එය මුල් වර්ධනය වැඩි දියුණු කරයි, ඉතිරි පොහොර ලබා ගත හැකියි, අස්වැන්නන් පාලනය කරයි, කාබනික ද් රව් ය එකතු කරයි, ජලය හා පෝෂ් ය පදාර්ථ අහිමි වීම අඩු කරයි සහ පස කෘමීන් කඩාකප්පල් කරයි.",facebook/nllb-200-distilled-600M,no
+It is a gall caused by rice gall midge larvae feeding on the bud. The gall ends tiller development and lowers yield.,එය මුදුනේ සිට ආහාර ගන්නා සහල් මඩ මඩ උණ නිසා ඇතිවන ද් රාවයකි. ද් රාවය කෘෂිකර්ම සංවර්ධනය අවසන් කරන අතර අස්වැන්න අඩු කරයි.,facebook/nllb-200-distilled-600M,no
+It is a secondary pest - its damage is extensive in grains that are already holed or broken.,එය ද්විතීයික පළිබෝධකයකි - දැනටමත් සිදුරු කර ඇති හෝ කැඩී ඇති ධාන් ය වලට විශාල හානියක් සිදු වේ.,facebook/nllb-200-distilled-600M,no
+It is the setback from root damage when seedlings are uprooted from the nursery. Young seedlings are damaged more but recover faster.,කුඩා පැලවලට වැඩි හානියක් සිදුවන නමුත් ඒවා වේගයෙන් යථා තත්ත්වයට පත්වේ.,facebook/nllb-200-distilled-600M,no
+"It prefers moist soil and is mainly a problem in upland and rainfed lowland fields, not in flooded fields.",එය තෙත් පස ප් රිය කරන අතර ප් රධාන වශයෙන් ගැටලුවක් වන්නේ ගංවතුර ඇති ක්ෂේත් රවල නොව කඳුකර සහ වැසි සහිත පහත් භූමි ප් රදේශවල ය.,facebook/nllb-200-distilled-600M,no
+It protects sown seeds from birds and reduces weeds including grasses and sedges.,එය කුරුල්ලන්ගෙන් බීජ ආරක්ෂා කරන අතර තණකොළ සහ කටු ඇතුළු තණකොළ අඩු කරයි.,facebook/nllb-200-distilled-600M,no
+"It sows rice that tolerates flooding at germination (AG-tolerance) into standing water, which reduces weed growth and herbicide use.",එය පිටි පිපීමේදී ගංවතුර (AG- ඉවසීම) ස්ථාවර ජලයට විවෘත කරන සහල් වගා කරන අතර එමඟින් අස්වැන්න වර්ධනය හා ශාක මත්ද් රව් ය භාවිතය අඩු වේ.,facebook/nllb-200-distilled-600M,no
+"It tells you how much urea per acre to apply at 2, 4, 6 and 8 weeks based on the leaf colour index value.","පිටි වර්ණ දර්ශකයේ වටිනාකම මත පදනම්ව සති 2, 4, 6 සහ 8 තුළ එක් අක්කරයක යූරියාව කොපමණ ප් රමාණයක් යෙදවිය යුතුදැයි එය ඔබට පවසයි.",facebook/nllb-200-distilled-600M,no
+Keep 35-40 seedlings per square metre for maximum yield.,උපරිම නිෂ්පාදනය සඳහා වර්ග මීටරයකට පැල 35-40 ක් තබා ගන්න.,facebook/nllb-200-distilled-600M,no
+Keep a shallow water height of 2-2.5 cm at sowing for 7-10 days after sowing. Then keep 4-5 cm as in irrigated conditions.,බීජ පැළෑටීමෙන් පසු දින 7 සිට 10 දක්වා පැළෑටීමේදී අඟල් 2-2.5 ක තෙත් ජල උස තබා ගන්න. ඉන්පසු වාරිමාර්ගවලදී මෙන් අඟල් 4-5 ක් තබා ගන්න.,facebook/nllb-200-distilled-600M,no
+"Kekulan (manawari) is dry seeding - dry, ungerminated seed sown onto dry soil, in rows or randomly.","කෙකූලන් (මානවාරි) යනු වියළි බීජ පැළෑටීමයි - වියළි, නිෂ්පාදනය නොකළ බීජ පැළෑටීම වියළි පෘථිවියකට, පේළි වශයෙන් හෝ අහඹු ලෙස පැළෑටීමකි.",facebook/nllb-200-distilled-600M,no
+Kresek is wilting of seedlings caused by bacterial leaf blight.,ක් රෙසෙක් කියන්නේ බැක්ටීරියාකාරී කොළ පැල්ලම් නිසා පැලෑටි පැලෑටි පැලෑටි වෙනවා.,facebook/nllb-200-distilled-600M,no
+"Leaf tips are turning brown and drying, is it potassium deficiency?","කොළ මුදුන් දුඹුරු වෙනවා, වියළෙනවා, ඒක කැලියම් හිඟයක්ද?",facebook/nllb-200-distilled-600M,no
+"Leaves have white stripes, could it be zinc?","කොළ වල සුදු තීරු තියෙනවා, ඒක සින්ක් වෙන්න පුළුවන්ද?",facebook/nllb-200-distilled-600M,no
+"Levelling gives uniform water distribution and saves irrigation time and water; uneven fields get stagnant water, dry spots, patchy crops and more weeds.","මට්ටමින් වැසීමෙන් ජලය ඒකාකාරව බෙදා හැරීම සහ වාරිමාර්ග කාලය සහ ජලය ඉතිරි වේ; අසමාන ක්ෂේත් රවල ස්ථාවර ජලය, වියළි ස්ථාන, පැල්ලම් වගා සහ වැඩි අස්වැන්නක් ලබා ගනී.",facebook/nllb-200-distilled-600M,no
+Long age (4-4 1/2 month) varieties are row transplanted at 20 x 15 cm or 30-35 hills per square metre at random.,දිගුකාලීන (4-4 1/2 මාසය) ප් රභේද 20 x 15 cm හෝ වර්ග මීටරයකට කඳු 30-35 කින් අහඹු ලෙස රේඛා ප් රතිස්ථාපනය කරනු ලැබේ.,facebook/nllb-200-distilled-600M,no
+"Long or medium age varieties with high tillering, e.g. Bg 403, Bg 379-2, Bg 406, Bg 450, Bg 357, Bg 366, Bg 360, Bw 367, At 362, Bw 372.","දිගු හෝ මධ් යම වයස් වර්ග, ඉහළ ටිල්රින්, උදාහරණයක් ලෙස Bg 403, Bg 379-2, Bg 406, Bg 450, Bg 357, Bg 366, Bg 360, Bw 367, At 362, Bw 372.",facebook/nllb-200-distilled-600M,no
+"Low night temperature (17-20 C), high humidity, foggy and dark weather, too much nitrogen and dense plants favour blast.","අඩු රාත් රී උෂ්ණත්වය (17-20 C), ඉහළ ආර්ද් රතාවය, මීදුම සහ අඳුරු කාලගුණය, අධික නයිට් රජන් සහ ඝන ශාක පිපිරීමට ප් රිය කරයි.",facebook/nllb-200-distilled-600M,no
+"Major grass weeds include Echinochloa colona, Echinochloa crus-galli, Panicum repens, Ischaemum rugosum, Isachne globosa and Paspalum distichum.","ප් රධාන තණකොළ අතරට එචිනොක්ලෝවා කොලෝනා, එචිනොක්ලෝවා ක් රස්-ගාලි, පැනිකුම් රෙපෙන්ස්, ඉෂේමම් රුගෝසම්, ඉසාක්නේ ග්ලෝබෝසා සහ පාස්පාලම් ඩිස්ටිචම් ඇතුළත් වේ.",facebook/nllb-200-distilled-600M,no
+"Misuse can contaminate ground water, harm soil microbes and N fixation, drift to other fields, cause health problems and lead to herbicide resistant weeds.","වැරදි ලෙස භාවිතා කිරීමෙන් පෘථිවි ජලය දූෂණය විය හැකියි, පෘථිවි ක්ෂුද් ර ජීවීන්ට හා N ස්ථාවරතාවයට හානි විය හැකියි, වෙනත් ක්ෂේත් රවලට ගමන් කරයි, සෞඛ් ය ගැටළු ඇති කරයි.",facebook/nllb-200-distilled-600M,no
+Monitor the crop from the early booting stage for chocolate coloured lesions on the leaf sheaths.,කොළ වල චොකලට් පාට ලෙජි සඳහා මුල් ආරම්භක අවධියේ සිට වගාව නිරීක්ෂණය කරන්න.,facebook/nllb-200-distilled-600M,no
+"My back hurts after working in the field, what tablet should I take?","ක්ෂේත් රයේ වැඩ කිරීමෙන් පසු මගේ පිටුපස රිදෙනවා, මම කුමන ටැබ්ලට් එකක් ගත යුතුද?",facebook/nllb-200-distilled-600M,no
+"My canal water is late this season, what should I do?","මගේ නාලිකා ජලය මේ කන්නයේ පරක්කුයි, මම මොනවද කරන්න ඕනේ?",facebook/nllb-200-distilled-600M,no
+"My child has a cough, which syrup is good?","මගේ දරුවාට කැස්සක් තියෙනවා, මොන සිරප් එකද හොඳ?",facebook/nllb-200-distilled-600M,no
+"My crop had blast this season, what do I do next season?","මගේ වගාව මේ වසන්තයේ පිපිරුනා, ඊළඟ වසන්තයේ මම මොකද කරන්නේ?",facebook/nllb-200-distilled-600M,no
+"My crop is pale even after urea, why?",මගේ බෝගයේ ද් රව් ය ද් රව් ය ද් රව් ය ද් රව් ය ද් රව් ය ද් රව් ය ද් රව් ය ද් රව් ය ද් රව් ය ද් රව් ය ද් රව් ය ද් රව් ය ද් රව් ය ද් රව් ය ද් රව් ය ද් රව් ය ද් රව් ය ද් රව් ය ද් රව් ය ද් රව් ය ද් රව් ය ද් රව් ය ද් රව් ය ද් රව් ය ද් රව් ය ද් රව් ය ද් රව් ය ද් රව් ය ද් රව් ය ද් රව් ය ද් රව් ය ද් රව් ය ද් රව් ය ද් රව් ය ද් රව් ය ද් රව් ය ද් රව් ය ද් රව් ය ද් රව් ය,facebook/nllb-200-distilled-600M,no
+"My field floods every rainy season, any advice?","මගේ ක්ෂේත් රය සෑම වැසි සමයකම ගංවතුරෙන් වැටිලා, උපදෙස් තියෙනවද?",facebook/nllb-200-distilled-600M,no
+"My field is salty near the coast, what can I grow?","මගේ ක්ෂේත් රය මුහුදු වෙරළ අසල ලුණු සහිතයි, මට කුමක් වගා කළ හැකිද?",facebook/nllb-200-distilled-600M,no
+"My leaves are turning brown and seedlings are dying, why?","මගේ කොළ පාට වෙනවා, පැල මැරෙනවා, ඇයි?",facebook/nllb-200-distilled-600M,no
+"My neighbour took part of my land, what can I do legally?","මගේ අසල්වැසියා මගේ ඉඩම් වලින් කොටසක් ගත්තා, මට නීත් යානුකූලව මොනවද කරන්න පුළුවන්?",facebook/nllb-200-distilled-600M,no
+"My paddy field is saline, what can I do?","මගේ ධාන් ය ක්ෂේත් රය ලුණු සහිතයි, මට කුමක් කළ හැකිද?",facebook/nllb-200-distilled-600M,no
+"My plants are stunted with narrow leaves, what nutrient is low?","මගේ ශාකවල කොළ පටුයි, මොන පෝෂ් ය පදාර්ථයද අඩු?",facebook/nllb-200-distilled-600M,no
+"My plot health score is low, why?","මගේ ප්ලෑන් සෞඛ් ය ලකුණු අඩුයි, ඇයි?",facebook/nllb-200-distilled-600M,no
+"My rice has few tillers and dark green leaves, is it phosphorus?","මගේ රයිස් එකේ ටිලර් ටිකයි තද කොළ පැහැති කොළ ටිකයි තියෙනවා, ඒක ෆොස්පෝරස්ද?",facebook/nllb-200-distilled-600M,no
+"My rice leaves are pale yellow all over, what is missing?","මගේ අර්තාපල් කොළ හැමතැනම තද කහ පාටයි, මොනවද මගහැරුනේ?",facebook/nllb-200-distilled-600M,no
+"My seedlings are yellow in the nursery, what is wrong?","මගේ පැල පැල කහ පාටයි ළදරු කාමරේ, මොකක්ද අවුල?",facebook/nllb-200-distilled-600M,no
+"My soil is acidic, what should I do?","මගේ පෘථිවිය ආම්ලිකයි, මම මොනවද කරන්න ඕනේ?",facebook/nllb-200-distilled-600M,no
+"My soil pH is 4, how do I raise it?","මගේ පෘථිවි pH එක 4යි, මම කොහොමද ඒක උස්සන්නේ?",facebook/nllb-200-distilled-600M,no
+"My soil pH is below 4.5, how much lime is needed?",මගේ පෘථිවියේ pH 4.5 ට වඩා අඩුයි.,facebook/nllb-200-distilled-600M,no
+"My soil test shows phosphorus 3 mg/kg, how much TSP per acre?","මගේ පස පරීක්ෂණයෙන් පෙන්නුම් කරන්නේ ෆොස්පෝරස් කිලෝග් රෑම් 3 ක්, එක අක්කරකට ටීඑස්පී කීයද?",facebook/nllb-200-distilled-600M,no
+"My young plants have brown spots and are stunted after flooding, is it zinc?",මගේ තරුණ ශාක වල දුඹුරු පැල්ලම් තියෙනවා.,facebook/nllb-200-distilled-600M,no
+"My young seedling leaves are rolling inwards, what pest is it?","මගේ තරුණ පැලති කොළ ඇතුලට පෙරළෙනවා, මොකක්ද මේ වසංගතය?",facebook/nllb-200-distilled-600M,no
+Name some broadleaf weeds of paddy.,ධාන් ය අර්තාපල් ගෙඩි කීපයක් නම් කරන්න.,facebook/nllb-200-distilled-600M,no
+Nearly 760-765 trays of 434 holes each are needed per hectare.,හෙක්ටයාරයකට හෙක්ටයාර 434 කින් යුත් තැටි 760-765 ක් පමණ අවශ් ය වේ.,facebook/nllb-200-distilled-600M,no
+"Nice, that helped","නියමයි, ඒක උදව් කළා.",facebook/nllb-200-distilled-600M,no
+No. Above 10 mg/kg no TSP is needed.,නැහැ. 10 mg/kg ට වඩා TSP අවශ් ය නැහැ.,facebook/nllb-200-distilled-600M,no
+No. For pH between 4.5 and 7.5 no lime is recommended.,අංකය. pH 4.5 සිට 7.5 අතර නම් ලයිම් නිර්දේශ නොකරයි.,facebook/nllb-200-distilled-600M,no
+No. For the medium category no lime is needed - TSP 30 kg/ha and MOP 40 kg/ha.,මධ් යම කාණ්ඩය සඳහා ලයිම් අවශ් ය නොවේ - ටීඑස්පී 30 kg/ha සහ MOP 40 kg/ha.,facebook/nllb-200-distilled-600M,no
+No. Improved AWD is not suitable for saline paddy fields.,"නෑ, වැඩිදියුණු කරන ලද AWD ලුණු සහල් වගා වලට සුදුසු නැහැ.",facebook/nllb-200-distilled-600M,no
+No. Resistant varieties for yellow stem borer are not available.,අංක: කහ කඳ බොරර් සඳහා ප් රතිරෝධී ප් රභේද ලබා ගත නොහැක.,facebook/nllb-200-distilled-600M,no
+No. Some symptoms are disorders - for example yellowing and poor growth in the field centre can be due to lack of nutrients.,නැත. සමහර රෝග ලක්ෂණ ආබාධයකි - උදාහරණයක් ලෙස කහ පැහැය සහ ක්ෂේත් ර මධ් යයේ දුර්වල වර්ධනය පෝෂ් ය පදාර්ථ නොමැතිකම නිසා විය හැකිය.,facebook/nllb-200-distilled-600M,no
+"Not all - some species help by fixing nitrogen, controlling other weeds or adding organic matter, so weeds should be recognised carefully.","ඒවා සියල්ලම නොවේ - ඇතැම් වර්ගවලට නයිට් රජන් සවි කිරීමෙන්, වෙනත් අවි ගස් පාලනය කිරීමෙන් හෝ කාබනික ද් රව් ය එකතු කිරීමෙන් උපකාරී වේ, එබැවින් අවි ගස් ප් රවේශමෙන් හඳුනාගත යුතුය.",facebook/nllb-200-distilled-600M,no
+"Okay, bye","හරි, බායි.",facebook/nllb-200-distilled-600M,no
+"On an impermeable surface such as banana leaves with the midrib removed, polythene sheets or a cement floor, about 1/20 of the field area.","බැනන් කොළ වැනි ද් රාව් ය නොවන මතුපිටක් මත, මධ් යස්ථානය ඉවත් කර, පොලිතීන් පත් ර හෝ සිමෙන්ති බිම, ක්ෂේත් ර භූමි ප් රමාණයෙන් 1/20 ක් පමණ.",facebook/nllb-200-distilled-600M,no
+On mature plants lesions develop as water-soaked orange stripes with a wavy margin on leaf blades or tips that progress towards the leaf base.,පරිණත ශාක වල ලෙෂන් වර්ග ජලයෙන් පිරී ඇති තැඹිලි තීරු ලෙස වර්ධනය වන අතර කොළ කොළවල හෝ කොළ මුදුන් මත තරංග සහිත අතුරු පාදයක් ඇති අතර එය කොළ මුල දෙසට ගමන් කරයි.,facebook/nllb-200-distilled-600M,no
+"Open the soil P, K and Zn .kml map for Kurunegala, Polonnaruwa or Anuradhapura in Google Earth Pro, click your field and read the recommendation.","ගූගල් පෘථිවි Pro හි කුරුණේගල, පොලොන්නරුව හෝ අනුරාධපුර සඳහා පෘථිවි P, K සහ Zn .kml සිතියම විවෘත කරන්න, ඔබේ ක්ෂේත් රය ක්ලික් කර නිර්දේශය කියවන්න.",facebook/nllb-200-distilled-600M,no
+Paddy bug damage is estimated to reduce rice yield in the country by 3-5%.,ධාන් ය දූවිලි වලට සිදුවන හානිය මගින් රටේ සහල් නිෂ්පාදනය 3-5% කින් අඩු වනු ඇතැයි ගණන් බලා ඇත.,facebook/nllb-200-distilled-600M,no
+Paddy bug sucks the developing grains and causes empty or partially filled grains. Both nymphs and adults damage the grains.,ධාන් ය වර්ධනය වීම නිසා ධාන් ය හිස් හෝ අර්ධ වශයෙන් පිරවූ ධාන් ය වර්ධනය වන අතර නයිම්ෆ් සහ වැඩිහිටියන් යන දෙදෙනාම ධාන් ය වර්ධනයට හානි කරති.,facebook/nllb-200-distilled-600M,no
+Panicum repens (torpedo grass) spreads mainly by underground rhizome fragments - viable seeds are rarely produced.,පැනිකම් රෙපෙන්ස් (ටෝපෙඩෝ තණකොළ) ප් රධාන වශයෙන් පෘථිවියේ රයිසෝම් කැබලි හරහා ව් යාප්ත වේ - ජීවයට හැකි බීජ කලාතුරකින් නිපදවනු ලැබේ.,facebook/nllb-200-distilled-600M,no
+Place 3-4 TSP particles in each hole of the parachute tray before soil and seeds. Broadcast the seedlings after 12-14 days.,පෘථිවිය හා බීජ වලට පෙර පැරෂුට් තැටියේ සෑම සිදුරකටම TSP අංශු 3-4 ක් තබන්න. බීජ පැළ 12-14 දිනකට පසු විකාශනය කරන්න.,facebook/nllb-200-distilled-600M,no
+Plant 2-4 healthy seedlings per hill.,කන්දකට සෞඛ් ය සම්පන්න පැළ 2-4 ක් වගා කරන්න.,facebook/nllb-200-distilled-600M,no
+Plants in the centre yellowing with poor growth while border plants look healthy could be due to lack of plant nutrients - a disorder rather than a disease.,කේන්ද් රයේ ඇති ශාක කහ පැහැයට පත්වන අතර සීමා ශාක සෞඛ් ය සම්පන්න පෙනුමක් ඇති අතර ශාක පෝෂ් ය පදාර්ථ නොමැතිකම නිසා විය හැකිය - රෝගයක් නොව ආබාධයකි.,facebook/nllb-200-distilled-600M,no
+"Plants in the middle of my field are yellow but the edges are fine, why?","මගේ ක්ෂේත් රයේ මධ් යයේ ඇති ශාක කහ පාටයි, නමුත් කෙළවර හොඳින්, ඇයි?",facebook/nllb-200-distilled-600M,no
+Please help me,කරුණාකරලා මට උදව් කරන්න.,facebook/nllb-200-distilled-600M,no
+Plots with the same elevation or less than about 15 cm difference; not paddy lands on slopes.,එකම උසකින් හෝ 15 cm ට අඩු වෙනසක් සහිත භූමි ප් රමාණයක්; දිගේ ධාන් ය බිම් නොතබන්න.,facebook/nllb-200-distilled-600M,no
+Pre-germinated seeds are broadcast at about 400 seeds per square metre and the field kept moist. After a week water is raised to about 2 cm.,වර්ග මීටරයකට බීජ 400 ක් පමණ ප් රවාහනය වන අතර ක්ෂේත් රය තෙතමනය කර ඇත. සතියකට පසු ජලය සෙන්ටිමීටර 2 ක් පමණ දක්වා ඉහළ යයි.,facebook/nllb-200-distilled-600M,no
+"Prepare land with the rain, improve drainage, add organic fertilizer or half burnt paddy husk, level well, use seedling planting, keep the field flooded and use resistant varieties.","වැසි සහිතව ඉඩම් සකස් කරන්න, ජල ගැලවීම වැඩි දියුණු කරන්න, කාබනික පොහොර හෝ අර්ධ ගිනිගත් ධාන් ය කවරයක් එකතු කරන්න, හොඳින් සමතලා කරන්න, පැල සිටුවීම භාවිතා කරන්න, ක්ෂේත් රය ගංවතුරෙන් තොරව තබා ගන්න සහ ප් රතිරෝධී ප් රභේද භාවිතා කරන්න.",facebook/nllb-200-distilled-600M,no
+Primary tillage should be done at least 14 days before secondary tillage (3-4 weeks before crop establishment).,ප් රාථමික ගොවිපල ගොවිපල ගොවිපල පිහිටුවීමට සති 3-4 කට පෙර අවම වශයෙන් දින 14 කට පෙර සිදු කළ යුතුය.,facebook/nllb-200-distilled-600M,no
+"Proper land preparation, water management, recommended fertilizer doses, suitable varieties, sowing at the correct time, proper plant density and fallowing.","භූමිය නිසි ලෙස සකස් කිරීම, ජල කළමනාකරණය, නිර්දේශිත පොහොර මාත් රාවන්, සුදුසු ප් රභේද, නියම වේලාවට වපුරීම, නිසි ශාක ඝනත්වය සහ වැටීම.",facebook/nllb-200-distilled-600M,no
+Puddling forms a plow pan and reduces water loss through percolation. Several rounds also mix fertilizer well.,පොහොර මිශ් ර කිරීමෙන් ජලය අහිමි වීම අඩු වේ.,facebook/nllb-200-distilled-600M,no
+Puddling needs a high volume of water - 20-40% of the total water requirement - but it reduces water percolation afterwards.,පොඩ්ලිං වලට ජල ප් රමාණයක් අවශ් යයි - මුළු ජල අවශ් යතාවයෙන් 20-40% ක් - නමුත් එය පසුව ජල ද් රාවණය අඩු කරයි.,facebook/nllb-200-distilled-600M,no
+"Records of the variety, fertilizers, pesticides, tillage and pest damage help predict problems carried over from the last crop.","වර්ගයේ වාර්තා, පොහොර, පළිබෝධනාශක, ගොවිතැන් හා පළිබෝධක හානි පසුගිය බෝගයේ සිට පැතිර ගිය ගැටළු පුරෝකථනය කිරීමට උපකාරී වේ.",facebook/nllb-200-distilled-600M,no
+Rice blast is caused by the fungus Magnaporthe grisea (Pyricularia grisea).,සහල් පිපිරීම මැග්නපෝර්ට් ග් රීසියා (Pyricularia grisea) මදුරුවන්ට හේතු වෙනවා.,facebook/nllb-200-distilled-600M,no
+"Rice diseases are caused by fungi, bacteria, viruses and nematodes.","රයිස් රෝග වලට හේතු වන්නේ මදුරුවන්, බැක්ටීරියා, වෛරස් සහ නෙමටෝඩයි.",facebook/nllb-200-distilled-600M,no
+"Rice planted after vegetables may get more blast, sheath blight and bacterial leaf blight, because residual nutrients cause luxurious growth.","එළවළු වලින් පසු වගා කරන ලද සහල් වලට වැඩි පිපිරීමක්, කූඩාරම් පැල්ලම් සහ බැක්ටීරියාකාරී කොළ පැල්ලම් ඇතිවිය හැකිය, මන්ද ඉතිරි පෝෂ් ය පදාර්ථ මඟින් සුඛෝපභෝගී වර්ධනයක් ඇති වේ.",facebook/nllb-200-distilled-600M,no
+Rice sheath mite can cause 5% to 90% yield loss.,රයිස් ෂීට් මීට් 5% සිට 90% දක්වා අස්වැන්න අහිමි කිරීමට හේතු විය හැකිය.,facebook/nllb-200-distilled-600M,no
+Rolling of leaves inwards along the margins on young seedlings is typical thrips damage. Thrips suck cell sap and cause leaf drying.,තරුණ පැලෑටිවල කෙළවර දිගේ පිටි ඇතුළට පෙරළීම සාමාන් යයෙන් ත් රිප්ස් හානියක් වේ. ත් රිප්ස් සෛලීය යුෂ අවශෝෂණය කර පත් ර වියළීමට හේතු වේ.,facebook/nllb-200-distilled-600M,no
+"Rotary weeders, hand weeding, hoeing, tillage, harrowing and mowing are mechanical weed control methods.",භ් රමණය වන කෘෂිකාර්මික කෘෂිකාර්මික කෘෂිකාර්මික කෘෂිකාර්මික කෘෂිකාර්මික කෘෂිකාර්මික කෘෂිකාර්මික කෘෂිකාර්මික කෘෂිකාර්මික කෘෂිකාර්මික කෘෂිකාර්මික කෘෂිකාර්මික කෘෂිකාර්මික කෘෂිකාර්මික කෘෂිකාර්මික ක් රම.,facebook/nllb-200-distilled-600M,no
+"Rotate with leguminous crops such as green gram, and fallow the field for 2-3 seasons if the other measures did not control it.","හරිත ග් රෑම් වැනි පොල් වගාවන් සමඟ භ් රමණය වී, වෙනත් ක් රියාමාර්ග මගින් එය පාලනය නොකළහොත් වසන්ත 2-3 ක් ක් ක්ෂේත් රය අත්හරින්න.",facebook/nllb-200-distilled-600M,no
+Secondary tillage should be done 7-10 days before crop establishment.,ද්විතීයික ගොවිපල වගා කිරීමට දින 7 සිට 10 දක්වා පෙර සිදු කළ යුතුය.,facebook/nllb-200-distilled-600M,no
+See you later,පස්සේ හමුවෙමු.,facebook/nllb-200-distilled-600M,no
+"Seed need is only 20-30 kg/ha, labour is 50% of transplanting, there is no transplanting shock, more tillers, and harvest 7-8 days earlier.","බීජ අවශ් යතාවය හෙක්ටයාරයකට කිලෝග් රෑම් 20-30 ක් පමණි, වැඩ කිරීමේ ප් රමාණය 50% ක් පමණි, බද්ධ කිරීමේ කම්පනයක් නොමැත, තවත් ගොවිපලවල් සහ අස්වැන්න දින 7-8 කට පෙර වේ.",facebook/nllb-200-distilled-600M,no
+Seed needed for parachute per acre?,පැරෂුට් එකකට අවශ් ය බීජ?,facebook/nllb-200-distilled-600M,no
+Seed rates can be adjusted from 150 to 300 kg per hectare depending on conditions and weed pressure.,බීජ අනුපාතය හෙක්ටයාරයකට කිලෝග් රෑම් 150 සිට 300 දක්වා වෙනස් කළ හැකි අතර එය කොන්දේසි සහ තණකොළ පීඩනය අනුව වෙනස් කළ හැකිය.,facebook/nllb-200-distilled-600M,no
+Seedlings for transplanting should be raised in a nursery for 12-14 days.,බීජ ප් රතිස්ථාපනය කිරීම සඳහා බීජ දින 12-14 ක් ළදරු නිවාසයක වගා කළ යුතුය.,facebook/nllb-200-distilled-600M,no
+Seedlings of 8-16 days (15-20 cm tall) can be used; 12 days old is optimum.,දින 8 සිට 16 දක්වා (15-20 cm උස) පැලෑටි භාවිතා කළ හැකිය; දින 12 ක් පැරණි පැලෑටි ප් රශස්තයි.,facebook/nllb-200-distilled-600M,no
+Serious outbreaks of yellow stem borer are very rare.,කහ කඳ බොරර් වල බරපතල පිපිරීම් ඉතා දුර්ලභයි.,facebook/nllb-200-distilled-600M,no
+"Short-age traditional varieties such as Dahanala, Kaluheenati and Kalubalawee are resistant to thrips; a higher trichome density on the leaf gives resistance.","ඩහනාලා, කලුහීනති සහ කලුබාලාවී වැනි කෙටි වයස් සම්ප් රදායික ප් රභේද ත ් රිප් වලට ඔරොත්තු දෙන අතර කොළයේ ඇති ඉහළ ත් රිකොම් ity නත්වය ඔරොත්තු දෙනු ඇත.",facebook/nllb-200-distilled-600M,no
+Should I add dolomite to my paddy field?,මම මගේ ධාන් ය ක්ෂේත් රයට ඩොලමයිට් එකතු කළ යුතුද?,facebook/nllb-200-distilled-600M,no
+Should I add lime to my field based on the readings?,මම මගේ ක්ෂේත් රයට ලයිම් එකතු කළ යුතුද කියවීම් මත පදනම්ව?,facebook/nllb-200-distilled-600M,no
+Should I apply fertilizer before or after rain?,වැස්සට පෙර හෝ පසු පොහොර දමන්නද?,facebook/nllb-200-distilled-600M,no
+Should I apply urea when the field is flooded?,ක්ෂේත් රය ගංවතුරට ලක් වූ විට මම යූරියාව යෙදිය යුතුද?,facebook/nllb-200-distilled-600M,no
+Should I grow a 3 month or a 3 1/2 month variety?,මම මාස 3 ක් හෝ මාස 3 1/2 ක් වර්ග වගා කළ යුතුද?,facebook/nllb-200-distilled-600M,no
+Should I invest in the stock market?,මම කොටස් වෙළෙඳපොළේ ආයෝජනය කළ යුතුද?,facebook/nllb-200-distilled-600M,no
+Should I irrigate my field today?,මම අද මගේ ක්ෂේත් රයට වතුර දෙන්නද?,facebook/nllb-200-distilled-600M,no
+Should I just use herbicides for weeds?,මම ගහකොළ වලට ශාක ද් රව් ය පාවිච්චි කරන්නද?,facebook/nllb-200-distilled-600M,no
+Should I keep standing water to control weeds?,මම තණකොළ පාලනය කිරීම සඳහා ජලය ස්ථාවරව තබා ගත යුතුද?,facebook/nllb-200-distilled-600M,no
+Should farmers protest against the government?,ගොවීන් රජයට විරුද්ධව උද්ඝෝෂණය කළ යුතුද?,facebook/nllb-200-distilled-600M,no
+Sing a song for me.,මට ගීතයක් ගායනා කරන්න.,facebook/nllb-200-distilled-600M,no
+Soak for at least 24 hours in clean water and incubate for about 48 hours in a warm dry place.,පිරිසිදු ජලයේ අවම වශයෙන් පැය 24 ක් වත් පොඟවා තබා පැය 48 ක් පමණ උණුසුම් වියළි ස්ථානයක තබන්න.,facebook/nllb-200-distilled-600M,no
+Soak them for 48 hours and incubate for 24 hours. Broadcast them onto puddled soil with standing water.,ඒවා පැය 48ක් පොඟවා පැය 24ක් බීජහරණය කරන්න. ඒවා ස්ථාවර ජලය සහිත පොඟවාගත් පසකට විකාශනය කරන්න.,facebook/nllb-200-distilled-600M,no
+"Soil pH, EC and organic matter maps (.kml files for Google Earth Pro) exist for Kurunegala, Polonnaruwa and Anuradhapura districts.","කුරුනේගල, පොලොන්නරුව සහ අනුරාධපුර දිස්ත් රික්ක සඳහා පෘථිවි pH, EC සහ කාබනික ද් රව් ය සිතියම් (.ගූගල් ආර්ත් ප් රෝ සඳහා kml ලිපිගොනු) පවතී.",facebook/nllb-200-distilled-600M,no
+"Soil potassium is 100 mg/kg, how much MOP?","පෘථිවි පොටෑසියම් කිලෝග් රෑම් 100 ක්, MOP කීයද?",facebook/nllb-200-distilled-600M,no
+"Spiders are major predators of brown planthopper, so the economic threshold is adjusted according to the number of spiders present.",මකුළු මකුළු මකුළු මකුළු මකුළු මකුළු මකුළු මකුළු මකුළු මකුළු මකුළු මකුළු මකුළු මකුළු මකුළු මකුළු මකුළු මකුළු මකුළු මකුළු මකුළු මකුළු මකුළු මකුළු මකුළු මකුළු මකුළු මකුළු මකුළු මකුළු මකුළු මකුළු මකුළු මකුළු මකුළු මකුළු මකුළු මකුළු මකුළු මකුළු මකුළු මකුළු මකුළු මකුළු මකුළු මකුළු මකුළු මකුළු මකුළු මකුළු මකුළු මකුළු මකුළු මකුළු මකුළු මකුළු මකුළු මකුළු මකුළු මකුළු මකුළු මකුළු මකුළු මකුළු මකුළු මකුළු ම,facebook/nllb-200-distilled-600M,no
+Spray drift is the movement of pesticide dust or droplets through the air to any site other than the intended area.,ස්ප් රේ ඩ් රීෆ් යනු පළිබෝධනාශක දූවිලි හෝ බිංදු වාතය හරහා සැලසුම් කළ ප් රදේශය හැර වෙනත් ඕනෑම ස්ථානයකට ගමන් කිරීමයි.,facebook/nllb-200-distilled-600M,no
+Spray the store with pirimiphos-methyl at 27 ml per 9 litres of water. Spray gunny bags with the same insecticide and sun dry them before use.,ජලය ලීටර් 9කට මිලිලි ලීටර් 27 කින් මිරිමිෆෝස්-මෙතිල් ද් රව් ය වලින් සාප්පුව ඉසන්න. එකම කෘමි නාශකයක් සහිත තුවක්කුවක් සහිත බෑග් භාවිතා කිරීමට පෙර ඒවා ඉරෙන් වියළන්න.,facebook/nllb-200-distilled-600M,no
+Squeeze the cut leaf ends - kresek shows yellowish bacterial ooze. Plants with kresek are also not easily pulled out of the soil.,කපන ලද කොළ කෙළවර තට්ටු කරන්න - ක් රෙස්ක් කහ පැහැති බැක්ටීරියා විෂබීජයක් පෙන්නුම් කරයි. ක් රෙස්ක් සහිත ශාක ද පහසුවෙන් පසෙන් ඉවත් නොකරයි.,facebook/nllb-200-distilled-600M,no
+Start,පටන් ගන්න,facebook/nllb-200-distilled-600M,no
+"Stop the water supply and let the field dry, drain through ditches, do not send drained water through healthy fields, and apply potassium fertilizer to reduce further spread.","ජල සැපයුම නතර කර ක්ෂේත් රය වියළීමට ඉඩ දෙන්න, විදුලි කණු හරහා ගලා යන්න, සෞඛ් ය සම්පන්න ක්ෂේත් ර හරහා ගලා යන ජලය යවන්න එපා, තවදුරටත් ව් යාප්තිය අඩු කිරීම සඳහා පොටෑසියම් පොහොර යොදා ගන්න.",facebook/nllb-200-distilled-600M,no
+"Stunting shows poor root growth, which may come from a compacted shallow plough pan, root rot, nematode injury or a nutrient deficiency.","ශුක් රානුකූල වීමෙන් මුල් වර්ධනය දුර්වල බව පෙන්නුම් කරයි, එය සම්පීඩිත පැල්ලම් පෑන්, මුල් දූෂණය, නෙමැටෝඩ් හානි හෝ පෝෂ් ය පදාර්ථ හිඟයක් නිසා විය හැකිය.",facebook/nllb-200-distilled-600M,no
+Submerge the infested crop intermittently for 1-2 days and drag a wet cloth over the seedlings. Use recommended insecticides only if control is difficult.,"ආසාදිත වගාව දින 1-2 ක් වරින් වර ගිල දමන්න, තෙත් රෙදිවලින් පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැල පැ",facebook/nllb-200-distilled-600M,no
+Sun dry the seeds to bring the moisture content down to 8.0% and pack them in polythene or paper bags.,සෝල් ඩ් රයි බීජ වල තෙතමනය 8.0% දක්වා අඩු කර පොලිතීන් හෝ කඩදාසි බෑග් වල තබා ගන්න.,facebook/nllb-200-distilled-600M,no
+Tell me a joke.,මට විහිළුවක් කියන්න.,facebook/nllb-200-distilled-600M,no
+Tell me about the election results.,මට ඡන්ද ප් රතිඵල ගැන කියන්න.,facebook/nllb-200-distilled-600M,no
+Tell me the status of my paddy field.,මට කියන්න මගේ ධාන් ය ක්ෂේත් රයේ තත්වය.,facebook/nllb-200-distilled-600M,no
+"Temperatures of 25-34 C, strong winds with continuous heavy rain, high humidity and too much nitrogen fertilizer favour it.","25-34 C උෂ්ණත්වය, අඛණ්ඩ අධික වැසි සහිත ශක්තිමත් සුළං, ඉහළ ආර්ද් රතාවය සහ අධික නයිට් රජන් පොහොර ප් රයෝජනවත් වේ.",facebook/nllb-200-distilled-600M,no
+Tertiary land preparation (puddling and levelling) is done one day before sowing or planting.,තුන්වන භූමියේ සූදානම (පවුඩ්ලිං සහ පෙළගැස්ම) පැලෑටීමට හෝ රෝපණය කිරීමට දිනකට පෙර සිදු කෙරේ.,facebook/nllb-200-distilled-600M,no
+Thank you,ස්තූතියි.,facebook/nllb-200-distilled-600M,no
+Thank you for the advice,උපදෙස් වලට ස්තූතියි.,facebook/nllb-200-distilled-600M,no
+Thanks a lot,බොහොම ස්තුතියි.,facebook/nllb-200-distilled-600M,no
+"That is the rice leaffolder. The caterpillars fasten the leaf edges together, live inside the rolled leaf and feed on the leaf tissue.","ඒක තමයි රයිස් ලීෆ් ෆෝල්ඩර් එක. කෘමීන් පත් රයේ කෙළවර එකට බැඳලා, රෝල් කරන ලද පත් රයේ ඇතුලත ජීවත් වෙලා, පත් රයේ පටකයෙන් පෝෂණය වෙනවා.",facebook/nllb-200-distilled-600M,no
+The alternate-season P practice can be used when soil P is above 5 mg/kg - check the soil P maps first.,පෘථිවි පී 5 mg/kg ඉක්මවා ගිය විට විකල්ප කන්නයේ P පුහුණුව භාවිතා කළ හැකිය - පළමුව පෘථිවි පී සිතියම් පරීක්ෂා කරන්න.,facebook/nllb-200-distilled-600M,no
+"The crop calendar recommends Bg 310, Bg 369 and At 354 for salinity problems.","වගා දින දර්ශනය නිර්දේශ කරයි Bg 310, Bg 369 සහ At 354 ලුණු තත්වයේ ගැටළු සඳහා.",facebook/nllb-200-distilled-600M,no
+The economic threshold for brown planthopper is 2 per hill at booting and 5 per hill at heading. It is adjusted for the number of spiders present.,බ් රවුන් පැලැන්ට් හොප්පර් සඳහා ආර්ථික සීමාව ආරම්භයේදී කන්දකට 2 ක් සහ ගමන් කිරීමේදී කන්දකට 5 ක් වේ. එය පවතින මකුළු සංඛ් යාවට අනුව සකස් කරනු ලැබේ.,facebook/nllb-200-distilled-600M,no
+The economic threshold is 25% of leaves showing more than 50% damage. Then a safer IGR can be used.,ආර්ථික සීමාව 25% ක් වන අතර 50% ට වඩා වැඩි හානියක් පෙන්නුම් කරන කොළ. එවිට වඩාත් ආරක්ෂිත IGR එකක් භාවිතා කළ හැකිය.,facebook/nllb-200-distilled-600M,no
+"The ideal age is 12-14 days; 4-4 1/2 month varieties can go up to 21 days, but 2 1/2-3 month varieties strictly 12-14 days.",පරමාදර්ශී වයස දින 12-14 කි; මාස 4-4 1/2 ප් රභේද දින 21 දක්වා ගමන් කළ හැකි නමුත් මාස 2 1/2-3 ප් රභේද දැඩි ලෙස දින 12-14 කි.,facebook/nllb-200-distilled-600M,no
+The most critical period for weed competition is from 2 weeks after sowing up to 5-8 weeks.,තණකොළ තරඟය සඳහා වඩාත්ම තීරණාත්මක කාලය වන්නේ බීජ පැළෑටීමෙන් පසු සති 2 සිට සති 5-8 දක්වා වේ.,facebook/nllb-200-distilled-600M,no
+The recommended ploughing depth is about 20 cm.,නිර්දේශිත අර්තාපල් ගැඹුර සෙන්ටිමීටර් 20 ක් පමණ වේ.,facebook/nllb-200-distilled-600M,no
+The rice plant is most sensitive to brown planthopper at the late vegetative and reproductive stages.,අර්තාපල් ශාකයට වඩාත්ම සංවේදී වන්නේ වර්ග හා ප් රජනන වේදිකාවලදී දුඹුරු පැලෑටි වලට ය.,facebook/nllb-200-distilled-600M,no
+The seed bed area should be about 1/10 of the area to be transplanted.,බීජ ඇඳ ප් රමාණය ප් රමාණයෙන් 1/10 ක් පමණ විය යුතුය.,facebook/nllb-200-distilled-600M,no
+"The soil test kit shows low pH, how much lime?",පෘථිවි පරීක්ෂණ කට්ටලයෙන් පෙන්නුම් කරන්නේ අඩු pH ප් රමාණයක්.,facebook/nllb-200-distilled-600M,no
+"The water in my field has an oily reddish film, what does that mean?","මගේ ක්ෂේත් රයේ ජලයේ තෙල් පැහැති රතු පැහැති චිත් රපටයක් තියෙනවා, ඒකෙන් අදහස් කරන්නේ මොකක්ද?",facebook/nllb-200-distilled-600M,no
+They are yellow stem borer damage. Caterpillars bore into the stem - young plants show dead heart and older plants show white heads.,කුරුල්ලන් කුරුල්ලන් කුරුල්ලන් කුරුල්ලන් කුරුල්ලන් කුරුල්ලන් කුරුල්ලන් කුරුල්ලන් කුරුල්ලන් කුරුල්ලන් කුරුල්ලන් කුරුල්ලන් කුරුල්ලන් කුරුල්ලන් කුරුල්ලන් කුරුල්ලන් කුරුල්ලන් කුරුල්ලන් කුරුල්ලන් කුරුල්ලන් කුරුල්ලන් කුරුල්ලන් කුරුල්ලන් කුරුල්ලන් කුරුල්ලන් කුරුල්ලන් කුරුල්ලන් කුරුල්ලන් කුරුල්ලන් කුරුල්ලන් කුරුල්ලන් කුරුල්ලන් කුරුල්ලන් කුරුල්ලන් කුරුල්ලන් කුරුල්ලන් කුරුල්ලන් කුරුල්ලන් කුරුල්ලන් කුරුල්ලන් කුරුල්ලන් කුරුල්ලන් කුරුල්ලන් කුරුල්ලන් කුරුල්ලන් කුරුල්ලන් කුරුල්ලන් කුරුල්ලන් කුරුල්ලන් කුරුන්,facebook/nllb-200-distilled-600M,no
+Thin out seedlings from dense areas and transplant them into areas with low density.,ඝන ප් රදේශවලින් පැලෑටි සිහින් කර අඩු ඝනත්වයේ ප් රදේශවලට ගෙන්වා ගන්න.,facebook/nllb-200-distilled-600M,no
+"Thrips damage is severe under water stress, and late planted crops are more prone to it.",ජල පීඩනය යටතේ ත් රිප්ස් වලට ඇතිවන හානිය බරපතල වන අතර ප් රමාද වපුරන ලද වගා වලට එය වඩාත් විභව වේ.,facebook/nllb-200-distilled-600M,no
+"Thrips, brown planthopper, yellow stem borer, rice leaf-folders, rice sheath mite, rice gall midge and paddy bug are the major rice pests.","ත් රිප්ස්, බ් රවුන් පැලැන්ට් හොප්පර්, කහ කඳ බොරර්, සහල් කොළ ෆෝල්ඩර්, සහල් කූඩාරම් මීට්, සහල් ද් රව් ය සහ ධාන් ය ද් රව් ය ප් රධාන සහල් පළිබෝධකයන් වේ.",facebook/nllb-200-distilled-600M,no
+"Too high a seed rate raises plant density, giving unhealthy seedlings, small panicles, more pests and diseases, and lower yield.","ඉතා ඉහළ බීජ අනුපාතයක් නිසා ශාකවල ඝනත්වය වැඩි වන අතර එමඟින් සෞඛ් ය සම්පන්න නොවන බීජ පැලෑටි, කුඩා භීතිකාවන්, වැඩි පළිබෝධක හා රෝග සහ අඩු අස්වැන්නක් ඇති වේ.",facebook/nllb-200-distilled-600M,no
+Translate this letter to Tamil for me.,මට මේ ලියුම දෙමළ භාෂාවට පරිවර්තනය කරන්න.,facebook/nllb-200-distilled-600M,no
+Transplant at 2-3 cm depth for maximum tillering - never deeper than 4-5 cm.,උපරිම ටිලර් කිරීම සඳහා සෙන්ටිමීටර 2-3 ක ගැඹුරකින් බද්ධ කිරීම - කිසි විටෙකත් සෙන්ටිමීටර 4-5 ට වඩා ගැඹුරින් නොවේ.,facebook/nllb-200-distilled-600M,no
+Transplanting is usually recommended for 4-4 1/2 month varieties.,සාමාන් යයෙන් මාස 4 ත් 4 ත් 1/2 ත් අතර ප් රභේද සඳහා බද්ධ කිරීම රෙකමදාරු කරනු ලැබේ.,facebook/nllb-200-distilled-600M,no
+Treating parachute seedlings with TSP saves 15-25 kg TSP per hectare.,පැරෂුට් පැලෑටි ටීඑස්පී සමඟ සකස් කිරීමෙන් හෙක්ටයාරයකට ටීඑස්පී කිලෝග් රෑම් 15-25 ක් ඉතිරි වේ.,facebook/nllb-200-distilled-600M,no
+Two Sitophilus species - Sitophilus granarius and S. oryzae - attack stored rice. Infestation starts in the field.,සයිටොෆිලස් වර්ග දෙක - සයිටොෆිලස් ග් රේනරිස් සහ S. ඔරිසා - ගබඩා කළ සහල් වලට පහර දෙයි.,facebook/nllb-200-distilled-600M,no
+Use 1000 kg per acre of leaf manure after the primary land preparation.,ප් රාථමික ඉඩම් සකස් කිරීමෙන් පසු අක්කරකට කිලෝග් රෑම් 1000 ක කොළ පොහොර භාවිතා කරන්න.,facebook/nllb-200-distilled-600M,no
+"Use a pre-emergent herbicide with 3-5 cm standing water, or herbicide plus power weeder, or power weeder plus hand weeding.","අඟල් 3-5 ක ස්ථාවර ජලය සහිත පූර්ව විෂබීජ නාශකයක් භාවිතා කරන්න, හෝ විෂබීජ නාශකයක් සහ විදුලි විෂබීජ නාශකයක්, හෝ විදුලි විෂබීජ නාශකයක් සහ අත් විෂබීජ නාශකයක් භාවිතා කරන්න.",facebook/nllb-200-distilled-600M,no
+"Use clean seed, keep the seed bed, bunds and canals clean, keep tools and machines clean, keep livestock out and manage weeds in nurseries.","පිරිසිදු බීජ භාවිතා කරන්න, බීජ ඇඳ පිරිසිදු තබා ගන්න, බන්ධන සහ නාලිකා පිරිසිදු තබා ගන්න, මෙවලම් සහ යන්ත් ර පිරිසිදු තබා ගන්න, පශු සම්පත් පිටත තබා ගන්න, තණකොළ පාලනය කරන්න.",facebook/nllb-200-distilled-600M,no
+Use drought tolerant varieties and short-age varieties.,නියඟයට ද් රාව් ය වර්ග සහ කෙටිකාලීන වර්ග භාවිතා කරන්න.,facebook/nllb-200-distilled-600M,no
+"Use flood-resistant varieties, improve drainage and split the fertilizer application.","ගංවතුර වලට ඔරොත්තු දෙන ප් රභේද භාවිතා කරන්න, ජල ගැලවීම වැඩි දියුණු කරන්න සහ පොහොර යෙදුම බෙදන්න.",facebook/nllb-200-distilled-600M,no
+Use proper land preparation (wet or dry) and recommended herbicides; hand weeding is difficult because it looks like rice early on.,භූමිය නිසි ලෙස සකස් කිරීම (තෙතමනය හෝ වියළි) සහ නිර්දේශිත විෂබීජ නාශක භාවිතා කරන්න; අත්තිකාරම් කපා දැමීම දුෂ්කර වන්නේ එය මුල් කාලයේදී සහල් මෙන් පෙනෙන බැවිනි.,facebook/nllb-200-distilled-600M,no
+Use proper land preparation to destroy plant debris and use proper weed management.,ශාක අපද් රව් ය විනාශ කිරීම සඳහා නිසි ඉඩම් සූදානම් කිරීම සහ නිසි ලෙස තණකොළ කළමනාකරණය කිරීම භාවිතා කරන්න.,facebook/nllb-200-distilled-600M,no
+Use recommended herbicides. Deep ploughing also helps control perennial weeds like Atawara.,ගැඹුරු අර්තාපල් කිරීමත් අත්තවාර වැනි වසර ගණනාවක් තිස්සේ පැළෑටි පාලනය කිරීමට උපකාරී වේ.,facebook/nllb-200-distilled-600M,no
+"Use resistant varieties and certified disease-free seed, add burnt paddy husk (250 kg per acre) at land preparation and do not add infected straw.","ප් රතිරෝධී ප් රභේද සහ රෝග රහිත සහතිකිත බීජ භාවිතා කරන්න, ඉඩම් සකස් කිරීමේදී පුළුස්සා ඇති ධාන් ය පිටි (250 kg එක අක්කරකට) එකතු කරන්න, ආසාදිත පෑන් එකතු නොකරන්න.",facebook/nllb-200-distilled-600M,no
+"Usually not - it suppresses grasses and sedges. If aquatic weeds appear, apply a suitable herbicide 2-3 weeks after sowing.","සාමාන් යයෙන් එසේ නොවේ - එය තණකොළ සහ අතු මර්ධනය කරයි. ජලීය අගුලු පෙනී ගියහොත්, බීජ පැළ සිටීමෙන් සති 2-3 කට පසු සුදුසු ශාක නාශකයක් යොදන්න.",facebook/nllb-200-distilled-600M,no
+"Weed control removes weeds that are already there (curative). Weed management combines prevention, eradication and control, both preventive and curative.","ගංජා පාලනය මගින් දැනටමත් පවතින ගංජා ඉවත් කරනු ලැබේ. ගංජා කළමනාකරණය මගින් වැළැක්වීම, තුරන් කිරීම සහ පාලනය, වැළැක්වීම සහ සුව කිරීම යන දෙකම ඒකාබද්ධ වේ.",facebook/nllb-200-distilled-600M,no
+Weed control should be applied when weeds compete harmfully - the critical period starts about 2 weeks after sowing and lasts to 5-8 weeks.,තණකොළ හානිකර ලෙස තරඟ කරන විට තණකොළ පාලනය කළ යුතුය - තීරණාත්මක කාලය ආරම්භ වන්නේ සති 2 කට පමණ පසු බීජ පැළවීමෙන් පසු සති 5-8 දක්වා පවතී.,facebook/nllb-200-distilled-600M,no
+"Weeds germinate fast, produce many seeds that spread easily, have long-lived dormant seeds and can regrow from small fragments.",ශුද්ධ ලියවිල්ලෙහි සඳහන් කරුණු,facebook/nllb-200-distilled-600M,no
+"Weeds grow faster than rice and take sunlight efficiently, shading rice plants. Their underground parts spread widely to take water and nutrients.",තණකොළ සහල් වලට වඩා වේගයෙන් වර්ධනය වන අතර සූර්යයාගේ ආලෝකය ඉතා කාර්යක්ෂමව ලබා ගන්නා අතර එමඟින් සහල් පැලෑටි සෙවනැලි කරයි.,facebook/nllb-200-distilled-600M,no
+"Wet-bed, dry-bed, dapog and parachute nurseries.","තෙත් ඇඳ, වියළි ඇඳ, ඩැපෝග් සහ පැරෂුට් බාලිකා.",facebook/nllb-200-distilled-600M,no
+What are dead hearts and white heads?,මළ හදවත් සහ සුදු හිස් යනු කුමක්ද?,facebook/nllb-200-distilled-600M,no
+What are rusty paddy fields and how to fix them?,කුරුලෑ සහල් ක්ෂේත් ර මොනවාද සහ ඒවා නිවැරදි කරන්නේ කෙසේද?,facebook/nllb-200-distilled-600M,no
+What are the advantages of herbicides?,විෂබීජ නාශක වල වාසි මොනවාද?,facebook/nllb-200-distilled-600M,no
+What are the advantages of seedling broadcasting?,බීජ විකාශනය කිරීමේ වාසි මොනවාද?,facebook/nllb-200-distilled-600M,no
+What are the dangers of using herbicides?,විෂබීජ නාශක භාවිතා කිරීමේ අවදානම් මොනවාද?,facebook/nllb-200-distilled-600M,no
+What are the major grass weeds in paddy?,ධාන් ය වර්ගයේ ප් රධාන තණකොළ මොනවාද?,facebook/nllb-200-distilled-600M,no
+What are the major insect pests of rice in Sri Lanka?,ශ් රී ලංකාවේ සහල් වල ඇති ප් රධාන කෘමීන් මොනවාද?,facebook/nllb-200-distilled-600M,no
+What are the signs of phosphorus deficiency in paddy?,ධාන් යයේ පොස්පෝරස් අඩු වීමේ ලක්ෂණ මොනවාද?,facebook/nllb-200-distilled-600M,no
+What are the symptoms of dengue?,ඩෙංගු රෝග ලක්ෂණ මොනවාද?,facebook/nllb-200-distilled-600M,no
+What are the symptoms of sulphur deficiency in rice?,සහල් වල සල්ෆර් අඩුවීමේ රෝග ලක්ෂණ මොනවාද?,facebook/nllb-200-distilled-600M,no
+What can I grow in my paddy field in the off season?,මට මගේ ධාන් ය ක්ෂේත් රයේ වර්ධනය කළ හැක්කේ කුමක්ද?,facebook/nllb-200-distilled-600M,no
+What can you do?,ඔයාට මොනවද කරන්න පුළුවන්?,facebook/nllb-200-distilled-600M,no
+What can you help me with?,ඔයාට මට උදව් කරන්න පුළුවන් මොනවාද?,facebook/nllb-200-distilled-600M,no
+What causes rice blast?,රයිස් පිපිරීමට හේතුව මොකක්ද?,facebook/nllb-200-distilled-600M,no
+What causes rice diseases?,සහල් රෝග වලට හේතුව මොකක්ද?,facebook/nllb-200-distilled-600M,no
+What causes yellowing of rice leaves?,අර්තාපල් කොළ කහපාට වීමට හේතුව කුමක්ද?,facebook/nllb-200-distilled-600M,no
+What conditions favour bacterial leaf blight?,බැක්ටීරියාකාරී කොළ පැතිරීම සඳහා ප් රයෝජනවත් වන්නේ කුමන කොන්දේසිද?,facebook/nllb-200-distilled-600M,no
+What conditions favour leaffolder?,කුමන කොන්දේසි මගින් ලීෆෝල්ඩර්ට වාසිදායක වන්නේද?,facebook/nllb-200-distilled-600M,no
+What cultural practices reduce weeds?,කුමන සංස්කෘතික ක් රියාමාර්ග මඟින් කෘමීන් අඩු කරයිද?,facebook/nllb-200-distilled-600M,no
+What disease attacks papaya?,මොන රෝගයක්ද පපියාට පහර දෙන්නේ?,facebook/nllb-200-distilled-600M,no
+What diseases does the brown planthopper spread?,බ් රවුන් පැලැන්ට් හොප්පර් පැතිරෙන රෝග මොනවාද?,facebook/nllb-200-distilled-600M,no
+What do the sensors say about my soil?,මගේ පස ගැන සංවේදක මොනවද කියන්නේ?,facebook/nllb-200-distilled-600M,no
+What do you think about the government?,රජය ගැන මොකද හිතන්නේ?,facebook/nllb-200-distilled-600M,no
+What does a pH of 8 mean for my paddy?,මගේ ධාන් යයට pH 8 කියන්නේ මොකක්ද?,facebook/nllb-200-distilled-600M,no
+What does bacterial leaf blight look like on older plants?,පැරණි ශාක වල බැක්ටීරියාකාරී කොළ දූෂණය මොන වගේද?,facebook/nllb-200-distilled-600M,no
+What does brown planthopper damage look like?,බ් රවුන් පැලැන්ට් හොප්පර් වලට සිදුවන හානිය මොන වගේද?,facebook/nllb-200-distilled-600M,no
+What does magnesium deficiency look like in rice?,රයිස් වල මැග්නීසියම් හිඟය මොන වගේද?,facebook/nllb-200-distilled-600M,no
+What does nitrogen deficiency look like in rice?,රයිස් වල නයිට් රජන් හිඟය මොන වගේද?,facebook/nllb-200-distilled-600M,no
+What does rice blast look like on the leaves?,පොල් පිපිරීම කොළ වල මොන වගේද?,facebook/nllb-200-distilled-600M,no
+What does the forecast say for my field?,මගේ ක්ෂේත් රය ගැන අනාවැකිය මොකක්ද කියන්නේ?,facebook/nllb-200-distilled-600M,no
+What does the leaf colour chart tell me?,කොළ වර්ණ සටහන මට මොනවද කියන්නේ?,facebook/nllb-200-distilled-600M,no
+What does zinc deficiency look like in paddy?,ඉරිඟු වල සින්ක් හිඟය මොන වගේද?,facebook/nllb-200-distilled-600M,no
+What happens if I sow too much seed?,මම වැඩිපුර බීජ වපුරන්නේ නම් මොකද වෙන්නේ?,facebook/nllb-200-distilled-600M,no
+What happens if the field dries at flowering?,මල් පිපෙන විට ක්ෂේත් රය වියළී ගියොත් මොකද වෙන්නේ?,facebook/nllb-200-distilled-600M,no
+What happens to rice in very acidic soil?,ඉතාම අම්ල සහිත පසක සහල් වලට මොකද වෙන්නේ?,facebook/nllb-200-distilled-600M,no
+What if my soil pH is above 7.5?,මගේ පෘථිවි pH 7.5 ට වඩා වැඩි නම්?,facebook/nllb-200-distilled-600M,no
+What if sheath mite keeps coming back?,හයිඩ් මීට් දිගටම ආවොත් මොකද වෙන්නේ?,facebook/nllb-200-distilled-600M,no
+What is 345 times 12?,345 ගුණ 12 කියන්නේ මොකක්ද?,facebook/nllb-200-distilled-600M,no
+What is SoilMind?,SoilMind කියන්නේ මොකක්ද?,facebook/nllb-200-distilled-600M,no
+What is a dapog nursery made on?,ඩැපෝග් ළමා කුටිය හදලා තියෙන්නේ මොකක් මතද?,facebook/nllb-200-distilled-600M,no
+What is a good diet for high blood pressure?,අධි රුධිර පීඩනය සඳහා හොඳ ආහාර මොනවාද?,facebook/nllb-200-distilled-600M,no
+What is a good name for my baby?,මගේ දරුවාට හොඳ නමක් මොකක්ද?,facebook/nllb-200-distilled-600M,no
+What is a good soil pH for paddy?,ධාන් ය සඳහා හොඳ පස pH එක කුමක්ද?,facebook/nllb-200-distilled-600M,no
+What is a weed?,මොකක්ද මේ කෘෂිකර්මය?,facebook/nllb-200-distilled-600M,no
+What is an onion shoot or silver shoot in paddy?,ඉරිඟු හෝ රිදී ඉරිඟු යනු කුමක්ද?,facebook/nllb-200-distilled-600M,no
+What is barnyard grass and why is it a problem?,බර්නායර්ඩ් තණකොළ යනු කුමක්ද සහ එය ගැටළුවක් වන්නේ ඇයි?,facebook/nllb-200-distilled-600M,no
+What is done during secondary tillage?,ද්විතීයික ගොවිතැන් වලදී මොකද කරන්නේ?,facebook/nllb-200-distilled-600M,no
+What is herbicide drift?,හෙර්බිසයිඩ් ඩ් රයිෆ් කියන්නේ මොකක්ද?,facebook/nllb-200-distilled-600M,no
+What is iron toxicity in paddy fields?,ධාන් ය ක්ෂේත් රවල යකඩ විෂබීජීවනය යනු කුමක්ද?,facebook/nllb-200-distilled-600M,no
+What is kekulan sowing?,කෙකූලන් කියන්නේ මොකක්ද?,facebook/nllb-200-distilled-600M,no
+What is kresek in rice?,රයිස් වල ක් රෙස්ක් කියන්නේ මොකක්ද?,facebook/nllb-200-distilled-600M,no
+What is neck blast?,මොකක්ද බෙල්ල පිපිරීම?,facebook/nllb-200-distilled-600M,no
+What is seedling dipping in phosphorus?,ෆොස්පෝරස් වල පැලෑටි කිමිදෙයිද?,facebook/nllb-200-distilled-600M,no
+What is soil EC and why does it matter?,පස EC යනු කුමක්ද සහ එය වැදගත් වන්නේ ඇයි?,facebook/nllb-200-distilled-600M,no
+What is the EC in my field?,මගේ ක්ෂේත් රයේ EC කියන්නේ මොකක්ද?,facebook/nllb-200-distilled-600M,no
+What is the age of Bg 314?,Bg 314 වයස කීයද?,facebook/nllb-200-distilled-600M,no
+What is the best SIM card package?,හොඳම සිම් කාඩ් පැකේජය මොකක්ද?,facebook/nllb-200-distilled-600M,no
+What is the best fertilizer for chilli?,චිලී වලට හොදම පොහොර මොකක්ද?,facebook/nllb-200-distilled-600M,no
+What is the best time to irrigate?,වතුර බොන්න හොදම වෙලාව මොකක්ද?,facebook/nllb-200-distilled-600M,no
+What is the best variety for late planting?,පරක්කු වපුරන්න හොදම වර්ගය මොකක්ද?,facebook/nllb-200-distilled-600M,no
+What is the capital of France?,ප් රංශයේ අගනුවර කුමක්ද?,facebook/nllb-200-distilled-600M,no
+What is the cheapest way to control gall midge?,ද් රව් ය පාලනය කිරීමේ ලාභම ක් රමය මොකක්ද?,facebook/nllb-200-distilled-600M,no
+What is the difference between lime and dolomite?,ලයිම් සහ ඩොලමයිට් අතර වෙනස මොකක්ද?,facebook/nllb-200-distilled-600M,no
+What is the difference between weed control and weed management?,තණකොළ පාලනය හා තණකොළ පාලනය අතර වෙනස කුමක්ද?,facebook/nllb-200-distilled-600M,no
+What is the difference between wet and dry land preparation?,තෙත් සහ වියළි භූමි සූදානම අතර වෙනස කුමක්ද?,facebook/nllb-200-distilled-600M,no
+What is the economic threshold for BPH at booting?,බීඑච්එච් සඳහා ආර්ථික සීමාව කුමක්ද?,facebook/nllb-200-distilled-600M,no
+What is the fertilizer for maize?,කුඩු සඳහා පොහොර මොනවාද?,facebook/nllb-200-distilled-600M,no
+What is the interest rate for fixed deposits?,ස්ථාවර තැන්පතු සඳහා වන පොලී අනුපාතය කුමක්ද?,facebook/nllb-200-distilled-600M,no
+What is the latest news about parliament?,පාර්ලිමේන්තුව ගැන නවතම පුවත් මොනවද?,facebook/nllb-200-distilled-600M,no
+What is the latest reading from my sensors?,මගේ සංවේදක වලින් ලැබුණු නවතම දත්ත මොනවාද?,facebook/nllb-200-distilled-600M,no
+What is the lime requirement for pH 4.3?,pH 4.3 සඳහා ලයිම් අවශ් යතාවය කුමක්ද?,facebook/nllb-200-distilled-600M,no
+What is the meaning of life?,ජීවිතයේ අරමුණ මොකක්ද?,facebook/nllb-200-distilled-600M,no
+What is the modified water seeding method?,ප් රතිසංස්කරණය කරන ලද ජල බීජ ක් රමය කුමක්ද?,facebook/nllb-200-distilled-600M,no
+What is the moisture in my field?,මගේ ක්ෂේත් රයේ තෙතමනය කොපමණද?,facebook/nllb-200-distilled-600M,no
+What is the most popular way of establishing rice?,රයිස් හදන ප් රසිද්ධම ක් රමය මොකක්ද?,facebook/nllb-200-distilled-600M,no
+What is the pH of my field right now?,මගේ ක්ෂේත් රයේ pH එක මොකක්ද?,facebook/nllb-200-distilled-600M,no
+What is the price of a Samsung TV?,සැම්සුන් ටීවී එකක මිල කීයද?,facebook/nllb-200-distilled-600M,no
+What is the price of a kilo of fish today?,අද කිලෝග් රෑම් මාළු මිල කීයද?,facebook/nllb-200-distilled-600M,no
+What is the price of a tractor tyre?,ට් රැක්ටර් ටයර් එකක මිල කීයද?,facebook/nllb-200-distilled-600M,no
+What is the price of gold today?,අද රත්තරන් මිල කීයද?,facebook/nllb-200-distilled-600M,no
+What is the purpose of puddling?,මොකද්ද අරමුණ?,facebook/nllb-200-distilled-600M,no
+What is the soil temperature in my field now?,මගේ ක්ෂේත් රයේ භූමි උෂ්ණත්වය දැන් කොපමණද?,facebook/nllb-200-distilled-600M,no
+What is the spacing for banana plants?,කෙතරම් දුරකට වක්කර පැලෑටි පිහිටා තිබේද?,facebook/nllb-200-distilled-600M,no
+What is the threshold for leaf folder control?,ලීෆ් ෆෝල්ඩර් පාලනය සඳහා ඇති සීමාව කුමක්ද?,facebook/nllb-200-distilled-600M,no
+What is the weather in London?,ලන්ඩන් වල කාලගුණය කොහොමද?,facebook/nllb-200-distilled-600M,no
+What is the yield of At 362?,At 362 හි ප් රතිලාභය කුමක්ද?,facebook/nllb-200-distilled-600M,no
+What is transplanting shock?,මොකක්ද ප් රතිස්ථාපන කම්පනය?,facebook/nllb-200-distilled-600M,no
+What is your opinion on the new tax law?,නව බදු නීතිය ගැන ඔබේ අදහස කුමක්ද?,facebook/nllb-200-distilled-600M,no
+What kind of questions can I ask?,මට මොන වගේ ප් රශ්න අහන්න පුළුවන්ද?,facebook/nllb-200-distilled-600M,no
+What mechanical weed control methods can I use?,මට භාවිතා කළ හැක්කේ කුමන යාන්ත් රික ගංජා පාලන ක් රමද?,facebook/nllb-200-distilled-600M,no
+What medicine should I take for fever?,මට උණ වැළැක්වීම සඳහා කුමන ෂධයක් ගත යුතුද?,facebook/nllb-200-distilled-600M,no
+What movie should I watch tonight?,මම අද රෑ මොන ෆිල්ම් එකක් බලන්නද?,facebook/nllb-200-distilled-600M,no
+What pests are expected in February?,පෙබරවාරි මාසයේදී අපේක්ෂා කරන්නේ කුමන පළිබෝධකයන්ද?,facebook/nllb-200-distilled-600M,no
+What pests should I watch for in May?,මැයි මාසයේදී මම මොන පළිබෝධකයින් ගැන සැලකිලිමත් විය යුතුද?,facebook/nllb-200-distilled-600M,no
+What seed rate for dry seeding?,වියළි බීජ පැළෑටි සඳහා කුමන බීජ අනුපාතයද?,facebook/nllb-200-distilled-600M,no
+What seed rate for flooded direct seeded rice?,ගංවතුරට ගොදුරු වූ සෘජු බීජ සහල් සඳහා කුමන බීජ අනුපාතයද?,facebook/nllb-200-distilled-600M,no
+What seedling age for a mechanical transplanter?,යාන්ත් රික ප් රතිස්ථාපකයෙකුට කොපමණ පැලෑටි වයසද?,facebook/nllb-200-distilled-600M,no
+What seedling density for parachute broadcasting?,පැරෂුට් විකාශනය සඳහා කුමන පැලෑටි ඝනත්වය?,facebook/nllb-200-distilled-600M,no
+What should I do about the low nitrogen alert?,අඩු නයිට්රජන් අනතුරු ඇඟවීම ගැන මම මොකද කරන්නේ?,facebook/nllb-200-distilled-600M,no
+What should I do if soil EC is above 0.4 dS/m?,බිම් EC 0.4 dS / m ට වඩා වැඩි නම් මම කුමක් කළ යුතුද?,facebook/nllb-200-distilled-600M,no
+What should I do in a drought season?,නියඟයකදී මම මොනවා කරන්නද?,facebook/nllb-200-distilled-600M,no
+What should I do in my field now?,මම දැන් මගේ ක්ෂේත් රයේ මොනවා කරන්නද?,facebook/nllb-200-distilled-600M,no
+What should I do when I see bacterial leaf blight?,මම බැක්ටීරියාකාරී කොළ පිච්චීමක් දැක්කොත් මම මොකද කරන්නේ?,facebook/nllb-200-distilled-600M,no
+What should I eat to lose weight?,බර අඩු කර ගන්න මම මොනවද කන්න ඕනේ?,facebook/nllb-200-distilled-600M,no
+What should I feed my chickens?,මම මගේ කුකුළු මස් වලට මොනවද කන්න දෙන්නේ?,facebook/nllb-200-distilled-600M,no
+What size is a parachute tray?,පැරෂුට් ටේක් එක කොච්චර ලොකුද?,facebook/nllb-200-distilled-600M,no
+What soil P level do I need to skip TSP in Maha?,මාහා වල ටීඑස්පී මඟ හැරීමට මට කුමන පෘථිවි පී මට්ටමේ අවශ් යද?,facebook/nllb-200-distilled-600M,no
+What spacing for transplanting a 4 month variety?,මාස 4 ක ප් රභේදයක් බද්ධ කිරීම සඳහා කොපමණ පරතරයක් තිබේද?,facebook/nllb-200-distilled-600M,no
+What time does the Colombo train leave?,කොලොම්බෝ කෝච්චිය පිටත් වෙන්නේ කීයටද?,facebook/nllb-200-distilled-600M,no
+What time of the season is basal fertilizer applied?,බසල් පොහොර යොදන්නේ මොන කාලයේද?,facebook/nllb-200-distilled-600M,no
+What types of rice nurseries are there?,මොන වගේ සහල් තොටුපොළවල්ද තියෙන්නේ?,facebook/nllb-200-distilled-600M,no
+What variety should I plant this Maha?,මොන වර්ගයක්ද මම මේ මහා රෝපණය කරන්න ඕනේ?,facebook/nllb-200-distilled-600M,no
+What water level is needed at flowering?,මල් පිපීම සඳහා අවශ් ය ජල මට්ටම කුමක්ද?,facebook/nllb-200-distilled-600M,no
+What weather favours blast disease?,මොන කාලගුණයද පිපිරුම් රෝග වලට හේතු වෙන්නේ?,facebook/nllb-200-distilled-600M,no
+What yield does Bg 251 GSR give under rainfed conditions?,Bg 251 GSR වර්ෂාකාරී තත්වයන් යටතේ ලබා දෙන ප් රතිලාභ මොනවාද?,facebook/nllb-200-distilled-600M,no
+When are parachute seedlings thrown into the field?,පැරෂුට් පැලෑටි ක්ෂේත් රයට විසි කරන්නේ කවදාද?,facebook/nllb-200-distilled-600M,no
+When blast infects the panicle base it causes neck rot and the panicle falls off. Severe infection gives partly filled grains.,පිපිරීම නිසා බියගුරු පදනම ආසාදනය වන විට එය බෙල්ල කැඩීමට හේතු වන අතර බියගුරු පහත වැටේ. බරපතල ආසාදනය අර්ධ වශයෙන් පිරවූ ධාන් ය ලබා දෙයි.,facebook/nllb-200-distilled-600M,no
+When can dry-bed seedlings be uprooted?,වියළි ඇඳේ පැලෑටි කපා දැමිය හැක්කේ කවදාද?,facebook/nllb-200-distilled-600M,no
+When do I add compost and cattle manure?,මම කොම්පෝස්ට් සහ ගව පොහොර එකතු කරන්නේ කවදාද?,facebook/nllb-200-distilled-600M,no
+When do I apply potash in the wet zone rainfed paddy?,තෙත් කලාපයේ වැසි සහිත ධාන් යයට මම කවදාද පොටෑෂ් යොදන්නේ?,facebook/nllb-200-distilled-600M,no
+When do I apply the first urea dose?,මම මුලින්ම යූරියා මාත් රාව ගන්නේ කවදාද?,facebook/nllb-200-distilled-600M,no
+When do I flood the field after wet seeding?,තෙත් බීජ පැළෑටීමෙන් පසු මම කවදා ක්ෂේත් රය ගංවතුරට යටවනවාද?,facebook/nllb-200-distilled-600M,no
+When do I put TSP?,මම ටීඑස්පී එක දාන්නේ කවදද?,facebook/nllb-200-distilled-600M,no
+When is gall midge damage high?,ද් රව් යමය ද් රව් යවල හානි වැඩි වන්නේ කවදාද?,facebook/nllb-200-distilled-600M,no
+When is puddling done?,කවද්ද පොල් ගහන්නේ?,facebook/nllb-200-distilled-600M,no
+When is rice most sensitive to brown planthopper attack?,බ් රවුන් පැලැන්ට් හොපර් ප් රහාරයට වඩාත්ම සංවේදී වන්නේ කවදාද?,facebook/nllb-200-distilled-600M,no
+When is the last urea split for a 3 month variety?,මාස 3 ක ප් රභේදයක් සඳහා අවසාන වරට යූරියා බෙදීම සිදු වන්නේ කවදාද?,facebook/nllb-200-distilled-600M,no
+When is the season for planting potatoes in Nuwara Eliya?,නුවරා ඉලියාහි අර්තාපල් වගා කිරීමේ සමය කවදාද?,facebook/nllb-200-distilled-600M,no
+When is thrips damage worst?,ත් රිප්ස් වලට තියෙන නරකම හානිය කවදාද?,facebook/nllb-200-distilled-600M,no
+When is weed competition most harmful to rice?,තණකොළ තරඟය සහල් වලට වඩාත් හානිකර වන්නේ කවදාද?,facebook/nllb-200-distilled-600M,no
+When should I apply fertilizer under AWD?,AWD යටතේ මම පොහොර යෙදිය යුත්තේ කවදාද?,facebook/nllb-200-distilled-600M,no
+When should I apply lime to paddy?,මම කවදාද ධාන් යයට ලයිම් ආලේප කළ යුත්තේ?,facebook/nllb-200-distilled-600M,no
+When should I apply organic manure?,මම කාබනික පොහොර යෙදිය යුත්තේ කවදාද?,facebook/nllb-200-distilled-600M,no
+When should I do the first ploughing?,මම කවද්ද පලවෙනි වැඩ කරන්නේ?,facebook/nllb-200-distilled-600M,no
+When should I drain my paddy field before harvest?,අස්වැන්න පෙර මම මගේ ධාන් ය ක්ෂේත් රය නාස්ති කළ යුත්තේ කවදාද?,facebook/nllb-200-distilled-600M,no
+When should I plant big onion?,මම කවද්ද ලොකු ඇඹිලි වගා කරන්න ඕනේ?,facebook/nllb-200-distilled-600M,no
+When should I start checking for sheath mite?,මම කවදාද බඩවැල් මයිට් හොයන්න පටන් ගන්නේ?,facebook/nllb-200-distilled-600M,no
+When should I start weeding my paddy?,මම කවද්ද මගේ ධාන් ය කපන්න පටන් ගන්නෙ?,facebook/nllb-200-distilled-600M,no
+When should I stop irrigation before harvest?,අස්වැන්න පෙර මම වැසි කිරීම නතර කළ යුත්තේ කවදාද?,facebook/nllb-200-distilled-600M,no
+When should secondary land preparation be done?,දෙවන භූමි සූදානම සිදු කළ යුත්තේ කවදාද?,facebook/nllb-200-distilled-600M,no
+When should zinc sulphate be applied?,සින්ක් සල්ෆේට් යෙදිය යුත්තේ කවදාද?,facebook/nllb-200-distilled-600M,no
+Where are soil pH maps available?,පෘථිවි pH සිතියම් ලබා ගත හැක්කේ කොහෙන්ද?,facebook/nllb-200-distilled-600M,no
+Where can I buy cheap shoes?,මට ලාභ සපත්තු මිලදී ගත හැක්කේ කොහෙන්ද?,facebook/nllb-200-distilled-600M,no
+Where can I sell my old two-wheel tractor?,කොහෙන්ද මට මගේ පරණ රෝද දෙකේ ට් රැක්ටරය විකුණන්න පුළුවන්?,facebook/nllb-200-distilled-600M,no
+Where can I test my soil pH?,මට මගේ පෘථිවි pH පරීක්ෂා කරන්න පුළුවන් කොහෙන්ද?,facebook/nllb-200-distilled-600M,no
+Where does grain moth infestation start?,ධාන් ය මදුරු ආසාදනය පටන් ගන්නේ කොහෙන්ද?,facebook/nllb-200-distilled-600M,no
+Where is improved AWD most suitable?,වැඩිදියුණු කරන ලද AWD වඩාත් සුදුසු වන්නේ කොහේද?,facebook/nllb-200-distilled-600M,no
+Where should I make the wet bed nursery?,මම කොහෙන්ද තෙතමන ඇඳේ ළමා කාමරයක් හදන්නේ?,facebook/nllb-200-distilled-600M,no
+Which 3 1/2 month varieties are recommended?,මාස තුනහමාරක වර්ග මොනවාද?,facebook/nllb-200-distilled-600M,no
+Which 3 month varieties are recommended for the irrigated Dry Zone?,වැසි කරන ලද වියළි කලාපය සඳහා මාස 3 ක ප් රභේද මොනවාද නිර්දේශ කරනු ලබන්නේ?,facebook/nllb-200-distilled-600M,no
+Which bank gives the best agricultural loan?,කෘෂිකාර්මික ණය ලබා දෙන්නේ කුමන බැංකුවද?,facebook/nllb-200-distilled-600M,no
+Which car is the most fuel efficient?,වඩාත්ම ඉන්ධන කාර්යක්ෂම වන්නේ කුමන මෝටර් රථයද?,facebook/nllb-200-distilled-600M,no
+Which fungicides can I use for blast?,කුමන විෂබීජ නාශකයක් මට පිපිරීමට භාවිතා කළ හැකිද?,facebook/nllb-200-distilled-600M,no
+Which nutrient deficiency is common in paddy soils?,ධාන් ය පස් වල ඇති පොදු පෝෂ් ය පදාර්ථ හිඟය කුමක්ද?,facebook/nllb-200-distilled-600M,no
+Which part of my field has a problem?,මගේ ක්ෂේත් රයේ මොන පැත්තටද ප් රශ්නයක් තියෙන්නේ?,facebook/nllb-200-distilled-600M,no
+Which parts of the rice plant can blast infect?,සහල් ශාකයේ කුමන කොටස් වලට පිපිරීමකින් ආසාදනය විය හැකිද?,facebook/nllb-200-distilled-600M,no
+Which pesticide is strongest to kill a person?,කවර පළිබෝධනාශකයක් මිනිසෙකු මරන්න වඩාත් ශක්තිමත්ද?,facebook/nllb-200-distilled-600M,no
+Which pests are a problem in December in irrigated Dry Zone paddy?,දෙසැම්බර් මාසයේ ජල ගැලවුම් කළ වියළි කලාපයේ ධාන් ය වර්ගයේ ප් රශ්නයක් වන්නේ කුමන පළිබෝධකයන්ද?,facebook/nllb-200-distilled-600M,no
+Which pests come in January in the Dry Zone?,ජනවාරි මාසයේ වියළි කලාපයේ කුමන පළිබෝධකාරයන් පැමිණේද?,facebook/nllb-200-distilled-600M,no
+"Which phone should I buy under 50,000 rupees?","රුපියල් 50,000 ට අඩු දුරකථනයක් මිලදී ගත යුත්තේ කුමන දුරකථනයද?",facebook/nllb-200-distilled-600M,no
+Which plots can be combined?,ඒකාබද්ධ කළ හැක්කේ කුමන කුමන්ත් රණද?,facebook/nllb-200-distilled-600M,no
+Which political party should I vote for?,මම ඡන්දය දිය යුත්තේ කුමන දේශපාලන පක්ෂයටද?,facebook/nllb-200-distilled-600M,no
+Which rice varieties resist thrips?,කුමන අර්තාපල් ප් රභේදයද ත් රිප් වලට ඔරොත්තු දෙන්නේ?,facebook/nllb-200-distilled-600M,no
+Which rice variety is good for red rice?,රතු අර්තාපල් වලට හොඳ කුමන සහල් වර්ගයද?,facebook/nllb-200-distilled-600M,no
+Which sedges are major weeds in rice fields?,අර්තාපල් ක්ෂේත් රයේ ප් රධාන අක් රීය බීජ මොනවාද?,facebook/nllb-200-distilled-600M,no
+Which varieties are best for transplanting?,කුමන ප් රභේදය ප් රතිස්ථාපනය කිරීමට වඩාත් සුදුසුද?,facebook/nllb-200-distilled-600M,no
+Which varieties are good for mechanical transplanting?,කුමන ප් රභේදයන් යාන්ත් රිකව ව් යාප්ත කිරීමට සුදුසුද?,facebook/nllb-200-distilled-600M,no
+Which varieties are susceptible to blast?,කුමන වර්ගවලට පිපිරීම් වලට ලක්විය හැකිද?,facebook/nllb-200-distilled-600M,no
+Which varieties have resistance to brown planthopper?,කුමන වර්ගවලට බ් රවුන් පැලැන්ට් හොප්පර් වලට ප් රතිරෝධයක් තිබේද?,facebook/nllb-200-distilled-600M,no
+Which varieties resist blast?,කුමන වර්ග පිපිරීම් වලට ඔරොත්තු දෙනවාද?,facebook/nllb-200-distilled-600M,no
+Which varieties resist both gall midge biotypes?,කුමන ප් රභේද දෙකම ද් රව මධ් යම ජෛව වර්ග වලට ඔරොත්තු දෙයිද?,facebook/nllb-200-distilled-600M,no
+Which varieties suit the water seeding method?,ජල බීජ ක් රමයට ගැලපෙන ප් රභේද මොනවාද?,facebook/nllb-200-distilled-600M,no
+Which varieties tolerate salinity?,මොන වර්ගවලටද ලුණු තෙතමනය කරන්න පුළුවන්?,facebook/nllb-200-distilled-600M,no
+Which variety gives the highest yield in the Dry Zone?,කුමන ප් රභේදය වියළි කලාපයේ ඉහළම අස්වැන්න ලබා දෙයිද?,facebook/nllb-200-distilled-600M,no
+Which variety is best for late planting?,පරක්කු පැලෑටීම සඳහා වඩාත් සුදුසු වන්නේ කුමන ප් රභේදයද?,facebook/nllb-200-distilled-600M,no
+Which variety is resistant to brown planthopper and blast?,කුමන ප් රභේදයද බ් රවුන් පැලැන්ට් හොප්පර් සහ පිපිරීම් වලට ඔරොත්තු දෙයිද?,facebook/nllb-200-distilled-600M,no
+Which variety should I choose if water may run out?,වතුර නැතිවුනොත් මම තෝරාගත යුත්තේ කුමන ප් රභේදයද?,facebook/nllb-200-distilled-600M,no
+Which variety should I grow for rainfed land with little water?,වතුර අඩු වැසි සහිත භූමියක් සඳහා මම වගා කළ යුත්තේ කුමන ප් රභේදයද?,facebook/nllb-200-distilled-600M,no
+Which weedicide is banned and where can I still buy it?,කුමන විෂබීජ නාශකයක් තහනම් කර ඇති අතර මට එය තවමත් මිලදී ගත හැක්කේ කොහෙන්ද?,facebook/nllb-200-distilled-600M,no
+Which weevils attack stored rice in Sri Lanka?,ශ් රී ලංකාවේ ගබඩා කළ සහල් වලට පහර දෙන්නේ කුමන කුරුල්ලෝද?,facebook/nllb-200-distilled-600M,no
+Which zone of my field needs attention?,මගේ ක්ෂේත් රයේ කුමන ප් රදේශයට අවධානය අවශ් යද?,facebook/nllb-200-distilled-600M,no
+Who are you?,ඔයා කවුද?,facebook/nllb-200-distilled-600M,no
+Who invented the telephone?,කවුද දුරකථනය නිර්මාණය කළේ?,facebook/nllb-200-distilled-600M,no
+Who is the best singer in Sri Lanka?,ශ් රී ලංකාවේ හොඳම ගායකයා කවුද?,facebook/nllb-200-distilled-600M,no
+Who is the prime minister of India?,ඉන්දියාවේ අගමැති කවුද?,facebook/nllb-200-distilled-600M,no
+Who will win the next presidential election?,ඊළඟ ජනාධිපතිවරණයේ ජයග් රාහකයා කවුද?,facebook/nllb-200-distilled-600M,no
+Who won the cricket match yesterday?,කවුද ඊයේ ක් රිකට් තරගය දිනුවේ?,facebook/nllb-200-distilled-600M,no
+Why are my grains empty or half filled?,ඇයි මගේ ධාන් ය හිස් හෝ අඩක් පිරී තිබෙන්නේ?,facebook/nllb-200-distilled-600M,no
+Why are my paddy leaves rusty brown?,ඇයි මගේ ධාන් ය කොළ අළු පාට?,facebook/nllb-200-distilled-600M,no
+Why are my rice plants not growing well even with water?,ඇයි මගේ සහල් ශාක වතුරෙන්වත් හොඳින් වර්ධනය වෙන්නේ නැත්තේ?,facebook/nllb-200-distilled-600M,no
+Why are my rice plants stunted?,ඇයි මගේ සහල් ශාක ප් රමාද වෙන්නේ?,facebook/nllb-200-distilled-600M,no
+Why are taxes so high in Sri Lanka?,ශ් රී ලංකාවේ බදු මෙච්චර ඉහළ ඇයි?,facebook/nllb-200-distilled-600M,no
+Why are the old leaves of my rice yellow?,ඇයි මගේ අර්තාපල් වල පරණ කොළ කහ පාට?,facebook/nllb-200-distilled-600M,no
+Why do granules often fail against gall midge?,ඇයි ද් රව් ය ද් රව් ය ද් රව් ය ද් රව් ය ද් රව් ය ද් රව් ය ද් රව් ය ද් රව් ය ද් රව් ය ද් රව් ය ද් රව් ය ද් රව් ය ද් රව් ය ද් රව් ය ද් රව් ය ද් රව් ය ද් රව් ය ද් රව් ය ද් රව් ය ද් රව් ය ද් රව් ය ද් රව් ය ද් රව් ය ද් රව් ය ද් රව් ය ද් රව් ය ද?,facebook/nllb-200-distilled-600M,no
+Why do weeds grow better than rice?,ඇයි තණකොළ සහල් වලට වඩා හොඳින් වර්ධනය වෙන්නේ?,facebook/nllb-200-distilled-600M,no
+Why is it so hard to get rid of weeds?,ඇයි අපිරිසිදු තණකොළ නැති කර ගන්න එච්චර අමාරු?,facebook/nllb-200-distilled-600M,no
+Why is land preparation important?,භූමිය සූදානම් කිරීම වැදගත් වන්නේ ඇයි?,facebook/nllb-200-distilled-600M,no
+Why is my field marked act?,ඇයි මගේ ක්ෂේත් රය සලකුණු කරන ලද්දේ?,facebook/nllb-200-distilled-600M,no
+Why is primary tillage done?,ප් රාථමික ගොවිතැන් කරන්නේ ඇයි?,facebook/nllb-200-distilled-600M,no
+Why should I keep records of my field?,ඇයි මම මගේ ක්ෂේත් රයේ වාර්තා තියාගන්නේ?,facebook/nllb-200-distilled-600M,no
+Why should I not spray insecticide early against BPH?,ඇයි මම බීඑච්එච් වලට කලින් කෘමි නාශකයක් වත් නොකළ යුත්තේ?,facebook/nllb-200-distilled-600M,no
+Why should the field be levelled?,ඇයි ක්ෂේත් රය සමතලා කරන්න ඕනේ?,facebook/nllb-200-distilled-600M,no
+Why use water seeding?,ඇයි වතුර බීජය පාවිච්චි කරන්නේ?,facebook/nllb-200-distilled-600M,no
+Will my soil nitrogen drop next month?,මගේ පෘථිවි නයිට් රජන් පහත වැටෙනු ඇත ලබන මාසයේ?,facebook/nllb-200-distilled-600M,no
+"With AWD, practise wetting and drying until about 2 weeks before the expected harvest date and then stop irrigation.","AWD සමඟ, අපේක්ෂිත අස්වැන්න දිනයට සති 2 කට පමණ පෙර තෙත් කිරීම සහ වියළීම පුහුණු කරන්න, ඉන්පසු වාරිමාර්ගය නතර කරන්න.",facebook/nllb-200-distilled-600M,no
+"With a leaf colour index below 3, apply urea per acre: 10 kg at 2 weeks, 40 kg at 4 weeks, 22 kg at 6 weeks and 15 kg at 8 weeks.","අල වර්ණ දර්ශකය 3 ට වඩා අඩු නම්, එක් අක්කරකට යූරියාව යොදන්න: සති 2 කින් කිලෝග් රෑම් 10 ක්, සති 4 කින් කිලෝග් රෑම් 40 ක්, සති 6 කින් කිලෝග් රෑම් 22 ක් සහ සති 8 කින් කිලෝග් රෑම් 15 ක්.",facebook/nllb-200-distilled-600M,no
+Write an essay about my village.,මගේ ගම ගැන රචනයක් ලියන්න.,facebook/nllb-200-distilled-600M,no
+Write me a love poem.,මට ආදර කවියක් ලියන්න.,facebook/nllb-200-distilled-600M,no
+"Yes - parasites, predators and pathogens of weeds, mulching, plant extracts, allelopathy and breeding competitive rice.","ඔව් - පැරසිටි, ගොදුරු සහ රෝග කාරක, මැල්චිං, ශාක නිස්සාරණ, ඇලෙලෝපාටි සහ තරඟකාරී සහල් වගා කිරීම.",facebook/nllb-200-distilled-600M,no
+Yes - using clean seed is one of the preventive weed management methods.,ඔව් - පිරිසිදු බීජ භාවිතය තමයි වැළැක්වීමේ ක් රමවේදය.,facebook/nllb-200-distilled-600M,no
+"Yes, if soil P is above 5 mg/kg apply the DOA TSP rate only in Yala (55 kg/ha irrigated, 35 kg/ha rainfed). This saves 50% of TSP.","ඔව්, පස P 5 mg/kg ට වඩා වැඩි නම් DOA TSP අනුපාතය යෙදෙන්නේ Yala (55 kg/ha වැසි සහිත 35 kg/ha වැසි සහිත) පමණි. මෙය TSP වලින් 50% ක් ඉතිරි කරයි.",facebook/nllb-200-distilled-600M,no
+"Yes. Combining small parcels raises the cultivated extent by about 3-5%, increases yield and income and saves about 5 labour days per hectare on bunds.","ඔව්. කුඩා පර්සල් ඒකාබද්ධ කිරීමෙන් වගා කරන භූමි ප් රමාණය 3% - 5% කින් පමණ ඉහළ යයි, අස්වැන්න හා ආදායම ඉහළ යයි, සහ හෙක්ටයාරයකට කම්කරු දින 5 ක් පමණ බන්ධනාගාර වලින් ඉතිරි වේ.",facebook/nllb-200-distilled-600M,no
+Yes. Draining the paddy field to reduce moisture helps prevent brown planthopper multiplication.,"ඔව්, තෙතමනය අඩු කිරීම සඳහා ධාන් ය ක්ෂේත් රය නාස්ති කිරීමෙන් දුඹුරු පැලෑටි බහුල වීම වැළැක්වීමට උපකාරී වේ.",facebook/nllb-200-distilled-600M,no
+"Yes. High N-fertilizer application favours leaffolders, so use the recommended N dose.","ඔව්, ඉහළ N පොහොර යෙදීම ලීෆෝල්ඩර් වලට ප් රයෝජනවත්, එබැවින් නිර්දේශිත N මාත් රාව භාවිතා කරන්න.",facebook/nllb-200-distilled-600M,no
+Yes. Keeping standing water after sowing minimises rodent and bird damage to the sown seeds.,බීජ පැළෑටීමෙන් පසු ජලය රැඳී සිටීමෙන් බීජ පැළෑටීමට සිදුවන හානිය අවම කරයි.,facebook/nllb-200-distilled-600M,no
+"Yes. Once the disease is observed, potassium fertilizer can help manage its further spread.","ඔව්, රෝගය නිරීක්ෂණය වූ පසු, පොටෑසියම් පොහොර මගින් රෝගය තවදුරටත් පැතිරීම පාලනය කිරීමට උපකාරී වේ.",facebook/nllb-200-distilled-600M,no
+Yes. Poor root growth and stunted plants can result from a nutrient deficiency as well as plough pan or root problems.,ශාකවල මුල් වර්ධනය අඩු වීම හා ශාකවල වර්ධනය අඩුවීම නිසා පෝෂ් ය පදාර්ථ අඩුවීම මෙන්ම අඹ පෑන හෝ මුල් ගැටළු ඇතිවිය හැකිය.,facebook/nllb-200-distilled-600M,no
+Yes. Submerging the infested crop intermittently for 1-2 days is a recommended thrips management practice.,ඔව්. දින 1-2ක් තිස්සේ ආසාදිත වගාව බාධාකාරීව ගිල දැමීම නිර්දේශිත ත් රිප්ස් කළමනාකරණ ක් රියාවලියකි.,facebook/nllb-200-distilled-600M,no

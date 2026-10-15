@@ -1,0 +1,100 @@
+# The chatbot's intents (Phase 5, task 3a). `dataset.build` copies descriptions into DATASET.md.
+# needs_live_data: the answer needs the plot's sensors / forecasts (Member 2 / 3 APIs), not only documents.
+# needs_retrieval: the answer comes from the DOA / RRDI knowledge base.
+intents:
+  fertilizer_amount:
+    description: How much fertilizer (urea, TSP, MOP, zinc sulphate, organic manure) to apply, per hectare / acre or per split.
+    needs_retrieval: true
+    needs_live_data: false
+    examples:
+      - How much urea do I need for one acre of 3 month paddy?
+      - What is the TSP recommendation for irrigated paddy in the Dry Zone?
+      - How many kilograms of MOP per hectare for a 4 month variety?
+  fertilizer_timing:
+    description: When to apply each fertilizer split (basal, 2 / 4 / 6 / 7 weeks), and in which season.
+    needs_retrieval: true
+    needs_live_data: false
+    examples:
+      - When should I apply the second urea dose?
+      - At what age of the crop do I apply MOP?
+      - Should TSP go in at land preparation or later?
+  deficiency_symptom:
+    description: Recognising nutrient deficiency or toxicity symptoms (N, P, K, Zn, S, iron toxicity) and what to do about them.
+    needs_retrieval: true
+    needs_live_data: false
+    examples:
+      - The leaves in the middle of my field are turning yellow, is it a nutrient problem?
+      - What does zinc deficiency look like in paddy?
+      - Why are my rice leaves rusty brown?
+  liming_ph:
+    description: Soil acidity, pH and liming (dolomite / lime amounts, when lime is not needed), salinity and alkalinity measures.
+    needs_retrieval: true
+    needs_live_data: false
+    examples:
+      - My soil pH is 4.3, how much lime should I add?
+      - Do I need to apply dolomite to paddy land?
+      - What should I do about saline paddy fields?
+  water_management:
+    description: Irrigation and water levels, alternate wetting and drying, drainage, drought and flooding.
+    needs_retrieval: true
+    needs_live_data: false
+    examples:
+      - How deep should the water be in my paddy field?
+      - How does alternate wetting and drying work?
+      - What should I do when there is a water shortage?
+  pest_disease:
+    description: Insect pests (brown planthopper, gall midge, stem borer, thrips, leaf folder, sheath mite, paddy bug, storage pests) and diseases (blast, bacterial leaf blight, sheath blight); symptoms and control.
+    needs_retrieval: true
+    needs_live_data: false
+    examples:
+      - How do I control brown planthopper?
+      - What are the symptoms of rice blast?
+      - Which fungicide can I use for blast?
+  weeds:
+    description: Weed identification and management (critical period, integrated weed management, herbicides, weedy rice).
+    needs_retrieval: true
+    needs_live_data: false
+    examples:
+      - When is weed competition most harmful to rice?
+      - How do I control barnyard grass?
+      - What are the problems with using herbicides?
+  crop_establishment:
+    description: Land preparation, nurseries, seed rates, direct seeding, transplanting, parachute (seedling broadcasting) and mechanical transplanting.
+    needs_retrieval: true
+    needs_live_data: false
+    examples:
+      - How many kg of seed paddy do I need for broadcasting?
+      - How old should seedlings be for transplanting?
+      - How many days before sowing should I do secondary land preparation?
+  crop_choice:
+    description: Choosing what to grow - which rice variety (age class, yield, resistance, region) or crop - for the coming season.
+    needs_retrieval: true
+    needs_live_data: false
+    examples:
+      - Which 3 month variety gives the best yield?
+      - Which varieties resist gall midge?
+      - What variety should I grow if water is short?
+  my_field_status:
+    description: Questions about the user's own plot that need live sensor readings or forecasts ("what should I do now?", "is my soil OK?").
+    needs_retrieval: false
+    needs_live_data: true
+    examples:
+      - What should I do in my field now?
+      - Is the nitrogen in my plot low?
+      - How is my soil today?
+  greeting_help:
+    description: Greetings, thanks, and questions about what the assistant can do.
+    needs_retrieval: false
+    needs_live_data: false
+    examples:
+      - Hello
+      - What can you help me with?
+      - Thank you
+  out_of_scope:
+    description: Anything the bot must refuse - not paddy farming (politics, medicine, phones, other crops not covered, money / prices of unrelated things, personal advice).
+    needs_retrieval: false
+    needs_live_data: false
+    examples:
+      - Who will win the next election?
+      - What medicine should I take for fever?
+      - How much is an iPhone?

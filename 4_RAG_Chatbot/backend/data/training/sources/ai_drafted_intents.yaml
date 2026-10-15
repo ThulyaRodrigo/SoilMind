@@ -1,0 +1,337 @@
+# Intent examples with no answer passage (Phase 5, task 3a). Used only by the intent classifier.
+# - my_field_status / greeting_help never need a document (live data or a canned reply).
+# - deficiency_symptom / liming_ph also get examples here because their leaflets (NAICC P/K/Zn/S, iron toxicity)
+#   are scanned images that still need OCR, so few passages exist yet (see phase-5.md).
+# lang: en | si | si_latn (Sinhala typed in Latin letters, "Singlish").
+# Drafted by the AI coding assistant (Claude Code); checked_by_human = no until a team member reviews it.
+my_field_status:
+  en:
+    - What should I do in my field now?
+    - Is my soil okay today?
+    - How is my paddy plot doing?
+    - Does my field need fertilizer this week?
+    - Is the nitrogen in my plot low?
+    - What is the pH of my field right now?
+    - Is my soil too dry?
+    - Should I irrigate my field today?
+    - Which part of my field has a problem?
+    - What do the sensors say about my soil?
+    - Is the south side of my field healthy?
+    - My plot health score is low, why?
+    - How much urea should I put on my own field now?
+    - Will my soil nitrogen drop next month?
+    - What is the moisture in my field?
+    - Any alerts for my plot?
+    - Is potassium enough in my field?
+    - How does my soil look compared to last week?
+    - What does the forecast say for my field?
+    - Should I add lime to my field based on the readings?
+    - Is anything wrong with plot A-3?
+    - Tell me the status of my paddy field.
+    - What is the latest reading from my sensors?
+    - Do I need to do anything this week?
+    - Is my field ready for the next fertilizer split?
+    - Why is my field marked act?
+    - What is the soil temperature in my field now?
+    - Has my soil phosphorus changed?
+    - Which zone of my field needs attention?
+    - What should I do about the low nitrogen alert?
+    - Is my crop at the right stage for urea?
+    - How many days until my nitrogen gets low?
+    - Give me today's advice for my field.
+    - Is my field too acidic?
+    - What is the EC in my field?
+  si:
+    - මගේ කුඹුරේ දැන් කරන්න ඕන මොනවද?
+    - මගේ පස අද හොඳ තත්වයේද?
+    - මගේ කුඹුර කොහොමද තියෙන්නේ?
+    - මේ සතියේ මගේ කුඹුරට පොහොර ඕනද?
+    - මගේ කුඹුරේ නයිට්‍රජන් අඩුද?
+    - මගේ කුඹුරේ පස ආම්ලිකද?
+    - අද කුඹුරට වතුර දාන්න ඕනද?
+    - මගේ කුඹුරේ ප්‍රශ්නයක් තියෙන්නේ කොහෙද?
+    - සංවේදක වලින් මගේ පස ගැන කියන්නේ මොකක්ද?
+    - මගේ කුඹුරේ තෙතමනය කීයද?
+    - මගේ කුඹුරට අනතුරු ඇඟවීම් තියෙනවද?
+    - ලබන මාසේ මගේ පසේ නයිට්‍රජන් අඩු වෙයිද?
+    - මගේ කුඹුරේ දකුණු පැත්ත හොඳද?
+    - මගේ කුඹුරට දැන් යූරියා දාන්න ඕනද?
+    - මගේ පසේ පොටෑසියම් ප්‍රමාණවත්ද?
+    - අද මගේ කුඹුරට උපදෙස් දෙන්න.
+    - මගේ කුඹුරේ pH අගය කීයද?
+    - මගේ පසේ සෞඛ්‍ය ලකුණු අඩු ඇයි?
+    - මගේ කුඹුරට හුණු දාන්න ඕනද?
+    - මගේ කුඹුර වියළිද?
+    - ඊළඟ පොහොර කොටස දාන්න මගේ වගාව සූදානම්ද?
+    - මගේ කුඹුරේ කුමන කොටසටද අවධානය ඕන?
+    - සංවේදකවල අලුත්ම කියවීම මොකක්ද?
+    - මගේ කුඹුරේ පසේ උෂ්ණත්වය කීයද?
+    - මේ සතියේ මම කරන්න ඕන මොනවද?
+  si_latn:
+    - mage kumburata dan mokakda karanna one
+    - mage pasa hondada
+    - kumburata pohora danna oneda me sathiye
+    - mage kumbure nitrogen adu da
+    - ada kumburata wathura danna oneda
+greeting_help:
+  en:
+    - Hello
+    - Hi
+    - Good morning
+    - Good evening
+    - Hi there, are you a bot?
+    - What can you help me with?
+    - What can you do?
+    - How do I use this assistant?
+    - Thank you
+    - Thanks a lot
+    - Thank you for the advice
+    - Okay, bye
+    - Goodbye
+    - Who are you?
+    - Can you speak Sinhala?
+    - Help
+    - I need help
+    - What kind of questions can I ask?
+    - Are you there?
+    - Can I ask you about my paddy?
+    - Nice, that helped
+    - Hello, I am a farmer from Anuradhapura
+    - Start
+    - What is SoilMind?
+    - Can you answer in Sinhala please?
+    - Good afternoon
+    - Hey
+    - Please help me
+    - I have a question
+    - See you later
+  si:
+    - ආයුබෝවන්
+    - හලෝ
+    - සුබ උදෑසනක්
+    - ඔයාට මට උදව් කරන්න පුළුවන් මොනවටද?
+    - ඔයාට කරන්න පුළුවන් මොනවද?
+    - බොහොම ස්තූතියි
+    - ස්තූතියි
+    - ඔබ කවුද?
+    - ඔයාට ඉංග්‍රීසියෙන් කතා කරන්න පුළුවන්ද?
+    - මට උදව්වක් ඕන
+    - මට ප්‍රශ්නයක් අහන්න තියෙනවා
+    - මම අහන්න පුළුවන් මොන වගේ ප්‍රශ්නද?
+    - ගිහින් එන්නම්
+    - හරි, ස්තූතියි
+    - ඔයා ඉන්නවද?
+    - මම අනුරාධපුරයේ ගොවියෙක්
+    - සොයිල්මයින්ඩ් කියන්නේ මොකක්ද?
+    - සුබ සන්ධ්‍යාවක්
+    - මට වී වගාව ගැන අහන්න පුළුවන්ද?
+    - උදව් කරන්න
+    - හොඳයි, ඒක වැඩක් වුණා
+    - සිංහලෙන් උත්තර දෙන්න
+    - කොහොමද?
+    - ඔබට ස්තූතියි
+    - ආයුබෝවන්, මට උදව්වක් ඕනේ
+  si_latn:
+    - ayubowan
+    - kohomada
+    - sthuthi
+    - bohoma sthuthi
+    - mata udaw karanna puluwanda
+deficiency_symptom:
+  en:
+    - What does nitrogen deficiency look like in rice?
+    - My rice leaves are pale yellow all over, what is missing?
+    - What are the signs of phosphorus deficiency in paddy?
+    - How do I know if my rice lacks potassium?
+    - Leaf tips are turning brown and drying, is it potassium deficiency?
+    - What does zinc deficiency look like in paddy?
+    - My young plants have brown spots and are stunted after flooding, is it zinc?
+    - What are the symptoms of sulphur deficiency in rice?
+    - Why are my paddy leaves rusty brown?
+    - What is iron toxicity in paddy fields?
+    - The water in my field has an oily reddish film, what does that mean?
+    - How do I correct zinc deficiency?
+    - How can I fix phosphorus deficiency in my rice?
+    - Why are the old leaves of my rice yellow?
+    - My rice has few tillers and dark green leaves, is it phosphorus?
+    - What causes yellowing of rice leaves?
+    - Is purple colour on leaves a sign of deficiency?
+    - How do I treat potassium deficiency?
+    - My plants are stunted with narrow leaves, what nutrient is low?
+    - Are yellow patches in my field a nutrient problem?
+    - What are rusty paddy fields and how to fix them?
+    - Which nutrient deficiency is common in paddy soils?
+    - How do I identify nutrient deficiencies in rice?
+    - Leaves have white stripes, could it be zinc?
+    - My crop is pale even after urea, why?
+    - Can lack of sulphur make rice yellow?
+    - What does magnesium deficiency look like in rice?
+    - My seedlings are yellow in the nursery, what is wrong?
+    - Brown spots on old leaves and poor growth - deficiency?
+    - Why are my rice plants not growing well even with water?
+  si:
+    - නයිට්‍රජන් ඌනතාවයේ ලක්ෂණ මොනවද?
+    - වී කොළ කහ පාට වෙන්නේ ඇයි?
+    - පොස්පරස් ඌනතාවය හඳුනාගන්නේ කොහොමද?
+    - පොටෑසියම් ඌනතාවයේ රෝග ලක්ෂණ මොනවද?
+    - සින්ක් ඌනතාවය වී වලට වෙලාද කියලා දැනගන්නේ කොහොමද?
+    - සල්ෆර් ඌනතාවය නිසා වී කහ වෙනවද?
+    - කුඹුරේ වතුර රතු පාට තෙල් පාටයි, ඒ මොකක්ද?
+    - යකඩ විෂ වීම කියන්නේ මොකක්ද?
+    - කොළ අග දුඹුරු වෙලා වියළෙනවා, පොටෑසියම් අඩුද?
+    - සින්ක් ඌනතාවයට කරන්න ඕන මොනවද?
+    - පොස්පරස් ඌනතාවය හදන්නේ කොහොමද?
+    - වී පැල කුරු වෙලා, මොන පෝෂකයද අඩු?
+    - පරණ කොළ කහ වෙන්නේ ඇයි?
+    - තවානේ පැල කහ පාටයි, මොකද වෙලා තියෙන්නේ?
+    - මල බැඳුණු කුඹුරු කියන්නේ මොනවද?
+    - වී කොළ වල දුඹුරු ලප තියෙනවා, පෝෂක ඌනතාවයක්ද?
+    - යූරියා දැම්මත් වගාව කහයි, ඇයි?
+    - පෝෂක ඌනතාවයන් හඳුනාගන්නේ කොහොමද?
+    - රිකිලි අඩුයි කොළ තද කොළ පාටයි, පොස්පරස් අඩුද?
+    - කුඹුරේ කහ පැල්ලම් තියෙනවා, පෝෂක ප්‍රශ්නයක්ද?
+  si_latn:
+    - wee kola kaha wenne ai
+    - zinc adu wela da kiyala danaganne kohomada
+liming_ph:
+  en:
+    - What is a good soil pH for paddy?
+    - My soil is acidic, what should I do?
+    - Should I add dolomite to my paddy field?
+    - How much dolomite per acre for acid soil?
+    - When should I apply lime to paddy?
+    - Can too much lime harm rice?
+    - How do I know if my soil needs lime?
+    - What is the difference between lime and dolomite?
+    - My soil pH is 4, how do I raise it?
+    - Does liming help phosphorus availability?
+    - Is burnt paddy husk good for acid soil?
+    - How do I lower the pH of alkaline soil?
+    - What is soil EC and why does it matter?
+    - My field is salty near the coast, what can I grow?
+    - How often should I lime my paddy field?
+    - Can I apply lime and urea together?
+    - Where can I test my soil pH?
+    - Is my soil too acidic for rice at pH 5?
+    - What happens to rice in very acidic soil?
+    - How long before planting should lime be applied?
+    - Does flooding change soil pH?
+    - What is the lime requirement for pH 4.3?
+    - Can I use the soil test kit for pH?
+    - What does a pH of 8 mean for my paddy?
+    - Is salinity a problem for rice?
+  si:
+    - වී වගාවට හොඳ pH අගය කීයද?
+    - මගේ පස ආම්ලිකයි, මොකද කරන්නේ?
+    - කුඹුරට ඩොලමයිට් දාන්න ඕනද?
+    - අක්කරයකට හුණු කොච්චර දාන්නද?
+    - හුණු දාන්නේ කවදද?
+    - පසට හුණු ඕනද කියලා දැනගන්නේ කොහොමද?
+    - pH 4.5ට අඩු නම් හුණු කීයක් ඕනද?
+    - පස ලුණු සහිතයි, මොකද කරන්නේ?
+    - වැඩිපුර හුණු දැම්මොත් වී වලට හානියක්ද?
+    - මගේ පසේ pH පරීක්ෂා කරගන්නේ කොහෙන්ද?
+    - ලවණ කුඹුරුවලට ගැලපෙන වී වර්ග මොනවද?
+    - පස ක්ෂාරීය නම් කරන්න ඕනේ මොනවද?
+    - හුණු සහ යූරියා එකට දාන්න පුළුවන්ද?
+    - pH 5.5 නම් හුණු ඕනද?
+    - ආම්ලික පසට පිළිස්සූ දහයියා හොඳද?
+  si_latn:
+    - kumburata hunu danna oneda
+    - pasa amlika nam mokada karanne
+water_management:
+  en:
+    - How much water should I keep in the field after transplanting?
+    - When should I drain my paddy field before harvest?
+    - My canal water is late this season, what should I do?
+    - Is it okay to let the field dry for a few days?
+    - How often should I irrigate paddy?
+    - What water level is needed at flowering?
+    - Can I save water in Yala season?
+    - My field floods every rainy season, any advice?
+    - Should I keep standing water to control weeds?
+    - How do I manage water during drought?
+    - What happens if the field dries at flowering?
+    - Is water stress bad at the booting stage?
+    - How do I drain a waterlogged field?
+    - What is the best time to irrigate?
+    - How much water does a rice crop need in a season?
+  si:
+    - පැල සිටවූ පසු කුඹුරේ වතුර කොච්චර තියන්නද?
+    - අස්වනු නෙලන්න කලින් වතුර කපන්නේ කවදද?
+    - මේ කන්නයේ ඇළ වතුර පරක්කුයි, මොකද කරන්නේ?
+    - කුඹුර දවස් කීපයක් වියළෙන්න දාන්න පුළුවන්ද?
+    - මල් හටගන්නා කාලයේ වතුර මට්ටම කොච්චරද?
+    - යල කන්නයේ වතුර ඉතිරි කරගන්නේ කොහොමද?
+    - හැම වැසි කාලෙම කුඹුර ගංවතුරට යට වෙනවා, මොකද කරන්නේ?
+    - නියඟයේදී වතුර කළමනාකරණය කරන්නේ කොහොමද?
+    - තෙත් කිරීම සහ වියළීම ක්‍රමය කියන්නේ මොකක්ද?
+    - වතුර ඉතිරි කරන ක්‍රම මොනවද?
+fertilizer_timing:
+  en:
+    - When do I apply the first urea dose?
+    - Is it too late to apply urea at 8 weeks?
+    - Can I apply all the urea at once?
+    - When should zinc sulphate be applied?
+    - Should I apply fertilizer before or after rain?
+    - When is the last urea split for a 3 month variety?
+    - When do I put TSP?
+    - At what week do I add MOP?
+    - Can I apply urea on dry soil?
+    - What time of the season is basal fertilizer applied?
+    - Should I apply urea when the field is flooded?
+    - When do I apply potash in the wet zone rainfed paddy?
+    - How many splits of urea are recommended?
+    - Is fertilizer timing different for 4 month varieties?
+    - When should I apply organic manure?
+  si:
+    - පළමු යූරියා පොහොර දාන්නේ කවදද?
+    - සති 8 දී යූරියා දාන්න පරක්කුද?
+    - යූරියා සේරම එකපාර දාන්න පුළුවන්ද?
+    - සින්ක් සල්ෆේට් දාන්නේ කවදද?
+    - වැස්සට කලින්ද පස්සේද පොහොර දාන්නේ?
+    - ටී.එස්.පී. දාන්නේ කවදද?
+    - එම්.ඕ.පී. දාන්නේ කීවෙනි සතියේද?
+    - යූරියා කොටස් කීයකට බෙදලා දාන්නද?
+    - කාබනික පොහොර දාන්නේ කවදද?
+    - මාස 4 වී වලට පොහොර දාන කාලය වෙනස්ද?
+fertilizer_amount:
+  si_latn:
+    - akkarayakata yuriya kochchara danna oneda
+    - TSP kiyak danna oneda
+    - MOP kochchara oneda maasa thune wee walata
+crop_choice:
+  en:
+    - What variety should I plant this Maha?
+    - Which variety gives the highest yield in the Dry Zone?
+    - Should I grow a 3 month or a 3 1/2 month variety?
+    - Which rice variety is good for red rice?
+    - Is Bg 300 a good choice for my area?
+    - Which variety is resistant to brown planthopper and blast?
+    - What can I grow in my paddy field in the off season?
+    - Which variety should I choose if water may run out?
+    - Is samba or nadu better to grow?
+    - What is the best variety for late planting?
+  si:
+    - මේ මහ කන්නයට වවන්න හොඳ වී වර්ගය මොකක්ද?
+    - වියළි කලාපයට වැඩිම අස්වැන්න දෙන වී වර්ගය කුමක්ද?
+    - මාස 3 ද මාස 3 1/2 ද වවන්න හොඳ?
+    - රතු කැකුළු වලට හොඳ වී වර්ගය කුමක්ද?
+    - වතුර අඩු වුණොත් වවන්න හොඳ වී වර්ගය කුමක්ද?
+    - Bg 300 මගේ ප්‍රදේශයට හොඳද?
+    - කන්න අතරතුර කුඹුරේ වවන්න පුළුවන් බෝග මොනවද?
+    - සම්බා ද නාඩු ද වවන්න හොඳ?
+    - දුඹුරු පැල කීඩෑවාට ඔරොත්තු දෙන වී වර්ග මොනවද?
+    - පරක්කු වී වපුරන්න හොඳ වී වර්ගය කුමක්ද?
+  si_latn:
+    - me maha kannayata hoda wee warga mokakda
+pest_disease:
+  si_latn:
+    - kumbure kolla wadi, mokada karanne
+    - wee walata rogayak, kola kaha wela
+weeds:
+  si_latn:
+    - wal paalanaya karanne kohomada
+crop_establishment:
+  si_latn:
+    - akkarayakata bittara wee kochchara oneda
