@@ -1,0 +1,19 @@
+# Everything the Member 4 notebooks need: install in a fresh Anaconda environment or in Google Colab.
+#   pip install -r requirements-notebooks.txt
+# Versions match backend/requirements.txt, so models trained here load in the app.
+pandas==3.0.6
+numpy==2.4.6
+scikit-learn==1.9.1
+torch==2.14.1        # CPU build works; in Colab keep the preinstalled CUDA build for the T4 GPU
+transformers==4.57.6
+sentencepiece==0.2.2
+sentence-transformers==5.7.0
+datasets==5.0.1
+accelerate==1.15.0
+rank-bm25==0.2.2
+chromadb==1.5.9
+matplotlib==3.11.2
+seaborn==0.13.2
+joblib==1.6.0
+notebook==7.6.3
+ipykernel==7.4.0

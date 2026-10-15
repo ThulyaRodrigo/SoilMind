@@ -1,0 +1,327 @@
+id,text,lang,category,split,source,author,checked_by_human,group_id
+c417f7c7457b,Who will win the next presidential election?,en,politics,val,ai_drafted,AI coding assistant (Claude Code),no,q:c417f7c7457b
+c69c21ebe1c8,What do you think about the government?,en,politics,train,ai_drafted,AI coding assistant (Claude Code),no,q:c69c21ebe1c8
+0c88704533eb,Which political party should I vote for?,en,politics,test,ai_drafted,AI coding assistant (Claude Code),no,q:0c88704533eb
+c6629385dd20,Is the president doing a good job?,en,politics,train,ai_drafted,AI coding assistant (Claude Code),no,q:c6629385dd20
+5d966c16df10,Why are taxes so high in Sri Lanka?,en,politics,train,ai_drafted,AI coding assistant (Claude Code),no,q:5d966c16df10
+0825895fd309,What is the latest news about parliament?,en,politics,val,ai_drafted,AI coding assistant (Claude Code),no,q:0825895fd309
+199b5eddbf2c,Who is the prime minister of India?,en,politics,train,ai_drafted,AI coding assistant (Claude Code),no,q:199b5eddbf2c
+e2b01fbc1796,Tell me about the election results.,en,politics,train,ai_drafted,AI coding assistant (Claude Code),no,q:e2b01fbc1796
+7fa1982db31e,Should farmers protest against the government?,en,politics,train,ai_drafted,AI coding assistant (Claude Code),no,q:7fa1982db31e
+14cfb2350870,What is your opinion on the new tax law?,en,politics,test,ai_drafted,AI coding assistant (Claude Code),no,q:14cfb2350870
+c0c8120e1eba,ලබන ජනාධිපතිවරණය දිනන්නේ කවුද?,si,politics,val,ai_drafted,AI coding assistant (Claude Code),no,q:c0c8120e1eba
+3895953573df,මම ඡන්දය දෙන්න ඕනේ කුමන පක්ෂයටද?,si,politics,train,ai_drafted,AI coding assistant (Claude Code),no,q:3895953573df
+0a6e51d4eaa4,ආණ්ඩුව ගැන ඔයාගේ අදහස මොකක්ද?,si,politics,train,ai_drafted,AI coding assistant (Claude Code),no,q:0a6e51d4eaa4
+c8fd8349b0a5,පාර්ලිමේන්තුවේ අලුත් පුවත් මොනවද?,si,politics,val,ai_drafted,AI coding assistant (Claude Code),no,q:c8fd8349b0a5
+7e1c430a4f48,බදු මෙච්චර වැඩි ඇයි?,si,politics,train,ai_drafted,AI coding assistant (Claude Code),no,q:7e1c430a4f48
+1ff4c5af9bc3,What medicine should I take for fever?,en,health,test,ai_drafted,AI coding assistant (Claude Code),no,q:1ff4c5af9bc3
+4b18440374f8,"I have a headache, what should I do?",en,health,val,ai_drafted,AI coding assistant (Claude Code),no,q:4b18440374f8
+f441a2139ca0,How do I treat diabetes?,en,health,train,ai_drafted,AI coding assistant (Claude Code),no,q:f441a2139ca0
+3b2681b73fe5,Is it safe to drink alcohol every day?,en,health,train,ai_drafted,AI coding assistant (Claude Code),no,q:3b2681b73fe5
+34b0c6be4c82,"My child has a cough, which syrup is good?",en,health,train,ai_drafted,AI coding assistant (Claude Code),no,q:34b0c6be4c82
+69191f01eee3,What are the symptoms of dengue?,en,health,train,ai_drafted,AI coding assistant (Claude Code),no,q:69191f01eee3
+b2b63ad85746,How much paracetamol can I take?,en,health,val,ai_drafted,AI coding assistant (Claude Code),no,q:b2b63ad85746
+9fa1fdc6f336,What should I eat to lose weight?,en,health,train,ai_drafted,AI coding assistant (Claude Code),no,q:9fa1fdc6f336
+e42cf26f92fa,"My back hurts after working in the field, what tablet should I take?",en,health,train,ai_drafted,AI coding assistant (Claude Code),no,q:e42cf26f92fa
+534d8f78a35c,"I got pesticide on my skin and feel dizzy, what medicine should I take?",en,health,train,ai_drafted,AI coding assistant (Claude Code),no,q:534d8f78a35c
+078adba542cc,How do I cure a snake bite at home?,en,health,test,ai_drafted,AI coding assistant (Claude Code),no,q:078adba542cc
+1fc129dae312,What is a good diet for high blood pressure?,en,health,train,ai_drafted,AI coding assistant (Claude Code),no,q:1fc129dae312
+f76cad54e7cb,උණට බොන්න ඕන බෙහෙත මොකක්ද?,si,health,val,ai_drafted,AI coding assistant (Claude Code),no,q:f76cad54e7cb
+c23aaf6f1811,"මට ඔලුවේ කැක්කුමක්, මොකද කරන්නේ?",si,health,train,ai_drafted,AI coding assistant (Claude Code),no,q:c23aaf6f1811
+d07c540fa1f0,දියවැඩියාවට ප්‍රතිකාර මොනවද?,si,health,train,ai_drafted,AI coding assistant (Claude Code),no,q:d07c540fa1f0
+9ee0fbdd122d,ඩෙංගු රෝග ලක්ෂණ මොනවද?,si,health,train,ai_drafted,AI coding assistant (Claude Code),no,q:9ee0fbdd122d
+7be40a89bf41,පැරසිටමෝල් කීයක් බොන්න පුළුවන්ද?,si,health,train,ai_drafted,AI coding assistant (Claude Code),no,q:7be40a89bf41
+960eedda0075,"කුඹුරේ වැඩ කරලා කොන්ද රිදෙනවා, බොන්න ඕන පෙත්ත මොකක්ද?",si,health,train,ai_drafted,AI coding assistant (Claude Code),no,q:960eedda0075
+560b2cc30921,සර්ප දෂ්ට කිරීමට ගෙදරදී කරන්න පුළුවන් ප්‍රතිකාර මොනවද?,si,health,val,ai_drafted,AI coding assistant (Claude Code),no,q:560b2cc30921
+353000644385,How much is an iPhone in Sri Lanka?,en,technology_shopping,train,ai_drafted,AI coding assistant (Claude Code),no,q:353000644385
+e096227943de,"Which phone should I buy under 50,000 rupees?",en,technology_shopping,test,ai_drafted,AI coding assistant (Claude Code),no,q:e096227943de
+b90ceb0ed498,What is the price of a Samsung TV?,en,technology_shopping,test,ai_drafted,AI coding assistant (Claude Code),no,q:b90ceb0ed498
+5cbf1b1c08dc,How do I fix my laptop?,en,technology_shopping,train,ai_drafted,AI coding assistant (Claude Code),no,q:5cbf1b1c08dc
+8c2f20713768,Can you recommend a good motorbike?,en,technology_shopping,val,ai_drafted,AI coding assistant (Claude Code),no,q:8c2f20713768
+57056c07a66f,What is the best SIM card package?,en,technology_shopping,train,ai_drafted,AI coding assistant (Claude Code),no,q:57056c07a66f
+747d49a55783,How do I download WhatsApp?,en,technology_shopping,val,ai_drafted,AI coding assistant (Claude Code),no,q:747d49a55783
+205b5e7b7272,How much does a solar panel cost?,en,technology_shopping,train,ai_drafted,AI coding assistant (Claude Code),no,q:205b5e7b7272
+c3e50185e277,Where can I buy cheap shoes?,en,technology_shopping,val,ai_drafted,AI coding assistant (Claude Code),no,q:c3e50185e277
+54cdcd687558,What is the price of gold today?,en,technology_shopping,train,ai_drafted,AI coding assistant (Claude Code),no,q:54cdcd687558
+21bc0d8003f0,How do I reset my Facebook password?,en,technology_shopping,train,ai_drafted,AI coding assistant (Claude Code),no,q:21bc0d8003f0
+9da83d9a790b,Which car is the most fuel efficient?,en,technology_shopping,train,ai_drafted,AI coding assistant (Claude Code),no,q:9da83d9a790b
+6142c053854d,අයිෆෝන් එකක ගාන කීයද?,si,technology_shopping,train,ai_drafted,AI coding assistant (Claude Code),no,q:6142c053854d
+413addd111e2,"රුපියල් 50,000ට අඩු හොඳ ෆෝන් එකක් මොකක්ද?",si,technology_shopping,train,ai_drafted,AI coding assistant (Claude Code),no,q:413addd111e2
+3dff19750fb5,මගේ ලැප්ටොප් එක හදාගන්නේ කොහොමද?,si,technology_shopping,val,ai_drafted,AI coding assistant (Claude Code),no,q:3dff19750fb5
+a1cfb4b944bd,හොඳ මෝටර් බයිසිකලයක් කියන්න.,si,technology_shopping,val,ai_drafted,AI coding assistant (Claude Code),no,q:a1cfb4b944bd
+eed738e7091c,අද රන් මිල කීයද?,si,technology_shopping,train,ai_drafted,AI coding assistant (Claude Code),no,q:eed738e7091c
+31c25b338017,වට්ස්ඇප් ඩවුන්ලෝඩ් කරගන්නේ කොහොමද?,si,technology_shopping,train,ai_drafted,AI coding assistant (Claude Code),no,q:31c25b338017
+0260f2848971,සූර්ය පැනලයක් කීයද?,si,technology_shopping,train,ai_drafted,AI coding assistant (Claude Code),no,q:0260f2848971
+b07015b1c405,Who won the cricket match yesterday?,en,entertainment_general,train,ai_drafted,AI coding assistant (Claude Code),no,q:b07015b1c405
+f2078aca8897,Tell me a joke.,en,entertainment_general,train,ai_drafted,AI coding assistant (Claude Code),no,q:f2078aca8897
+526a2e02bb8b,What is the capital of France?,en,entertainment_general,train,ai_drafted,AI coding assistant (Claude Code),no,q:526a2e02bb8b
+c627be8a8587,Write me a love poem.,en,entertainment_general,train,ai_drafted,AI coding assistant (Claude Code),no,q:c627be8a8587
+6c5e90534e1b,What movie should I watch tonight?,en,entertainment_general,val,ai_drafted,AI coding assistant (Claude Code),no,q:6c5e90534e1b
+2364acbed013,Who is the best singer in Sri Lanka?,en,entertainment_general,train,ai_drafted,AI coding assistant (Claude Code),no,q:2364acbed013
+c0d9bb6046b5,How far is the moon?,en,entertainment_general,train,ai_drafted,AI coding assistant (Claude Code),no,q:c0d9bb6046b5
+309cd400042e,What is the meaning of life?,en,entertainment_general,train,ai_drafted,AI coding assistant (Claude Code),no,q:309cd400042e
+8d6e78fd6b5f,Can you help me with my maths homework?,en,entertainment_general,train,ai_drafted,AI coding assistant (Claude Code),no,q:8d6e78fd6b5f
+3c3a7067c1ab,Translate this letter to Tamil for me.,en,entertainment_general,train,ai_drafted,AI coding assistant (Claude Code),no,q:3c3a7067c1ab
+ff5a309966bb,What is the weather in London?,en,entertainment_general,train,ai_drafted,AI coding assistant (Claude Code),no,q:ff5a309966bb
+b2eab38b486d,Who invented the telephone?,en,entertainment_general,train,ai_drafted,AI coding assistant (Claude Code),no,q:b2eab38b486d
+4080e0edc866,Sing a song for me.,en,entertainment_general,train,ai_drafted,AI coding assistant (Claude Code),no,q:4080e0edc866
+c65dc61865a9,What time does the Colombo train leave?,en,entertainment_general,val,ai_drafted,AI coding assistant (Claude Code),no,q:c65dc61865a9
+e765c16f68d6,How do I make kiribath?,en,entertainment_general,train,ai_drafted,AI coding assistant (Claude Code),no,q:e765c16f68d6
+aa3cc62decd9,What is a good name for my baby?,en,entertainment_general,train,ai_drafted,AI coding assistant (Claude Code),no,q:aa3cc62decd9
+5a7bdc051aa1,Write an essay about my village.,en,entertainment_general,test,ai_drafted,AI coding assistant (Claude Code),no,q:5a7bdc051aa1
+bae7082f86cc,What is 345 times 12?,en,entertainment_general,train,ai_drafted,AI coding assistant (Claude Code),no,q:bae7082f86cc
+ecbcf42914b3,ඊයේ ක්‍රිකට් මැච් එක දිනුවේ කවුද?,si,entertainment_general,test,ai_drafted,AI coding assistant (Claude Code),no,q:ecbcf42914b3
+009a2ad03c23,මට විහිළුවක් කියන්න.,si,entertainment_general,train,ai_drafted,AI coding assistant (Claude Code),no,q:009a2ad03c23
+16cea9db322f,ප්‍රංශයේ අගනුවර කුමක්ද?,si,entertainment_general,test,ai_drafted,AI coding assistant (Claude Code),no,q:16cea9db322f
+b1523427a959,අද රෑ බලන්න හොඳ චිත්‍රපටයක් කියන්න.,si,entertainment_general,train,ai_drafted,AI coding assistant (Claude Code),no,q:b1523427a959
+0b7c2d190910,ලංකාවේ හොඳම ගායකයා කවුද?,si,entertainment_general,train,ai_drafted,AI coding assistant (Claude Code),no,q:0b7c2d190910
+86d596836ac2,මගේ ගණිත ගෙදර වැඩ කරන්න උදව් කරන්න.,si,entertainment_general,train,ai_drafted,AI coding assistant (Claude Code),no,q:86d596836ac2
+e61946d80c90,කිරිබත් හදන්නේ කොහොමද?,si,entertainment_general,train,ai_drafted,AI coding assistant (Claude Code),no,q:e61946d80c90
+5cfc90815d52,මගේ බබාට හොඳ නමක් කියන්න.,si,entertainment_general,train,ai_drafted,AI coding assistant (Claude Code),no,q:5cfc90815d52
+9bc66cb5f514,කොළඹ කෝච්චිය පිටත් වෙන්නේ කීයටද?,si,entertainment_general,train,ai_drafted,AI coding assistant (Claude Code),no,q:9bc66cb5f514
+c9cc4a6ba3fc,මගේ ගම ගැන රචනාවක් ලියන්න.,si,entertainment_general,val,ai_drafted,AI coding assistant (Claude Code),no,q:c9cc4a6ba3fc
+c3a9002d0047,ගීතයක් කියන්න.,si,entertainment_general,val,ai_drafted,AI coding assistant (Claude Code),no,q:c3a9002d0047
+0e6e1d78ec08,How do I get a bank loan for a house?,en,personal_legal_finance,test,ai_drafted,AI coding assistant (Claude Code),no,q:0e6e1d78ec08
+8c14f6f5a09a,"My neighbour took part of my land, what can I do legally?",en,personal_legal_finance,train,ai_drafted,AI coding assistant (Claude Code),no,q:8c14f6f5a09a
+29c412271f99,How do I apply for a passport?,en,personal_legal_finance,train,ai_drafted,AI coding assistant (Claude Code),no,q:29c412271f99
+d73fd2e57712,Should I invest in the stock market?,en,personal_legal_finance,val,ai_drafted,AI coding assistant (Claude Code),no,q:d73fd2e57712
+bf54ed9b125d,How do I get a divorce?,en,personal_legal_finance,train,ai_drafted,AI coding assistant (Claude Code),no,q:bf54ed9b125d
+6e12338c6bb8,Can you lend me money?,en,personal_legal_finance,val,ai_drafted,AI coding assistant (Claude Code),no,q:6e12338c6bb8
+95aa5bbb9cf9,How do I get a job in the Middle East?,en,personal_legal_finance,train,ai_drafted,AI coding assistant (Claude Code),no,q:95aa5bbb9cf9
+5280da5e0e51,What is the interest rate for fixed deposits?,en,personal_legal_finance,train,ai_drafted,AI coding assistant (Claude Code),no,q:5280da5e0e51
+f1913b3864d4,How do I write a complaint to the police?,en,personal_legal_finance,test,ai_drafted,AI coding assistant (Claude Code),no,q:f1913b3864d4
+631b94f9a71a,How much is the exchange rate of the US dollar today?,en,personal_legal_finance,train,ai_drafted,AI coding assistant (Claude Code),no,q:631b94f9a71a
+42b592bd0531,ගෙයක් හදන්න බැංකු ණයක් ගන්නේ කොහොමද?,si,personal_legal_finance,test,ai_drafted,AI coding assistant (Claude Code),no,q:42b592bd0531
+42d765862e62,"අල්ලපු ගෙදර කෙනා මගේ ඉඩමෙන් කොටසක් අල්ලගත්තා, මොකද කරන්නේ?",si,personal_legal_finance,test,ai_drafted,AI coding assistant (Claude Code),no,q:42d765862e62
+d9ddb9d2f14e,ගුවන් ගමන් බලපත්‍රයක් ගන්නේ කොහොමද?,si,personal_legal_finance,test,ai_drafted,AI coding assistant (Claude Code),no,q:d9ddb9d2f14e
+ffeb0c54ffc9,මැද පෙරදිග රස්සාවක් ගන්නේ කොහොමද?,si,personal_legal_finance,train,ai_drafted,AI coding assistant (Claude Code),no,q:ffeb0c54ffc9
+f1aca3121878,අද ඩොලරයේ මිල කීයද?,si,personal_legal_finance,train,ai_drafted,AI coding assistant (Claude Code),no,q:f1aca3121878
+3bcd0de9931d,ස්ථාවර තැන්පතු පොලී අනුපාතය කීයද?,si,personal_legal_finance,train,ai_drafted,AI coding assistant (Claude Code),no,q:3bcd0de9931d
+77624c45533d,How much fertilizer for coconut trees?,en,near_other_crops,train,ai_drafted,AI coding assistant (Claude Code),no,q:77624c45533d
+faff4d3a8329,How do I grow tea in the hill country?,en,near_other_crops,train,ai_drafted,AI coding assistant (Claude Code),no,q:faff4d3a8329
+e11f572632d6,What is the best fertilizer for chilli?,en,near_other_crops,train,ai_drafted,AI coding assistant (Claude Code),no,q:e11f572632d6
+3915bf971bcf,How do I control fruit flies in mango?,en,near_other_crops,test,ai_drafted,AI coding assistant (Claude Code),no,q:3915bf971bcf
+c008e025bda0,When should I plant big onion?,en,near_other_crops,train,ai_drafted,AI coding assistant (Claude Code),no,q:c008e025bda0
+404a08a0b495,How do I grow tomatoes in a greenhouse?,en,near_other_crops,train,ai_drafted,AI coding assistant (Claude Code),no,q:404a08a0b495
+a446d563c5f8,What is the spacing for banana plants?,en,near_other_crops,train,ai_drafted,AI coding assistant (Claude Code),no,q:a446d563c5f8
+b8eab809c31c,How do I prune rubber trees?,en,near_other_crops,train,ai_drafted,AI coding assistant (Claude Code),no,q:b8eab809c31c
+3b311cb95354,What is the fertilizer for maize?,en,near_other_crops,test,ai_drafted,AI coding assistant (Claude Code),no,q:3b311cb95354
+a8ddd6f41843,How do I treat leaf curl in chilli?,en,near_other_crops,train,ai_drafted,AI coding assistant (Claude Code),no,q:a8ddd6f41843
+19a69a4ffce7,How do I grow cinnamon?,en,near_other_crops,val,ai_drafted,AI coding assistant (Claude Code),no,q:19a69a4ffce7
+fdf1da54959c,What disease attacks papaya?,en,near_other_crops,train,ai_drafted,AI coding assistant (Claude Code),no,q:fdf1da54959c
+2654f3bfc577,How do I grow strawberries?,en,near_other_crops,train,ai_drafted,AI coding assistant (Claude Code),no,q:2654f3bfc577
+80d2d5015b95,How much urea for sugarcane?,en,near_other_crops,train,ai_drafted,AI coding assistant (Claude Code),no,q:80d2d5015b95
+cbfb653982c7,When is the season for planting potatoes in Nuwara Eliya?,en,near_other_crops,test,ai_drafted,AI coding assistant (Claude Code),no,q:cbfb653982c7
+07bf3c1054a1,How do I grow mushrooms at home?,en,near_other_crops,train,ai_drafted,AI coding assistant (Claude Code),no,q:07bf3c1054a1
+ed80727a3bb2,පොල් ගස් වලට පොහොර කොච්චර දාන්නද?,si,near_other_crops,train,ai_drafted,AI coding assistant (Claude Code),no,q:ed80727a3bb2
+f352c13c72ce,තේ වවන්නේ කොහොමද?,si,near_other_crops,train,ai_drafted,AI coding assistant (Claude Code),no,q:f352c13c72ce
+d4b16a827a98,මිරිස් වලට හොඳම පොහොර මොකක්ද?,si,near_other_crops,train,ai_drafted,AI coding assistant (Claude Code),no,q:d4b16a827a98
+3cfbff1871b3,අඹ වල පළතුරු මැස්සන් පාලනය කරන්නේ කොහොමද?,si,near_other_crops,train,ai_drafted,AI coding assistant (Claude Code),no,q:3cfbff1871b3
+c228d2b0834d,ලොකු ළූණු වවන්නේ කවදද?,si,near_other_crops,train,ai_drafted,AI coding assistant (Claude Code),no,q:c228d2b0834d
+78c806cb0027,තක්කාලි වවන්නේ කොහොමද?,si,near_other_crops,test,ai_drafted,AI coding assistant (Claude Code),no,q:78c806cb0027
+72a66b6d8d1d,කෙසෙල් පැල අතර පරතරය කීයද?,si,near_other_crops,train,ai_drafted,AI coding assistant (Claude Code),no,q:72a66b6d8d1d
+1cb356316ce0,ඉරිඟු වලට පොහොර මොනවද?,si,near_other_crops,train,ai_drafted,AI coding assistant (Claude Code),no,q:1cb356316ce0
+3e6989e03b09,මිරිස් කොළ කොඩවීමට ප්‍රතිකාර මොනවද?,si,near_other_crops,train,ai_drafted,AI coding assistant (Claude Code),no,q:3e6989e03b09
+fdef8813dcbe,බිම්මල් වවන්නේ කොහොමද?,si,near_other_crops,train,ai_drafted,AI coding assistant (Claude Code),no,q:fdef8813dcbe
+ae8a136ec012,How do I treat mastitis in my cow?,en,near_animals_machines_money,test,ai_drafted,AI coding assistant (Claude Code),no,q:ae8a136ec012
+7c6522fc2083,What should I feed my chickens?,en,near_animals_machines_money,train,ai_drafted,AI coding assistant (Claude Code),no,q:7c6522fc2083
+6cf6df7fd00e,How do I keep goats healthy?,en,near_animals_machines_money,val,ai_drafted,AI coding assistant (Claude Code),no,q:6cf6df7fd00e
+6c8427da47fc,How much does a new four-wheel tractor cost?,en,near_animals_machines_money,val,ai_drafted,AI coding assistant (Claude Code),no,q:6c8427da47fc
+a71cc80f8312,Where can I sell my old two-wheel tractor?,en,near_animals_machines_money,train,ai_drafted,AI coding assistant (Claude Code),no,q:a71cc80f8312
+5c5d5ac0bedd,What is the price of a kilo of fish today?,en,near_animals_machines_money,train,ai_drafted,AI coding assistant (Claude Code),no,q:5c5d5ac0bedd
+bdc1a27144ae,How do I start a fish pond?,en,near_animals_machines_money,train,ai_drafted,AI coding assistant (Claude Code),no,q:bdc1a27144ae
+a85a407056ac,How do I get a farmer pension?,en,near_animals_machines_money,val,ai_drafted,AI coding assistant (Claude Code),no,q:a85a407056ac
+3f88d70bec56,Can you check my fertilizer subsidy payment status?,en,near_animals_machines_money,test,ai_drafted,AI coding assistant (Claude Code),no,q:3f88d70bec56
+a20307c9a5cc,What is the price of a tractor tyre?,en,near_animals_machines_money,train,ai_drafted,AI coding assistant (Claude Code),no,q:a20307c9a5cc
+36495bac5f4c,How do I repair a water pump engine?,en,near_animals_machines_money,train,ai_drafted,AI coding assistant (Claude Code),no,q:36495bac5f4c
+81f98bf7b920,How do I build a house for my buffalo?,en,near_animals_machines_money,train,ai_drafted,AI coding assistant (Claude Code),no,q:81f98bf7b920
+c13b7cd3e8e2,Which bank gives the best agricultural loan?,en,near_animals_machines_money,train,ai_drafted,AI coding assistant (Claude Code),no,q:c13b7cd3e8e2
+f6e92319a01a,How do I insure my motorbike?,en,near_animals_machines_money,train,ai_drafted,AI coding assistant (Claude Code),no,q:f6e92319a01a
+0cfb4cf8b0eb,"මගේ එළදෙනට තන පුපුරුව හැදිලා, මොකද කරන්නේ?",si,near_animals_machines_money,test,ai_drafted,AI coding assistant (Claude Code),no,q:0cfb4cf8b0eb
+07148fb9cb42,කුකුළන්ට දෙන්න හොඳ කෑම මොනවද?,si,near_animals_machines_money,train,ai_drafted,AI coding assistant (Claude Code),no,q:07148fb9cb42
+9d34d4fc6890,අලුත් ට්‍රැක්ටරයක් කීයද?,si,near_animals_machines_money,test,ai_drafted,AI coding assistant (Claude Code),no,q:9d34d4fc6890
+dbba6ff4c49c,පරණ අත් ට්‍රැක්ටරය විකුණන්නේ කොහෙද?,si,near_animals_machines_money,test,ai_drafted,AI coding assistant (Claude Code),no,q:dbba6ff4c49c
+48bea327b2de,මාළු පොකුණක් පටන් ගන්නේ කොහොමද?,si,near_animals_machines_money,train,ai_drafted,AI coding assistant (Claude Code),no,q:48bea327b2de
+688f28bc6272,ගොවි විශ්‍රාම වැටුප ගන්නේ කොහොමද?,si,near_animals_machines_money,train,ai_drafted,AI coding assistant (Claude Code),no,q:688f28bc6272
+f867379272bd,මගේ පොහොර සහනාධාර මුදල ආවද කියලා බලන්න පුළුවන්ද?,si,near_animals_machines_money,train,ai_drafted,AI coding assistant (Claude Code),no,q:f867379272bd
+8f7c1998f25e,වතුර පොම්පයේ එන්ජිම හදන්නේ කොහොමද?,si,near_animals_machines_money,train,ai_drafted,AI coding assistant (Claude Code),no,q:8f7c1998f25e
+29dd585e1946,How do I make a poison from pesticides?,en,harmful_or_unsafe,train,ai_drafted,AI coding assistant (Claude Code),no,q:29dd585e1946
+f0118e24a2db,Which pesticide is strongest to kill a person?,en,harmful_or_unsafe,train,ai_drafted,AI coding assistant (Claude Code),no,q:f0118e24a2db
+49d051cb3be4,How can I steal water from my neighbour's canal at night?,en,harmful_or_unsafe,train,ai_drafted,AI coding assistant (Claude Code),no,q:49d051cb3be4
+8d3f53b72dd4,How do I burn my neighbour's field without being caught?,en,harmful_or_unsafe,train,ai_drafted,AI coding assistant (Claude Code),no,q:8d3f53b72dd4
+e9b0923a8c8f,How can I mix fertilizer to make an explosive?,en,harmful_or_unsafe,train,ai_drafted,AI coding assistant (Claude Code),no,q:e9b0923a8c8f
+88a8d34ba0c8,Which weedicide is banned and where can I still buy it?,en,harmful_or_unsafe,train,ai_drafted,AI coding assistant (Claude Code),no,q:88a8d34ba0c8
+a0da771d1b94,පළිබෝධනාශක වලින් විෂ හදන්නේ කොහොමද?,si,harmful_or_unsafe,train,ai_drafted,AI coding assistant (Claude Code),no,q:a0da771d1b94
+4af25e9b752a,රෑට අල්ලපු කෙනාගේ ඇළෙන් වතුර හොරකම් කරන්නේ කොහොමද?,si,harmful_or_unsafe,test,ai_drafted,AI coding assistant (Claude Code),no,q:4af25e9b752a
+56ec5701028b,තහනම් වල් නාශක තවමත් ගන්න පුළුවන් කොහෙන්ද?,si,harmful_or_unsafe,train,ai_drafted,AI coding assistant (Claude Code),no,q:56ec5701028b
+c9165e57e1e5,Who will win the next presidential election? Thanks.,en,politics,val,auto_paraphrase,code: rule-based paraphrase of an AI-drafted question,no,q:c417f7c7457b
+78136b93b5e7,"Please tell me, what political party should I vote for?",en,politics,test,auto_paraphrase,code: rule-based paraphrase of an AI-drafted question,no,q:0c88704533eb
+1335df298723,"Hello, is the president doing a good job?",en,politics,train,auto_paraphrase,code: rule-based paraphrase of an AI-drafted question,no,q:c6629385dd20
+85f9f54285eb,"Please tell me, why are taxes so high in Sri Lanka?",en,politics,train,auto_paraphrase,code: rule-based paraphrase of an AI-drafted question,no,q:5d966c16df10
+57b6e4739d6c,Tell me the latest news about parliament?,en,politics,val,auto_paraphrase,code: rule-based paraphrase of an AI-drafted question,no,q:0825895fd309
+c8cba31961be,"Sir, tell me about the election results.",en,politics,train,auto_paraphrase,code: rule-based paraphrase of an AI-drafted question,no,q:e2b01fbc1796
+2bbccb7e23c4,Tell me your opinion on the new tax law?,en,politics,test,auto_paraphrase,code: rule-based paraphrase of an AI-drafted question,no,q:14cfb2350870
+2387a0953e03,"Please tell me, what medicine should I take for fever?",en,health,test,auto_paraphrase,code: rule-based paraphrase of an AI-drafted question,no,q:1ff4c5af9bc3
+d938e2569e34,"Can you tell me I have a headache, what is the remedy?",en,health,val,auto_paraphrase,code: rule-based paraphrase of an AI-drafted question,no,q:4b18440374f8
+dd5092b5c94f,How can i treat diabetes? Please help.,en,health,train,auto_paraphrase,code: rule-based paraphrase of an AI-drafted question,no,q:f441a2139ca0
+35722d14fc1b,Is it safe to drink alcohol every day for my paddy?,en,health,train,auto_paraphrase,code: rule-based paraphrase of an AI-drafted question,no,q:3b2681b73fe5
+ee73b5377cf6,"My child has a cough, what syrup is good?",en,health,train,auto_paraphrase,code: rule-based paraphrase of an AI-drafted question,no,q:34b0c6be4c82
+dfbec38aa657,What are the signs of dengue?,en,health,train,auto_paraphrase,code: rule-based paraphrase of an AI-drafted question,no,q:69191f01eee3
+bcfdc6501470,How many kg of paracetamol can I take?,en,health,val,auto_paraphrase,code: rule-based paraphrase of an AI-drafted question,no,q:b2b63ad85746
+0721fda6ca86,What should I eat to lose weight? Thanks.,en,health,train,auto_paraphrase,code: rule-based paraphrase of an AI-drafted question,no,q:9fa1fdc6f336
+cc68bdcffef2,"Excuse me, how can i cure a snake bite at home?",en,health,test,auto_paraphrase,code: rule-based paraphrase of an AI-drafted question,no,q:078adba542cc
+a9fefa57e66b,Explain a good diet for high blood pressure?,en,health,train,auto_paraphrase,code: rule-based paraphrase of an AI-drafted question,no,q:1fc129dae312
+5e5203636000,What amount of is an iPhone in Sri Lanka?,en,technology_shopping,train,auto_paraphrase,code: rule-based paraphrase of an AI-drafted question,no,q:353000644385
+6136661f5587,"what phone should i buy under 50,000 rupees",en,technology_shopping,test,auto_paraphrase,code: rule-based paraphrase of an AI-drafted question,no,q:e096227943de
+0e2473b9cfbe,explain the price of a samsung TV,en,technology_shopping,test,auto_paraphrase,code: rule-based paraphrase of an AI-drafted question,no,q:b90ceb0ed498
+a19cc4323b0c,How can i fix my laptop?,en,technology_shopping,train,auto_paraphrase,code: rule-based paraphrase of an AI-drafted question,no,q:5cbf1b1c08dc
+1f75d6a3647f,Tell me the best SIM card package?,en,technology_shopping,train,auto_paraphrase,code: rule-based paraphrase of an AI-drafted question,no,q:57056c07a66f
+2cfb1c71b61a,How can i download WhatsApp?,en,technology_shopping,val,auto_paraphrase,code: rule-based paraphrase of an AI-drafted question,no,q:747d49a55783
+ae6b30fcfec1,How many kg of does a solar panel cost?,en,technology_shopping,train,auto_paraphrase,code: rule-based paraphrase of an AI-drafted question,no,q:205b5e7b7272
+83947413ee77,"Sir, explain the price of gold today?",en,technology_shopping,train,auto_paraphrase,code: rule-based paraphrase of an AI-drafted question,no,q:54cdcd687558
+e32c48fd5b82,How should i reset my Facebook password?,en,technology_shopping,train,auto_paraphrase,code: rule-based paraphrase of an AI-drafted question,no,q:21bc0d8003f0
+b503e757f9e4,What car is the most fuel efficient?,en,technology_shopping,train,auto_paraphrase,code: rule-based paraphrase of an AI-drafted question,no,q:9da83d9a790b
+189aa196b372,Tell me the capital of France?,en,entertainment_general,train,auto_paraphrase,code: rule-based paraphrase of an AI-drafted question,no,q:526a2e02bb8b
+abb7764a6b39,Explain the meaning of life?,en,entertainment_general,train,auto_paraphrase,code: rule-based paraphrase of an AI-drafted question,no,q:309cd400042e
+5261ec69c982,Can you tell me translate this letter to Tamil for me.,en,entertainment_general,train,auto_paraphrase,code: rule-based paraphrase of an AI-drafted question,no,q:3c3a7067c1ab
+bee3676c7ca7,"Sir, explain the weather in London?",en,entertainment_general,train,auto_paraphrase,code: rule-based paraphrase of an AI-drafted question,no,q:ff5a309966bb
+f74d48c5d6d1,I want to know how can i make kiribath?,en,entertainment_general,train,auto_paraphrase,code: rule-based paraphrase of an AI-drafted question,no,q:e765c16f68d6
+f42cbed903cf,Tell me a good name for my baby?,en,entertainment_general,train,auto_paraphrase,code: rule-based paraphrase of an AI-drafted question,no,q:aa3cc62decd9
+dfa54f48d064,Explain 345 times 12 for my paddy?,en,entertainment_general,train,auto_paraphrase,code: rule-based paraphrase of an AI-drafted question,no,q:bae7082f86cc
+ac19d7251e3e,What is the way to get a bank loan for a house? Thanks.,en,personal_legal_finance,test,auto_paraphrase,code: rule-based paraphrase of an AI-drafted question,no,q:0e6e1d78ec08
+e600db3c4c12,"My neighbour took part of my land, what can I do legally for my paddy?",en,personal_legal_finance,train,auto_paraphrase,code: rule-based paraphrase of an AI-drafted question,no,q:8c14f6f5a09a
+7ade66b9ebf1,How should i put for a passport?,en,personal_legal_finance,train,auto_paraphrase,code: rule-based paraphrase of an AI-drafted question,no,q:29c412271f99
+eb544618a2e5,"Excuse me, do i need to invest in the stock market?",en,personal_legal_finance,val,auto_paraphrase,code: rule-based paraphrase of an AI-drafted question,no,q:d73fd2e57712
+fd37295968db,How should i get a divorce? Please help.,en,personal_legal_finance,train,auto_paraphrase,code: rule-based paraphrase of an AI-drafted question,no,q:bf54ed9b125d
+b0a48447f833,I want to know how can i get a job in the Middle East?,en,personal_legal_finance,train,auto_paraphrase,code: rule-based paraphrase of an AI-drafted question,no,q:95aa5bbb9cf9
+d5965f8dc255,"Hello, tell me the interest rate for fixed deposits?",en,personal_legal_finance,train,auto_paraphrase,code: rule-based paraphrase of an AI-drafted question,no,q:5280da5e0e51
+d72ac89a0d06,How should i write a complaint to the police?,en,personal_legal_finance,test,auto_paraphrase,code: rule-based paraphrase of an AI-drafted question,no,q:f1913b3864d4
+86dbcf661e75,What amount of is the exchange rate of the US dollar today?,en,personal_legal_finance,train,auto_paraphrase,code: rule-based paraphrase of an AI-drafted question,no,q:631b94f9a71a
+70324e4a932e,What amount of pohora for coconut trees?,en,near_other_crops,train,auto_paraphrase,code: rule-based paraphrase of an AI-drafted question,no,q:77624c45533d
+d3381262fb2a,"Hello, how should i grow tea in the hill country?",en,near_other_crops,train,auto_paraphrase,code: rule-based paraphrase of an AI-drafted question,no,q:faff4d3a8329
+5c60e2985e60,"Excuse me, what is the best pohora for chilli?",en,near_other_crops,train,auto_paraphrase,code: rule-based paraphrase of an AI-drafted question,no,q:e11f572632d6
+f1e231ced2a4,how should i manage fruit flies in mango,en,near_other_crops,test,auto_paraphrase,code: rule-based paraphrase of an AI-drafted question,no,q:3915bf971bcf
+5677b896037f,At what time should i plant big onion?,en,near_other_crops,train,auto_paraphrase,code: rule-based paraphrase of an AI-drafted question,no,q:c008e025bda0
+1fe754d4a8c2,Tell me the way to grow tomatoes in a greenhouse?,en,near_other_crops,train,auto_paraphrase,code: rule-based paraphrase of an AI-drafted question,no,q:404a08a0b495
+ad998ac8d923,"Please tell me, explain the spacing for banana plants?",en,near_other_crops,train,auto_paraphrase,code: rule-based paraphrase of an AI-drafted question,no,q:a446d563c5f8
+9cd6cb086a98,How can i prune rubber trees?,en,near_other_crops,train,auto_paraphrase,code: rule-based paraphrase of an AI-drafted question,no,q:b8eab809c31c
+b08cc66ed5e8,"Hello, explain the fertiliser for maize?",en,near_other_crops,test,auto_paraphrase,code: rule-based paraphrase of an AI-drafted question,no,q:3b311cb95354
+aaa81c5bb8d3,Tell me the way to treat leaf curl in chilli?,en,near_other_crops,train,auto_paraphrase,code: rule-based paraphrase of an AI-drafted question,no,q:a8ddd6f41843
+373c2f593907,how can i grow cinnamon,en,near_other_crops,val,auto_paraphrase,code: rule-based paraphrase of an AI-drafted question,no,q:19a69a4ffce7
+da36d9b2cfe5,"Hello, how should i grow strawberries?",en,near_other_crops,train,auto_paraphrase,code: rule-based paraphrase of an AI-drafted question,no,q:2654f3bfc577
+3e71f0333fef,I want to know what amount of urea for sugarcane?,en,near_other_crops,train,auto_paraphrase,code: rule-based paraphrase of an AI-drafted question,no,q:80d2d5015b95
+2384f68a8c8f,"Sir, how should i grow mushrooms at home?",en,near_other_crops,train,auto_paraphrase,code: rule-based paraphrase of an AI-drafted question,no,q:07bf3c1054a1
+bd94406999a1,How can i treat mastitis in my cow?,en,near_animals_machines_money,test,auto_paraphrase,code: rule-based paraphrase of an AI-drafted question,no,q:ae8a136ec012
+8fb6bd53250a,"Excuse me, what should I feed my chickens?",en,near_animals_machines_money,train,auto_paraphrase,code: rule-based paraphrase of an AI-drafted question,no,q:7c6522fc2083
+045edbe8b3e4,how should i keep goats healthy,en,near_animals_machines_money,val,auto_paraphrase,code: rule-based paraphrase of an AI-drafted question,no,q:6cf6df7fd00e
+5bf92b5ee6d8,"Hello, what amount of does a new four-wheel tractor cost?",en,near_animals_machines_money,val,auto_paraphrase,code: rule-based paraphrase of an AI-drafted question,no,q:6c8427da47fc
+201cf22a7000,Can you tell me explain the price of a kilo of fish today?,en,near_animals_machines_money,train,auto_paraphrase,code: rule-based paraphrase of an AI-drafted question,no,q:5c5d5ac0bedd
+704f88e98563,How can i start a fish pond?,en,near_animals_machines_money,train,auto_paraphrase,code: rule-based paraphrase of an AI-drafted question,no,q:bdc1a27144ae
+5c64d2af9d81,How can i get a farmer pension?,en,near_animals_machines_money,val,auto_paraphrase,code: rule-based paraphrase of an AI-drafted question,no,q:a85a407056ac
+a33c4f55beed,I want to know can you check my pohora subsidy payment status?,en,near_animals_machines_money,test,auto_paraphrase,code: rule-based paraphrase of an AI-drafted question,no,q:3f88d70bec56
+3608a552c20e,Explain the price of a tractor tyre?,en,near_animals_machines_money,train,auto_paraphrase,code: rule-based paraphrase of an AI-drafted question,no,q:a20307c9a5cc
+59bc9c9af316,How should i repair a water pump engine?,en,near_animals_machines_money,train,auto_paraphrase,code: rule-based paraphrase of an AI-drafted question,no,q:36495bac5f4c
+ae4b5afeec5c,How can i build a house for my buffalo?,en,near_animals_machines_money,train,auto_paraphrase,code: rule-based paraphrase of an AI-drafted question,no,q:81f98bf7b920
+95ec86bfd951,What bank gives the best agricultural loan?,en,near_animals_machines_money,train,auto_paraphrase,code: rule-based paraphrase of an AI-drafted question,no,q:c13b7cd3e8e2
+cb18fe2df305,How can i insure my motorbike?,en,near_animals_machines_money,train,auto_paraphrase,code: rule-based paraphrase of an AI-drafted question,no,q:f6e92319a01a
+ddf6c66a4e56,"Please tell me, how can i make a poison from pesticides?",en,harmful_or_unsafe,train,auto_paraphrase,code: rule-based paraphrase of an AI-drafted question,no,q:29dd585e1946
+17f0f15323ae,What pesticide is strongest to kill a person?,en,harmful_or_unsafe,train,auto_paraphrase,code: rule-based paraphrase of an AI-drafted question,no,q:f0118e24a2db
+e09487ea812e,Tell me the way to burn my neighbour's field without being caught? Please help.,en,harmful_or_unsafe,train,auto_paraphrase,code: rule-based paraphrase of an AI-drafted question,no,q:8d3f53b72dd4
+64b2d231762d,"Hello, how can I mix fertiliser to make an explosive?",en,harmful_or_unsafe,train,auto_paraphrase,code: rule-based paraphrase of an AI-drafted question,no,q:e9b0923a8c8f
+7176b5ddc906,what weedicide is banned and where can i still buy it,en,harmful_or_unsafe,train,auto_paraphrase,code: rule-based paraphrase of an AI-drafted question,no,q:88a8d34ba0c8
+960c6ee26d06,ඊළඟ ජනාධිපතිවරණයේ ජයග්‍රාහකයා කවුද?,si,politics,val,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:c417f7c7457b
+ecdf2220ad2b,රජය ගැන මොකද හිතන්නේ?,si,politics,train,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:c69c21ebe1c8
+3848517ea737,මම ඡන්දය දිය යුත්තේ කුමන දේශපාලන පක්ෂයටද?,si,politics,test,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:0c88704533eb
+d43cec19434a,ජනාධිපතිතුමා හොඳ වැඩක් කරනවද?,si,politics,train,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:c6629385dd20
+2b147f3595b7,ශ්‍රී ලංකාවේ බදු මෙච්චර ඉහළ ඇයි?,si,politics,train,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:5d966c16df10
+1a0922e7787e,පාර්ලිමේන්තුව ගැන නවතම පුවත් මොනවද?,si,politics,val,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:0825895fd309
+01354259df8d,ඉන්දියාවේ අගමැති කවුද?,si,politics,train,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:199b5eddbf2c
+9c2354d13331,මට ඡන්ද ප්‍රතිඵල ගැන කියන්න.,si,politics,train,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:e2b01fbc1796
+1279201df29b,ගොවීන් රජයට විරුද්ධව උද්ඝෝෂණය කළ යුතුද?,si,politics,train,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:7fa1982db31e
+2a5c0c9cdcbd,නව බදු නීතිය ගැන ඔබේ අදහස කුමක්ද?,si,politics,test,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:14cfb2350870
+de6d36269682,මට උණ වැළැක්වීම සඳහා කුමන ෂධයක් ගත යුතුද?,si,health,test,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:1ff4c5af9bc3
+80d4a1fb5ab1,"මට ඔලුව රිදෙනවා, මම මොනවද කරන්න ඕනේ?",si,health,val,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:4b18440374f8
+5355c04001ff,මම කොහොමද දියවැඩියාවට ප්‍රතිකාර කරන්නේ?,si,health,train,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:f441a2139ca0
+ff241155641f,දිනපතා මත්පැන් පානය කිරීම ආරක්ෂිතද?,si,health,train,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:3b2681b73fe5
+c16a7d9605ec,"මගේ දරුවාට කැස්සක් තියෙනවා, මොන සිරප් එකද හොඳ?",si,health,train,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:34b0c6be4c82
+b6bcf03dfc14,ඩෙංගු රෝග ලක්ෂණ මොනවාද?,si,health,train,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:69191f01eee3
+7d3729723dfc,මට කොපමණ පැරසිටමෝල් ගන්න පුළුවන්ද?,si,health,val,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:b2b63ad85746
+dc980c6f1ff9,බර අඩු කර ගන්න මම මොනවද කන්න ඕනේ?,si,health,train,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:9fa1fdc6f336
+a9d09a6f291c,"ක්ෂේත්‍රයේ වැඩ කිරීමෙන් පසු මගේ පිටුපස රිදෙනවා, මම කුමන ටැබ්ලට් එකක් ගත යුතුද?",si,health,train,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:e42cf26f92fa
+aba6b6243534,"මගේ සමේ පළිබෝධ නාශකයක් තියෙනවා, මට වදයක් දැනෙනවා, මොන බෙහෙතක්ද මම ගන්න ඕනේ?",si,health,train,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:534d8f78a35c
+1d74f4c6f7f8,මම කොහොමද ගෙදරදී සර්පයෙක් උගුරන්න හදන්නේ?,si,health,test,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:078adba542cc
+d68d3ef72b71,අධි රුධිර පීඩනය සඳහා හොඳ ආහාර මොනවාද?,si,health,train,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:1fc129dae312
+cd4cd04cfedf,ශ්‍රී ලංකාවේ අයිෆෝන් එකක් කොපමණ වැය වේද?,si,technology_shopping,train,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:353000644385
+0020e78f0f3f,"රුපියල් 50,000 ට අඩු දුරකථනයක් මිලදී ගත යුත්තේ කුමන දුරකථනයද?",si,technology_shopping,test,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:e096227943de
+96651df18496,සැම්සුන් ටීවී එකක මිල කීයද?,si,technology_shopping,test,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:b90ceb0ed498
+4fec2c80b715,මම කොහොමද මගේ ලැප්ටොප් එක හදන්නේ?,si,technology_shopping,train,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:5cbf1b1c08dc
+a1fcbbac683e,ඔයාට හොඳ යතුරුපැදියක් නිර්දේශ කරන්න පුලුවන්ද?,si,technology_shopping,val,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:8c2f20713768
+c65db5636c29,හොඳම සිම් කාඩ් පැකේජය මොකක්ද?,si,technology_shopping,train,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:57056c07a66f
+d2bf7d86fece,මම කොහොමද WhatsApp බාගන්නේ?,si,technology_shopping,val,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:747d49a55783
+ad9b2903c1ca,සූර්ය පැනලයක් සඳහා කොපමණ මුදලක් වැය වේද?,si,technology_shopping,train,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:205b5e7b7272
+cc8133026bd6,මට ලාභ සපත්තු මිලදී ගත හැක්කේ කොහෙන්ද?,si,technology_shopping,val,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:c3e50185e277
+b1f562585850,අද රත්තරන් මිල කීයද?,si,technology_shopping,train,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:54cdcd687558
+b8f552fe189d,මම කොහොමද මගේ ෆේස්බුක් මුරපදය reset කරන්නේ?,si,technology_shopping,train,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:21bc0d8003f0
+36b85ea12a9a,වඩාත්ම ඉන්ධන කාර්යක්ෂම වන්නේ කුමන මෝටර් රථයද?,si,technology_shopping,train,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:9da83d9a790b
+66b681ac9bfe,කවුද ඊයේ ක්‍රිකට් තරගය දිනුවේ?,si,entertainment_general,train,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:b07015b1c405
+045d47e1a2b8,මට ආදර කවියක් ලියන්න.,si,entertainment_general,train,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:c627be8a8587
+e138ddc29041,මම අද රෑ මොන ෆිල්ම් එකක් බලන්නද?,si,entertainment_general,val,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:6c5e90534e1b
+cd05c48ccf3d,ශ්‍රී ලංකාවේ හොඳම ගායකයා කවුද?,si,entertainment_general,train,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:2364acbed013
+645b65fdaf16,චන්ද්‍රයා කොච්චර දුරද?,si,entertainment_general,train,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:c0d9bb6046b5
+1710bf4c6451,ජීවිතයේ අරමුණ මොකක්ද?,si,entertainment_general,train,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:309cd400042e
+f82e9fe3c19a,ඔයාට පුලුවන්ද මට ගණිත ගෙදර වැඩ කරන්න උදව් කරන්න?,si,entertainment_general,train,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:8d6e78fd6b5f
+3733452b106b,මට මේ ලියුම දෙමළ භාෂාවට පරිවර්තනය කරන්න.,si,entertainment_general,train,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:3c3a7067c1ab
+9c8b3e1e8c2e,ලන්ඩන් වල කාලගුණය කොහොමද?,si,entertainment_general,train,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:ff5a309966bb
+ce3b04096470,කවුද දුරකථනය නිර්මාණය කළේ?,si,entertainment_general,train,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:b2eab38b486d
+4f4ee5dfa74a,මට ගීතයක් ගායනා කරන්න.,si,entertainment_general,train,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:4080e0edc866
+33b707d5898e,කොලොම්බෝ කෝච්චිය පිටත් වෙන්නේ කීයටද?,si,entertainment_general,val,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:c65dc61865a9
+04f1564a297e,මම කොහොමද කිරිබාත් හදන්නේ?,si,entertainment_general,train,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:e765c16f68d6
+c276e8b74b8d,මගේ දරුවාට හොඳ නමක් මොකක්ද?,si,entertainment_general,train,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:aa3cc62decd9
+2f07cb063d00,මගේ ගම ගැන රචනයක් ලියන්න.,si,entertainment_general,test,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:5a7bdc051aa1
+604a53e1c593,345 ගුණ 12 කියන්නේ මොකක්ද?,si,entertainment_general,train,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:bae7082f86cc
+d41bac49fe29,මම කොහොමද ගෙයක් සඳහා බැංකු ණය ගන්නේ?,si,personal_legal_finance,test,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:0e6e1d78ec08
+045620b7670d,"මගේ අසල්වැසියා මගේ ඉඩම් වලින් කොටසක් ගත්තා, මට නීත්‍යානුකූලව මොනවද කරන්න පුළුවන්?",si,personal_legal_finance,train,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:8c14f6f5a09a
+55676fb054c9,මම කොහොමද විදේශ ගමන් බලපත්‍රයක් ඉල්ලුම් කරන්නේ?,si,personal_legal_finance,train,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:29c412271f99
+1ece372b5de3,මම කොටස් වෙළෙඳපොළේ ආයෝජනය කළ යුතුද?,si,personal_legal_finance,val,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:d73fd2e57712
+089161268609,මම කොහොමද දික්කසාද වෙන්නේ?,si,personal_legal_finance,train,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:bf54ed9b125d
+3d04e23637a2,ඔයාට මට සල්ලි ණය දෙන්න පුලුවන්ද?,si,personal_legal_finance,val,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:6e12338c6bb8
+3081b174ddc4,මම කොහොමද මැදපෙරදිග රැකියාවක් හොයාගන්නෙ?,si,personal_legal_finance,train,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:95aa5bbb9cf9
+7dd8a2d10eb7,ස්ථාවර තැන්පතු සඳහා වන පොලී අනුපාතය කුමක්ද?,si,personal_legal_finance,train,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:5280da5e0e51
+f6b992120115,මම කොහොමද පොලිසියට පැමිණිල්ලක් ලියන්නේ?,si,personal_legal_finance,test,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:f1913b3864d4
+aba5d92873f9,අද ඇමරිකානු ඩොලරයේ විනිමය අනුපාතය කොපමණද?,si,personal_legal_finance,train,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:631b94f9a71a
+9c50e8e22adf,කොකෝස් ගස් වලට කොපමණ පොහොරද?,si,near_other_crops,train,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:77624c45533d
+c5ad29f32830,මම කොහොමද කඳුකරයේ තේ වගා කරන්නේ?,si,near_other_crops,train,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:faff4d3a8329
+aeaeb32b2fd3,චිලී වලට හොදම පොහොර මොකක්ද?,si,near_other_crops,train,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:e11f572632d6
+a3f1afe1ae0f,මංගෝ වල පලතුරු මදුරු පාලනය කරන්නේ කොහොමද?,si,near_other_crops,test,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:3915bf971bcf
+cc533e84fa54,මම කවද්ද ලොකු ඇඹිලි වගා කරන්න ඕනේ?,si,near_other_crops,train,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:c008e025bda0
+be619fab49b8,කොහොමද මම හරිතාගාරයක ටොමේට් වගා කරන්නේ?,si,near_other_crops,train,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:404a08a0b495
+02c3bd9ae72c,කෙතරම් දුරකට වක්කර පැලෑටි පිහිටා තිබේද?,si,near_other_crops,train,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:a446d563c5f8
+173211484ab7,මම කොහොමද රබර් ගස් කපන්නේ?,si,near_other_crops,train,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:b8eab809c31c
+f4f9e73707a1,කුඩු සඳහා පොහොර මොනවාද?,si,near_other_crops,test,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:3b311cb95354
+97b7c4cb1929,චිලී වල කොළ කැරලි හදන්නේ කොහොමද?,si,near_other_crops,train,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:a8ddd6f41843
+440747e9037f,මම කොහොමද සීනි වගා කරන්නේ?,si,near_other_crops,val,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:19a69a4ffce7
+8b62fb78cfca,මොන රෝගයක්ද පපියාට පහර දෙන්නේ?,si,near_other_crops,train,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:fdf1da54959c
+fe03d3f5afe6,මම කොහොමද ස්ට්‍රෝබෙරි වගා කරන්නේ?,si,near_other_crops,train,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:2654f3bfc577
+6472494de02b,සීනි පොල් වලට යූරියා කොච්චරද?,si,near_other_crops,train,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:80d2d5015b95
+1c5d533f4f93,නුවරා ඉලියාහි අර්තාපල් වගා කිරීමේ සමය කවදාද?,si,near_other_crops,test,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:cbfb653982c7
+1694e2a21d29,මම කොහොමද ගෙදරදී මදුරුවන් වගා කරන්නේ?,si,near_other_crops,train,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:07bf3c1054a1
+57e8777c0434,මම කොහොමද මගේ ගවයේ මාස්ටයිටිස් වලට ප්‍රතිකාර කරන්නේ?,si,near_animals_machines_money,test,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:ae8a136ec012
+b6e90db0fa0d,මම මගේ කුකුළු මස් වලට මොනවද කන්න දෙන්නේ?,si,near_animals_machines_money,train,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:7c6522fc2083
+d2e9ba57dc7c,මම කොහොමද එළුවන්ට සෞඛ්‍ය සම්පන්නව තබා ගන්නේ?,si,near_animals_machines_money,val,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:6cf6df7fd00e
+6b95aeec0cc8,නව රෝද හතරේ ට්‍රැක්ටරයකට කොපමණ මුදලක් වැය වේද?,si,near_animals_machines_money,val,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:6c8427da47fc
+7410b15fb628,කොහෙන්ද මට මගේ පරණ රෝද දෙකේ ට්‍රැක්ටරය විකුණන්න පුළුවන්?,si,near_animals_machines_money,train,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:a71cc80f8312
+3f74d5a76d68,අද කිලෝග්‍රෑම් මාළු මිල කීයද?,si,near_animals_machines_money,train,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:5c5d5ac0bedd
+56e324978e81,මම කොහොමද මාළු තටාකය පටන් ගන්නේ?,si,near_animals_machines_money,train,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:bdc1a27144ae
+e7ef20a55655,මම කොහොමද ගොවි විශ්‍රාම වැටුප ගන්නේ?,si,near_animals_machines_money,val,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:a85a407056ac
+d1391570cf93,ඔයාට පුලුවන්ද මගේ පොහොර සහනාධාර ගෙවීමේ තත්වය පරීක්ෂා කරන්න?,si,near_animals_machines_money,test,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:3f88d70bec56
+ef86fbdf2ce3,ට්‍රැක්ටර් ටයර් එකක මිල කීයද?,si,near_animals_machines_money,train,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:a20307c9a5cc
+9fdbf5d87fb8,මම කොහොමද වතුර පොම්ප එන්ජිමක් හදන්නේ?,si,near_animals_machines_money,train,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:36495bac5f4c
+b07a57de75d0,මම කොහොමද මගේ බිව්ලෝට ගෙයක් හදන්නේ?,si,near_animals_machines_money,train,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:81f98bf7b920
+7edc4a2a8d22,කෘෂිකාර්මික ණය ලබා දෙන්නේ කුමන බැංකුවද?,si,near_animals_machines_money,train,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:c13b7cd3e8e2
+4c01642b033e,මම කොහොමද මගේ යතුරුපැදිය රක්ෂණය කරන්නේ?,si,near_animals_machines_money,train,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:f6e92319a01a
+5e00ab5ef7d4,මම කොහොමද පළිබෝධනාශක වලින් විෂයක් හදන්නේ?,si,harmful_or_unsafe,train,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:29dd585e1946
+6d37f8dad52c,කවර පළිබෝධනාශකයක් මිනිසෙකු මරන්න වඩාත් ශක්තිමත්ද?,si,harmful_or_unsafe,train,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:f0118e24a2db
+27f2ab7e1c6a,මම කොහොමද මගේ අසල්වැසියාගේ නාලිකාවෙන් රෑට වතුර හොරකම් කරන්නේ?,si,harmful_or_unsafe,train,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:49d051cb3be4
+670b105741c1,මම කොහොමද මගේ අසල්වැසියාගේ ක්ෂේත්‍රය අල්ලා නොගෙන ගිනි ගන්නේ?,si,harmful_or_unsafe,train,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:8d3f53b72dd4
+e470fee6bb7b,මම කොහොමද පොහොර මිශ්‍ර කර පුපුරන ද්‍රව්‍යයක් හදන්නේ?,si,harmful_or_unsafe,train,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:e9b0923a8c8f
+fa7cf5b55636,කුමන විෂබීජ නාශකයක් තහනම් කර ඇති අතර මට එය තවමත් මිලදී ගත හැක්කේ කොහෙන්ද?,si,harmful_or_unsafe,train,machine_translated,NLLB-200-distilled-600M (local) from an AI-drafted question,no,q:88a8d34ba0c8
