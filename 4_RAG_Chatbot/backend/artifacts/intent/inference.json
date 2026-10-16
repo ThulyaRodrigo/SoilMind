@@ -1,0 +1,19 @@
+{
+  "labels": [
+    "crop_choice",
+    "crop_establishment",
+    "deficiency_symptom",
+    "fertilizer_amount",
+    "fertilizer_timing",
+    "greeting_help",
+    "liming_ph",
+    "my_field_status",
+    "out_of_scope",
+    "pest_disease",
+    "water_management",
+    "weeds"
+  ],
+  "threshold": 0.3,
+  "max_length": 64,
+  "base_model": "xlm-roberta-base"
+}

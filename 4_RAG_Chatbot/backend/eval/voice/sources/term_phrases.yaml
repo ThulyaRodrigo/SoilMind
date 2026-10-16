@@ -1,0 +1,131 @@
+# Short spoken Sinhala farming phrases for the STT recording script (eval/voice/record_prompts.csv).
+# DRAFTED BY THE AI CODING ASSISTANT, NOT HUMAN-CHECKED. They are prompts for the team to read aloud, not
+# agronomic advice: any numbers in them are things a farmer might say, not recommendations.
+# Spellings of farming terms follow the Sinhala RRDI pages in data/processed/passages.csv where those use them.
+# Each entry is "Sinhala text | English gloss".
+# A Sinhala-speaking team member should fix wording before recording (edit here, then rebuild:
+# python -m member4_chatbot.pipeline.voice_prompts).
+
+fertilizer:
+  - "යූරියා කීයක් දාන්න ඕනද? | How much urea should I apply?"
+  - "අක්කරයකට යූරියා කිලෝ 45ක් දාන්නද? | Should I apply 45 kg of urea per acre?"
+  - "ටී.එස්.පී. මූලික පොහොර විදිහට දාන්න ඕනද? | Should TSP be applied as basal fertilizer?"
+  - "එම්.ඕ.පී. දාන්නේ කවදද? | When is MOP applied?"
+  - "ඩොලමයිට් කොච්චර දාන්නද? | How much dolomite should I apply?"
+  - "ඩොලමයිට් දාන්න ඕන වපුරන්න කලින්ද? | Should dolomite go on before sowing?"
+  - "හුණු දැම්මොත් පසේ ඇඹුල අඩු වෙනවද? | Does lime make the soil less sour?"
+  - "සින්ක් සල්ෆේට් දාන්න ඕනද? | Do I need zinc sulphate?"
+  - "කොම්පෝස්ට් දැම්මොත් යූරියා අඩුවෙන් දාන්න පුළුවන්ද? | If I add compost can I use less urea?"
+  - "ගොම පොහොර කුඹුරට හොඳද? | Is cow-dung manure good for the paddy field?"
+  - "යූරියා කොටස් හතරකට බෙදලා දාන්නද? | Should urea be split into four parts?"
+  - "දෙවැනි යූරියා කොටස සති 4දී දාන්නද? | Is the second urea part at four weeks?"
+  - "මාස තුනහමාර වී වලට මුළු යූරියා ප්‍රමාණය කීයද? | What is the total urea for three-and-a-half-month rice?"
+  - "නයිට්‍රජන් අඩු නම් ගොයම කහ පාට වෙනවද? | Does the crop turn yellow when nitrogen is low?"
+  - "පොස්පරස් අඩු වුණාම මොකද වෙන්නේ? | What happens when phosphorus is low?"
+  - "පොටෑසියම් අඩු නම් කොළ අග දුඹුරු වෙනවද? | Do leaf tips turn brown when potassium is low?"
+  - "පොහොර මිටියක් කිලෝ කීයද? | How many kilos are in a fertilizer bag?"
+  - "පොහොර දාන්න කලින් කුඹුරේ වතුර අඩු කරන්නද? | Should I lower the water before applying fertilizer?"
+  - "වැස්ස එනකොට යූරියා දාන්න හොඳද? | Is it good to apply urea when rain is coming?"
+  - "කොළ පාට සටහනෙන් යූරියා ගණන් කරන්නේ කොහොමද? | How do I work out urea with the leaf colour chart?"
+
+soil:
+  - "මගේ කුඹුරේ පී.එච්. අගය කීයද? | What is the pH of my field?"
+  - "පස ආම්ලික නම් මොකද කරන්න ඕන? | What should I do if the soil is acidic?"
+  - "පාංශු පරීක්ෂාවක් කරගන්නේ කොහෙන්ද? | Where can I get a soil test?"
+  - "පසේ තෙතමනය අඩුද? | Is the soil moisture low?"
+  - "පසේ ලවණ වැඩි නම් වවන්න පුළුවන් වී වර්ග මොනවද? | Which rice can I grow if the soil is salty?"
+  - "සංවේදක කියවීම් අනුව නයිට්‍රජන් මට්ටම හොඳද? | Is the nitrogen level good according to the sensors?"
+  - "ඊ.සී. අගය වැඩි වුණාම මොකද කරන්නේ? | What do I do when the EC value is high?"
+  - "පොටෑසියම් 100ක් ආවා, එම්.ඕ.පී. දාන්න ඕනද? | Potassium came to 100; do I need MOP?"
+  - "පස් සාම්පල ගන්න ඕන කොච්චර ගැඹුරටද? | How deep should soil samples be taken?"
+
+season_land:
+  - "යල කන්නයට හොඳම වී වර්ගය මොකක්ද? | What is the best rice for the Yala season?"
+  - "මහ කන්නයේ වපුරන්න හොඳම කාලය කවදද? | When is the best time to sow in Maha?"
+  - "යල කන්නයේ වතුර මදි නම් මොකද කරන්නේ? | What do I do if water is short in Yala?"
+  - "කුඹුර සීසාන්නේ කීපාරක්ද? | How many times is the field ploughed?"
+  - "පෝරු ගාන්න කලින් වතුර බඳින්නද? | Should I hold water before levelling?"
+  - "මඩ කරලා දවස් කීයකින් වපුරන්නද? | How many days after puddling should I sow?"
+  - "නියර හදන්නේ කොහොමද? | How do I build the bunds?"
+  - "කුඹුර සමතලා කරන්න ඕන ඇයි? | Why must the field be levelled?"
+
+establishment:
+  - "බිත්තර වී පොඟවන්නේ පැය කීයක්ද? | How many hours is seed paddy soaked?"
+  - "බිත්තර වී පැළ වෙන්න තියන්නේ කොහොමද? | How do I keep seed paddy to sprout?"
+  - "තවාන හදන්නේ කොහොමද? | How do I make a nursery?"
+  - "ඩැපොග් තවානක පැල කීදවසකින් සිටුවන්නද? | After how many days are dapog seedlings planted?"
+  - "පැරෂුට් ක්‍රමය කියන්නේ මොකක්ද? | What is the parachute method?"
+  - "පැල සිටුවන පරතරය කොච්චරද? | What is the planting spacing?"
+  - "පඳුරකට පැල කීයක් සිටුවන්නද? | How many seedlings per hill?"
+  - "වපුරනවද සිටුවනවද කොයිකද හොඳ? | Broadcasting or transplanting, which is better?"
+
+varieties:
+  - "බීජී 300 අස්වැන්න කොච්චරද? | What is the yield of Bg 300?"
+  - "බීජී 357 මාස කීයේ වී වර්ගයක්ද? | How many months is Bg 357?"
+  - "මාස තුනේ වී වර්ග මොනවද? | Which are the three-month varieties?"
+  - "කොළ පාළුවට ඔරොත්තු දෙන වී වර්ගයක් කියන්න. | Tell me a variety resistant to blast."
+  - "රතු කැකුළු වී වර්ග තියෙනවද? | Are there red raw-rice varieties?"
+  - "සම්බා වී වවන්න පුළුවන්ද? | Can I grow samba rice?"
+  - "කීරි සම්බා වවන්න හොඳ කාලය කවදද? | When is a good time to grow keeri samba?"
+
+pests_diseases:
+  - "දුඹුරු පැළ කීඩෑවා පාලනය කරන්නේ කොහොමද? | How do I control brown planthopper?"
+  - "ගොයම් මැස්සා ආවොත් මොකද කරන්නේ? | What do I do if gall midge comes?"
+  - "කොළ පාළුව රෝගයට බෙහෙත් මොනවද? | What are the treatments for blast?"
+  - "බැක්ටීරියා කොළ අංගමාරය හඳුනගන්නේ කොහොමද? | How do I recognise bacterial leaf blight?"
+  - "කොපු අංගමාරය හැදුනොත් මොකද කරන්නේ? | What do I do about sheath blight?"
+  - "ගොයම් පැළ කහ වෙලා ඒ රෝගයක්ද? | The young plants turned yellow; is it a disease?"
+  - "කෘමි නාශක ගහන්න හොඳම වෙලාව කවදද? | When is the best time to spray insecticide?"
+  - "දිලීර නාශකයක් ඉසින්න ඕනද? | Should I spray a fungicide?"
+  - "කරල් හිස් වෙලා හේතුව මොකක්ද? | The panicles are empty; what is the reason?"
+  - "මීයෝ කුඹුරට හානි කරනවා මොකද කරන්නේ? | Rats damage the field; what can I do?"
+  - "ඒකාබද්ධ පළිබෝධ කළමනාකරණය කියන්නේ මොකක්ද? | What is integrated pest management?"
+  - "පළිබෝධ නාශක ඉසිද්දී ආරක්ෂාව ගන්නේ කොහොමද? | How do I stay safe when spraying pesticide?"
+
+weeds:
+  - "වල් පැලෑටි මර්දනය කරන්නේ කොහොමද? | How do I control weeds?"
+  - "වල් නාශක ගහන්නේ වැපිරුවට පස්සේ දවස් කීයකින්ද? | How many days after sowing is herbicide sprayed?"
+  - "වල් වී අයින් කරන්නේ කොහොමද? | How do I remove weedy rice?"
+  - "ගොයමට වල් පැලෑටි වැඩියෙන්ම හානි කරන්නේ කවදද? | When do weeds harm the crop most?"
+
+water:
+  - "කුඹුරේ වතුර කොච්චර තියන්නද? | How much water should I keep in the field?"
+  - "වතුර බස්සලා කුඹුර වියළන්න ඕන කවදද? | When should I drain and dry the field?"
+  - "මාරුවෙන් මාරුවට තෙත් කර වියළීම කියන්නේ මොකක්ද? | What is alternate wetting and drying?"
+  - "වැවේ වතුර අඩු වෙලා මොකද කරන්නේ? | The tank water is low; what do I do?"
+  - "කරල් එන කාලයේ වතුර අඩු වුණොත් මොකද වෙන්නේ? | What happens if water is short when panicles come?"
+
+harvest:
+  - "අස්වනු නෙලන්න ඕන කවදද? | When should I harvest?"
+  - "කරල් වලින් සියයට 80ක් පැහුණාම කපන්නද? | Should I cut when 80 percent of the panicles are ripe?"
+  - "වී වියළන්නේ කොහොමද? | How do I dry the paddy?"
+  - "අක්කරයකින් බුසල් කීයක් ගන්න පුළුවන්ද? | How many bushels can I get from an acre?"
+
+my_field:
+  - "මගේ කුඹුරේ සෞඛ්‍ය ලකුණු කීයද? | What is my field's health score?"
+  - "මගේ කුඹුරේ දුර්වලම තැන කොහෙද? | Where is the weakest spot in my field?"
+  - "අද කුඹුරට මොනවද කරන්න ඕන? | What should I do in the field today?"
+  - "ඊළඟට පොහොර දාන්න ඕන දවස කවදද? | Which day is the next fertilizer due?"
+  - "සංවේදක අන්තිමට කියෙව්වේ කවදද? | When did the sensors last read?"
+  - "ගිනිකොන කොටසේ පස හොඳද? | Is the soil in the south-east part good?"
+  - "මගේ කුඹුරට අනතුරු ඇඟවීම් තියෙනවද? | Are there alerts for my field?"
+  - "මගේ කුඹුරේ හුණු දාන්න ඕන කොයි කොටසටද? | Which part of my field needs lime?"
+  - "මගේ කුඹුර අක්කර කීයද? | How many acres is my field?"
+
+numbers:
+  - "අක්කරයකට කිලෝ 55ක් | 55 kilos per acre"
+  - "සති 2යි සති 4යි සති 6යි | Weeks two, four and six"
+  - "මාස 3 වී වලට පොහොර කාලසටහන කියන්න. | Tell me the fertilizer schedule for three-month rice."
+  - "පී.එච්. 5.5ට වඩා අඩු නම් හුණු දාන්නද? | If pH is below 5.5 should I add lime?"
+  - "තෙතමනය සියයට 30ට අඩු වුණොත් වතුර දාන්නද? | If moisture falls below 30 percent should I add water?"
+  - "හෙක්ටයාරයකට ටොන් 5ක අස්වැන්නක් | A yield of five tonnes per hectare"
+  - "මගේ කුඹුර අක්කර 4.5ක් තියෙනවා. | My field is four and a half acres."
+  - "පැල දින 14ක් වයසයි. | The seedlings are fourteen days old."
+  - "ඔක්තෝබර් 15 වපුරන්න පුළුවන්ද? | Can I sow on 15 October?"
+  - "කිලෝ 120ක යූරියා ප්‍රමාණයක් | An amount of 120 kilos of urea"
+
+general:
+  - "ආයුබෝවන් මට උදව්වක් ඕන. | Hello, I need some help."
+  - "බොහොම ස්තූතියි. | Thank you very much."
+  - "කෘෂිකර්ම නිලධාරියා එක්ක කතා කරන්න පුළුවන්ද? | Can I talk to the agriculture officer?"
+  - "ගොවිජන සේවා මධ්‍යස්ථානය කොහෙද තියෙන්නේ? | Where is the agrarian service centre?"

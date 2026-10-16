@@ -1,0 +1,362 @@
+{
+  "stt": {
+    "small-sinhaspeech|openslr30|cpu": {
+      "model": "SinhaSpeech/whisper-small-sinhala-run11",
+      "device": "cpu",
+      "hardware": "CPU Intel64 Family 6 Model 186 Stepping 2, GenuineIntel, 10 threads, torch 2.14.1+cpu",
+      "all": {
+        "n": 200,
+        "wer": 0.323,
+        "cer": 0.0499,
+        "wer_dict": 0.323,
+        "cer_dict": 0.0499,
+        "clips_corrected": 0
+      },
+      "finetune_split": {},
+      "test_split": {
+        "n": 200,
+        "wer": 0.323,
+        "cer": 0.0499,
+        "wer_dict": 0.323,
+        "cer_dict": 0.0499,
+        "clips_corrected": 0
+      },
+      "latency_ms_median": 3751.8,
+      "latency_ms_p95": 4798.1,
+      "audio_s_median": 3.24,
+      "real_time_factor": 1.088
+    },
+    "small|openslr30|cpu": {
+      "model": "seniruk/whisper-small-si",
+      "device": "cpu",
+      "hardware": "CPU Intel64 Family 6 Model 186 Stepping 2, GenuineIntel, 10 threads, torch 2.14.1+cpu",
+      "all": {
+        "n": 200,
+        "wer": 0.2449,
+        "cer": 0.045,
+        "wer_dict": 0.2449,
+        "cer_dict": 0.045,
+        "clips_corrected": 0
+      },
+      "finetune_split": {},
+      "test_split": {
+        "n": 200,
+        "wer": 0.2449,
+        "cer": 0.045,
+        "wer_dict": 0.2449,
+        "cer_dict": 0.045,
+        "clips_corrected": 0
+      },
+      "latency_ms_median": 3909.2,
+      "latency_ms_p95": 4752.0,
+      "audio_s_median": 3.24,
+      "real_time_factor": 1.126
+    },
+    "small|openslr30|cpu_n40": {
+      "model": "seniruk/whisper-small-si",
+      "device": "cpu",
+      "hardware": "CPU 13th Gen Intel(R) Core(TM) i7-13620H, 10 threads, torch 2.14.1+cpu",
+      "all": {
+        "n": 40,
+        "wer": 0.2432,
+        "cer": 0.0454,
+        "wer_dict": 0.2432,
+        "cer_dict": 0.0454,
+        "clips_corrected": 0
+      },
+      "finetune_split": {},
+      "test_split": {
+        "n": 40,
+        "wer": 0.2432,
+        "cer": 0.0454,
+        "wer_dict": 0.2432,
+        "cer_dict": 0.0454,
+        "clips_corrected": 0
+      },
+      "latency_ms_median": 3721.1,
+      "latency_ms_p95": 4497.4,
+      "audio_s_median": 3.41,
+      "real_time_factor": 1.053
+    },
+    "small-sinhaspeech|openslr30|cpu_n40": {
+      "model": "SinhaSpeech/whisper-small-sinhala-run11",
+      "device": "cpu",
+      "hardware": "CPU 13th Gen Intel(R) Core(TM) i7-13620H, 10 threads, torch 2.14.1+cpu",
+      "all": {
+        "n": 40,
+        "wer": 0.3446,
+        "cer": 0.0435,
+        "wer_dict": 0.3446,
+        "cer_dict": 0.0435,
+        "clips_corrected": 0
+      },
+      "finetune_split": {},
+      "test_split": {
+        "n": 40,
+        "wer": 0.3446,
+        "cer": 0.0435,
+        "wer_dict": 0.3446,
+        "cer_dict": 0.0435,
+        "clips_corrected": 0
+      },
+      "latency_ms_median": 3906.2,
+      "latency_ms_p95": 4659.9,
+      "audio_s_median": 3.41,
+      "real_time_factor": 1.092
+    },
+    "small|openslr30|cuda": {
+      "model": "seniruk/whisper-small-si",
+      "device": "cuda",
+      "hardware": "GPU NVIDIA GeForce RTX 4060 Laptop GPU (CPU 13th Gen Intel(R) Core(TM) i7-13620H), torch 2.14.1+cu130",
+      "all": {
+        "n": 200,
+        "wer": 0.2462,
+        "cer": 0.0453,
+        "wer_dict": 0.2462,
+        "cer_dict": 0.0453,
+        "clips_corrected": 0
+      },
+      "finetune_split": {},
+      "test_split": {
+        "n": 200,
+        "wer": 0.2462,
+        "cer": 0.0453,
+        "wer_dict": 0.2462,
+        "cer_dict": 0.0453,
+        "clips_corrected": 0
+      },
+      "latency_ms_median": 1034.0,
+      "latency_ms_p95": 1475.1,
+      "audio_s_median": 3.24,
+      "real_time_factor": 0.299
+    },
+    "small-sinhaspeech|openslr30|cuda": {
+      "model": "SinhaSpeech/whisper-small-sinhala-run11",
+      "device": "cuda",
+      "hardware": "GPU NVIDIA GeForce RTX 4060 Laptop GPU (CPU 13th Gen Intel(R) Core(TM) i7-13620H), torch 2.14.1+cu130",
+      "all": {
+        "n": 200,
+        "wer": 0.3224,
+        "cer": 0.0498,
+        "wer_dict": 0.3224,
+        "cer_dict": 0.0498,
+        "clips_corrected": 0
+      },
+      "finetune_split": {},
+      "test_split": {
+        "n": 200,
+        "wer": 0.3224,
+        "cer": 0.0498,
+        "wer_dict": 0.3224,
+        "cer_dict": 0.0498,
+        "clips_corrected": 0
+      },
+      "latency_ms_median": 1063.8,
+      "latency_ms_p95": 1431.8,
+      "audio_s_median": 3.24,
+      "real_time_factor": 0.31
+    },
+    "small-sinhaspeech|synthetic|cuda": {
+      "model": "SinhaSpeech/whisper-small-sinhala-run11",
+      "device": "cuda",
+      "hardware": "GPU NVIDIA GeForce RTX 4060 Laptop GPU (CPU 13th Gen Intel(R) Core(TM) i7-13620H), torch 2.14.1+cu130",
+      "all": {
+        "n": 498,
+        "wer": 0.6007,
+        "cer": 0.232,
+        "wer_dict": 0.5864,
+        "cer_dict": 0.2265,
+        "clips_corrected": 44
+      },
+      "finetune_split": {
+        "n": 350,
+        "wer": 0.5877,
+        "cer": 0.2247,
+        "wer_dict": 0.5733,
+        "cer_dict": 0.2194,
+        "clips_corrected": 31
+      },
+      "test_split": {
+        "n": 148,
+        "wer": 0.6301,
+        "cer": 0.2489,
+        "wer_dict": 0.6161,
+        "cer_dict": 0.243,
+        "clips_corrected": 13
+      },
+      "latency_ms_median": 1674.9,
+      "latency_ms_p95": 3817.5,
+      "audio_s_median": 2.48,
+      "real_time_factor": 0.629
+    },
+    "small|synthetic|cuda": {
+      "model": "seniruk/whisper-small-si",
+      "device": "cuda",
+      "hardware": "GPU NVIDIA GeForce RTX 4060 Laptop GPU (CPU 13th Gen Intel(R) Core(TM) i7-13620H), torch 2.14.1+cu130",
+      "all": {
+        "n": 498,
+        "wer": 0.621,
+        "cer": 0.2308,
+        "wer_dict": 0.6044,
+        "cer_dict": 0.2244,
+        "clips_corrected": 54
+      },
+      "finetune_split": {
+        "n": 350,
+        "wer": 0.6149,
+        "cer": 0.2212,
+        "wer_dict": 0.5968,
+        "cer_dict": 0.214,
+        "clips_corrected": 41
+      },
+      "test_split": {
+        "n": 148,
+        "wer": 0.6348,
+        "cer": 0.2535,
+        "wer_dict": 0.6217,
+        "cer_dict": 0.2487,
+        "clips_corrected": 13
+      },
+      "latency_ms_median": 1694.8,
+      "latency_ms_p95": 4053.8,
+      "audio_s_median": 2.48,
+      "real_time_factor": 0.655
+    },
+    "small|synthetic|cpu": {
+      "model": "seniruk/whisper-small-si",
+      "device": "cpu",
+      "hardware": "CPU 13th Gen Intel(R) Core(TM) i7-13620H, 10 threads, torch 2.14.1+cpu",
+      "all": {
+        "n": 498,
+        "wer": 0.6213,
+        "cer": 0.23,
+        "wer_dict": 0.6044,
+        "cer_dict": 0.2234,
+        "clips_corrected": 54
+      },
+      "finetune_split": {
+        "n": 350,
+        "wer": 0.6141,
+        "cer": 0.2207,
+        "wer_dict": 0.596,
+        "cer_dict": 0.2135,
+        "clips_corrected": 41
+      },
+      "test_split": {
+        "n": 148,
+        "wer": 0.6376,
+        "cer": 0.2519,
+        "wer_dict": 0.6236,
+        "cer_dict": 0.2465,
+        "clips_corrected": 13
+      },
+      "latency_ms_median": 4418.9,
+      "latency_ms_p95": 7528.5,
+      "audio_s_median": 2.48,
+      "real_time_factor": 1.593
+    },
+    "large|openslr30|cuda": {
+      "model": "kasunw/whisper-large-v3-sinhala",
+      "device": "cuda",
+      "hardware": "GPU NVIDIA GeForce RTX 4060 Laptop GPU (CPU 13th Gen Intel(R) Core(TM) i7-13620H), torch 2.14.1+cu130",
+      "all": {
+        "n": 200,
+        "wer": 0.371,
+        "cer": 0.0772,
+        "wer_dict": 0.371,
+        "cer_dict": 0.0772,
+        "clips_corrected": 0
+      },
+      "finetune_split": {},
+      "test_split": {
+        "n": 200,
+        "wer": 0.371,
+        "cer": 0.0772,
+        "wer_dict": 0.371,
+        "cer_dict": 0.0772,
+        "clips_corrected": 0
+      },
+      "latency_ms_median": 5246.1,
+      "latency_ms_p95": 6838.7,
+      "audio_s_median": 3.24,
+      "real_time_factor": 1.398
+    },
+    "large|synthetic|cuda": {
+      "model": "kasunw/whisper-large-v3-sinhala",
+      "device": "cuda",
+      "hardware": "GPU NVIDIA GeForce RTX 4060 Laptop GPU (CPU 13th Gen Intel(R) Core(TM) i7-13620H), torch 2.14.1+cu130",
+      "all": {
+        "n": 498,
+        "wer": 0.6636,
+        "cer": 0.2382,
+        "wer_dict": 0.6516,
+        "cer_dict": 0.2336,
+        "clips_corrected": 42
+      },
+      "finetune_split": {
+        "n": 350,
+        "wer": 0.6722,
+        "cer": 0.2408,
+        "wer_dict": 0.6586,
+        "cer_dict": 0.2355,
+        "clips_corrected": 33
+      },
+      "test_split": {
+        "n": 148,
+        "wer": 0.6442,
+        "cer": 0.2321,
+        "wer_dict": 0.6358,
+        "cer_dict": 0.2292,
+        "clips_corrected": 9
+      },
+      "latency_ms_median": 4821.9,
+      "latency_ms_p95": 10840.8,
+      "audio_s_median": 2.48,
+      "real_time_factor": 1.747
+    }
+  },
+  "tts": {
+    "cpu": {
+      "mms": {
+        "sentences": 175,
+        "failed_sentences": 0,
+        "failure_rate": 0.0,
+        "latency_ms_per_sentence_median": 1670.6,
+        "latency_ms_per_sentence_p95": 4580.5,
+        "real_time_factor": 0.344,
+        "roundtrip_cer": null
+      },
+      "piper": {
+        "sentences": 156,
+        "failed_sentences": 5,
+        "failure_rate": 0.0321,
+        "latency_ms_per_sentence_median": 248.6,
+        "latency_ms_per_sentence_p95": 745.0,
+        "real_time_factor": 0.054,
+        "roundtrip_cer": 0.2827
+      },
+      "sinhalavits": {
+        "sentences": 156,
+        "failed_sentences": 5,
+        "failure_rate": 0.0321,
+        "latency_ms_per_sentence_median": 3102.7,
+        "latency_ms_per_sentence_p95": 8202.0,
+        "real_time_factor": 0.476,
+        "roundtrip_cer": 0.2463
+      },
+      "_info": {
+        "voice": "M2",
+        "hardware": "CPU 13th Gen Intel(R) Core(TM) i7-13620H, 10 threads, torch 2.14.1+cpu",
+        "texts": 66,
+        "roundtrip_stt": "small",
+        "note": "roundtrip_cer = CER of our STT on the TTS audio vs the text the voice was given; an automatic intelligibility proxy, not a listening score"
+      }
+    },
+    "normaliser_check_after_fixes": {
+      "sentences": 331,
+      "sinhala_sentences": 152,
+      "with_leftovers": 0,
+      "note": "The full TTS run (latency, round-trip CER) was made before three normaliser fixes; its 5 failed sentences per engine (ESC code read as degrees, an English table row sent to the Sinhala voice) and the SoilMind greeting were fixed afterwards. Re-checked by normalising all 331 sentences again (no audio)."
+    }
+  }
+}

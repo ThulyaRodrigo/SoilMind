@@ -1,0 +1,13 @@
+{
+  "n_passages": 1,
+  "max_units": 3,
+  "margin": 0.4,
+  "picker": "fine_tuned_reranker",
+  "lang_delta": 0.1,
+  "age_bonus": 0.3,
+  "profile_boost": 3,
+  "max_length": 256,
+  "base_model": "cross-encoder/mmarco-mMiniLMv2-L12-H384-v1",
+  "chosen_on": "validation split",
+  "seed": 20261018
+}

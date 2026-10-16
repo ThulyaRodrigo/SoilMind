@@ -1,0 +1,250 @@
+prompt_id,text,gloss_en,category,source,source_id,split,checked_by_human
+P001,අනුරාධපුරයේ වාරි කුඹුරේ මාස 3 වී වලට සති 2 දී යූරියා කීයක් දාන්නද?,,fertilizer,qa_testset,Q21,test,no
+P002,වියළි කලාපයේ වැස්සෙන් වවන කුඹුරකට ටී.එස්.පී. කොච්චර දාන්න ඕනද?,,fertilizer,qa_testset,Q22,finetune,no
+P003,තෙත් කලාපයේ වාරි කුඹුරකට මුළු යූරියා ප්‍රමාණය කීයද?,,fertilizer,qa_testset,Q23,test,no
+P004,පස් පරීක්ෂාවේ පොටෑසියම් 100ක් ආවා. එම්.ඕ.පී. කොච්චර දාන්නද?,,fertilizer,qa_testset,Q24,test,no
+P005,කොළ පාළුව රෝගය හැදෙන්න හේතු වෙන කාලගුණය මොකක්ද?,,pests_diseases,qa_testset,Q25,finetune,no
+P006,කොළ පාළුවට ඔරොත්තු දෙන වී වර්ග කියන්න.,,varieties,qa_testset,Q26,finetune,no
+P007,Bg 300 වැව්වොත් හෙක්ටයාරයකට අස්වැන්න කොච්චර ලැබෙයිද?,,varieties,qa_testset,Q27,finetune,no
+P008,Bg 357 අස්වනු නෙලන්න දින කීයක් යනවද?,,varieties,qa_testset,Q28,finetune,no
+P009,මඩ තවානකට හෙක්ටයාරයකට බිත්තර වී කීයක් ඕනද?,,establishment,qa_testset,Q29,finetune,no
+P010,ඩැපොග් තවානකට හෙක්ටයාරයකට බීජ කොච්චර ඕනද?,,establishment,qa_testset,Q30,finetune,no
+P011,පැරෂුට් ක්‍රමයට හෙක්ටයාරයකට බිත්තර වී කොච්චර යනවද?,,establishment,qa_testset,Q31,finetune,no
+P012,පළමු හීය සීසෑම කොච්චර කලින් කරන්න ඕනද?,,establishment,qa_testset,Q32,test,no
+P013,පැල සිටවන්න ඕන කොච්චර ගැඹුරටද?,,establishment,qa_testset,Q33,test,no
+P014,වල් පැලෑටි නිසා වගාවට වැඩිම හානිය වෙන කාලය මොකක්ද?,,weeds,qa_testset,Q34,finetune,no
+P015,කුඹුර මඩ කරන්න (පෝරු ගාන්න) වතුර කොච්චර යනවද?,,water,qa_testset,Q35,test,no
+P016,වපුරන්න හෙක්ටයාරයකට බිත්තර වී කීයක් ඕනද?,,establishment,qa_testset,Q36,finetune,no
+P017,ගොඩ තවානෙන් පැල ගලවන්න පුළුවන් කීදවසකින්ද?,,establishment,qa_testset,Q37,test,no
+P018,පැරෂුට් ක්‍රමයට පැල විසිරුවීමේ වාසි මොනවද?,,establishment,qa_testset,Q38,finetune,no
+P019,Bg 300 දුඹුරු පැළ කීඩෑවාට ඔරොත්තු දෙනවද?,,varieties,qa_testset,Q39,test,no
+P020,දුඹුරු පැළ කීඩෑවා පඳුරකට කීයක් හිටියොත් බෙහෙත් ගහන්න ඕනද?,,pests_diseases,qa_testset,Q40,finetune,no
+P021,මගේ කුඹුර අද කොහොමද?,,my_field,qa_testset,Q46,test,no
+P022,මගේ කුඹුරේ පසේ මොනවා හරි අඩුද?,,my_field,qa_testset,Q47,finetune,no
+P023,මගේ කුඹුරට ඊළඟ යූරියා දාන්න ඕන කවදද? කොච්චරද?,,fertilizer,qa_testset,Q48,finetune,no
+P024,මගේ කුඹුරේ තෙතමනය කොහොමද?,,my_field,qa_testset,Q49,finetune,no
+P025,මගේ කුඹුරට දැන් හුණු දාන්න ඕනද?,,soil,qa_testset,Q50,finetune,no
+P026,ලබන මැතිවරණයෙන් බලයට එන්නේ කවුද?,,general,qa_testset,Q56,test,no
+P027,"මට හිසරදයක්, බොන්න ඕන පෙත්ත මොකක්ද?",,general,qa_testset,Q57,finetune,no
+P028,හොඳ ලැප්ටොප් එකක් ගන්න කොච්චර යනවද?,,general,qa_testset,Q58,test,no
+P029,පොල් ගස් වලට හොඳම පොහොර මොකක්ද?,,general,qa_testset,Q59,finetune,no
+P030,ඊයේ ක්‍රිකට් තරගය දිනුවේ කවුද?,,general,qa_testset,Q60,finetune,no
+P031,යූරියා කීයක් දාන්න ඕනද?,How much urea should I apply?,fertilizer,term_phrase,fertilizer-01,finetune,no
+P032,අක්කරයකට යූරියා කිලෝ 45ක් දාන්නද?,Should I apply 45 kg of urea per acre?,fertilizer,term_phrase,fertilizer-02,test,no
+P033,ටී.එස්.පී. මූලික පොහොර විදිහට දාන්න ඕනද?,Should TSP be applied as basal fertilizer?,fertilizer,term_phrase,fertilizer-03,test,no
+P034,එම්.ඕ.පී. දාන්නේ කවදද?,When is MOP applied?,fertilizer,term_phrase,fertilizer-04,finetune,no
+P035,ඩොලමයිට් කොච්චර දාන්නද?,How much dolomite should I apply?,fertilizer,term_phrase,fertilizer-05,finetune,no
+P036,ඩොලමයිට් දාන්න ඕන වපුරන්න කලින්ද?,Should dolomite go on before sowing?,fertilizer,term_phrase,fertilizer-06,finetune,no
+P037,හුණු දැම්මොත් පසේ ඇඹුල අඩු වෙනවද?,Does lime make the soil less sour?,fertilizer,term_phrase,fertilizer-07,finetune,no
+P038,සින්ක් සල්ෆේට් දාන්න ඕනද?,Do I need zinc sulphate?,fertilizer,term_phrase,fertilizer-08,finetune,no
+P039,කොම්පෝස්ට් දැම්මොත් යූරියා අඩුවෙන් දාන්න පුළුවන්ද?,If I add compost can I use less urea?,fertilizer,term_phrase,fertilizer-09,finetune,no
+P040,ගොම පොහොර කුඹුරට හොඳද?,Is cow-dung manure good for the paddy field?,fertilizer,term_phrase,fertilizer-10,finetune,no
+P041,යූරියා කොටස් හතරකට බෙදලා දාන්නද?,Should urea be split into four parts?,fertilizer,term_phrase,fertilizer-11,test,no
+P042,දෙවැනි යූරියා කොටස සති 4දී දාන්නද?,Is the second urea part at four weeks?,fertilizer,term_phrase,fertilizer-12,finetune,no
+P043,මාස තුනහමාර වී වලට මුළු යූරියා ප්‍රමාණය කීයද?,What is the total urea for three-and-a-half-month rice?,fertilizer,term_phrase,fertilizer-13,finetune,no
+P044,නයිට්‍රජන් අඩු නම් ගොයම කහ පාට වෙනවද?,Does the crop turn yellow when nitrogen is low?,fertilizer,term_phrase,fertilizer-14,finetune,no
+P045,පොස්පරස් අඩු වුණාම මොකද වෙන්නේ?,What happens when phosphorus is low?,fertilizer,term_phrase,fertilizer-15,test,no
+P046,පොටෑසියම් අඩු නම් කොළ අග දුඹුරු වෙනවද?,Do leaf tips turn brown when potassium is low?,fertilizer,term_phrase,fertilizer-16,finetune,no
+P047,පොහොර මිටියක් කිලෝ කීයද?,How many kilos are in a fertilizer bag?,fertilizer,term_phrase,fertilizer-17,finetune,no
+P048,පොහොර දාන්න කලින් කුඹුරේ වතුර අඩු කරන්නද?,Should I lower the water before applying fertilizer?,fertilizer,term_phrase,fertilizer-18,test,no
+P049,වැස්ස එනකොට යූරියා දාන්න හොඳද?,Is it good to apply urea when rain is coming?,fertilizer,term_phrase,fertilizer-19,finetune,no
+P050,කොළ පාට සටහනෙන් යූරියා ගණන් කරන්නේ කොහොමද?,How do I work out urea with the leaf colour chart?,fertilizer,term_phrase,fertilizer-20,finetune,no
+P051,මගේ කුඹුරේ පී.එච්. අගය කීයද?,What is the pH of my field?,soil,term_phrase,soil-01,test,no
+P052,පස ආම්ලික නම් මොකද කරන්න ඕන?,What should I do if the soil is acidic?,soil,term_phrase,soil-02,test,no
+P053,පාංශු පරීක්ෂාවක් කරගන්නේ කොහෙන්ද?,Where can I get a soil test?,soil,term_phrase,soil-03,finetune,no
+P054,පසේ තෙතමනය අඩුද?,Is the soil moisture low?,soil,term_phrase,soil-04,finetune,no
+P055,පසේ ලවණ වැඩි නම් වවන්න පුළුවන් වී වර්ග මොනවද?,Which rice can I grow if the soil is salty?,soil,term_phrase,soil-05,finetune,no
+P056,සංවේදක කියවීම් අනුව නයිට්‍රජන් මට්ටම හොඳද?,Is the nitrogen level good according to the sensors?,soil,term_phrase,soil-06,finetune,no
+P057,ඊ.සී. අගය වැඩි වුණාම මොකද කරන්නේ?,What do I do when the EC value is high?,soil,term_phrase,soil-07,finetune,no
+P058,"පොටෑසියම් 100ක් ආවා, එම්.ඕ.පී. දාන්න ඕනද?",Potassium came to 100; do I need MOP?,soil,term_phrase,soil-08,test,no
+P059,පස් සාම්පල ගන්න ඕන කොච්චර ගැඹුරටද?,How deep should soil samples be taken?,soil,term_phrase,soil-09,finetune,no
+P060,යල කන්නයට හොඳම වී වර්ගය මොකක්ද?,What is the best rice for the Yala season?,season_land,term_phrase,season_land-01,finetune,no
+P061,මහ කන්නයේ වපුරන්න හොඳම කාලය කවදද?,When is the best time to sow in Maha?,season_land,term_phrase,season_land-02,finetune,no
+P062,යල කන්නයේ වතුර මදි නම් මොකද කරන්නේ?,What do I do if water is short in Yala?,season_land,term_phrase,season_land-03,test,no
+P063,කුඹුර සීසාන්නේ කීපාරක්ද?,How many times is the field ploughed?,season_land,term_phrase,season_land-04,finetune,no
+P064,පෝරු ගාන්න කලින් වතුර බඳින්නද?,Should I hold water before levelling?,season_land,term_phrase,season_land-05,finetune,no
+P065,මඩ කරලා දවස් කීයකින් වපුරන්නද?,How many days after puddling should I sow?,season_land,term_phrase,season_land-06,test,no
+P066,නියර හදන්නේ කොහොමද?,How do I build the bunds?,season_land,term_phrase,season_land-07,finetune,no
+P067,කුඹුර සමතලා කරන්න ඕන ඇයි?,Why must the field be levelled?,season_land,term_phrase,season_land-08,finetune,no
+P068,බිත්තර වී පොඟවන්නේ පැය කීයක්ද?,How many hours is seed paddy soaked?,establishment,term_phrase,establishment-01,finetune,no
+P069,බිත්තර වී පැළ වෙන්න තියන්නේ කොහොමද?,How do I keep seed paddy to sprout?,establishment,term_phrase,establishment-02,finetune,no
+P070,තවාන හදන්නේ කොහොමද?,How do I make a nursery?,establishment,term_phrase,establishment-03,test,no
+P071,ඩැපොග් තවානක පැල කීදවසකින් සිටුවන්නද?,After how many days are dapog seedlings planted?,establishment,term_phrase,establishment-04,finetune,no
+P072,පැරෂුට් ක්‍රමය කියන්නේ මොකක්ද?,What is the parachute method?,establishment,term_phrase,establishment-05,finetune,no
+P073,පැල සිටුවන පරතරය කොච්චරද?,What is the planting spacing?,establishment,term_phrase,establishment-06,finetune,no
+P074,පඳුරකට පැල කීයක් සිටුවන්නද?,How many seedlings per hill?,establishment,term_phrase,establishment-07,finetune,no
+P075,වපුරනවද සිටුවනවද කොයිකද හොඳ?,"Broadcasting or transplanting, which is better?",establishment,term_phrase,establishment-08,test,no
+P076,බීජී 300 අස්වැන්න කොච්චරද?,What is the yield of Bg 300?,varieties,term_phrase,varieties-01,finetune,no
+P077,බීජී 357 මාස කීයේ වී වර්ගයක්ද?,How many months is Bg 357?,varieties,term_phrase,varieties-02,test,no
+P078,මාස තුනේ වී වර්ග මොනවද?,Which are the three-month varieties?,varieties,term_phrase,varieties-03,finetune,no
+P079,කොළ පාළුවට ඔරොත්තු දෙන වී වර්ගයක් කියන්න.,Tell me a variety resistant to blast.,varieties,term_phrase,varieties-04,finetune,no
+P080,රතු කැකුළු වී වර්ග තියෙනවද?,Are there red raw-rice varieties?,varieties,term_phrase,varieties-05,finetune,no
+P081,සම්බා වී වවන්න පුළුවන්ද?,Can I grow samba rice?,varieties,term_phrase,varieties-06,finetune,no
+P082,කීරි සම්බා වවන්න හොඳ කාලය කවදද?,When is a good time to grow keeri samba?,varieties,term_phrase,varieties-07,test,no
+P083,දුඹුරු පැළ කීඩෑවා පාලනය කරන්නේ කොහොමද?,How do I control brown planthopper?,pests_diseases,term_phrase,pests_diseases-01,finetune,no
+P084,ගොයම් මැස්සා ආවොත් මොකද කරන්නේ?,What do I do if gall midge comes?,pests_diseases,term_phrase,pests_diseases-02,test,no
+P085,කොළ පාළුව රෝගයට බෙහෙත් මොනවද?,What are the treatments for blast?,pests_diseases,term_phrase,pests_diseases-03,finetune,no
+P086,බැක්ටීරියා කොළ අංගමාරය හඳුනගන්නේ කොහොමද?,How do I recognise bacterial leaf blight?,pests_diseases,term_phrase,pests_diseases-04,finetune,no
+P087,කොපු අංගමාරය හැදුනොත් මොකද කරන්නේ?,What do I do about sheath blight?,pests_diseases,term_phrase,pests_diseases-05,finetune,no
+P088,ගොයම් පැළ කහ වෙලා ඒ රෝගයක්ද?,The young plants turned yellow; is it a disease?,pests_diseases,term_phrase,pests_diseases-06,test,no
+P089,කෘමි නාශක ගහන්න හොඳම වෙලාව කවදද?,When is the best time to spray insecticide?,pests_diseases,term_phrase,pests_diseases-07,finetune,no
+P090,දිලීර නාශකයක් ඉසින්න ඕනද?,Should I spray a fungicide?,pests_diseases,term_phrase,pests_diseases-08,finetune,no
+P091,කරල් හිස් වෙලා හේතුව මොකක්ද?,The panicles are empty; what is the reason?,pests_diseases,term_phrase,pests_diseases-09,finetune,no
+P092,මීයෝ කුඹුරට හානි කරනවා මොකද කරන්නේ?,Rats damage the field; what can I do?,pests_diseases,term_phrase,pests_diseases-10,test,no
+P093,ඒකාබද්ධ පළිබෝධ කළමනාකරණය කියන්නේ මොකක්ද?,What is integrated pest management?,pests_diseases,term_phrase,pests_diseases-11,finetune,no
+P094,පළිබෝධ නාශක ඉසිද්දී ආරක්ෂාව ගන්නේ කොහොමද?,How do I stay safe when spraying pesticide?,pests_diseases,term_phrase,pests_diseases-12,finetune,no
+P095,වල් පැලෑටි මර්දනය කරන්නේ කොහොමද?,How do I control weeds?,weeds,term_phrase,weeds-01,finetune,no
+P096,වල් නාශක ගහන්නේ වැපිරුවට පස්සේ දවස් කීයකින්ද?,How many days after sowing is herbicide sprayed?,weeds,term_phrase,weeds-02,finetune,no
+P097,වල් වී අයින් කරන්නේ කොහොමද?,How do I remove weedy rice?,weeds,term_phrase,weeds-03,finetune,no
+P098,ගොයමට වල් පැලෑටි වැඩියෙන්ම හානි කරන්නේ කවදද?,When do weeds harm the crop most?,weeds,term_phrase,weeds-04,test,no
+P099,කුඹුරේ වතුර කොච්චර තියන්නද?,How much water should I keep in the field?,water,term_phrase,water-01,finetune,no
+P100,වතුර බස්සලා කුඹුර වියළන්න ඕන කවදද?,When should I drain and dry the field?,water,term_phrase,water-02,finetune,no
+P101,මාරුවෙන් මාරුවට තෙත් කර වියළීම කියන්නේ මොකක්ද?,What is alternate wetting and drying?,water,term_phrase,water-03,finetune,no
+P102,වැවේ වතුර අඩු වෙලා මොකද කරන්නේ?,The tank water is low; what do I do?,water,term_phrase,water-04,finetune,no
+P103,කරල් එන කාලයේ වතුර අඩු වුණොත් මොකද වෙන්නේ?,What happens if water is short when panicles come?,water,term_phrase,water-05,finetune,no
+P104,අස්වනු නෙලන්න ඕන කවදද?,When should I harvest?,harvest,term_phrase,harvest-01,test,no
+P105,කරල් වලින් සියයට 80ක් පැහුණාම කපන්නද?,Should I cut when 80 percent of the panicles are ripe?,harvest,term_phrase,harvest-02,finetune,no
+P106,වී වියළන්නේ කොහොමද?,How do I dry the paddy?,harvest,term_phrase,harvest-03,finetune,no
+P107,අක්කරයකින් බුසල් කීයක් ගන්න පුළුවන්ද?,How many bushels can I get from an acre?,harvest,term_phrase,harvest-04,finetune,no
+P108,මගේ කුඹුරේ සෞඛ්‍ය ලකුණු කීයද?,What is my field's health score?,my_field,term_phrase,my_field-01,finetune,no
+P109,මගේ කුඹුරේ දුර්වලම තැන කොහෙද?,Where is the weakest spot in my field?,my_field,term_phrase,my_field-02,finetune,no
+P110,අද කුඹුරට මොනවද කරන්න ඕන?,What should I do in the field today?,my_field,term_phrase,my_field-03,finetune,no
+P111,ඊළඟට පොහොර දාන්න ඕන දවස කවදද?,Which day is the next fertilizer due?,my_field,term_phrase,my_field-04,test,no
+P112,සංවේදක අන්තිමට කියෙව්වේ කවදද?,When did the sensors last read?,my_field,term_phrase,my_field-05,test,no
+P113,ගිනිකොන කොටසේ පස හොඳද?,Is the soil in the south-east part good?,my_field,term_phrase,my_field-06,finetune,no
+P114,මගේ කුඹුරට අනතුරු ඇඟවීම් තියෙනවද?,Are there alerts for my field?,my_field,term_phrase,my_field-07,test,no
+P115,මගේ කුඹුරේ හුණු දාන්න ඕන කොයි කොටසටද?,Which part of my field needs lime?,my_field,term_phrase,my_field-08,finetune,no
+P116,මගේ කුඹුර අක්කර කීයද?,How many acres is my field?,my_field,term_phrase,my_field-09,finetune,no
+P117,අක්කරයකට කිලෝ 55ක්,55 kilos per acre,numbers,term_phrase,numbers-01,finetune,no
+P118,සති 2යි සති 4යි සති 6යි,"Weeks two, four and six",numbers,term_phrase,numbers-02,test,no
+P119,මාස 3 වී වලට පොහොර කාලසටහන කියන්න.,Tell me the fertilizer schedule for three-month rice.,numbers,term_phrase,numbers-03,test,no
+P120,පී.එච්. 5.5ට වඩා අඩු නම් හුණු දාන්නද?,If pH is below 5.5 should I add lime?,numbers,term_phrase,numbers-04,test,no
+P121,තෙතමනය සියයට 30ට අඩු වුණොත් වතුර දාන්නද?,If moisture falls below 30 percent should I add water?,numbers,term_phrase,numbers-05,finetune,no
+P122,හෙක්ටයාරයකට ටොන් 5ක අස්වැන්නක්,A yield of five tonnes per hectare,numbers,term_phrase,numbers-06,finetune,no
+P123,මගේ කුඹුර අක්කර 4.5ක් තියෙනවා.,My field is four and a half acres.,numbers,term_phrase,numbers-07,finetune,no
+P124,පැල දින 14ක් වයසයි.,The seedlings are fourteen days old.,numbers,term_phrase,numbers-08,finetune,no
+P125,ඔක්තෝබර් 15 වපුරන්න පුළුවන්ද?,Can I sow on 15 October?,numbers,term_phrase,numbers-09,finetune,no
+P126,කිලෝ 120ක යූරියා ප්‍රමාණයක්,An amount of 120 kilos of urea,numbers,term_phrase,numbers-10,finetune,no
+P127,ආයුබෝවන් මට උදව්වක් ඕන.,"Hello, I need some help.",general,term_phrase,general-01,test,no
+P128,බොහොම ස්තූතියි.,Thank you very much.,general,term_phrase,general-02,finetune,no
+P129,කෘෂිකර්ම නිලධාරියා එක්ක කතා කරන්න පුළුවන්ද?,Can I talk to the agriculture officer?,general,term_phrase,general-03,finetune,no
+P130,ගොවිජන සේවා මධ්‍යස්ථානය කොහෙද තියෙන්නේ?,Where is the agrarian service centre?,general,term_phrase,general-04,finetune,no
+P131,ඊළඟ පොහොර කොටස දාන්න මගේ වගාව සූදානම්ද?,,my_field,training_ai_drafted,03b39bc3d184,finetune,no
+P132,පොටෑසියම් ඌනතාවයේ රෝග ලක්ෂණ මොනවද?,,fertilizer,training_ai_drafted,07486988726c,finetune,no
+P133,මූලික පොහොර විදිහට දාන්නේ මොනවද?,,fertilizer,training_ai_drafted,0ad0ed145887,finetune,no
+P134,මාස 4 වී වලට අන්තිම යූරියා පොහොර දාන්නේ කීවෙනි සතියේද?,,fertilizer,training_ai_drafted,0ae010141b0b,finetune,no
+P135,මගේ පස අද හොඳ තත්වයේද?,,my_field,training_ai_drafted,0f9e2d800e6e,finetune,no
+P136,එම්.ඕ.පී. දාන්නේ කීවෙනි සතියේද?,,fertilizer,training_ai_drafted,14fc3f90fc2d,finetune,no
+P137,ලබන කන්නයේ කොළ පාළුව වළක්වා ගන්නේ කොහොමද?,,pests_diseases,training_ai_drafted,17383d8ea78c,finetune,no
+P138,සති 8 දී යූරියා දාන්න පරක්කුද?,,fertilizer,training_ai_drafted,199fb7982462,finetune,no
+P139,"හැම වැසි කාලෙම කුඹුර ගංවතුරට යට වෙනවා, මොකද කරන්නේ?",,water,training_ai_drafted,1b2d5ee0ae92,finetune,no
+P140,ආම්ලික පසට පිළිස්සූ දහයියා හොඳද?,,soil,training_ai_drafted,20ed4fe18c00,test,no
+P141,මාස දෙකහමාරේ වී වර්ග මොනවද?,,varieties,training_ai_drafted,2a419fe6c216,finetune,no
+P142,මාස 3 වී පැල සිටවන්න ඕන කීදවසේදීද?,,establishment,training_ai_drafted,2f87c952ae27,test,no
+P143,ජලය මතට බීජ වපුරන ක්‍රමයේ වාසි මොනවද?,,establishment,training_ai_drafted,34a856ace532,test,no
+P144,"රිකිලි අඩුයි කොළ තද කොළ පාටයි, පොස්පරස් අඩුද?",,fertilizer,training_ai_drafted,37229ef9c671,test,no
+P145,කොළ පාළුවට ඔරොත්තු දෙන වී වර්ග මොනවද?,,pests_diseases,training_ai_drafted,3dbac4dc03f5,test,no
+P146,මාස 3 වී වර්ග මොනවද?,,varieties,training_ai_drafted,3e070247be0d,finetune,no
+P147,මිරිස් කොළ කොඩවීමට ප්‍රතිකාර මොනවද?,,general,training_ai_drafted,3e6989e03b09,finetune,no
+P148,හුණු සහ යූරියා එකට දාන්න පුළුවන්ද?,,soil,training_ai_drafted,3f262d3a53f3,finetune,no
+P149,සල්ෆර් ඌනතාවය නිසා වී කහ වෙනවද?,,fertilizer,training_ai_drafted,3f780a1f0ccc,finetune,no
+P150,"රුපියල් 50,000ට අඩු හොඳ ෆෝන් එකක් මොකක්ද?",,general,training_ai_drafted,413addd111e2,finetune,no
+P151,රෑට අල්ලපු කෙනාගේ ඇළෙන් වතුර හොරකම් කරන්නේ කොහොමද?,,general,training_ai_drafted,4af25e9b752a,test,no
+P152,මගේ පසේ සෞඛ්‍ය ලකුණු අඩු ඇයි?,,my_field,training_ai_drafted,4b069435b3f9,test,no
+P153,පළමු යූරියා පොහොර දාන්නේ කවදද?,,fertilizer,training_ai_drafted,4b5e3be8071f,test,no
+P154,සින්ක් ඌනතාවය වී වලට වෙලාද කියලා දැනගන්නේ කොහොමද?,,fertilizer,training_ai_drafted,4c7088e7ff0e,finetune,no
+P155,අද මගේ කුඹුරට උපදෙස් දෙන්න.,,my_field,training_ai_drafted,4e7d36414be5,finetune,no
+P156,මගේ කුඹුරේ pH අගය කීයද?,,my_field,training_ai_drafted,52bf2cf48284,finetune,no
+P157,පැල කොච්චර ගැඹුරට සිටවන්නද?,,establishment,training_ai_drafted,55350493a36b,finetune,no
+P158,අද කුඹුරට වතුර දාන්න ඕනද?,,my_field,training_ai_drafted,5906c21f8378,test,no
+P159,දුඹුරු පැල කීඩෑවාට ඔරොත්තු දෙන වී වර්ග මොනවද?,,varieties,training_ai_drafted,60dc7c21265c,test,no
+P160,යකඩ විෂ වීම කියන්නේ මොකක්ද?,,fertilizer,training_ai_drafted,686e0d7c890c,finetune,no
+P161,වල් පැලෑටි වී වලට වඩා හොඳට වැඩෙන්නේ ඇයි?,,weeds,training_ai_drafted,6974ac25b640,finetune,no
+P162,පොස්පරස් 10ට වැඩි නම් ටී.එස්.පී. ඕනද?,,fertilizer,training_ai_drafted,6a976d31af53,test,no
+P163,කෙසෙල් පැල අතර පරතරය කීයද?,,general,training_ai_drafted,72a66b6d8d1d,test,no
+P164,අනුරාධපුරයේ වාරි කුඹුරට ටී.එස්.පී. කීයක් දාන්න ඕනද?,,fertilizer,training_ai_drafted,73be4a65a040,test,no
+P165,වාරි ජලයෙන් වගා කරන වියළි කලාපයේ මාස 3 වී වලට යූරියා කොච්චර දාන්න ඕනද?,,fertilizer,training_ai_drafted,777c18806001,finetune,no
+P166,අක්කරයකට හුණු කොච්චර දාන්නද?,,soil,training_ai_drafted,7841dcd84515,finetune,no
+P167,තෙත් කලාපයේ වැසි කුඹුරු වලට එම්.ඕ.පී. කොච්චරද?,,fertilizer,training_ai_drafted,78cf70bef354,finetune,no
+P168,කොළ පාළුව රෝගය හැදෙන්නේ මොන වගේ කාලගුණයකදද?,,pests_diseases,training_ai_drafted,7f9a5e52d18c,finetune,no
+P169,මේ මහ කන්නයට වවන්න හොඳ වී වර්ගය මොකක්ද?,,varieties,training_ai_drafted,8011e6a46ed7,finetune,no
+P170,තෙත් කලාපයේ වාරි කුඹුරට යූරියා කොච්චර දාන්න ඕනද?,,fertilizer,training_ai_drafted,835b9b542c44,finetune,no
+P171,හුණු දාන්නේ කවදද?,,soil,training_ai_drafted,847c911937cf,finetune,no
+P172,පොස්පරස් ඌනතාවය හඳුනාගන්නේ කොහොමද?,,fertilizer,training_ai_drafted,8e8c3924be18,finetune,no
+P173,වපුරන්න හෙක්ටයාරයකට බිත්තර වී කොච්චර ඕනද?,,establishment,training_ai_drafted,8ea0db344ded,finetune,no
+P174,වතුර ඉතිරි කරන ක්‍රම මොනවද?,,water,training_ai_drafted,8f3b89d31e1e,test,no
+P175,"මේ කන්නයේ ඇළ වතුර පරක්කුයි, මොකද කරන්නේ?",,water,training_ai_drafted,947a781e947d,test,no
+P176,"කුඹුරේ වැඩ කරලා කොන්ද රිදෙනවා, බොන්න ඕන පෙත්ත මොකක්ද?",,general,training_ai_drafted,960eedda0075,finetune,no
+P177,කුඹුරට ඩොලමයිට් දාන්න ඕනද?,,soil,training_ai_drafted,9673adc7c2b2,finetune,no
+P178,වල් පැලෑටි නැති කරන්න අමාරු ඇයි?,,weeds,training_ai_drafted,9bda7261ff25,test,no
+P179,මගේ කුඹුරේ නයිට්‍රජන් අඩුද?,,my_field,training_ai_drafted,9d52557c8567,finetune,no
+P180,මඩ තවානට බිත්තර වී සූදානම් කරන්නේ කොහොමද?,,establishment,training_ai_drafted,a48337f2b5bf,test,no
+P181,කොළ පාළුව රෝගයේ ලක්ෂණ මොනවද?,,pests_diseases,training_ai_drafted,a685af66a778,test,no
+P182,"කුඹුරේ මැද පැල කහ පාට වෙලා, මායිමේ ඒවා හොඳයි. ඇයි?",,fertilizer,training_ai_drafted,a968b283d63e,test,no
+P183,පොහොර දාන සති ගණන් කරන්නේ කවදා ඉඳලද?,,fertilizer,training_ai_drafted,ad1947904514,finetune,no
+P184,සංවේදකවල අලුත්ම කියවීම මොකක්ද?,,my_field,training_ai_drafted,ae929714632b,finetune,no
+P185,ඩැපොග් තවානකට බීජ කීයක් ඕනද?,,establishment,training_ai_drafted,b5254330d69d,finetune,no
+P186,මගේ කුඹුරේ ප්‍රශ්නයක් තියෙන්නේ කොහෙද?,,my_field,training_ai_drafted,b683f5dd570c,finetune,no
+P187,වල් පැලෑටි පාලනයේ අරමුණ මොකක්ද?,,weeds,training_ai_drafted,bb7dcac29021,finetune,no
+P188,මගේ කුඹුරේ පසේ උෂ්ණත්වය කීයද?,,my_field,training_ai_drafted,bc4b2eab6fa6,finetune,no
+P189,ගම්පහ කුඹුරට සති 4 දී යූරියා කීයද?,,fertilizer,training_ai_drafted,c10fab948170,finetune,no
+P190,කොළ පාළුව රෝගය ඇති කරන්නේ මොකක්ද?,,pests_diseases,training_ai_drafted,c1804a1c6eb4,test,no
+P191,පැරෂුට් ක්‍රමය හැම කුඹුරකටම හොඳද?,,establishment,training_ai_drafted,c71866248b9c,finetune,no
+P192,සින්ක් ඌනතාවයට කරන්න ඕන මොනවද?,,fertilizer,training_ai_drafted,c980f78e472b,finetune,no
+P193,මට වී වගාව ගැන අහන්න පුළුවන්ද?,,general,training_ai_drafted,d3827b1f5a89,finetune,no
+P194,"පස ලුණු සහිතයි, මොකද කරන්නේ?",,soil,training_ai_drafted,d78b28c3ca72,test,no
+P195,"කොළ අග දුඹුරු වෙලා වියළෙනවා, පොටෑසියම් අඩුද?",,fertilizer,training_ai_drafted,daffc9b8bcd1,finetune,no
+P196,නයිට්‍රජන් ඌනතාවයේ ලක්ෂණ මොනවද?,,fertilizer,training_ai_drafted,deeb063b46e7,test,no
+P197,"වී කොළ වල දුඹුරු ලප තියෙනවා, පෝෂක ඌනතාවයක්ද?",,fertilizer,training_ai_drafted,dfb01f021492,finetune,no
+P198,"මගේ පස ආම්ලිකයි, මොකද කරන්නේ?",,soil,training_ai_drafted,e75d476bd672,finetune,no
+P199,මාස තුනහමාරේ වී වලට පොහොර දාන කාලසටහන මොකක්ද?,,fertilizer,training_ai_drafted,e7de41c17223,test,no
+P200,ලබන මාසේ මගේ පසේ නයිට්‍රජන් අඩු වෙයිද?,,my_field,training_ai_drafted,ebe3112fad3a,test,no
+P201,වතුර අඩු වුණොත් වවන්න හොඳ වී වර්ගය කුමක්ද?,,varieties,training_ai_drafted,f26f61c70992,finetune,no
+P202,සින්ක් සල්ෆේට් දාන්නේ කවදද?,,fertilizer,training_ai_drafted,f3452d532492,finetune,no
+P203,මගේ පොහොර සහනාධාර මුදල ආවද කියලා බලන්න පුළුවන්ද?,,general,training_ai_drafted,f867379272bd,finetune,no
+P204,"පැල කුරු වෙලා මුල් දුර්වලයි, හේතුව මොකක්ද?",,fertilizer,training_ai_drafted,f954dfc8a3be,finetune,no
+P205,අප්‍රේල් මාසයේ වී වගාවට එන පළිබෝධ සහ රෝග මොනවද?,,pests_diseases,training_template,02d3ef7a5e52,finetune,no
+P206,කළුතර වාරි ජලයෙන් වගා කරන කුඹුරට මාස 3 වී සඳහා වගාව ස්ථාපනය කර සති 2 දී යූරියා කිලෝ කීයද?,,fertilizer,training_template,035fbb1e2186,finetune,no
+P207,At 309 දුඹුරු පැළ කීඩෑවාට ඔරොත්තු දෙනවද?,,varieties,training_template,052a0e1ab3be,test,no
+P208,At 309 ගොයම් මැස්සාට ඔරොත්තු දෙනවද?,,varieties,training_template,06ef482b3ab2,finetune,no
+P209,Bg 359 සාමාන්‍ය අස්වැන්න කීයද?,,varieties,training_template,1493bca8b8c8,test,no
+P210,තෙත් කලාපයේ වැසි දියෙන් වගා කරන කුඹුරේ මාස 3 වී වලට යූරියා දාන්නේ කවදද?,,fertilizer,training_template,19026ef338a9,finetune,no
+P211,සම්බා පැල සිටුවන්න අක්කරයකට බිත්තර වී කොච්චර ඕනද?,,establishment,training_template,1c56de228430,finetune,no
+P212,ගම්පහ වැසි දියෙන් වගා කරන කුඹුරට මාස 3 1/2 වී සඳහා වගාව ස්ථාපනය කර සති 4 දී එම්.ඕ.පී. කිලෝ කීයද?,,fertilizer,training_template,202e17fd4082,test,no
+P213,Ld 253 වැව්වොත් අස්වැන්න කොච්චර ලැබෙයිද?,,varieties,training_template,29292e89f438,finetune,no
+P214,පස් වාර්තාවේ පොස්පරස් මි.ග්‍රෑ./කි.ග්‍රෑ. 0-5 නම් අක්කරයකට ටී.එස්.පී. කොච්චරද?,,fertilizer,training_template,2bd79db27812,test,no
+P215,වියළි හා අතරමැදි කලාපයේ වාරි ජලයෙන් වගා කරන කුඹුරේ මාස 3 වී වලට එම්.ඕ.පී. දාන්නේ කවදද?,,fertilizer,training_template,320d3ce36187,test,no
+P216,Bg 357 දුඹුරු පැළ කීඩෑවාට ඔරොත්තු දෙනවද?,,varieties,training_template,3c18d1a68986,finetune,no
+P217,"මාස 3 ප්‍රභේදයකට මූලික පොහොර ලෙස යොදන ටී.එස්.පී. ප්‍රමාණය කීයද? (වියළි හා අතරමැදි කලාපයේ, වැසි දියෙන් වගා කරන)",,fertilizer,training_template,3f61cf18ba75,finetune,no
+P218,"මාස 3 වී සඳහා යූරියා යොදන කාලසටහන කුමක්ද? (තෙත් කලාපයේ, වාරි ජලයෙන් වගා කරන)",,fertilizer,training_template,3ffa78956810,test,no
+P219,Bg 358 දුඹුරු පැළ කීඩෑවාට ඔරොත්තු දෙනවද?,,varieties,training_template,44ba7108e0bb,test,no
+P220,නාඩු වපුරන්න අක්කරයකට බිත්තර වී කොච්චර ඕනද?,,establishment,training_template,47d0da666a16,finetune,no
+P221,"මාස 3 වී සඳහා යූරියා යොදන කාලසටහන කුමක්ද? (වියළි හා අතරමැදි කලාපයේ, වාරි ජලයෙන් වගා කරන)",,fertilizer,training_template,482da9bb3ee6,finetune,no
+P222,62-355 බැක්ටීරියා කොළ අංගමාරයට ඔරොත්තු දෙනවද?,,varieties,training_template,49a2745a9a30,test,no
+P223,කොළඹ වාරි ජලයෙන් වගා කරන කුඹුරට මාස 3 1/2 වී සඳහා මූලික පොහොර ලෙස ටී.එස්.පී. කිලෝ කීයද?,,fertilizer,training_template,4c58f2abed10,finetune,no
+P224,තෙත් කලාපයේ වාරි ජලයෙන් වගා කරන කුඹුරේ මාස 3 වී වලට මූලික පොහොර ලෙස සින්ක් සල්ෆේට් කොච්චර දාන්න ඕනද?,,fertilizer,training_template,5733a48ec0f6,test,no
+P225,නොවැම්බර් මාසයේ වී වගාවට එන පළිබෝධ සහ රෝග මොනවද?,,pests_diseases,training_template,58b358f2f126,finetune,no
+P226,Bg 360 කොළ පාළුවට ඔරොත්තු දෙනවද?,,varieties,training_template,5cc00751dedd,finetune,no
+P227,Bg 304 බැක්ටීරියා කොළ අංගමාරයට ඔරොත්තු දෙනවද?,,varieties,training_template,60c486d89740,finetune,no
+P228,Bg 310 වී වර්ගයේ වයස කීයද?,,varieties,training_template,6c69af1203ae,finetune,no
+P229,හම්බන්තොට වාරි ජලයෙන් වගා කරන කුඹුරට මාස 3 1/2 වී සඳහා වගාව ස්ථාපනය කර සති 6 දී යූරියා කිලෝ කීයද?,,fertilizer,training_template,8af601e987a1,finetune,no
+P230,තෙත් කලාපයේ වැසි දියෙන් වගා කරන කුඹුරේ මාස 3 වී වලට මූලික පොහොර ලෙස ටී.එස්.පී. කොච්චර දාන්න ඕනද?,,fertilizer,training_template,8bd4ad85da57,finetune,no
+P231,පැරෂුට් ක්‍රමයට අක්කරයකට බිත්තර වී කොච්චර ඕනද?,,establishment,training_template,8ca2d24de7e3,finetune,no
+P232,තෙත් කලාපයේ වාරි ජලයෙන් වගා කරන කුඹුරේ මාස 3 1/2 වී වලට වගාව ස්ථාපනය කර සති 2 දී යූරියා කොච්චර දාන්න ඕනද?,,fertilizer,training_template,95c7d7504c0a,finetune,no
+P233,Bg 360 සාමාන්‍ය අස්වැන්න කීයද?,,varieties,training_template,99d583d48db8,finetune,no
+P234,"මාස 3 ප්‍රභේදයකට යූරියා හෙක්ටයාරයකට මුළු කිලෝ කීයක් ඕනද? (තෙත් කලාපයේ, වැසි දියෙන් වගා කරන)",,fertilizer,training_template,9ae6acb9e3d9,finetune,no
+P235,"මාස 4 වී සඳහා ටී.එස්.පී. යොදන කාලසටහන කුමක්ද? (වියළි හා අතරමැදි කලාපයේ, වාරි ජලයෙන් වගා කරන)",,fertilizer,training_template,9b27f66f92b0,finetune,no
+P236,තෙත් කලාපයේ වාරි ජලයෙන් වගා කරන කුඹුරේ මාස 4 වී වලට වගාව ස්ථාපනය කර සති 9 දී යූරියා කොච්චර දාන්න ඕනද?,,fertilizer,training_template,a140e9ffb305,finetune,no
+P237,"මාස 3 වී සඳහා ටී.එස්.පී. යොදන කාලසටහන කුමක්ද? (තෙත් කලාපයේ, වැසි දියෙන් වගා කරන)",,fertilizer,training_template,a42e5a4c0fa1,finetune,no
+P238,තෙත් කලාපයේ වාරි ජලයෙන් වගා කරන කුඹුරේ මාස 4 වී වලට ටී.එස්.පී. දාන්නේ කවදද?,,fertilizer,training_template,a6d303f1e527,test,no
+P239,Bg 94-1 සාමාන්‍ය අස්වැන්න කීයද?,,varieties,training_template,aa4a4f5e4e8a,finetune,no
+P240,තෙත් කලාපයේ වැසි දියෙන් වගා කරන කුඹුරේ මාස 3 1/2 වී වලට ටී.එස්.පී. දාන්නේ කවදද?,,fertilizer,training_template,be956076bed1,finetune,no
+P241,At 303 කොළ පාළුවට ඔරොත්තු දෙනවද?,,varieties,training_template,c47df00711ba,test,no
+P242,කෑගල්ල වැසි දියෙන් වගා කරන කුඹුරට මාස 3 වී සඳහා වගාව ස්ථාපනය කර සති 4 දී යූරියා කිලෝ කීයද?,,fertilizer,training_template,c866aec68045,test,no
+P243,At 373 වී වර්ගයේ වයස කීයද?,,varieties,training_template,cad791cab496,finetune,no
+P244,"මාස 3 1/2 ප්‍රභේදයකට එම්.ඕ.පී. හෙක්ටයාරයකට මුළු කිලෝ කීයක් ඕනද? (වියළි හා අතරමැදි කලාපයේ, වාරි ජලයෙන් වගා කරන)",,fertilizer,training_template,ce2c5df2abcc,finetune,no
+P245,කළුතර වාරි ජලයෙන් වගා කරන කුඹුරට මාස 3 1/2 වී සඳහා වගාව ස්ථාපනය කර සති 4 දී එම්.ඕ.පී. කිලෝ කීයද?,,fertilizer,training_template,db4eb0d95898,finetune,no
+P246,Bw 302 සාමාන්‍ය අස්වැන්න කීයද?,,varieties,training_template,dd89a807b6cd,test,no
+P247,"මාස 3 1/2 වී සඳහා ටී.එස්.පී. යොදන කාලසටහන කුමක්ද? (වියළි හා අතරමැදි කලාපයේ, වැසි දියෙන් වගා කරන)",,fertilizer,training_template,e6e6a51872a1,finetune,no
+P248,At 309 කොළ පාළුවට ඔරොත්තු දෙනවද?,,varieties,training_template,eb860dad424c,finetune,no
+P249,"මාස 3 වී සඳහා එම්.ඕ.පී. යොදන කාලසටහන කුමක්ද? (තෙත් කලාපයේ, වැසි දියෙන් වගා කරන)",,fertilizer,training_template,f31a2718c7c2,finetune,no

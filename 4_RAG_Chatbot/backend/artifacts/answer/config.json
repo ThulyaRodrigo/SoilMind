@@ -1,0 +1,13 @@
+{
+  "retrieval_threshold": 0.32,
+  "max_sentences": 2,
+  "margin": 0.12,
+  "same_language_delta": 0.05,
+  "top_k": 5,
+  "retrieval_mode": {
+    "en": "rrf",
+    "si": "dense"
+  },
+  "chosen_on": "validation split",
+  "seed": 20261018
+}

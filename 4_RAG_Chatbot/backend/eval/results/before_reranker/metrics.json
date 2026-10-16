@@ -1,0 +1,57 @@
+{
+  "generated_at": "2026-10-18T14:54:32+00:00",
+  "status": "UNCHECKED: 0 of 60 questions human-checked",
+  "questions": 60,
+  "human_checked": 0,
+  "overall": {
+    "n": 60,
+    "intent_accuracy": 0.8333,
+    "retrieval_hit3": 0.85,
+    "answer_correct_kb": 0.525,
+    "key_fact_recall_kb": 0.525,
+    "citation_correct_kb": 0.875,
+    "answer_correct_live": 1.0,
+    "refusal_precision": 1.0,
+    "refusal_recall": 1.0,
+    "hallucinated_number_rate": 0.0,
+    "latency_ms_median": 179.7,
+    "latency_ms_p95": 715.2,
+    "wall_ms_median": 184.6
+  },
+  "en": {
+    "n": 30,
+    "intent_accuracy": 0.8667,
+    "retrieval_hit3": 0.95,
+    "answer_correct_kb": 0.5,
+    "key_fact_recall_kb": 0.5,
+    "citation_correct_kb": 1.0,
+    "answer_correct_live": 1.0,
+    "refusal_precision": 1.0,
+    "refusal_recall": 1.0,
+    "hallucinated_number_rate": 0.0,
+    "latency_ms_median": 172.2,
+    "latency_ms_p95": 620.6,
+    "wall_ms_median": 177.2
+  },
+  "si": {
+    "n": 30,
+    "intent_accuracy": 0.8,
+    "retrieval_hit3": 0.75,
+    "answer_correct_kb": 0.55,
+    "key_fact_recall_kb": 0.55,
+    "citation_correct_kb": 0.75,
+    "answer_correct_live": 1.0,
+    "refusal_precision": 1.0,
+    "refusal_recall": 1.0,
+    "hallucinated_number_rate": 0.0,
+    "latency_ms_median": 189.1,
+    "latency_ms_p95": 782.3,
+    "wall_ms_median": 193.5
+  },
+  "by_behaviour": {
+    "answer": 40,
+    "live": 10,
+    "refuse": 10
+  },
+  "device": "cpu"
+}

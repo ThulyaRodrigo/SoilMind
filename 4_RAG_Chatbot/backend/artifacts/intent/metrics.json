@@ -1,0 +1,215 @@
+{
+  "model": "xlm-roberta-base",
+  "seed": 20261018,
+  "labels": [
+    "crop_choice",
+    "crop_establishment",
+    "deficiency_symptom",
+    "fertilizer_amount",
+    "fertilizer_timing",
+    "greeting_help",
+    "liming_ph",
+    "my_field_status",
+    "out_of_scope",
+    "pest_disease",
+    "water_management",
+    "weeds"
+  ],
+  "data": {
+    "train": 1522,
+    "val": 380,
+    "test": 363
+  },
+  "baseline": {
+    "C": 30.0,
+    "threshold": 0.35,
+    "test": {
+      "all": {
+        "n": 363,
+        "accuracy": 0.7713,
+        "macro_f1": 0.722,
+        "oos_precision": 0.5301,
+        "oos_recall": 0.88,
+        "oos_f1": 0.6617
+      },
+      "en": {
+        "n": 180,
+        "accuracy": 0.7722,
+        "macro_f1": 0.728,
+        "oos_precision": 0.5641,
+        "oos_recall": 0.8462,
+        "oos_f1": 0.6769,
+        "per_intent_f1": {
+          "crop_choice": 0.9508,
+          "crop_establishment": 0.5,
+          "deficiency_symptom": 0.6667,
+          "fertilizer_amount": 1.0,
+          "fertilizer_timing": 0.9412,
+          "greeting_help": 0.6667,
+          "liming_ph": 0.875,
+          "my_field_status": 0.8889,
+          "out_of_scope": 0.6769,
+          "pest_disease": 0.5263,
+          "water_management": 0.6154,
+          "weeds": 0.4286
+        }
+      },
+      "si": {
+        "n": 180,
+        "accuracy": 0.7833,
+        "macro_f1": 0.7296,
+        "oos_precision": 0.5116,
+        "oos_recall": 0.9167,
+        "oos_f1": 0.6567,
+        "per_intent_f1": {
+          "crop_choice": 0.9492,
+          "crop_establishment": 0.7097,
+          "deficiency_symptom": 0.8571,
+          "fertilizer_amount": 0.9429,
+          "fertilizer_timing": 0.8333,
+          "greeting_help": 0.8,
+          "liming_ph": 0.5455,
+          "my_field_status": 0.8182,
+          "out_of_scope": 0.6567,
+          "pest_disease": 0.5,
+          "water_management": 0.5714,
+          "weeds": 0.5714
+        }
+      },
+      "si_latn": {
+        "n": 3,
+        "accuracy": 0.0,
+        "macro_f1": 0.0,
+        "oos_precision": 0.0,
+        "oos_recall": 0.0,
+        "oos_f1": 0.0
+      }
+    }
+  },
+  "xlmr": {
+    "threshold": 0.3,
+    "best_epoch": 5,
+    "history": [
+      {
+        "epoch": 1,
+        "train_loss": 2.3639,
+        "val_macro_f1": 0.1325,
+        "elapsed_s": 230
+      },
+      {
+        "epoch": 2,
+        "train_loss": 1.7725,
+        "val_macro_f1": 0.4477,
+        "elapsed_s": 475
+      },
+      {
+        "epoch": 3,
+        "train_loss": 1.1244,
+        "val_macro_f1": 0.7295,
+        "elapsed_s": 774
+      },
+      {
+        "epoch": 4,
+        "train_loss": 0.6236,
+        "val_macro_f1": 0.738,
+        "elapsed_s": 1186
+      },
+      {
+        "epoch": 5,
+        "train_loss": 0.3583,
+        "val_macro_f1": 0.8375,
+        "elapsed_s": 1439
+      },
+      {
+        "epoch": 6,
+        "train_loss": 0.2025,
+        "val_macro_f1": 0.8194,
+        "elapsed_s": 1721
+      },
+      {
+        "epoch": 7,
+        "train_loss": 0.1369,
+        "val_macro_f1": 0.8196,
+        "elapsed_s": 2011
+      }
+    ],
+    "train_seconds": 2011,
+    "trained_on": "cpu",
+    "hyperparameters": {
+      "max_len": 64,
+      "batch": 16,
+      "lr": 3e-05,
+      "max_epochs": 8,
+      "patience": 2,
+      "warmup": 0.1,
+      "weight_decay": 0.01
+    },
+    "test": {
+      "all": {
+        "n": 363,
+        "accuracy": 0.8264,
+        "macro_f1": 0.7834,
+        "oos_precision": 0.8222,
+        "oos_recall": 0.74,
+        "oos_f1": 0.7789
+      },
+      "en": {
+        "n": 180,
+        "accuracy": 0.8667,
+        "macro_f1": 0.837,
+        "oos_precision": 0.9474,
+        "oos_recall": 0.6923,
+        "oos_f1": 0.8,
+        "per_intent_f1": {
+          "crop_choice": 0.9667,
+          "crop_establishment": 0.7742,
+          "deficiency_symptom": 0.7692,
+          "fertilizer_amount": 1.0,
+          "fertilizer_timing": 1.0,
+          "greeting_help": 1.0,
+          "liming_ph": 0.875,
+          "my_field_status": 1.0,
+          "out_of_scope": 0.8,
+          "pest_disease": 0.72,
+          "water_management": 0.8889,
+          "weeds": 0.25
+        }
+      },
+      "si": {
+        "n": 180,
+        "accuracy": 0.8,
+        "macro_f1": 0.7268,
+        "oos_precision": 0.76,
+        "oos_recall": 0.7917,
+        "oos_f1": 0.7755,
+        "per_intent_f1": {
+          "crop_choice": 0.9492,
+          "crop_establishment": 0.6111,
+          "deficiency_symptom": 0.7059,
+          "fertilizer_amount": 0.9577,
+          "fertilizer_timing": 0.9167,
+          "greeting_help": 0.9524,
+          "liming_ph": 0.8571,
+          "my_field_status": 0.9167,
+          "out_of_scope": 0.7755,
+          "pest_disease": 0.3571,
+          "water_management": 0.5,
+          "weeds": 0.2222
+        }
+      },
+      "si_latn": {
+        "n": 3,
+        "accuracy": 0.0,
+        "macro_f1": 0.0,
+        "oos_precision": 0.0,
+        "oos_recall": 0.0,
+        "oos_f1": 0.0
+      }
+    },
+    "cpu_latency": {
+      "median_ms": 29.3,
+      "p95_ms": 49.2,
+      "threads": 16
+    }
+  }
+}

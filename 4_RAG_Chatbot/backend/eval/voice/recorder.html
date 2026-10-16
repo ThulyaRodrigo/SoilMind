@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SoilMind phrase recorder</title>
+<!--
+  Recording page for the STT fine-tuning phrases (Member 4, Phase 6b). No server code: serve this folder with
+      cd backend/member4-chatbot/eval/voice
+      python -m http.server 8765
+  and open http://localhost:8765/recorder.html (the browser allows the microphone on localhost).
+  Recordings stay in the browser until you press "Download batch": a ZIP with one .webm per phrase and
+  manifest.csv. Put the ZIPs in eval/voice/recordings/incoming/ and run
+      python -m member4_chatbot.pipeline.voice_recordings
+-->
+<style>
+  :root{--bg:#F6F7F4;--card:#fff;--ink:#17201E;--ink2:#4A5754;--line:#DCE2DF;--brand:#0E4F45;--brand-ink:#fff;--rec:#A81E17;--ok:#2E7D4F}
+  @media (prefers-color-scheme: dark){:root{--bg:#0F1513;--card:#17201E;--ink:#E8EEEC;--ink2:#A8B5B1;--line:#2A3532;--brand:#3FBFA8;--brand-ink:#04211D;--rec:#F2635C;--ok:#5FCB8C}}
+  *{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 system-ui,"Noto Sans Sinhala","Iskoola Pota",sans-serif}
+  main{max-width:760px;margin:0 auto;padding:20px 16px 60px}
+  h1{font-size:22px;margin:0 0 4px} .sub{color:var(--ink2);margin:0 0 18px;font-size:14px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px;margin-bottom:16px}
+  label{display:block;font-size:13px;font-weight:600;color:var(--ink2);margin-bottom:4px}
+  input,select{font:inherit;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink);width:100%}
+  .row{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px}
+  .prompt{font-size:30px;line-height:1.45;margin:10px 0 6px;min-height:90px}
+  .meta{font-family:ui-monospace,monospace;font-size:12px;color:var(--ink2)}
+  .gloss{color:var(--ink2);font-size:14px}
+  .btns{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
+  button{font:inherit;font-weight:600;border-radius:999px;border:1px solid var(--line);background:var(--bg);color:var(--ink);padding:10px 18px;cursor:pointer}
+  button.primary{background:var(--brand);color:var(--brand-ink);border-color:var(--brand)}
+  button.rec{background:var(--rec);color:#fff;border-color:var(--rec)}
+  button:disabled{opacity:.45;cursor:not-allowed}
+  .bar{height:6px;background:var(--line);border-radius:3px;overflow:hidden;margin-top:12px} .bar i{display:block;height:100%;background:var(--brand)}
+  .status{margin-top:10px;font-size:14px;color:var(--ink2);min-height:21px} .status.ok{color:var(--ok)} .status.err{color:var(--rec)}
+  canvas{width:100%;height:46px;display:block;margin-top:10px;color:var(--rec)}
+  kbd{font-family:ui-monospace,monospace;font-size:12px;border:1px solid var(--line);border-radius:4px;padding:0 4px}
+  ol{padding-left:20px;margin:6px 0} li{margin:3px 0}
+</style>
+</head>
+<body>
+<main>
+  <h1>SoilMind phrase recorder</h1>
+  <p class="sub">Sinhala farming phrases for fine-tuning our speech model (Member 4). About 10 seconds per phrase.</p>
+
+  <div class="card">
+    <ol>
+      <li>Sit somewhere quiet (or record a few in the field and choose "field" below). Hold the phone or laptop mic about 20 cm away.</li>
+      <li>Read the phrase naturally, the way you would ask a question. Numbers: say them as you normally would.</li>
+      <li>If the wording is wrong or unnatural, say it the natural way and write what you said in "I said instead".</li>
+      <li>Press <b>Download batch</b> every 50 phrases or so (nothing is uploaded anywhere).</li>
+    </ol>
+    <div class="row">
+      <div><label for="speaker">Speaker code (no names)</label><input id="speaker" placeholder="S01" maxlength="8"></div>
+      <div><label for="gender">Voice</label><select id="gender"><option value="">–</option><option>female</option><option>male</option></select></div>
+      <div><label for="age">Age group</label><select id="age"><option value="">–</option><option>18-30</option><option>31-50</option><option>51+</option></select></div>
+      <div><label for="env">Place</label><select id="env"><option>quiet</option><option>home</option><option>field</option></select></div>
+    </div>
+    <p style="margin:12px 0 0"><label style="display:inline;font-weight:400"><input type="checkbox" id="consent" style="width:auto"> I agree that my recordings are used to train and test SoilMind's speech model (university project).</label></p>
+  </div>
+
+  <div class="card">
+    <div class="meta" id="meta">Loading record_prompts.csv…</div>
+    <div class="prompt" id="prompt"></div>
+    <div class="gloss" id="gloss"></div>
+    <div style="margin-top:12px"><label for="said">I said instead (optional)</label><input id="said" placeholder="leave empty if you read the phrase as written"></div>
+    <canvas id="wave" aria-hidden="true"></canvas>
+    <div class="btns">
+      <button id="recBtn" class="primary">● Record <kbd>space</kbd></button>
+      <button id="playBtn" disabled>▶ Play</button>
+      <button id="nextBtn" disabled>Save &amp; next <kbd>→</kbd></button>
+      <button id="skipBtn">Skip</button>
+      <button id="backBtn">← Back</button>
+      <button id="dlBtn">⬇ Download batch (<span id="nBatch">0</span>)</button>
+    </div>
+    <div class="status" id="status"></div>
+    <div class="bar"><i id="progress" style="width:0"></i></div>
+    <div class="meta" id="count" style="margin-top:6px"></div>
+  </div>
+</main>
+<script>
+"use strict";
+const $ = (id) => document.getElementById(id);
+let prompts = [], idx = 0, rec = null, chunks = [], current = null, batch = [], stream = null, raf = 0, t0 = 0;
+const MAX_S = 25;
+
+function parseCsv(text) {
+  const rows = []; let row = [], field = "", q = false;
+  for (let i = 0; i < text.length; i++) {
+    const c = text[i];
+    if (q) { if (c === '"') { if (text[i + 1] === '"') { field += '"'; i++; } else q = false; } else field += c; }
+    else if (c === '"') q = true;
+    else if (c === ",") { row.push(field); field = ""; }
+    else if (c === "\n") { row.push(field); rows.push(row); row = []; field = ""; }
+    else if (c !== "\r") field += c;
+  }
+  if (field || row.length) { row.push(field); rows.push(row); }
+  const head = rows.shift();
+  return rows.filter((r) => r.length === head.length).map((r) => Object.fromEntries(head.map((h, i) => [h, r[i]])));
+}
+
+function show() {
+  const p = prompts[idx];
+  if (!p) { $("prompt").textContent = "All phrases done. Thank you! Press Download batch."; return; }
+  $("meta").textContent = `${p.prompt_id} · ${p.category} · ${idx + 1} / ${prompts.length}`;
+  $("prompt").textContent = p.text;
+  $("gloss").textContent = p.gloss_en || "";
+  $("said").value = "";
+  current = null;
+  $("playBtn").disabled = $("nextBtn").disabled = true;
+  $("progress").style.width = `${(100 * idx) / prompts.length}%`;
+  $("count").textContent = `${batch.length} in this batch · speaker ${$("speaker").value || "?"}`;
+}
+
+function status(msg, cls = "") { $("status").textContent = msg; $("status").className = `status ${cls}`; }
+
+function ready() {
+  if (!$("consent").checked) { status("Please tick the consent box first.", "err"); return false; }
+  if (!/^[A-Za-z0-9]{2,8}$/.test($("speaker").value)) { status("Enter a speaker code like S01 (letters and digits).", "err"); return false; }
+  return true;
+}
+
+async function startRec() {
+  if (!ready()) return;
+  stream = stream || await navigator.mediaDevices.getUserMedia({ audio: { channelCount: 1, echoCancellation: true, noiseSuppression: false } });
+  const mime = ["audio/webm;codecs=opus", "audio/ogg;codecs=opus", "audio/webm"].find((m) => MediaRecorder.isTypeSupported(m)) || "";
+  rec = new MediaRecorder(stream, mime ? { mimeType: mime } : undefined);
+  chunks = [];
+  rec.ondataavailable = (e) => e.data.size && chunks.push(e.data);
+  rec.onstop = () => {
+    cancelAnimationFrame(raf);
+    current = { blob: new Blob(chunks, { type: rec.mimeType || "audio/webm" }), seconds: (performance.now() - t0) / 1000 };
+    $("recBtn").className = "primary"; $("recBtn").innerHTML = "● Re-record <kbd>space</kbd>";
+    $("playBtn").disabled = $("nextBtn").disabled = false;
+    status(`Recorded ${current.seconds.toFixed(1)} s. Play it back, then Save & next.`, "ok");
+  };
+  rec.start(); t0 = performance.now();
+  $("recBtn").className = "rec"; $("recBtn").innerHTML = "■ Stop <kbd>space</kbd>";
+  status("Recording… read the phrase, then press Stop.");
+  drawWave();
+}
+
+function drawWave() {
+  const ctx = new AudioContext(), an = ctx.createAnalyser(); an.fftSize = 1024;
+  ctx.createMediaStreamSource(stream).connect(an);
+  const cv = $("wave"), g = cv.getContext("2d"), data = new Uint8Array(an.fftSize);
+  const draw = () => {
+    cv.width = cv.clientWidth * devicePixelRatio; cv.height = cv.clientHeight * devicePixelRatio;
+    an.getByteTimeDomainData(data); g.clearRect(0, 0, cv.width, cv.height);
+    g.strokeStyle = getComputedStyle(cv).color; g.lineWidth = 2 * devicePixelRatio; g.beginPath();
+    data.forEach((v, i) => { const x = (i / (data.length - 1)) * cv.width, y = (v / 255) * cv.height; i ? g.lineTo(x, y) : g.moveTo(x, y); });
+    g.stroke();
+    if ((performance.now() - t0) / 1000 > MAX_S) rec.stop(); else raf = requestAnimationFrame(draw);
+  };
+  draw();
+  rec.addEventListener("stop", () => ctx.close(), { once: true });
+}
+
+function toggleRec() { rec && rec.state === "recording" ? rec.stop() : startRec().catch((e) => status(`Microphone: ${e.message}`, "err")); }
+
+function saveNext() {
+  if (!current) return;
+  const p = prompts[idx], spk = $("speaker").value.toUpperCase();
+  const ext = current.blob.type.includes("ogg") ? "ogg" : "webm";
+  batch = batch.filter((b) => !(b.prompt_id === p.prompt_id && b.speaker === spk));
+  batch.push({ ...current, prompt_id: p.prompt_id, speaker: spk, file: `${spk}_${p.prompt_id}.${ext}`, said: $("said").value.trim(),
+    gender: $("gender").value, age: $("age").value, env: $("env").value, at: new Date().toISOString() });
+  $("nBatch").textContent = batch.length;
+  localStorage.setItem("soilmind.rec.idx", String(idx + 1));
+  idx++; show(); status("Saved in this batch.", "ok");
+}
+
+// ---- minimal ZIP writer (stored, no compression) -------------------------------------------------------
+const CRC = (() => { const t = new Uint32Array(256); for (let n = 0; n < 256; n++) { let c = n; for (let k = 0; k < 8; k++) c = c & 1 ? 0xedb88320 ^ (c >>> 1) : c >>> 1; t[n] = c >>> 0; } return t; })();
+function crc32(b) { let c = 0xffffffff; for (let i = 0; i < b.length; i++) c = CRC[(c ^ b[i]) & 0xff] ^ (c >>> 8); return (c ^ 0xffffffff) >>> 0; }
+async function zip(files) {
+  const enc = new TextEncoder(), parts = [], central = []; let offset = 0;
+  for (const f of files) {
+    const data = f.data instanceof Uint8Array ? f.data : new Uint8Array(await f.data.arrayBuffer());
+    const name = enc.encode(f.name), crc = crc32(data);
+    const h = new DataView(new ArrayBuffer(30));
+    h.setUint32(0, 0x04034b50, true); h.setUint16(4, 20, true); h.setUint16(6, 0x0800, true); h.setUint32(14, crc, true);
+    h.setUint32(18, data.length, true); h.setUint32(22, data.length, true); h.setUint16(26, name.length, true);
+    parts.push(new Uint8Array(h.buffer), name, data);
+    const c = new DataView(new ArrayBuffer(46));
+    c.setUint32(0, 0x02014b50, true); c.setUint16(4, 20, true); c.setUint16(6, 20, true); c.setUint16(8, 0x0800, true);
+    c.setUint32(16, crc, true); c.setUint32(20, data.length, true); c.setUint32(24, data.length, true);
+    c.setUint16(28, name.length, true); c.setUint32(42, offset, true);
+    central.push(new Uint8Array(c.buffer), name);
+    offset += 30 + name.length + data.length;
+  }
+  const size = central.reduce((s, x) => s + x.length, 0), end = new DataView(new ArrayBuffer(22));
+  end.setUint32(0, 0x06054b50, true); end.setUint16(8, files.length, true); end.setUint16(10, files.length, true);
+  end.setUint32(12, size, true); end.setUint32(16, offset, true);
+  return new Blob([...parts, ...central, new Uint8Array(end.buffer)], { type: "application/zip" });
+}
+
+async function download() {
+  if (!batch.length) { status("Nothing recorded in this batch yet.", "err"); return; }
+  const q = (s) => `"${String(s ?? "").replace(/"/g, '""')}"`;
+  const lines = ["file,speaker,prompt_id,said_instead,gender,age_group,place,recorded_at,seconds"].concat(
+    batch.map((b) => [b.file, b.speaker, b.prompt_id, b.said, b.gender, b.age, b.env, b.at, b.seconds.toFixed(2)].map(q).join(",")));
+  const files = batch.map((b) => ({ name: b.file, data: b.blob }));
+  files.push({ name: "manifest.csv", data: new TextEncoder().encode("﻿" + lines.join("\n") + "\n") });
+  const url = URL.createObjectURL(await zip(files));
+  const a = document.createElement("a");
+  a.href = url; a.download = `soilmind_${batch[0].speaker}_${new Date().toISOString().slice(0, 16).replace(/[:T]/g, "-")}.zip`;
+  a.click(); setTimeout(() => URL.revokeObjectURL(url), 5000);
+  status(`Downloaded ${batch.length} recordings. Put the ZIP in eval/voice/recordings/incoming/.`, "ok");
+  batch = []; $("nBatch").textContent = "0"; show();
+}
+
+$("recBtn").onclick = toggleRec;
+$("playBtn").onclick = () => current && new Audio(URL.createObjectURL(current.blob)).play();
+$("nextBtn").onclick = saveNext;
+$("skipBtn").onclick = () => { idx = Math.min(idx + 1, prompts.length); show(); };
+$("backBtn").onclick = () => { idx = Math.max(idx - 1, 0); show(); };
+$("dlBtn").onclick = download;
+$("speaker").oninput = show;
+document.addEventListener("keydown", (e) => {
+  if (e.target.tagName === "INPUT" || e.target.tagName === "SELECT") return;
+  if (e.code === "Space") { e.preventDefault(); toggleRec(); }
+  if (e.code === "ArrowRight" && current) saveNext();
+});
+window.addEventListener("beforeunload", (e) => { if (batch.length) { e.preventDefault(); e.returnValue = ""; } });
+
+fetch("record_prompts.csv").then((r) => r.text()).then((t) => {
+  prompts = parseCsv(t.replace(/^﻿/, ""));
+  idx = Math.min(parseInt(localStorage.getItem("soilmind.rec.idx") || "0", 10) || 0, prompts.length - 1);
+  show();
+}).catch((e) => status(`Could not load record_prompts.csv (${e.message}). Serve this folder with python -m http.server.`, "err"));
+</script>
+</body>
+</html>

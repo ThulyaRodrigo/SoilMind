@@ -1,0 +1,208 @@
+{
+  "base_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "seed": 20261018,
+  "passages": 546,
+  "data": {
+    "train_pairs": 1254,
+    "train_questions": 887,
+    "val_questions": 251,
+    "test_questions": 228
+  },
+  "bm25": {
+    "val": {
+      "all": {
+        "n": 251,
+        "hit@1": 0.5458,
+        "hit@3": 0.7251,
+        "mrr@10": 0.6385
+      },
+      "en": {
+        "n": 132,
+        "hit@1": 0.5606,
+        "hit@3": 0.8182,
+        "mrr@10": 0.6936
+      },
+      "si": {
+        "n": 119,
+        "hit@1": 0.5294,
+        "hit@3": 0.6218,
+        "mrr@10": 0.5774
+      }
+    },
+    "test": {
+      "all": {
+        "n": 228,
+        "hit@1": 0.4211,
+        "hit@3": 0.6842,
+        "mrr@10": 0.5606
+      },
+      "en": {
+        "n": 114,
+        "hit@1": 0.4123,
+        "hit@3": 0.7368,
+        "mrr@10": 0.5826
+      },
+      "si": {
+        "n": 114,
+        "hit@1": 0.4298,
+        "hit@3": 0.6316,
+        "mrr@10": 0.5386
+      }
+    }
+  },
+  "pretrained": {
+    "val": {
+      "all": {
+        "n": 251,
+        "hit@1": 0.1434,
+        "hit@3": 0.239,
+        "mrr@10": 0.209
+      },
+      "en": {
+        "n": 132,
+        "hit@1": 0.1364,
+        "hit@3": 0.2955,
+        "mrr@10": 0.24
+      },
+      "si": {
+        "n": 119,
+        "hit@1": 0.1513,
+        "hit@3": 0.1765,
+        "mrr@10": 0.1746
+      }
+    },
+    "test": {
+      "all": {
+        "n": 228,
+        "hit@1": 0.0789,
+        "hit@3": 0.1623,
+        "mrr@10": 0.1265
+      },
+      "en": {
+        "n": 114,
+        "hit@1": 0.1316,
+        "hit@3": 0.2544,
+        "mrr@10": 0.1978
+      },
+      "si": {
+        "n": 114,
+        "hit@1": 0.0263,
+        "hit@3": 0.0702,
+        "mrr@10": 0.0553
+      }
+    }
+  },
+  "finetuned": {
+    "val": {
+      "all": {
+        "n": 251,
+        "hit@1": 0.6096,
+        "hit@3": 0.7809,
+        "mrr@10": 0.7054
+      },
+      "en": {
+        "n": 132,
+        "hit@1": 0.5682,
+        "hit@3": 0.8258,
+        "mrr@10": 0.7029
+      },
+      "si": {
+        "n": 119,
+        "hit@1": 0.6555,
+        "hit@3": 0.7311,
+        "mrr@10": 0.7082
+      }
+    },
+    "test": {
+      "all": {
+        "n": 228,
+        "hit@1": 0.5175,
+        "hit@3": 0.6974,
+        "mrr@10": 0.6091
+      },
+      "en": {
+        "n": 114,
+        "hit@1": 0.6053,
+        "hit@3": 0.7895,
+        "mrr@10": 0.6852
+      },
+      "si": {
+        "n": 114,
+        "hit@1": 0.4298,
+        "hit@3": 0.6053,
+        "mrr@10": 0.5331
+      }
+    },
+    "history": [
+      {
+        "epoch": 1,
+        "val_hit@3": 0.7211,
+        "val_hit@3_si": 0.6975,
+        "val_mrr": 0.5961
+      },
+      {
+        "epoch": 2,
+        "val_hit@3": 0.7729,
+        "val_hit@3_si": 0.7647,
+        "val_mrr": 0.7042
+      },
+      {
+        "epoch": 3,
+        "val_hit@3": 0.7809,
+        "val_hit@3_si": 0.7311,
+        "val_mrr": 0.7054
+      },
+      {
+        "epoch": 4,
+        "val_hit@3": 0.7769,
+        "val_hit@3_si": 0.7227,
+        "val_mrr": 0.7078
+      }
+    ],
+    "best_epoch": 3,
+    "train_seconds": 2376,
+    "hyperparameters": {
+      "epochs": 4,
+      "batch": 32,
+      "lr": 2e-05,
+      "warmup": 0.1,
+      "max_seq_length": 256,
+      "loss": "MultipleNegativesRankingLoss",
+      "batch_sampler": "NO_DUPLICATES"
+    }
+  },
+  "search_latency_ms": 36.5,
+  "done_when_sinhala_hit3_beats_both": {
+    "test": false,
+    "test_values": {
+      "bm25": 0.6316,
+      "pretrained": 0.0702,
+      "finetuned": 0.6053
+    },
+    "validation_values": {
+      "bm25": 0.6218,
+      "pretrained": 0.1765,
+      "finetuned": 0.7311
+    }
+  },
+  "hybrid_rrf_validation": {
+    "all": {
+      "n": 251,
+      "hit@1": 0.5857,
+      "hit@3": 0.7888,
+      "mrr@10": 0.6856
+    },
+    "en": {
+      "n": 132,
+      "hit@1": 0.5379,
+      "hit@3": 0.8939,
+      "mrr@10": 0.7064
+    },
+    "si": {
+      "n": 119,
+      "hit@1": 0.6387,
+      "hit@3": 0.6723,
+      "mrr@10": 0.6626
+    }
+  }
+}
